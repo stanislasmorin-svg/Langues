@@ -81,6 +81,7 @@ h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
 .list .f{color:var(--muted);font-size:13px;display:block}
 """
 FONTS = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap">'
+FONTS += '<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">'
 
 JS = r"""
 (function(){
