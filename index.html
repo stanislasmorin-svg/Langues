@@ -1,5 +1,7 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Langues du jour</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap"><style>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Masimera · 15 minutes a day to learn a language</title>
+<meta name="description" content="Every morning, a real local news story in simple Greek or Italian, with the hard words translated and audio. 15 minutes a day.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap"><style>
 :root{--bg:#f6f7f3;--surface:#fff;--fg:#1d221c;--muted:#5d665a;--line:#dde2d8;--accent:#4f6b2f;--soft:#e6edda;--gloss:#8a5a14;
 --text:"Literata","Noto Serif",Georgia,serif;--ui:"Commissioner","Noto Sans",system-ui,sans-serif}
 @media (prefers-color-scheme:dark){:root{--bg:#141712;--surface:#1c2019;--fg:#e8ebe3;--muted:#a2ab9c;--line:#2f362b;--accent:#a9c97d;--soft:#2a3420;--gloss:#e3b469;color-scheme:dark}}
@@ -46,7 +48,35 @@ h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
 .list .d{font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px;min-width:82px}
 .list .t{font-family:var(--text);font-size:17px}
 .list .f{color:var(--muted);font-size:13px;display:block}
+
+.brand{font-family:var(--text);font-weight:600;font-size:clamp(40px,12vw,64px);line-height:1;margin:6px 0 4px;letter-spacing:-.01em}
+.meaning{font-family:var(--text);font-style:italic;color:var(--muted);margin:0}
+.lead{font-size:18px;line-height:1.55;margin:0;text-wrap:pretty}
+.langs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.lang{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.lang .k{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.lang .t{font-family:var(--text);font-size:19px;font-weight:600;line-height:1.3}
+.lang .f{color:var(--muted);font-size:14px;margin-top:-4px}
+.lang .row{margin-top:auto;padding-top:6px}
+.lang .play{font-size:15px;padding:9px 16px}
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.steps li{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:baseline}
+.steps b{font-family:var(--text);font-size:18px;color:var(--accent)}
+.steps strong{display:block}.steps span{color:var(--muted);font-size:14px}
+.join{background:var(--soft);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.join p{margin:0}
 </style></head><body><div class="wrap">
-<header><span class="eyebrow">15 minutes par jour</span><h1>Langues du jour</h1><p class="sub">Chaque matin, une actualité en version simple, avec les mots difficiles traduits et l'audio. Choisis ta langue.</p></header>
-<section><ul class="list"><li><a href="grec/index.html"><span class="d">ΕΛ</span><span><span class="t">Grec du jour</span><span class="f">Chaque matin, une actualité d&#x27;Athènes en grec simple, avec les mots difficiles traduits et l&#x27;audio. · 26 cours</span></span></a></li><li><a href="it/index.html"><span class="d">IT</span><span><span class="t">Italien du jour</span><span class="f">Chaque matin, une actualité italienne en italien simple, avec les mots difficiles traduits et l&#x27;audio. · 4 cours</span></span></a></li></ul></section>
+<header><span class="eyebrow">15 minutes a day</span><h1 class="brand">Masimera</h1>
+<p class="meaning">μάθημα (lesson) + μέρα (day): the lesson of the day</p></header>
+<p class="lead">Every morning, a real news story, rewritten in simple sentences, with audio and the hard words translated into English and French. Slow and steady: a little every day, and you progress.</p>
+<section><h2>Today's lessons</h2><div class="langs"><div class="lang"><span class="k">Greek · Ελληνικά κάθε μέρα</span><span class="t">Μια μεγάλη γιορτή για την τέχνη</span><span class="f">A big celebration of art</span><div class="row"><a class="play" href="grec/cours/2026-11-07.html">Today's lesson →</a><a href="grec/index.html">All 26 lessons</a></div></div><div class="lang"><span class="k">Italian · Italiano ogni giorno</span><span class="t">Nuove cure per i neonati a Napoli</span><span class="f">New care for newborns in Naples</span><div class="row"><a class="play" href="it/cours/2026-11-07.html">Today's lesson →</a><a href="it/index.html">All 4 lessons</a></div></div></div></section>
+<section><h2>How it works</h2><ol class="steps">
+<li><b>1</b><div><strong>Read a real story</strong><span>Local news from Athens or Italy, written so simply a child could follow it.</span></div></li>
+<li><b>2</b><div><strong>Listen</strong><span>A natural voice reads the text. Slow it down if you need to.</span></div></li>
+<li><b>3</b><div><strong>Learn 20 to 30 words</strong><span>Each word in English and French, with short example sentences you can hear.</span></div></li>
+<li><b>4</b><div><strong>Come back tomorrow</strong><span>A new lesson every morning. All the words you've met stay in your glossary.</span></div></li>
+</ol></section>
+<section class="join"><h2 style="margin:0">Get it every morning</h2>
+<p>The lesson arrives in your inbox at 6 am, with one button to open it.</p>
+<div class="row"><a class="play" href="mailto:stanislas.morin@gmail.com?subject=Masimera%20%E2%80%93%20I%27d%20like%20the%20daily%20lesson&amp;body=Hello%21%20Please%20send%20me%20the%20daily%20lesson%20in%3A%20Greek%20/%20Italian%20%28keep%20the%20one%20you%20want%29.">Sign up by email</a></div></section>
 </div></body></html>

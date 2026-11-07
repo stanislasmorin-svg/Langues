@@ -12,25 +12,25 @@ import json, re, html, os, hashlib
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LANGS = {
-    "el": dict(file="lessons.json", out="grec/", title="Grec du jour", eyebrow="Ελληνικά κάθε μέρα", name="grec", col="Ελληνικά", short="ΕΛ",
-               tagline="Chaque matin, une actualité d'Athènes en grec simple, avec les mots difficiles traduits et l'audio.",
-               voice="el-GR-AthinaNeural", gtts="el", other=("it", "Italien du jour →"), legacy=True),
-    "it": dict(file="lessons_it.json", out="it/", title="Italien du jour", eyebrow="Italiano ogni giorno", name="italien", col="Italiano", short="IT",
-               tagline="Chaque matin, une actualité italienne en italien simple, avec les mots difficiles traduits et l'audio.",
-               voice="it-IT-ElsaNeural", gtts="it", other=("el", "Grec du jour →")),
+    "el": dict(file="lessons.json", out="grec/", title="Greek of the day", eyebrow="Ελληνικά κάθε μέρα", name="Greek", col="Ελληνικά", short="ΕΛ",
+               tagline="Every morning, a real story from Athens in simple Greek, with the hard words translated and audio.",
+               voice="el-GR-AthinaNeural", gtts="el", other=("it", "Italian of the day →"), legacy=True),
+    "it": dict(file="lessons_it.json", out="it/", title="Italian of the day", eyebrow="Italiano ogni giorno", name="Italian", col="Italiano", short="IT",
+               tagline="Every morning, a real story from Italy in simple Italian, with the hard words translated and audio.",
+               voice="it-IT-ElsaNeural", gtts="it", other=("el", "Greek of the day →")),
 }
 
 def ex_audio_name(lang, text):
     """File name (in audio/ex/ of the language folder) of the MP3 of an example sentence."""
     return hashlib.md5((lang + "|" + text.strip()).encode("utf-8")).hexdigest()[:16] + ".mp3"
 RX = re.compile(r"\*\*(.+?)\*\*\s*\((.+?)\)")
-MONTHS = ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"]
-DAYS = ["lundi","mardi","mercredi","jeudi","vendredi","samedi","dimanche"]
+MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+DAYS = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
 
 def fr_date(iso):
     import datetime
     d = datetime.date.fromisoformat(iso)
-    return f"{DAYS[d.weekday()]} {d.day} {MONTHS[d.month-1]} {d.year}"
+    return f"{DAYS[d.weekday()]}, {d.day} {MONTHS[d.month-1]} {d.year}"
 
 CSS = """
 :root{--bg:#f6f7f3;--surface:#fff;--fg:#1d221c;--muted:#5d665a;--line:#dde2d8;--accent:#4f6b2f;--soft:#e6edda;--gloss:#8a5a14;
@@ -164,9 +164,9 @@ JS = r"""
       setTimeout(function(){
         var li = c.parentNode;
         if (i === ex.length) { i = -1; li.classList.remove('on'); stopAll();
-          c.innerHTML = head + '<span class="fr">' + esc(c.dataset.tr) + '</span>' + (c.dataset.fr ? '<span class="fr2">' + esc(c.dataset.fr) + '</span>' : '') + '<span class="hint">' + ex.length + ' phrase' + (ex.length > 1 ? 's' : '') + ' ↻</span>';
+          c.innerHTML = head + '<span class="fr">' + esc(c.dataset.tr) + '</span>' + (c.dataset.fr ? '<span class="fr2">' + esc(c.dataset.fr) + '</span>' : '') + '<span class="hint">' + ex.length + ' sentence' + (ex.length > 1 ? 's' : '') + ' ↻</span>';
         } else { li.classList.add('on');
-          c.innerHTML = '<span class="exg">' + esc(ex[i][0]) + '</span><span class="exf">' + esc(ex[i][1]) + '</span>' + (ex[i][2] ? '<span class="exf2">' + esc(ex[i][2]) + '</span>' : '') + '<span class="hint">' + esc(c.dataset.gr) + ' · ' + (i + 1) + '/' + ex.length + ' — touche pour la suite ↻</span>';
+          c.innerHTML = '<span class="exg">' + esc(ex[i][0]) + '</span><span class="exf">' + esc(ex[i][1]) + '</span>' + (ex[i][2] ? '<span class="exf2">' + esc(ex[i][2]) + '</span>' : '') + '<span class="hint">' + esc(c.dataset.gr) + ' · ' + (i + 1) + '/' + ex.length + ' — tap for the next one ↻</span>';
         }
         c.classList.remove('spin');
       }, 160);
@@ -175,7 +175,7 @@ JS = r"""
   var gb = document.getElementById('glossBtn'), eb = document.getElementById('enBtn'), text = document.getElementById('text'), en = document.getElementById('textEn');
   gb.addEventListener('click', function(){
     var show = gb.getAttribute('aria-pressed') !== 'true';
-    gb.setAttribute('aria-pressed', show); gb.textContent = show ? 'Traductions visibles' : 'Traductions cachées';
+    gb.setAttribute('aria-pressed', show); gb.textContent = show ? 'Translations shown' : 'Translations hidden';
     text.classList.toggle('hide', !show);
   });
   if (eb) eb.addEventListener('click', function(){
@@ -207,12 +207,12 @@ def lesson_page(s, prev, nxt, lang, L, outdir):
     if os.path.exists(mp3):
         ver = __import__("hashlib").md5(open(mp3, "rb").read()).hexdigest()[:8]
         player = (f'<audio id="voice" controls preload="metadata" src="../audio/{s["date"]}.mp3?v={ver}"></audio>'
-                  '<div class="row"><span class="label">Vitesse</span>'
-                  '<button class="chip" data-rate="0.85" aria-pressed="false">0,85×</button>'
+                  '<div class="row"><span class="label">Speed</span>'
+                  '<button class="chip" data-rate="0.85" aria-pressed="false">0.85×</button>'
                   '<button class="chip" data-rate="1" aria-pressed="true">1×</button></div>')
     else:
-        player = (f'<p class="note">L\'audio est en préparation (quelques minutes). En attendant : '
-                  f'<a href="{html.escape(gt)}" target="_blank" rel="noopener">écouter dans Google Traduction</a>.</p>')
+        player = (f'<p class="note">The audio is on its way (a few minutes). Meanwhile: '
+                  f'<a href="{html.escape(gt)}" target="_blank" rel="noopener">listen in Google Translate</a>.</p>')
     ex = s.get("examples", {})
     lem = s.get("lemma", {})
     def with_audio(p):
@@ -228,27 +228,27 @@ def lesson_page(s, prev, nxt, lang, L, outdir):
         lm = lem.get(a, "")
         lm_html = f' <span class="lem">({html.escape(lm)})</span>' if lm else ""
         data = html.escape(json.dumps(pairs, ensure_ascii=False), quote=True)
-        hint = f'<span class="hint">{len(pairs)} phrase{"s" if len(pairs) > 1 else ""} ↻</span>' if pairs else ""
+        hint = f'<span class="hint">{len(pairs)} sentence{"s" if len(pairs) > 1 else ""} ↻</span>' if pairs else ""
         return (f'<li><button class="card" type="button" data-ex="{data}" data-gr="{html.escape(a)}" data-tr="{html.escape(b)}" data-fr="{html.escape(f)}" data-lem="{html.escape(lm)}"'
                 f'{"" if pairs else " disabled"}><span class="gr">{html.escape(a)}{lm_html}</span><span class="fr">{html.escape(b)}</span>{f'<span class="fr2">{html.escape(f)}</span>' if f else ""}{hint}</button></li>')
     vocab = "".join(card(a, b, f) for a, b, f in words)
     nav = []
-    if prev: nav.append(f'<a href="{prev["date"]}.html">← Cours précédent</a>')
-    nav.append('<a href="../index.html">Tous les cours</a>')
-    nav.append('<a href="../mots.html">Tous les mots</a>')
+    if prev: nav.append(f'<a href="{prev["date"]}.html">← Previous lesson</a>')
+    nav.append('<a href="../index.html">All lessons</a>')
+    nav.append('<a href="../mots.html">All words</a>')
     en_html = "".join(f"<p>{html.escape(p)}</p>" for p in s.get("paragraphs_en", []))
-    if nxt: nav.append(f'<a href="{nxt["date"]}.html">Cours suivant →</a>')
+    if nxt: nav.append(f'<a href="{nxt["date"]}.html">Next lesson →</a>')
     src = s.get("source")
-    src_html = f'<p class="note">Source : <a href="{html.escape(src["url"])}" target="_blank" rel="noopener">{html.escape(src["name"])}</a></p>' if src else ""
-    return f"""<!doctype html><html lang="fr" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{html.escape(s["title"])} · {L["title"]}</title>{FONTS}<style>{CSS}</style></head><body><div class="wrap">
+    src_html = f'<p class="note">Source: <a href="{html.escape(src["url"])}" target="_blank" rel="noopener">{html.escape(src["name"])}</a></p>' if src else ""
+    return f"""<!doctype html><html lang="en" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{html.escape(s["title"])} · Masimera</title>{FONTS}<style>{CSS}</style></head><body><div class="wrap">
 <header><span class="eyebrow">{fr_date(s["date"])}</span><h1>{html.escape(s["title"])}</h1><p class="sub">{html.escape(s.get("title_en") or s.get("title_fr",""))}</p></header>
 <section class="player">
   {player}
 </section>
-<section><h2>Les {len(words)} mots</h2>{'<p class="note" style="margin:-4px 0 10px">Touche un mot pour voir des exemples en ' + L["name"] + ', en anglais et en français.</p>' if ex else ""}<ul class="vocab">{vocab}</ul></section>
-<section><h2>Le texte</h2><div class="text hide" id="text">{"".join(paras_html)}</div><div class="text" id="textEn" lang="en" hidden>{en_html}</div></section>
-<div class="row"><button class="chip" id="glossBtn" aria-pressed="false">Traductions cachées</button>{'<button class="chip" id="enBtn" aria-pressed="false">Traduire le texte en anglais</button>' if en_html else ""}</div>
+<section><h2>The {len(words)} words</h2>{'<p class="note" style="margin:-4px 0 10px">Tap a word to see example sentences in ' + L["name"] + ', with English and French translations.</p>' if ex else ""}<ul class="vocab">{vocab}</ul></section>
+<section><h2>The text</h2><div class="text hide" id="text">{"".join(paras_html)}</div><div class="text" id="textEn" lang="en" hidden>{en_html}</div></section>
+<div class="row"><button class="chip" id="glossBtn" aria-pressed="false">Translations hidden</button>{'<button class="chip" id="enBtn" aria-pressed="false">Show English translation</button>' if en_html else ""}</div>
 {src_html}
 <nav class="row">{" · ".join(nav)}</nav>
 </div><script>{JS}</script></body></html>"""
@@ -257,12 +257,12 @@ def index_page(lessons, lang, L):
     items = "".join(f'<li><a href="cours/{s["date"]}.html"><span class="d">{s["date"][8:10]}/{s["date"][5:7]}/{s["date"][:4]}</span><span><span class="t">{html.escape(s["title"])}</span><span class="f">{html.escape(s.get("title_en") or s.get("title_fr",""))}</span></span></a></li>' for s in lessons)
     o = LANGS[L["other"][0]]
     other = "../" + o["out"]
-    head = f'<a class="play" href="cours/{lessons[0]["date"]}.html">Lire le cours du jour →</a> ' if lessons else ""
-    return f"""<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{L["title"]}</title>{FONTS}<style>{CSS}</style></head><body><div class="wrap">
+    head = f'<a class="play" href="cours/{lessons[0]["date"]}.html">Read today\'s lesson →</a> ' if lessons else ""
+    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{L["title"]} · Masimera</title>{FONTS}<style>{CSS}</style></head><body><div class="wrap">
 <header><span class="eyebrow">{L["eyebrow"]}</span><h1>{L["title"]}</h1><p class="sub">{L["tagline"]}</p></header>
-<p class="row">{head}<a href="mots.html">Tous les mots (FR · EN · {L["short"]})</a> · <a href="{other}index.html">{L["other"][1]}</a> · <a href="../index.html">Toutes les langues</a></p>
-<section><h2>Tous les cours</h2><ul class="list">{items or '<li class="note">Le premier cours arrive bientôt.</li>'}</ul></section>
+<p class="row">{head}<a href="mots.html">All words (FR · EN · {L["short"]})</a> · <a href="{other}index.html">{L["other"][1]}</a> · <a href="../index.html">Home</a></p>
+<section><h2>All lessons</h2><ul class="list">{items or '<li class="note">The first lesson is coming soon.</li>'}</ul></section>
 </div></body></html>"""
 
 ARTICLES = re.compile(r"^(?:l'|l’|d'|d’|le |la |les |un |une |des |du |de la |de l'|de l’|de |à |au |aux |se |s'|a |ont |est |sont |va |vont |va |s’)", re.I)
@@ -304,16 +304,16 @@ def gloss_page(lessons, lang, L):
         if ch != cur:
             cur = ch; out.append(f'<tr class="letter"><td colspan="3">{html.escape(ch)}</td></tr>')
         out.append(f'<tr data-s="{html.escape((f+" "+en+" "+gr).lower(), quote=True)}"><td>{html.escape(f)}</td><td>{html.escape(en)}</td>'
-                   f'<td><a href="cours/{d}.html" title="Cours du {d}">{html.escape(gr)}</a></td></tr>')
+                   f'<td><a href="cours/{d}.html" title="Lesson of {d}">{html.escape(gr)}</a></td></tr>')
     js = """(function(){var q=document.getElementById('q');q.addEventListener('input',function(){var v=q.value.trim().toLowerCase();
 document.querySelectorAll('.lex tr[data-s]').forEach(function(r){r.hidden=v&&r.dataset.s.indexOf(v)<0;});
 document.querySelectorAll('.lex tr.letter').forEach(function(r){r.hidden=!!v;});});})();"""
-    return f"""<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Tous les mots · {L["title"]}</title>{FONTS}<style>{CSS}{GLOSS_CSS}</style></head><body><div class="wrap">
-<header><span class="eyebrow">{L["col"]}</span><h1>Tous les mots</h1><p class="sub">{len(rows)} mots vus dans les cours, par ordre alphabétique français. Touche un mot en {L["name"]} pour ouvrir son cours.</p></header>
-<input class="search" id="q" type="search" placeholder="Chercher (français, anglais ou {L["name"]})…" autocomplete="off">
+    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>All words · {L["title"]} · Masimera</title>{FONTS}<style>{CSS}{GLOSS_CSS}</style></head><body><div class="wrap">
+<header><span class="eyebrow">{L["col"]}</span><h1>All words</h1><p class="sub">{len(rows)} words from the lessons, in French alphabetical order. Tap a word in {L["name"]} to open its lesson.</p></header>
+<input class="search" id="q" type="search" placeholder="Search (French, English or {L["name"]})…" autocomplete="off">
 <table class="lex"><thead><tr><th>Français</th><th>English</th><th>{L["col"]}</th></tr></thead><tbody>{"".join(out)}</tbody></table>
-<nav class="row"><a href="index.html">Tous les cours</a></nav>
+<nav class="row"><a href="index.html">All lessons</a> · <a href="../index.html">Home</a></nav>
 </div><script>{js}</script></body></html>"""
 
 def build(lang, L):
@@ -332,21 +332,64 @@ def build(lang, L):
 
 def redirect(target):
     t = html.escape(target, quote=True)
-    return (f'<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url={t}">'
-            f'<link rel="canonical" href="{t}"><title>Redirection</title></head><body><p><a href="{t}">Le cours a déménagé : cliquer ici</a></p>'
+    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url={t}">'
+            f'<link rel="canonical" href="{t}"><title>Redirecting</title></head><body><p><a href="{t}">This lesson has moved: click here</a></p>'
             f'<script>location.replace({json.dumps(target)} + location.hash)</script></body></html>')
 
+HOME_CSS = """
+.brand{font-family:var(--text);font-weight:600;font-size:clamp(40px,12vw,64px);line-height:1;margin:6px 0 4px;letter-spacing:-.01em}
+.meaning{font-family:var(--text);font-style:italic;color:var(--muted);margin:0}
+.lead{font-size:18px;line-height:1.55;margin:0;text-wrap:pretty}
+.langs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.lang{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.lang .k{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.lang .t{font-family:var(--text);font-size:19px;font-weight:600;line-height:1.3}
+.lang .f{color:var(--muted);font-size:14px;margin-top:-4px}
+.lang .row{margin-top:auto;padding-top:6px}
+.lang .play{font-size:15px;padding:9px 16px}
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.steps li{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:baseline}
+.steps b{font-family:var(--text);font-size:18px;color:var(--accent)}
+.steps strong{display:block}.steps span{color:var(--muted);font-size:14px}
+.join{background:var(--soft);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.join p{margin:0}
+"""
+
 def home_page():
-    items = []
+    cards = []
     for lang, L in LANGS.items():
         path = os.path.join(ROOT, L["file"])
-        n = len(json.load(open(path, encoding="utf-8"))) if os.path.exists(path) else 0
-        items.append(f'<li><a href="{L["out"]}index.html"><span class="d">{L["short"]}</span><span><span class="t">{L["title"]}</span>'
-                     f'<span class="f">{html.escape(L["tagline"])} · {n} cours</span></span></a></li>')
-    return f"""<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Langues du jour</title>{FONTS}<style>{CSS}</style></head><body><div class="wrap">
-<header><span class="eyebrow">15 minutes par jour</span><h1>Langues du jour</h1><p class="sub">Chaque matin, une actualité en version simple, avec les mots difficiles traduits et l'audio. Choisis ta langue.</p></header>
-<section><ul class="list">{"".join(items)}</ul></section>
+        lessons = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else []
+        lessons.sort(key=lambda s: s["date"], reverse=True)
+        lang_name = L["name"]
+        if lessons:
+            s = lessons[0]
+            body = (f'<span class="t">{html.escape(s["title"])}</span>'
+                    f'<span class="f">{html.escape(s.get("title_en") or s.get("title_fr", ""))}</span>'
+                    f'<div class="row"><a class="play" href="{L["out"]}cours/{s["date"]}.html">Today\'s lesson →</a>'
+                    f'<a href="{L["out"]}index.html">All {len(lessons)} lessons</a></div>')
+        else:
+            body = '<span class="f">The first lesson is coming soon.</span>'
+        cards.append(f'<div class="lang"><span class="k">{lang_name} · {L["eyebrow"]}</span>{body}</div>')
+    subject = __import__("urllib.parse").parse.quote("Masimera – I'd like the daily lesson")
+    mail_body = __import__("urllib.parse").parse.quote("Hello! Please send me the daily lesson in: Greek / Italian (keep the one you want).")
+    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Masimera · 15 minutes a day to learn a language</title>
+<meta name="description" content="Every morning, a real local news story in simple Greek or Italian, with the hard words translated and audio. 15 minutes a day.">
+{FONTS}<style>{CSS}{HOME_CSS}</style></head><body><div class="wrap">
+<header><span class="eyebrow">15 minutes a day</span><h1 class="brand">Masimera</h1>
+<p class="meaning">μάθημα (lesson) + μέρα (day): the lesson of the day</p></header>
+<p class="lead">Every morning, a real news story, rewritten in simple sentences, with audio and the hard words translated into English and French. Slow and steady: a little every day, and you progress.</p>
+<section><h2>Today's lessons</h2><div class="langs">{"".join(cards)}</div></section>
+<section><h2>How it works</h2><ol class="steps">
+<li><b>1</b><div><strong>Read a real story</strong><span>Local news from Athens or Italy, written so simply a child could follow it.</span></div></li>
+<li><b>2</b><div><strong>Listen</strong><span>A natural voice reads the text. Slow it down if you need to.</span></div></li>
+<li><b>3</b><div><strong>Learn 20 to 30 words</strong><span>Each word in English and French, with short example sentences you can hear.</span></div></li>
+<li><b>4</b><div><strong>Come back tomorrow</strong><span>A new lesson every morning. All the words you've met stay in your glossary.</span></div></li>
+</ol></section>
+<section class="join"><h2 style="margin:0">Get it every morning</h2>
+<p>The lesson arrives in your inbox at 6 am, with one button to open it.</p>
+<div class="row"><a class="play" href="mailto:stanislas.morin@gmail.com?subject={subject}&amp;body={mail_body}">Sign up by email</a></div></section>
 </div></body></html>"""
 
 def main():
