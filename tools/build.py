@@ -109,7 +109,7 @@ JS = r"""
       ctx = new C();
       // son silencieux en boucle, très faible, pour garder la sortie audio active
       var b = ctx.createBuffer(1, ctx.sampleRate, ctx.sampleRate), d = b.getChannelData(0);
-      for (var k = 0; k < d.length; k++) d[k] = (Math.random() * 2 - 1) * 0.0005;
+      for (var k = 0; k < d.length; k++) d[k] = (Math.random() * 2 - 1) * 0.003; // ~ -50 dB : inaudible, mais assez pour que les casques Bluetooth ne se mettent pas en veille
       var keep = ctx.createBufferSource(); keep.buffer = b; keep.loop = true; keep.connect(ctx.destination); keep.start(0);
     }
     if (ctx.state !== 'running') return ctx.resume();
@@ -138,12 +138,12 @@ JS = r"""
     if (!ctx) { playElement(text, url); return; }
     var my = token;
     // Si l'iPhone avait coupé le son (écran verrouillé, onglet en arrière-plan), on attend qu'il
-    // soit vraiment reparti et on garde toute l'amorce d'1 s ; sinon on n'en garde que 0,6 s.
+    // soit vraiment reparti et on attend encore 0,3 s ; l'amorce d'1 s est toujours jouée en entier.
     Promise.all([load(url), waking ? Promise.resolve(waking).catch(function(){}) : null]).then(function(r){
       if (my !== token) return;
       if (ctx.state !== 'running') { playElement(text, url); return; }
       node = ctx.createBufferSource(); node.buffer = r[0]; node.connect(ctx.destination);
-      node.start(0, waking ? 0 : 0.4);
+      node.start(ctx.currentTime + (waking ? 0.3 : 0)); // toute l'amorce d'1 s avant la voix, même avec un casque
     }).catch(function(){ if (my === token) playElement(text, url); });
   }
   function fallback(text){
