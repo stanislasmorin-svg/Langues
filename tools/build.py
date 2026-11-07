@@ -336,6 +336,10 @@ def redirect(target):
             f'<link rel="canonical" href="{t}"><title>Redirecting</title></head><body><p><a href="{t}">This lesson has moved: click here</a></p>'
             f'<script>location.replace({json.dumps(target)} + location.hash)</script></body></html>')
 
+# Formulaire d'inscription : FormSubmit envoie chaque inscription par e-mail (objet « Masimera sign-up »),
+# et la tâche du matin ajoute les nouvelles adresses à abonnes.txt.
+FORM_ACTION = "https://formsubmit.co/stanislas.morin@gmail.com"
+
 HOME_CSS = """
 .brand{font-family:var(--text);font-weight:600;font-size:clamp(40px,12vw,64px);line-height:1;margin:6px 0 4px;letter-spacing:-.01em}
 .meaning{font-family:var(--text);font-style:italic;color:var(--muted);margin:0}
@@ -353,6 +357,11 @@ HOME_CSS = """
 .steps strong{display:block}.steps span{color:var(--muted);font-size:14px}
 .join{background:var(--soft);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px}
 .join p{margin:0}
+.join form{display:flex;flex-direction:column;gap:10px}
+.join input[type=email],.join select{font:inherit;font-size:16px;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--fg);width:100%}
+.join .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.join button.play{align-self:flex-start}
+.join .small{font-size:13px;color:var(--muted)}
 """
 
 def home_page():
@@ -371,8 +380,6 @@ def home_page():
         else:
             body = '<span class="f">The first lesson is coming soon.</span>'
         cards.append(f'<div class="lang"><span class="k">{lang_name} · {L["eyebrow"]}</span>{body}</div>')
-    subject = __import__("urllib.parse").parse.quote("Masimera – I'd like the daily lesson")
-    mail_body = __import__("urllib.parse").parse.quote("Hello! Please send me the daily lesson in: Greek / Italian (keep the one you want).")
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Masimera · 15 minutes a day to learn a language</title>
 <meta name="description" content="Every morning, a real local news story in simple Greek or Italian, with the hard words translated and audio. 15 minutes a day.">
@@ -389,13 +396,33 @@ def home_page():
 </ol></section>
 <section class="join"><h2 style="margin:0">Get it every morning</h2>
 <p>The lesson arrives in your inbox at 6 am, with one button to open it.</p>
-<div class="row"><a class="play" href="mailto:stanislas.morin@gmail.com?subject={subject}&amp;body={mail_body}">Sign up by email</a></div></section>
+<form action="{FORM_ACTION}" method="POST">
+<input type="hidden" name="_subject" value="Masimera sign-up">
+<input type="hidden" name="_next" value="https://masimera.com/thanks.html">
+<input type="hidden" name="_template" value="table">
+<input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+<label class="small" for="em">Your email</label>
+<input id="em" type="email" name="email" required placeholder="you@example.com" autocomplete="email">
+<label class="small" for="lg">Language</label>
+<select id="lg" name="language"><option>Greek</option><option>Italian</option><option>Greek and Italian</option></select>
+<button class="play" type="submit">Sign up</button>
+<p class="small">Free. One email a day. Reply "stop" to any email to unsubscribe.</p>
+</form></section>
+</div></body></html>"""
+
+def thanks_page():
+    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thank you · Masimera</title>{FONTS}<style>{CSS}</style></head><body><div class="wrap">
+<header><span class="eyebrow">Masimera</span><h1>You're in!</h1>
+<p class="sub">Your first lesson arrives tomorrow morning, around 6 am (Paris time). If you don't see it, check your spam folder.</p></header>
+<p class="row"><a class="play" href="index.html">Back to today's lessons</a></p>
 </div></body></html>"""
 
 def main():
     for lang, L in LANGS.items():
         build(lang, L)
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(home_page())
+    open(os.path.join(ROOT, "thanks.html"), "w", encoding="utf-8").write(thanks_page())
     # anciennes adresses du grec (avant le dossier grec/) → redirection
     for lang, L in LANGS.items():
         if not L.get("legacy"): continue

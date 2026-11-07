@@ -65,6 +65,11 @@ h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
 .steps strong{display:block}.steps span{color:var(--muted);font-size:14px}
 .join{background:var(--soft);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px}
 .join p{margin:0}
+.join form{display:flex;flex-direction:column;gap:10px}
+.join input[type=email],.join select{font:inherit;font-size:16px;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--fg);width:100%}
+.join .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.join button.play{align-self:flex-start}
+.join .small{font-size:13px;color:var(--muted)}
 </style></head><body><div class="wrap">
 <header><span class="eyebrow">15 minutes a day</span><h1 class="brand">Masimera</h1>
 <p class="meaning">μάθημα (lesson) + μέρα (day): the lesson of the day</p></header>
@@ -78,5 +83,16 @@ h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
 </ol></section>
 <section class="join"><h2 style="margin:0">Get it every morning</h2>
 <p>The lesson arrives in your inbox at 6 am, with one button to open it.</p>
-<div class="row"><a class="play" href="mailto:stanislas.morin@gmail.com?subject=Masimera%20%E2%80%93%20I%27d%20like%20the%20daily%20lesson&amp;body=Hello%21%20Please%20send%20me%20the%20daily%20lesson%20in%3A%20Greek%20/%20Italian%20%28keep%20the%20one%20you%20want%29.">Sign up by email</a></div></section>
+<form action="https://formsubmit.co/stanislas.morin@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="Masimera sign-up">
+<input type="hidden" name="_next" value="https://masimera.com/thanks.html">
+<input type="hidden" name="_template" value="table">
+<input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+<label class="small" for="em">Your email</label>
+<input id="em" type="email" name="email" required placeholder="you@example.com" autocomplete="email">
+<label class="small" for="lg">Language</label>
+<select id="lg" name="language"><option>Greek</option><option>Italian</option><option>Greek and Italian</option></select>
+<button class="play" type="submit">Sign up</button>
+<p class="small">Free. One email a day. Reply "stop" to any email to unsubscribe.</p>
+</form></section>
 </div></body></html>
