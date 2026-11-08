@@ -1373,5 +1373,357 @@
         ]
       ]
     }
+  },
+  {
+    "date": "2026-11-08",
+    "title": "L'Eur compie 90 anni",
+    "title_fr": "L'EUR a 90 ans",
+    "title_en": "EUR turns 90",
+    "source": {
+      "name": "Affaritaliani",
+      "url": "https://www.affaritaliani.it/distretto-italia/eur-una-storia-lunga-90-anni-inaugurata-la-mostra-al-palazzo-degli-uffici.html"
+    },
+    "paragraphs": [
+      "L'Eur è un grande **quartiere** (neighbourhood) di Roma. Quest'anno **compie** (turns) 90 anni. Per questo **compleanno** (birthday) c'è una nuova **mostra** (exhibition).",
+      "La mostra si chiama «Eur – Una storia lunga 90 anni». È **aperta** (open) dal 6 novembre al 7 febbraio. È nel Palazzo degli Uffici. È il primo **palazzo** (building) **costruito** (built) per il progetto dell'Eur.",
+      "Nella mostra ci sono tante **foto** (photos) e vecchi **documenti** (documents). Ci sono anche **progetti** (plans), **disegni** (drawings) e film di una volta.",
+      "C'è anche un piccolo **modello** (model) della Nuvola. La Nuvola è un **edificio** (building) molto moderno dell'Eur.",
+      "La mostra **racconta** (tells) come **nasce** (is born) il quartiere. **Spiega** (explains) anche come **cambia** (changes) l'Italia nel **Novecento** (20th century).",
+      "Ogni anno circa un milione e mezzo di **persone** (people) **visitano** (visit) l'Eur per i suoi **eventi** (events). Il presidente di Eur SpA ha un **obiettivo** (goal): **trasformare** (to turn) la mostra in un museo **permanente** (permanent)."
+    ],
+    "paragraphs_en": [
+      "EUR is a big neighbourhood of Rome. This year it turns 90. For this birthday there is a new exhibition.",
+      "The exhibition is called “EUR – A 90-year-long story”. It is open from 6 November to 7 February. It is in the Palazzo degli Uffici. It is the first building built for the EUR project.",
+      "In the exhibition there are lots of photos and old documents. There are also plans, drawings and old films.",
+      "There is also a small model of the Nuvola (the Cloud). The Nuvola is a very modern building in EUR.",
+      "The exhibition tells how the neighbourhood was born. It also explains how Italy changed in the 20th century.",
+      "Every year about one and a half million people visit EUR for its events. The president of EUR SpA has a goal: to turn the exhibition into a permanent museum."
+    ],
+    "fr": {
+      "quartiere": "quartier",
+      "compie": "fête (ses ans), atteint",
+      "compleanno": "anniversaire",
+      "mostra": "exposition",
+      "aperta": "ouverte",
+      "palazzo": "bâtiment, immeuble",
+      "costruito": "construit",
+      "foto": "photos",
+      "documenti": "documents",
+      "progetti": "plans, projets",
+      "disegni": "dessins",
+      "modello": "maquette, modèle",
+      "edificio": "bâtiment",
+      "racconta": "raconte",
+      "nasce": "naît",
+      "Spiega": "explique",
+      "cambia": "change",
+      "Novecento": "XXe siècle",
+      "persone": "personnes",
+      "visitano": "visitent",
+      "eventi": "événements",
+      "obiettivo": "objectif",
+      "trasformare": "transformer",
+      "permanente": "permanent"
+    },
+    "lemma": {
+      "compie": "compiere",
+      "costruito": "costruire",
+      "racconta": "raccontare",
+      "nasce": "nascere",
+      "Spiega": "spiegare",
+      "cambia": "cambiare",
+      "visitano": "visitare",
+      "trasformare": "trasformare"
+    },
+    "examples": {
+      "quartiere": [
+        [
+          "Il mio quartiere è molto tranquillo.",
+          "My neighbourhood is very quiet.",
+          "Mon quartier est très calme."
+        ],
+        [
+          "Questo quartiere ha tanti bar.",
+          "This neighbourhood has lots of cafés.",
+          "Ce quartier a beaucoup de cafés."
+        ]
+      ],
+      "compie": [
+        [
+          "Mia figlia compie sei anni domani.",
+          "My daughter turns six tomorrow.",
+          "Ma fille a six ans demain."
+        ],
+        [
+          "Domani compio quarant'anni.",
+          "Tomorrow I turn forty.",
+          "Demain, j'ai quarante ans."
+        ]
+      ],
+      "compleanno": [
+        [
+          "Oggi è il mio compleanno.",
+          "Today is my birthday.",
+          "Aujourd'hui, c'est mon anniversaire."
+        ],
+        [
+          "Per il compleanno facciamo una torta.",
+          "We make a cake for the birthday.",
+          "Pour l'anniversaire, on fait un gâteau."
+        ]
+      ],
+      "mostra": [
+        [
+          "La mostra apre alle dieci.",
+          "The exhibition opens at ten.",
+          "L'exposition ouvre à dix heures."
+        ],
+        [
+          "Andiamo alla mostra sabato?",
+          "Shall we go to the exhibition on Saturday?",
+          "On va à l'exposition samedi ?"
+        ]
+      ],
+      "aperta": [
+        [
+          "La farmacia è aperta fino alle otto.",
+          "The pharmacy is open until eight.",
+          "La pharmacie est ouverte jusqu'à huit heures."
+        ],
+        [
+          "La finestra è aperta.",
+          "The window is open.",
+          "La fenêtre est ouverte."
+        ]
+      ],
+      "palazzo": [
+        [
+          "Abito in un palazzo vicino al parco.",
+          "I live in a building near the park.",
+          "J'habite dans un immeuble près du parc."
+        ],
+        [
+          "Il palazzo ha sei piani.",
+          "The building has six floors.",
+          "L'immeuble a six étages."
+        ]
+      ],
+      "costruito": [
+        [
+          "Questo ponte è costruito in pietra.",
+          "This bridge is built of stone.",
+          "Ce pont est construit en pierre."
+        ],
+        [
+          "Mio padre costruisce un tavolo.",
+          "My father is building a table.",
+          "Mon père construit une table."
+        ]
+      ],
+      "foto": [
+        [
+          "Guardo le foto delle vacanze.",
+          "I look at the holiday photos.",
+          "Je regarde les photos des vacances."
+        ],
+        [
+          "Mandami le foto, per favore.",
+          "Send me the photos, please.",
+          "Envoie-moi les photos, s'il te plaît."
+        ]
+      ],
+      "documenti": [
+        [
+          "Porto i documenti in ufficio.",
+          "I take the documents to the office.",
+          "J'apporte les documents au bureau."
+        ],
+        [
+          "I documenti sono sul tavolo.",
+          "The documents are on the table.",
+          "Les documents sont sur la table."
+        ]
+      ],
+      "progetti": [
+        [
+          "Abbiamo tanti progetti per l'estate.",
+          "We have lots of plans for the summer.",
+          "Nous avons beaucoup de projets pour l'été."
+        ],
+        [
+          "I progetti della casa sono pronti.",
+          "The plans for the house are ready.",
+          "Les plans de la maison sont prêts."
+        ]
+      ],
+      "disegni": [
+        [
+          "I bambini fanno disegni colorati.",
+          "The children make colourful drawings.",
+          "Les enfants font des dessins colorés."
+        ],
+        [
+          "Metto i disegni sul frigo.",
+          "I put the drawings on the fridge.",
+          "Je mets les dessins sur le frigo."
+        ]
+      ],
+      "modello": [
+        [
+          "Il bambino costruisce un modello di aereo.",
+          "The child builds a model plane.",
+          "L'enfant construit une maquette d'avion."
+        ],
+        [
+          "Questo modello di telefono è nuovo.",
+          "This phone model is new.",
+          "Ce modèle de téléphone est nouveau."
+        ]
+      ],
+      "edificio": [
+        [
+          "L'edificio della scuola è nuovo.",
+          "The school building is new.",
+          "Le bâtiment de l'école est neuf."
+        ],
+        [
+          "Lavoro in un edificio alto.",
+          "I work in a tall building.",
+          "Je travaille dans un grand bâtiment."
+        ]
+      ],
+      "racconta": [
+        [
+          "La nonna racconta una storia.",
+          "Grandma tells a story.",
+          "Mamie raconte une histoire."
+        ],
+        [
+          "A cena racconto la mia giornata.",
+          "At dinner I talk about my day.",
+          "Au dîner, je raconte ma journée."
+        ]
+      ],
+      "nasce": [
+        [
+          "Il bambino nasce a dicembre.",
+          "The baby is due in December.",
+          "Le bébé naît en décembre."
+        ],
+        [
+          "Molti gattini nascono in primavera.",
+          "Many kittens are born in spring.",
+          "Beaucoup de chatons naissent au printemps."
+        ]
+      ],
+      "Spiega": [
+        [
+          "Spiega bene la strada al tassista.",
+          "Explain the way clearly to the taxi driver.",
+          "Explique bien le chemin au chauffeur de taxi."
+        ],
+        [
+          "Ti spiego la strada per la stazione.",
+          "I'll explain the way to the station.",
+          "Je t'explique le chemin de la gare."
+        ]
+      ],
+      "cambia": [
+        [
+          "Il tempo cambia ogni giorno.",
+          "The weather changes every day.",
+          "Le temps change chaque jour."
+        ],
+        [
+          "Oggi cambio la batteria del telefono.",
+          "Today I change the phone battery.",
+          "Aujourd'hui, je change la batterie du téléphone."
+        ]
+      ],
+      "Novecento": [
+        [
+          "Questa casa è del Novecento.",
+          "This house is from the 20th century.",
+          "Cette maison date du XXe siècle."
+        ],
+        [
+          "Mi piace la musica del Novecento.",
+          "I like 20th-century music.",
+          "J'aime la musique du XXe siècle."
+        ]
+      ],
+      "persone": [
+        [
+          "Al bar ci sono poche persone.",
+          "There are few people at the café.",
+          "Il y a peu de gens au café."
+        ],
+        [
+          "Sul tram ci sono tante persone.",
+          "There are lots of people on the tram.",
+          "Il y a beaucoup de monde dans le tram."
+        ]
+      ],
+      "visitano": [
+        [
+          "I turisti visitano il Colosseo.",
+          "The tourists visit the Colosseum.",
+          "Les touristes visitent le Colisée."
+        ],
+        [
+          "Domenica visitiamo i nonni.",
+          "On Sunday we visit our grandparents.",
+          "Dimanche, nous rendons visite aux grands-parents."
+        ]
+      ],
+      "eventi": [
+        [
+          "In città ci sono molti eventi.",
+          "There are many events in the city.",
+          "Il y a beaucoup d'événements en ville."
+        ],
+        [
+          "Gli eventi del weekend sono all'aperto.",
+          "The weekend events are outdoors.",
+          "Les événements du week-end sont en plein air."
+        ]
+      ],
+      "obiettivo": [
+        [
+          "Il mio obiettivo è parlare italiano.",
+          "My goal is to speak Italian.",
+          "Mon objectif est de parler italien."
+        ],
+        [
+          "Qual è il tuo obiettivo?",
+          "What is your goal?",
+          "Quel est ton objectif ?"
+        ]
+      ],
+      "trasformare": [
+        [
+          "Vogliamo trasformare il garage in uno studio.",
+          "We want to turn the garage into a study.",
+          "Nous voulons transformer le garage en bureau."
+        ],
+        [
+          "Trasformo la vecchia camera in uno studio.",
+          "I'm turning the old bedroom into a study.",
+          "Je transforme la vieille chambre en bureau."
+        ]
+      ],
+      "permanente": [
+        [
+          "La collezione permanente è al primo piano.",
+          "The permanent collection is on the first floor.",
+          "La collection permanente est au premier étage."
+        ],
+        [
+          "Cerco un lavoro permanente.",
+          "I'm looking for a permanent job.",
+          "Je cherche un emploi permanent."
+        ]
+      ]
+    }
   }
 ]

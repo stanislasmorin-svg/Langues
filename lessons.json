@@ -9204,5 +9204,393 @@
         ]
       ]
     }
+  },
+  {
+    "date": "2026-11-08",
+    "title": "Το Τατόι ανοίγει ξανά",
+    "title_fr": "Tatoï rouvre ses portes",
+    "title_en": "Tatoi reopens",
+    "source": {
+      "name": "ProtoThema English",
+      "url": "https://en.protothema.gr/2026/11/05/tatoi-royal-estate-to-reopen-with-three-museums-rolls-royces-and-4350-historic-treasures/"
+    },
+    "paragraphs": [
+      "Στο Τατόι, κοντά στην Αθήνα, υπάρχει ένα παλιό **κτήμα** (estate). Είναι στο **βουνό** (mountain) Πάρνηθα. Εκεί **ζούσαν** (lived) το καλοκαίρι οι **βασιλιάδες** (kings) της Ελλάδας.",
+      "Τώρα το κτήμα θα **ανοίξει** (will open) ξανά για τον κόσμο. Θα έχει τρία **μουσεία** (museums). Τα **έργα** (works) θα **τελειώσουν** (will finish) στο τέλος του 2026. Το **κόστος** (cost) είναι πάνω από 70 εκατομμύρια ευρώ.",
+      "Το πρώτο μουσείο είναι το **παλάτι** (palace). Εκεί θα δούμε τα **δωμάτια** (rooms) της **οικογένειας** (family). Θα δούμε και 4.350 παλιά **αντικείμενα** (objects), όπως πορτρέτα και ένα **νυφικό** (wedding dress).",
+      "Το δεύτερο μουσείο είναι στους παλιούς **στάβλους** (stables). Εκεί θα δούμε **άμαξες** (carriages) και παλιά **αυτοκίνητα** (cars). Υπάρχουν τέσσερις μεγάλες Rolls-Royce και δύο μικρά Fiat 500.",
+      "Το τρίτο μουσείο είναι για τη **φάρμα** (farm) του κτήματος. Εκεί θα **μάθουμε** (we will learn) για το γάλα, το **βούτυρο** (butter), το **μέλι** (honey), το λάδι και το κρασί.",
+      "Οι **κήποι** (gardens) θα είναι πάλι **όμορφοι** (beautiful), με **τριαντάφυλλα** (roses) και **δέντρα** (trees). Θα **περπατήσουμε** (we will walk) στα **μονοπάτια** (paths) και θα δούμε όλο το κτήμα."
+    ],
+    "paragraphs_en": [
+      "In Tatoi, near Athens, there is an old estate. It is on Mount Parnitha. The kings of Greece lived there in the summer.",
+      "Now the estate will open again to the public. It will have three museums. The works will finish at the end of 2026. The cost is more than 70 million euros.",
+      "The first museum is the palace. There we will see the family's rooms. We will also see 4,350 old objects, such as portraits and a wedding dress.",
+      "The second museum is in the old stables. There we will see carriages and old cars. There are four big Rolls-Royces and two small Fiat 500s.",
+      "The third museum is about the estate's farm. There we will learn about milk, butter, honey, olive oil and wine.",
+      "The gardens will be beautiful again, with roses and trees. We will walk along the paths and see the whole estate."
+    ],
+    "fr": {
+      "κτήμα": "domaine",
+      "βουνό": "montagne",
+      "ζούσαν": "vivaient",
+      "βασιλιάδες": "rois",
+      "ανοίξει": "ouvrira",
+      "μουσεία": "musées",
+      "έργα": "travaux",
+      "τελειώσουν": "se termineront",
+      "κόστος": "coût",
+      "παλάτι": "palais",
+      "δωμάτια": "pièces, chambres",
+      "οικογένειας": "famille",
+      "αντικείμενα": "objets",
+      "νυφικό": "robe de mariée",
+      "στάβλους": "écuries",
+      "άμαξες": "carrosses",
+      "αυτοκίνητα": "voitures",
+      "φάρμα": "ferme",
+      "μάθουμε": "nous apprendrons",
+      "βούτυρο": "beurre",
+      "μέλι": "miel",
+      "κήποι": "jardins",
+      "όμορφοι": "beaux",
+      "τριαντάφυλλα": "roses",
+      "δέντρα": "arbres",
+      "περπατήσουμε": "nous marcherons",
+      "μονοπάτια": "sentiers"
+    },
+    "lemma": {
+      "ζούσαν": "ζω",
+      "ανοίξει": "ανοίγω",
+      "τελειώσουν": "τελειώνω",
+      "μάθουμε": "μαθαίνω",
+      "περπατήσουμε": "περπατάω"
+    },
+    "examples": {
+      "κτήμα": [
+        [
+          "Το κτήμα έχει πολλές ελιές.",
+          "The estate has many olive trees.",
+          "Le domaine a beaucoup d'oliviers."
+        ],
+        [
+          "Ο θείος μου έχει ένα κτήμα.",
+          "My uncle has an estate.",
+          "Mon oncle a un domaine."
+        ]
+      ],
+      "βουνό": [
+        [
+          "Το βουνό είναι πολύ ψηλό.",
+          "The mountain is very high.",
+          "La montagne est très haute."
+        ],
+        [
+          "Το Σάββατο πάμε στο βουνό.",
+          "On Saturday we go to the mountain.",
+          "Samedi, on va à la montagne."
+        ]
+      ],
+      "ζούσαν": [
+        [
+          "Οι γονείς μου ζούσαν στην Πάτρα.",
+          "My parents lived in Patras.",
+          "Mes parents vivaient à Patras."
+        ],
+        [
+          "Τώρα ζω στην Αθήνα.",
+          "Now I live in Athens.",
+          "Maintenant, je vis à Athènes."
+        ]
+      ],
+      "βασιλιάδες": [
+        [
+          "Οι βασιλιάδες είχαν μεγάλα σπίτια.",
+          "The kings had big houses.",
+          "Les rois avaient de grandes maisons."
+        ],
+        [
+          "Τα παιδιά διαβάζουν για βασιλιάδες.",
+          "The children read about kings.",
+          "Les enfants lisent des histoires de rois."
+        ]
+      ],
+      "ανοίξει": [
+        [
+          "Το φαρμακείο θα ανοίξει στις εννιά.",
+          "The pharmacy will open at nine.",
+          "La pharmacie ouvrira à neuf heures."
+        ],
+        [
+          "Το πρωί ανοίγω το παράθυρο.",
+          "In the morning I open the window.",
+          "Le matin, j'ouvre la fenêtre."
+        ]
+      ],
+      "μουσεία": [
+        [
+          "Τα μουσεία είναι κλειστά σήμερα.",
+          "The museums are closed today.",
+          "Les musées sont fermés aujourd'hui."
+        ],
+        [
+          "Μου αρέσουν πολύ τα μουσεία.",
+          "I really like museums.",
+          "J'aime beaucoup les musées."
+        ]
+      ],
+      "έργα": [
+        [
+          "Τα έργα στον δρόμο κάνουν θόρυβο.",
+          "The roadworks make noise.",
+          "Les travaux dans la rue font du bruit."
+        ],
+        [
+          "Τα έργα στο μετρό σταματούν.",
+          "The works on the metro are stopping.",
+          "Les travaux du métro s'arrêtent."
+        ]
+      ],
+      "τελειώσουν": [
+        [
+          "Τα μαθήματα θα τελειώσουν τον Ιούνιο.",
+          "The classes will finish in June.",
+          "Les cours se termineront en juin."
+        ],
+        [
+          "Σήμερα τελειώνω τη δουλειά στις πέντε.",
+          "Today I finish work at five.",
+          "Aujourd'hui, je finis le travail à cinq heures."
+        ]
+      ],
+      "κόστος": [
+        [
+          "Το κόστος είναι πολύ μικρό.",
+          "The cost is very low.",
+          "Le coût est très faible."
+        ],
+        [
+          "Ποιο είναι το κόστος;",
+          "What is the cost?",
+          "Quel est le coût ?"
+        ]
+      ],
+      "παλάτι": [
+        [
+          "Το παλάτι έχει μεγάλο κήπο.",
+          "The palace has a big garden.",
+          "Le palais a un grand jardin."
+        ],
+        [
+          "Βλέπω το παλάτι από το λεωφορείο.",
+          "I see the palace from the bus.",
+          "Je vois le palais depuis le bus."
+        ]
+      ],
+      "δωμάτια": [
+        [
+          "Το σπίτι μας έχει τρία δωμάτια.",
+          "Our house has three rooms.",
+          "Notre maison a trois pièces."
+        ],
+        [
+          "Τα δωμάτια του ξενοδοχείου είναι καθαρά.",
+          "The hotel rooms are clean.",
+          "Les chambres de l'hôtel sont propres."
+        ]
+      ],
+      "οικογένειας": [
+        [
+          "Το αυτοκίνητο της οικογένειας είναι κόκκινο.",
+          "The family car is red.",
+          "La voiture de la famille est rouge."
+        ],
+        [
+          "Σήμερα είναι η γιορτή της οικογένειας.",
+          "Today is the family celebration.",
+          "Aujourd'hui, c'est la fête de la famille."
+        ]
+      ],
+      "αντικείμενα": [
+        [
+          "Βάζω τα αντικείμενα στο κουτί.",
+          "I put the objects in the box.",
+          "Je mets les objets dans la boîte."
+        ],
+        [
+          "Έχω πολλά παλιά αντικείμενα.",
+          "I have many old objects.",
+          "J'ai beaucoup de vieux objets."
+        ]
+      ],
+      "νυφικό": [
+        [
+          "Το νυφικό είναι λευκό.",
+          "The wedding dress is white.",
+          "La robe de mariée est blanche."
+        ],
+        [
+          "Η Μαρία αγοράζει νυφικό.",
+          "Maria is buying a wedding dress.",
+          "Maria achète une robe de mariée."
+        ]
+      ],
+      "στάβλους": [
+        [
+          "Τα άλογα μένουν στους στάβλους.",
+          "The horses stay in the stables.",
+          "Les chevaux restent dans les écuries."
+        ],
+        [
+          "Το πρωί καθαρίζουμε τους στάβλους.",
+          "In the morning we clean the stables.",
+          "Le matin, nous nettoyons les écuries."
+        ]
+      ],
+      "άμαξες": [
+        [
+          "Οι άμαξες είναι πολύ παλιές.",
+          "The carriages are very old.",
+          "Les carrosses sont très anciens."
+        ],
+        [
+          "Στο πάρκο βλέπουμε δύο άμαξες.",
+          "In the park we see two carriages.",
+          "Dans le parc, nous voyons deux calèches."
+        ]
+      ],
+      "αυτοκίνητα": [
+        [
+          "Τα αυτοκίνητα περιμένουν στο φανάρι.",
+          "The cars wait at the traffic light.",
+          "Les voitures attendent au feu."
+        ],
+        [
+          "Στον δρόμο έχει πολλά αυτοκίνητα.",
+          "There are many cars on the street.",
+          "Il y a beaucoup de voitures dans la rue."
+        ]
+      ],
+      "φάρμα": [
+        [
+          "Η φάρμα έχει αγελάδες και κότες.",
+          "The farm has cows and hens.",
+          "La ferme a des vaches et des poules."
+        ],
+        [
+          "Το καλοκαίρι πάμε στη φάρμα.",
+          "In summer we go to the farm.",
+          "L'été, on va à la ferme."
+        ]
+      ],
+      "μάθουμε": [
+        [
+          "Θέλουμε να μάθουμε ελληνικά.",
+          "We want to learn Greek.",
+          "Nous voulons apprendre le grec."
+        ],
+        [
+          "Κάθε μέρα μαθαίνω μια νέα λέξη.",
+          "Every day I learn a new word.",
+          "Chaque jour, j'apprends un nouveau mot."
+        ]
+      ],
+      "βούτυρο": [
+        [
+          "Βάζω βούτυρο στο ψωμί.",
+          "I put butter on the bread.",
+          "Je mets du beurre sur le pain."
+        ],
+        [
+          "Το βούτυρο είναι στο ψυγείο.",
+          "The butter is in the fridge.",
+          "Le beurre est dans le frigo."
+        ]
+      ],
+      "μέλι": [
+        [
+          "Πίνω τσάι με μέλι.",
+          "I drink tea with honey.",
+          "Je bois du thé avec du miel."
+        ],
+        [
+          "Το μέλι είναι πολύ γλυκό.",
+          "The honey is very sweet.",
+          "Le miel est très sucré."
+        ]
+      ],
+      "κήποι": [
+        [
+          "Οι κήποι είναι γεμάτοι λουλούδια.",
+          "The gardens are full of flowers.",
+          "Les jardins sont pleins de fleurs."
+        ],
+        [
+          "Οι κήποι της πόλης είναι ανοιχτοί.",
+          "The city gardens are open.",
+          "Les jardins de la ville sont ouverts."
+        ]
+      ],
+      "όμορφοι": [
+        [
+          "Οι δρόμοι είναι όμορφοι το βράδυ.",
+          "The streets are beautiful in the evening.",
+          "Les rues sont belles le soir."
+        ],
+        [
+          "Οι φίλοι σου είναι όμορφοι.",
+          "Your friends are good-looking.",
+          "Tes amis sont beaux."
+        ]
+      ],
+      "τριαντάφυλλα": [
+        [
+          "Αγοράζω τριαντάφυλλα για τη μαμά.",
+          "I buy roses for mum.",
+          "J'achète des roses pour maman."
+        ],
+        [
+          "Τα τριαντάφυλλα μυρίζουν ωραία.",
+          "The roses smell nice.",
+          "Les roses sentent bon."
+        ]
+      ],
+      "δέντρα": [
+        [
+          "Τα δέντρα στην πλατεία είναι ψηλά.",
+          "The trees in the square are tall.",
+          "Les arbres de la place sont hauts."
+        ],
+        [
+          "Ποτίζω τα δέντρα στον κήπο.",
+          "I water the trees in the garden.",
+          "J'arrose les arbres du jardin."
+        ]
+      ],
+      "περπατήσουμε": [
+        [
+          "Πάμε να περπατήσουμε στο πάρκο.",
+          "Let's go for a walk in the park.",
+          "Allons marcher dans le parc."
+        ],
+        [
+          "Κάθε βράδυ περπατάω στη γειτονιά.",
+          "Every evening I walk in the neighbourhood.",
+          "Chaque soir, je marche dans le quartier."
+        ]
+      ],
+      "μονοπάτια": [
+        [
+          "Τα μονοπάτια στο βουνό είναι στενά.",
+          "The mountain paths are narrow.",
+          "Les sentiers de montagne sont étroits."
+        ],
+        [
+          "Ξέρω όλα τα μονοπάτια εδώ.",
+          "I know all the paths here.",
+          "Je connais tous les sentiers ici."
+        ]
+      ]
+    }
   }
 ]
