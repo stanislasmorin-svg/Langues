@@ -33,9 +33,9 @@ def fr_date(iso):
     return f"{DAYS[d.weekday()]}, {d.day} {MONTHS[d.month-1]} {d.year}"
 
 CSS = """
-:root{--bg:#f6f7f3;--surface:#fff;--fg:#1d221c;--muted:#5d665a;--line:#dde2d8;--accent:#4f6b2f;--soft:#e6edda;--gloss:#8a5a14;
+:root{--bg:#f6f7f9;--surface:#fff;--fg:#1c1f24;--muted:#5b6370;--line:#dde1e8;--accent:#1a56b4;--soft:#e4ecf8;--gloss:#8a5a14;
 --text:"Literata","Noto Serif",Georgia,serif;--ui:"Commissioner","Noto Sans",system-ui,sans-serif}
-@media (prefers-color-scheme:dark){:root{--bg:#141712;--surface:#1c2019;--fg:#e8ebe3;--muted:#a2ab9c;--line:#2f362b;--accent:#a9c97d;--soft:#2a3420;--gloss:#e3b469;color-scheme:dark}}
+@media (prefers-color-scheme:dark){:root{--bg:#13161b;--surface:#1b1f26;--fg:#e7eaef;--muted:#a0a8b4;--line:#2d333d;--accent:#8ab4f8;--soft:#1f2b3d;--gloss:#e3b469;color-scheme:dark}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--ui);font-size:15px;line-height:1.5}
 .wrap{max-width:680px;margin:0 auto;padding-inline:18px;padding-block:20px 48px;display:flex;flex-direction:column;gap:22px}
@@ -43,6 +43,7 @@ a{color:var(--accent)}
 .eyebrow{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
 h1{font-family:var(--text);font-weight:600;font-size:clamp(26px,7vw,36px);line-height:1.15;margin:4px 0;text-wrap:balance}
 .sub{color:var(--muted);margin:0}
+.topnav{font-size:14px;margin:6px 0 2px;gap:6px}
 .player{position:sticky;top:0;z-index:2;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:10px}
 .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .play{font:inherit;font-size:16px;font-weight:600;padding:10px 20px;border-radius:999px;border:0;background:var(--accent);color:var(--bg);cursor:pointer;text-decoration:none}
@@ -72,7 +73,7 @@ h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
 @media (prefers-reduced-motion:reduce){.card{transition:none}}
 .vocab .gr{font-family:var(--text);font-size:17px;font-weight:600}.vocab .fr{color:var(--muted);font-size:14px}
 .lem{font-weight:400;color:var(--muted);font-size:.85em}
-#enBtn[aria-pressed=true]{background:#1e8e3e;border-color:#1e8e3e;color:#fff}
+#enBtn[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
 .list{list-style:none;margin:0;padding:0}
 .list li{border-bottom:1px solid var(--line)}
 .list a{display:flex;gap:12px;align-items:baseline;padding:12px 0;text-decoration:none;color:var(--fg)}
@@ -243,7 +244,7 @@ def lesson_page(s, prev, nxt, lang, L, outdir):
     src_html = f'<p class="note">Source: <a href="{html.escape(src["url"])}" target="_blank" rel="noopener">{html.escape(src["name"])}</a></p>' if src else ""
     return f"""<!doctype html><html lang="en" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(s["title"])} · Masimera</title>{FONTS}<style>{CSS}</style></head><body><div class="wrap">
-<header><span class="eyebrow">{fr_date(s["date"])}</span><h1>{html.escape(s["title"])}</h1><p class="sub">{html.escape(s.get("title_en") or s.get("title_fr",""))}</p></header>
+<header><span class="eyebrow">{fr_date(s["date"])}</span><nav class="row topnav">{" · ".join(nav)}</nav><h1>{html.escape(s["title"])}</h1><p class="sub">{html.escape(s.get("title_en") or s.get("title_fr",""))}</p></header>
 <section class="player">
   {player}
 </section>
@@ -262,7 +263,7 @@ def index_page(lessons, lang, L):
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{L["title"]} · Masimera</title>{FONTS}<style>{CSS}</style></head><body><div class="wrap">
 <header><span class="eyebrow">{L["eyebrow"]}</span><h1>{L["title"]}</h1><p class="sub">{L["tagline"]}</p></header>
-<p class="row">{head}<a href="mots.html">All words (FR · EN · {L["short"]})</a> · <a href="{other}index.html">{L["other"][1]}</a> · <a href="../index.html">Home</a></p>
+<p class="row">{head}<a href="mots.html">All words (FR · EN · {L["short"]})</a> · <a href="../index.html">Home</a></p>
 <section><h2>All lessons</h2><ul class="list">{items or '<li class="note">The first lesson is coming soon.</li>'}</ul></section>
 </div></body></html>"""
 
