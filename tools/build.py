@@ -95,7 +95,7 @@ GA = ("<style>#ckb{position:fixed;left:12px;right:12px;bottom:12px;z-index:50;ma
       "gtag('js',new Date());gtag('config',ID);var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s)}"
       "var c=get();if(c==='yes'){load();return}if(c==='no')return;"
       "document.addEventListener('DOMContentLoaded',function(){var b=document.createElement('div');b.id='ckb';b.setAttribute('role','dialog');b.setAttribute('aria-label','Cookies');"
-      "b.innerHTML='<p>This site uses cookies (Google Analytics) to count visits.</p><button class=\"n\" type=\"button\">Decline</button><button class=\"y\" type=\"button\">Accept</button>';"
+      "b.innerHTML='<p>This site uses Google Analytics cookies.</p><button class=\"n\" type=\"button\">Decline</button><button class=\"y\" type=\"button\">Accept</button>';"
       "b.querySelector('.y').onclick=function(){set('yes');b.remove();load()};b.querySelector('.n').onclick=function(){set('no');b.remove()};document.body.appendChild(b)})})();</script>")
 FONTS += GA
 
