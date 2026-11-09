@@ -1725,5 +1725,355 @@
         ]
       ]
     }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Un nuovo outlet vicino a Roma",
+    "title_fr": "Un nouvel outlet près de Rome",
+    "title_en": "A new outlet near Rome",
+    "source": {
+      "name": "Cronache Turistiche",
+      "url": "https://www.cronacheturistiche.it/2026/11/06/arcus-real-estate-gruppo-percassi-inaugura-roma-outlet-village-la-nuova-destinazione-shopping-premium-di-roma-e-centro-italia/"
+    },
+    "paragraphs": [
+      "Vicino a Roma c'è un nuovo **posto** (place) per fare **acquisti** (shopping). Si chiama Roma Outlet Village. Ha **aperto** (opened) il 6 novembre, vicino al **paese** (village) di Sant'Oreste.",
+      "Ci saranno 90 **negozi** (shops). Alcuni sono già aperti. Gli altri **arriveranno** (will arrive) nei prossimi sei **mesi** (months). Ci sono **vestiti** (clothes), **scarpe** (shoes) e posti per **mangiare** (to eat).",
+      "Il **progetto** (project) **costa** (costs) circa 100 milioni di euro. Oggi qui **lavorano** (work) circa 300 **persone** (people). Presto saranno 400.",
+      "Nel primo fine settimana c'è stata una grande **festa** (party). C'erano **sconti** (discounts) fino al 50%. C'erano anche musica e **giocolieri** (jugglers).",
+      "Ora arriva il **Natale** (Christmas). C'è un **albero** (tree) alto 14 metri. I **bambini** (children) possono **incontrare** (meet) Babbo Natale. Possono anche **lasciare** (leave) una **lettera** (letter) per lui. Le feste **durano** (last) fino al 6 gennaio."
+    ],
+    "paragraphs_en": [
+      "Near Rome there is a new place to go shopping. It is called Roma Outlet Village. It opened on 6 November, near the village of Sant'Oreste.",
+      "There will be 90 shops. Some are already open. The others will arrive in the next six months. There are clothes, shoes and places to eat.",
+      "The project costs about 100 million euros. Today about 300 people work here. Soon there will be 400.",
+      "On the first weekend there was a big party. There were discounts of up to 50%. There was also music and jugglers.",
+      "Now Christmas is coming. There is a tree 14 metres tall. Children can meet Santa Claus. They can also leave a letter for him. The festivities last until 6 January."
+    ],
+    "fr": {
+      "posto": "endroit",
+      "acquisti": "achats",
+      "aperto": "ouvert",
+      "paese": "village",
+      "negozi": "magasins",
+      "arriveranno": "arriveront",
+      "mesi": "mois",
+      "vestiti": "vêtements",
+      "scarpe": "chaussures",
+      "mangiare": "manger",
+      "progetto": "projet",
+      "costa": "coûte",
+      "lavorano": "travaillent",
+      "persone": "personnes",
+      "festa": "fête",
+      "sconti": "réductions",
+      "giocolieri": "jongleurs",
+      "Natale": "Noël",
+      "albero": "arbre (sapin)",
+      "bambini": "enfants",
+      "incontrare": "rencontrer",
+      "lasciare": "laisser",
+      "lettera": "lettre",
+      "durano": "durent"
+    },
+    "lemma": {
+      "aperto": "aprire",
+      "arriveranno": "arrivare",
+      "mangiare": "mangiare",
+      "costa": "costare",
+      "lavorano": "lavorare",
+      "incontrare": "incontrare",
+      "lasciare": "lasciare",
+      "durano": "durare"
+    },
+    "examples": {
+      "posto": [
+        [
+          "Questo posto è molto tranquillo.",
+          "This place is very quiet.",
+          "Cet endroit est très calme."
+        ],
+        [
+          "C'è un posto libero sull'autobus?",
+          "Is there a free seat on the bus?",
+          "Il y a une place libre dans le bus ?"
+        ]
+      ],
+      "acquisti": [
+        [
+          "Il sabato faccio acquisti in centro.",
+          "On Saturdays I go shopping in town.",
+          "Le samedi je fais des achats en ville."
+        ],
+        [
+          "Gli acquisti sono nella borsa.",
+          "The shopping is in the bag.",
+          "Les achats sont dans le sac."
+        ]
+      ],
+      "aperto": [
+        [
+          "Il bar ha aperto alle sette.",
+          "The bar opened at seven.",
+          "Le bar a ouvert à sept heures."
+        ],
+        [
+          "Io apro la finestra la mattina.",
+          "I open the window in the morning.",
+          "J'ouvre la fenêtre le matin."
+        ]
+      ],
+      "paese": [
+        [
+          "Mia nonna vive in un piccolo paese.",
+          "My grandmother lives in a small village.",
+          "Ma grand-mère vit dans un petit village."
+        ],
+        [
+          "Il paese ha una bella piazza.",
+          "The village has a nice square.",
+          "Le village a une belle place."
+        ]
+      ],
+      "negozi": [
+        [
+          "I negozi chiudono alle otto.",
+          "The shops close at eight.",
+          "Les magasins ferment à huit heures."
+        ],
+        [
+          "In questa via ci sono tanti negozi.",
+          "There are lots of shops on this street.",
+          "Il y a beaucoup de magasins dans cette rue."
+        ]
+      ],
+      "arriveranno": [
+        [
+          "Gli amici arriveranno stasera.",
+          "Our friends will arrive tonight.",
+          "Les amis arriveront ce soir."
+        ],
+        [
+          "Io arrivo in ufficio alle nove.",
+          "I get to the office at nine.",
+          "J'arrive au bureau à neuf heures."
+        ]
+      ],
+      "mesi": [
+        [
+          "Il corso dura due mesi.",
+          "The course lasts two months.",
+          "Le cours dure deux mois."
+        ],
+        [
+          "Fra tre mesi è estate.",
+          "In three months it's summer.",
+          "Dans trois mois, c'est l'été."
+        ]
+      ],
+      "vestiti": [
+        [
+          "I vestiti sono nell'armadio.",
+          "The clothes are in the wardrobe.",
+          "Les vêtements sont dans l'armoire."
+        ],
+        [
+          "Compro vestiti nuovi per l'inverno.",
+          "I'm buying new clothes for winter.",
+          "J'achète de nouveaux vêtements pour l'hiver."
+        ]
+      ],
+      "scarpe": [
+        [
+          "Queste scarpe sono comode.",
+          "These shoes are comfortable.",
+          "Ces chaussures sont confortables."
+        ],
+        [
+          "Togli le scarpe in casa.",
+          "Take your shoes off in the house.",
+          "Enlève tes chaussures à la maison."
+        ]
+      ],
+      "mangiare": [
+        [
+          "Andiamo a mangiare una pizza?",
+          "Shall we go and eat a pizza?",
+          "On va manger une pizza ?"
+        ],
+        [
+          "Io mangio sempre a casa.",
+          "I always eat at home.",
+          "Je mange toujours à la maison."
+        ]
+      ],
+      "progetto": [
+        [
+          "Il progetto è quasi finito.",
+          "The project is almost finished.",
+          "Le projet est presque fini."
+        ],
+        [
+          "Abbiamo un progetto per la cucina.",
+          "We have a plan for the kitchen.",
+          "Nous avons un projet pour la cuisine."
+        ]
+      ],
+      "costa": [
+        [
+          "Il caffè costa un euro.",
+          "The coffee costs one euro.",
+          "Le café coûte un euro."
+        ],
+        [
+          "Questa borsa costa poco.",
+          "This bag doesn't cost much.",
+          "Ce sac ne coûte pas cher."
+        ]
+      ],
+      "lavorano": [
+        [
+          "I miei amici lavorano in centro.",
+          "My friends work in the city centre.",
+          "Mes amis travaillent dans le centre."
+        ],
+        [
+          "Io lavoro da casa il lunedì.",
+          "I work from home on Mondays.",
+          "Je travaille de chez moi le lundi."
+        ]
+      ],
+      "persone": [
+        [
+          "Ci sono tante persone al bar.",
+          "There are lots of people at the bar.",
+          "Il y a beaucoup de monde au bar."
+        ],
+        [
+          "Il tavolo è per quattro persone.",
+          "The table is for four people.",
+          "La table est pour quatre personnes."
+        ]
+      ],
+      "festa": [
+        [
+          "Stasera c'è una festa da Marco.",
+          "There's a party at Marco's tonight.",
+          "Ce soir il y a une fête chez Marco."
+        ],
+        [
+          "La festa finisce a mezzanotte.",
+          "The party ends at midnight.",
+          "La fête finit à minuit."
+        ]
+      ],
+      "sconti": [
+        [
+          "A gennaio ci sono molti sconti.",
+          "In January there are lots of discounts.",
+          "En janvier il y a beaucoup de réductions."
+        ],
+        [
+          "Questo negozio fa sconti agli studenti.",
+          "This shop gives discounts to students.",
+          "Ce magasin fait des réductions aux étudiants."
+        ]
+      ],
+      "giocolieri": [
+        [
+          "I giocolieri sono in piazza.",
+          "The jugglers are in the square.",
+          "Les jongleurs sont sur la place."
+        ],
+        [
+          "I bambini guardano i giocolieri.",
+          "The children watch the jugglers.",
+          "Les enfants regardent les jongleurs."
+        ]
+      ],
+      "Natale": [
+        [
+          "A Natale mangiamo il panettone.",
+          "At Christmas we eat panettone.",
+          "À Noël nous mangeons du panettone."
+        ],
+        [
+          "Il Natale è vicino.",
+          "Christmas is near.",
+          "Noël approche."
+        ]
+      ],
+      "albero": [
+        [
+          "L'albero davanti a casa è alto.",
+          "The tree in front of the house is tall.",
+          "L'arbre devant la maison est grand."
+        ],
+        [
+          "Domenica facciamo l'albero.",
+          "On Sunday we're putting up the tree.",
+          "Dimanche nous faisons le sapin."
+        ]
+      ],
+      "bambini": [
+        [
+          "I bambini giocano nel parco.",
+          "The children play in the park.",
+          "Les enfants jouent dans le parc."
+        ],
+        [
+          "I bambini vanno a scuola a piedi.",
+          "The children walk to school.",
+          "Les enfants vont à l'école à pied."
+        ]
+      ],
+      "incontrare": [
+        [
+          "Domani vado a incontrare Giulia.",
+          "Tomorrow I'm going to meet Giulia.",
+          "Demain je vais retrouver Giulia."
+        ],
+        [
+          "Io incontro gli amici al bar.",
+          "I meet my friends at the bar.",
+          "Je retrouve mes amis au bar."
+        ]
+      ],
+      "lasciare": [
+        [
+          "Puoi lasciare la bici qui.",
+          "You can leave the bike here.",
+          "Tu peux laisser le vélo ici."
+        ],
+        [
+          "Io lascio le chiavi sul tavolo.",
+          "I leave the keys on the table.",
+          "Je laisse les clés sur la table."
+        ]
+      ],
+      "lettera": [
+        [
+          "Scrivo una lettera alla nonna.",
+          "I'm writing a letter to grandma.",
+          "J'écris une lettre à grand-mère."
+        ],
+        [
+          "La lettera è nella cassetta.",
+          "The letter is in the mailbox.",
+          "La lettre est dans la boîte aux lettres."
+        ]
+      ],
+      "durano": [
+        [
+          "Le vacanze durano due settimane.",
+          "The holidays last two weeks.",
+          "Les vacances durent deux semaines."
+        ],
+        [
+          "Il film dura due ore.",
+          "The film lasts two hours.",
+          "Le film dure deux heures."
+        ]
+      ]
+    }
   }
 ]

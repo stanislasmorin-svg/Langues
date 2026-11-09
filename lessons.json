@@ -9592,5 +9592,355 @@
         ]
       ]
     }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Ήλιος στις στέγες της Αθήνας",
+    "title_fr": "Du soleil sur les toits d'Athènes",
+    "title_en": "Sun on the roofs of Athens",
+    "source": {
+      "name": "Τα Νέα",
+      "url": "https://www.tanea.gr/2026/11/08/economy/fotovoltaika-stis-steges-tis-athinas-eos-18-twh-etisios-i-dynitiki-paragogi-i-nea-eyropaiki-meleti/"
+    },
+    "paragraphs": [
+      "Η Αθήνα έχει πολύ **ήλιο** (sun). Οι **επιστήμονες** (scientists) του Εθνικού Αστεροσκοπείου Αθηνών έκαναν μια νέα **μελέτη** (study). Ήθελαν να μάθουν κάτι: πόσο **ρεύμα** (electricity) μπορούν να δώσουν οι **στέγες** (roofs) της πόλης;",
+      "Πάνω στις στέγες βάζουμε ειδικά **πάνελ** (panels). Τα πάνελ **παίρνουν** (take) το **φως** (light) του ήλιου. Μετά το **κάνουν** (make) ρεύμα για τα σπίτια.",
+      "Οι επιστήμονες **κοίταξαν** (looked at) 27 μεγάλες **πόλεις** (cities) της Ευρώπης. **Μελέτησαν** (they studied) τον **καιρό** (weather) για 16 χρόνια. Είδαν τα **σύννεφα** (clouds) και τη **σκιά** (shade) από τα **κτίρια** (buildings).",
+      "Η Αθήνα έχει πολλές **κατάλληλες** (suitable) στέγες. Με πάνελ, η πόλη μπορεί να **κερδίσει** (earn) 117 εκατομμύρια ευρώ τον χρόνο. Θα έχουμε και λιγότερη **ρύπανση** (pollution). Το Παρίσι είναι **πρώτο** (first) στη λίστα.",
+      "Όμως ο ήλιος δεν **φτάνει** (is enough) για όλα. Η πόλη **χρειάζεται** (needs) και άλλους τρόπους. Πρέπει να **κρατάμε** (keep) ρεύμα για τη **νύχτα** (night)."
+    ],
+    "paragraphs_en": [
+      "Athens has a lot of sun. Scientists at the National Observatory of Athens did a new study. They wanted to find out one thing: how much electricity can the city's roofs give?",
+      "On the roofs we put special panels. The panels take the light of the sun. Then they turn it into electricity for homes.",
+      "The scientists looked at 27 big cities in Europe. They studied the weather for 16 years. They looked at the clouds and the shade from the buildings.",
+      "Athens has many suitable roofs. With panels, the city could earn 117 million euros a year. We would also have less pollution. Paris is first on the list.",
+      "But the sun is not enough for everything. The city also needs other ways. We must keep electricity for the night."
+    ],
+    "fr": {
+      "ήλιο": "soleil",
+      "επιστήμονες": "scientifiques",
+      "μελέτη": "étude",
+      "ρεύμα": "électricité",
+      "στέγες": "toits",
+      "πάνελ": "panneaux",
+      "παίρνουν": "prennent",
+      "φως": "lumière",
+      "κάνουν": "transforment (font)",
+      "κοίταξαν": "ont regardé",
+      "πόλεις": "villes",
+      "Μελέτησαν": "ils ont étudié",
+      "καιρό": "temps (météo)",
+      "σύννεφα": "nuages",
+      "σκιά": "ombre",
+      "κτίρια": "bâtiments",
+      "κατάλληλες": "adaptés",
+      "κερδίσει": "gagner",
+      "ρύπανση": "pollution",
+      "πρώτο": "premier",
+      "φτάνει": "suffit",
+      "χρειάζεται": "a besoin",
+      "κρατάμε": "garder",
+      "νύχτα": "nuit"
+    },
+    "lemma": {
+      "παίρνουν": "παίρνω",
+      "κάνουν": "κάνω",
+      "κοίταξαν": "κοιτάζω",
+      "Μελέτησαν": "μελετώ",
+      "κερδίσει": "κερδίζω",
+      "φτάνει": "φτάνω",
+      "χρειάζεται": "χρειάζομαι",
+      "κρατάμε": "κρατάω"
+    },
+    "examples": {
+      "ήλιο": [
+        [
+          "Σήμερα έχει πολύ ήλιο.",
+          "It's very sunny today.",
+          "Il y a beaucoup de soleil aujourd'hui."
+        ],
+        [
+          "Η γάτα κάθεται στον ήλιο.",
+          "The cat is sitting in the sun.",
+          "Le chat est assis au soleil."
+        ]
+      ],
+      "επιστήμονες": [
+        [
+          "Οι επιστήμονες δουλεύουν στο εργαστήριο.",
+          "The scientists work in the lab.",
+          "Les scientifiques travaillent au laboratoire."
+        ],
+        [
+          "Δύο επιστήμονες πίνουν καφέ.",
+          "Two scientists are having coffee.",
+          "Deux scientifiques boivent un café."
+        ]
+      ],
+      "μελέτη": [
+        [
+          "Η μελέτη είναι πολύ μεγάλη.",
+          "The study is very long.",
+          "L'étude est très longue."
+        ],
+        [
+          "Διαβάζω μια νέα μελέτη.",
+          "I'm reading a new study.",
+          "Je lis une nouvelle étude."
+        ]
+      ],
+      "ρεύμα": [
+        [
+          "Κόπηκε το ρεύμα στο σπίτι.",
+          "The power went out at home.",
+          "Il y a eu une coupure de courant à la maison."
+        ],
+        [
+          "Το ρεύμα είναι ακριβό.",
+          "Electricity is expensive.",
+          "L'électricité est chère."
+        ]
+      ],
+      "στέγες": [
+        [
+          "Οι στέγες είναι κόκκινες.",
+          "The roofs are red.",
+          "Les toits sont rouges."
+        ],
+        [
+          "Βλέπω τις στέγες από το μπαλκόνι.",
+          "I can see the roofs from the balcony.",
+          "Je vois les toits depuis le balcon."
+        ]
+      ],
+      "πάνελ": [
+        [
+          "Το σπίτι έχει πάνελ στη στέγη.",
+          "The house has panels on the roof.",
+          "La maison a des panneaux sur le toit."
+        ],
+        [
+          "Τα πάνελ είναι καινούργια.",
+          "The panels are new.",
+          "Les panneaux sont neufs."
+        ]
+      ],
+      "παίρνουν": [
+        [
+          "Τα παιδιά παίρνουν το λεωφορείο.",
+          "The children take the bus.",
+          "Les enfants prennent le bus."
+        ],
+        [
+          "Κάθε πρωί παίρνω ψωμί από τον φούρνο.",
+          "Every morning I get bread from the bakery.",
+          "Chaque matin je prends du pain à la boulangerie."
+        ]
+      ],
+      "φως": [
+        [
+          "Άναψε το φως, παρακαλώ.",
+          "Turn on the light, please.",
+          "Allume la lumière, s'il te plaît."
+        ],
+        [
+          "Το δωμάτιο έχει πολύ φως.",
+          "The room gets a lot of light.",
+          "La pièce est très lumineuse."
+        ]
+      ],
+      "κάνουν": [
+        [
+          "Οι φίλοι μου κάνουν βόλτα.",
+          "My friends are going for a walk.",
+          "Mes amis font une promenade."
+        ],
+        [
+          "Το πρωί κάνω καφέ για όλους.",
+          "In the morning I make coffee for everyone.",
+          "Le matin je fais du café pour tout le monde."
+        ]
+      ],
+      "κοίταξαν": [
+        [
+          "Τα παιδιά κοίταξαν τη βιτρίνα.",
+          "The children looked at the shop window.",
+          "Les enfants ont regardé la vitrine."
+        ],
+        [
+          "Στο μετρό κοιτάζω τον χάρτη.",
+          "On the metro I look at the map.",
+          "Dans le métro je regarde le plan."
+        ]
+      ],
+      "πόλεις": [
+        [
+          "Οι μεγάλες πόλεις έχουν μετρό.",
+          "Big cities have a metro.",
+          "Les grandes villes ont un métro."
+        ],
+        [
+          "Μου αρέσουν οι παλιές πόλεις.",
+          "I like old towns.",
+          "J'aime les vieilles villes."
+        ]
+      ],
+      "Μελέτησαν": [
+        [
+          "Μελέτησαν όλο το βράδυ.",
+          "They studied all evening.",
+          "Ils ont étudié toute la soirée."
+        ],
+        [
+          "Κάθε μέρα μελετώ ελληνικά.",
+          "I study Greek every day.",
+          "J'étudie le grec tous les jours."
+        ]
+      ],
+      "καιρό": [
+        [
+          "Τι καιρό κάνει σήμερα;",
+          "What's the weather like today?",
+          "Quel temps fait-il aujourd'hui ?"
+        ],
+        [
+          "Βλέπω τον καιρό στο κινητό.",
+          "I check the weather on my phone.",
+          "Je regarde la météo sur mon portable."
+        ]
+      ],
+      "σύννεφα": [
+        [
+          "Ο ουρανός έχει σύννεφα.",
+          "There are clouds in the sky.",
+          "Il y a des nuages dans le ciel."
+        ],
+        [
+          "Τα σύννεφα είναι μαύρα.",
+          "The clouds are dark.",
+          "Les nuages sont noirs."
+        ]
+      ],
+      "σκιά": [
+        [
+          "Καθόμαστε στη σκιά.",
+          "We sit in the shade.",
+          "Nous nous asseyons à l'ombre."
+        ],
+        [
+          "Η σκιά του δέντρου είναι δροσερή.",
+          "The tree's shade is cool.",
+          "L'ombre de l'arbre est fraîche."
+        ]
+      ],
+      "κτίρια": [
+        [
+          "Τα κτίρια εδώ είναι ψηλά.",
+          "The buildings here are tall.",
+          "Les immeubles ici sont hauts."
+        ],
+        [
+          "Βλέπω παλιά κτίρια στην Πλάκα.",
+          "I see old buildings in Plaka.",
+          "Je vois de vieux bâtiments à Plaka."
+        ]
+      ],
+      "κατάλληλες": [
+        [
+          "Αυτές οι καρέκλες είναι κατάλληλες για τον κήπο.",
+          "These chairs are right for the garden.",
+          "Ces chaises sont adaptées au jardin."
+        ],
+        [
+          "Θέλω κατάλληλες μπότες για τη βροχή.",
+          "I want proper boots for the rain.",
+          "Je veux des bottes adaptées à la pluie."
+        ]
+      ],
+      "κερδίσει": [
+        [
+          "Η ομάδα μας θα κερδίσει σήμερα.",
+          "Our team will win today.",
+          "Notre équipe va gagner aujourd'hui."
+        ],
+        [
+          "Τώρα κερδίζω περισσότερα χρήματα.",
+          "Now I earn more money.",
+          "Maintenant je gagne plus d'argent."
+        ]
+      ],
+      "ρύπανση": [
+        [
+          "Η ρύπανση είναι μεγάλη στο κέντρο.",
+          "Pollution is high in the centre.",
+          "La pollution est forte dans le centre."
+        ],
+        [
+          "Τα δέντρα μειώνουν τη ρύπανση.",
+          "Trees reduce pollution.",
+          "Les arbres réduisent la pollution."
+        ]
+      ],
+      "πρώτο": [
+        [
+          "Το παιδί μου είναι πρώτο στην τάξη.",
+          "My child is first in the class.",
+          "Mon enfant est premier de la classe."
+        ],
+        [
+          "Αυτό είναι το πρώτο μου ταξίδι.",
+          "This is my first trip.",
+          "C'est mon premier voyage."
+        ]
+      ],
+      "φτάνει": [
+        [
+          "Το ψωμί δεν φτάνει για όλους.",
+          "There isn't enough bread for everyone.",
+          "Le pain ne suffit pas pour tout le monde."
+        ],
+        [
+          "Σε δέκα λεπτά φτάνω στο σπίτι.",
+          "I get home in ten minutes.",
+          "J'arrive à la maison dans dix minutes."
+        ]
+      ],
+      "χρειάζεται": [
+        [
+          "Το φαγητό χρειάζεται αλάτι.",
+          "The food needs salt.",
+          "Le plat a besoin de sel."
+        ],
+        [
+          "Τώρα χρειάζομαι έναν καφέ.",
+          "I need a coffee now.",
+          "J'ai besoin d'un café maintenant."
+        ]
+      ],
+      "κρατάμε": [
+        [
+          "Εμείς κρατάμε τα κλειδιά.",
+          "We keep the keys.",
+          "Nous gardons les clés."
+        ],
+        [
+          "Πάντα κρατάω ομπρέλα στην τσάντα.",
+          "I always keep an umbrella in my bag.",
+          "Je garde toujours un parapluie dans mon sac."
+        ]
+      ],
+      "νύχτα": [
+        [
+          "Η νύχτα είναι κρύα.",
+          "The night is cold.",
+          "La nuit est froide."
+        ],
+        [
+          "Δουλεύω όλη τη νύχτα.",
+          "I work all night.",
+          "Je travaille toute la nuit."
+        ]
+      ]
+    }
   }
 ]
