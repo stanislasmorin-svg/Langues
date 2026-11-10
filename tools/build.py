@@ -11,13 +11,24 @@ examples (optional): {"<mot>": [["phrase grecque", "English translation", "tradu
 import json, re, html, os, hashlib
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE = "https://masimera.com/"
+
+def seo(path, title, desc, kind="website"):
+    """meta description, canonical and share preview (WhatsApp, Facebook...) for a page at BASE+path."""
+    e = lambda x: html.escape(x, quote=True)
+    url = BASE + path
+    return (f'<meta name="description" content="{e(desc)}"><link rel="canonical" href="{e(url)}">'
+            f'<meta property="og:type" content="{kind}"><meta property="og:site_name" content="Masimera">'
+            f'<meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">'
+            f'<meta property="og:url" content="{e(url)}"><meta property="og:image" content="{BASE}icon-512.png">'
+            f'<meta name="twitter:card" content="summary">')
 LANGS = {
     "el": dict(file="lessons.json", out="grec/", title="Greek of the day", eyebrow="Ελληνικά κάθε μέρα", name="Greek", col="Ελληνικά", short="ΕΛ",
                tagline="Every morning, a real story from Athens in simple Greek, with the hard words translated and audio.",
-               voice="el-GR-AthinaNeural", gtts="el", other=("it", "Italian of the day →"), legacy=True),
+               place="Athens", voice="el-GR-AthinaNeural", gtts="el", other=("it", "Italian of the day →"), legacy=True),
     "it": dict(file="lessons_it.json", out="it/", title="Italian of the day", eyebrow="Italiano ogni giorno", name="Italian", col="Italiano", short="IT",
                tagline="Every morning, a real story from Italy in simple Italian, with the hard words translated and audio.",
-               voice="it-IT-ElsaNeural", gtts="it", other=("el", "Greek of the day →")),
+               place="Italy", voice="it-IT-ElsaNeural", gtts="it", other=("el", "Greek of the day →")),
 }
 
 def ex_audio_name(lang, text):
@@ -201,6 +212,16 @@ JS = r"""
     text.hidden = on; en.hidden = !on;
   });
 })();
+(function(){
+  var b = document.getElementById('shareBtn'); if (!b) return;
+  b.addEventListener('click', function(){
+    var url = location.href.split('?')[0].split('#')[0], title = document.title;
+    if (navigator.share) { navigator.share({title: title, url: url}).catch(function(){}); return; }
+    var done = function(){ b.textContent = 'Link copied ✓'; setTimeout(function(){ b.textContent = 'Share this lesson'; }, 2000); };
+    if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, function(){ prompt('Copy this link:', url); });
+    else prompt('Copy this link:', url);
+  });
+})();
 """
 
 def lesson_page(s, prev, nxt, lang, L, outdir):
@@ -258,7 +279,7 @@ def lesson_page(s, prev, nxt, lang, L, outdir):
     src = s.get("source")
     src_html = f'<p class="note">Source: <a href="{html.escape(src["url"])}" target="_blank" rel="noopener">{html.escape(src["name"])}</a></p>' if src else ""
     return f"""<!doctype html><html lang="en" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{html.escape(s["title"])} · Masimera</title>{FONTS}<style>{CSS}</style></head><body><div class="wrap">
+<title>{html.escape(s["title"])} · Easy {L["name"]} reading with audio · Masimera</title>{seo(L["out"] + "cours/" + s["date"] + ".html", s["title"] + " · Easy " + L["name"] + " with audio", (s.get("title_en") or s.get("title_fr","")) + ". A real news story from " + L["place"] + " in simple " + L["name"] + ", with audio and " + str(len(words)) + " words translated into English and French.", "article")}{FONTS}<style>{CSS}</style></head><body><div class="wrap">
 <header><span class="eyebrow">{fr_date(s["date"])}</span><nav class="row topnav">{" · ".join(nav)}</nav><h1>{html.escape(s["title"])}</h1><p class="sub">{html.escape(s.get("title_en") or s.get("title_fr",""))}</p></header>
 <section class="player">
   {player}
@@ -267,6 +288,7 @@ def lesson_page(s, prev, nxt, lang, L, outdir):
 <section><h2>The text</h2><div class="text hide" id="text">{"".join(paras_html)}</div><div class="text" id="textEn" lang="en" hidden>{en_html}</div></section>
 <div class="row"><button class="chip" id="glossBtn" aria-pressed="false">Translations hidden</button>{'<button class="chip" id="enBtn" aria-pressed="false">Show English translation</button>' if en_html else ""}</div>
 {src_html}
+<div class="row"><button class="chip" id="shareBtn" type="button">Share this lesson</button></div>
 <nav class="row">{" · ".join(nav)}</nav>
 </div><script>{JS}</script></body></html>"""
 
@@ -276,7 +298,7 @@ def index_page(lessons, lang, L):
     other = "../" + o["out"]
     head = f'<a class="play" href="cours/{lessons[0]["date"]}.html">Read today\'s lesson →</a> ' if lessons else ""
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{L["title"]} · Masimera</title>{FONTS}<style>{CSS}</style></head><body><div class="wrap">
+<title>{L["title"]} · Learn {L["name"]} with simple news and audio · Masimera</title>{seo(L["out"], L["title"] + " · Masimera", L["tagline"] + " All lessons, free.")}{FONTS}<style>{CSS}</style></head><body><div class="wrap">
 <header><span class="eyebrow">{L["eyebrow"]}</span><h1>{L["title"]}</h1><p class="sub">{L["tagline"]}</p></header>
 <p class="row">{head}<a href="mots.html">All words (FR · EN · {L["short"]})</a> · <a href="../index.html">Home</a></p>
 <section><h2>All lessons</h2><ul class="list">{items or '<li class="note">The first lesson is coming soon.</li>'}</ul></section>
@@ -326,7 +348,7 @@ def gloss_page(lessons, lang, L):
 document.querySelectorAll('.lex tr[data-s]').forEach(function(r){r.hidden=v&&r.dataset.s.indexOf(v)<0;});
 document.querySelectorAll('.lex tr.letter').forEach(function(r){r.hidden=!!v;});});})();"""
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>All words · {L["title"]} · Masimera</title>{FONTS}<style>{CSS}{GLOSS_CSS}</style></head><body><div class="wrap">
+<title>{L["name"]} vocabulary list with English and French · Masimera</title>{seo(L["out"] + "mots.html", L["name"] + " vocabulary · Masimera", "All the " + L["name"] + " words from the Masimera daily lessons, translated into English and French, with links to the lesson where each word appears.")}{FONTS}<style>{CSS}{GLOSS_CSS}</style></head><body><div class="wrap">
 <header><span class="eyebrow">{L["col"]}</span><h1>All words</h1><p class="sub">{len(rows)} words from the lessons, in French alphabetical order. Tap a word in {L["name"]} to open its lesson.</p></header>
 <input class="search" id="q" type="search" placeholder="Search (French, English or {L["name"]})…" autocomplete="off">
 <table class="lex"><thead><tr><th>Français</th><th>English</th><th>{L["col"]}</th></tr></thead><tbody>{"".join(out)}</tbody></table>
@@ -350,7 +372,7 @@ def build(lang, L):
 def redirect(target):
     t = html.escape(target, quote=True)
     return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url={t}">'
-            f'<link rel="canonical" href="{t}"><title>Redirecting</title></head><body><p><a href="{t}">This lesson has moved: click here</a></p>'
+            f'<meta name="robots" content="noindex"><link rel="canonical" href="{t}"><title>Redirecting</title></head><body><p><a href="{t}">This lesson has moved: click here</a></p>'
             f'<script>location.replace({json.dumps(target)} + location.hash)</script></body></html>')
 
 # Formulaire d'inscription : FormSubmit envoie chaque inscription par e-mail (objet « Masimera sign-up »),
@@ -398,8 +420,8 @@ def home_page():
             body = '<span class="f">The first lesson is coming soon.</span>'
         cards.append(f'<div class="lang"><span class="k">{lang_name} · {L["eyebrow"]}</span>{body}</div>')
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Masimera · 15 minutes a day to learn a language</title>
-<meta name="description" content="Every morning, a real local news story in simple Greek or Italian, with the hard words translated and audio. 15 minutes a day.">
+<title>Masimera · Learn Greek or Italian with simple daily news and audio</title>
+{seo("", "Masimera · 15 minutes a day to learn Greek or Italian", "Every morning, a real local news story in simple Greek or Italian, with the hard words translated and audio. 15 minutes a day, free.")}
 {FONTS}<style>{CSS}{HOME_CSS}</style></head><body><div class="wrap">
 <header><span class="eyebrow">15 minutes a day</span><h1 class="brand">Masimera</h1>
 <p class="meaning">μάθημα (lesson) + μέρα (day): the lesson of the day</p></header>
@@ -429,7 +451,7 @@ def home_page():
 
 def thanks_page():
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Thank you · Masimera</title>{FONTS}<style>{CSS}</style></head><body><div class="wrap">
+<title>Thank you · Masimera</title><meta name="robots" content="noindex">{FONTS}<style>{CSS}</style></head><body><div class="wrap">
 <header><span class="eyebrow">Masimera</span><h1>You're in!</h1>
 <p class="sub">Your first lesson arrives tomorrow morning, around 6 am (Paris time). If you don't see it, check your spam folder.</p></header>
 <p class="row"><a class="play" href="index.html">Back to today's lessons</a></p>
@@ -448,6 +470,16 @@ def main():
             open(os.path.join(ROOT, "cours", s["date"] + ".html"), "w", encoding="utf-8").write(redirect(f'../{L["out"]}cours/{s["date"]}.html'))
         open(os.path.join(ROOT, "mots.html"), "w", encoding="utf-8").write(redirect(f'{L["out"]}mots.html'))
     open(os.path.join(ROOT, ".nojekyll"), "w").close()
+    urls = [(BASE, None)]
+    for lang, L in LANGS.items():
+        ls = sorted(json.load(open(os.path.join(ROOT, L["file"]), encoding="utf-8")), key=lambda s: s["date"], reverse=True)
+        last = ls[0]["date"] if ls else None
+        urls += [(BASE + L["out"], last), (BASE + L["out"] + "mots.html", last)]
+        urls += [(f'{BASE}{L["out"]}cours/{s["date"]}.html', s["date"]) for s in ls]
+    sm = "".join(f"<url><loc>{u}</loc>{f'<lastmod>{d}</lastmod>' if d else ''}</url>" for u, d in urls)
+    open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + sm + "</urlset>\n")
+    open(os.path.join(ROOT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n")
 
 if __name__ == "__main__":
     main()
