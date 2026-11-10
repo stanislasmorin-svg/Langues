@@ -2075,5 +2075,377 @@
         ]
       ]
     }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Musica irlandese a Milano",
+    "title_fr": "De la musique irlandaise à Milan",
+    "title_en": "Irish music in Milan",
+    "source": {
+      "name": "ANSA",
+      "url": "https://www.ansa.it/sito/notizie/cultura/musica/2026/11/09/lirlanda-conquista-milano-arrivano-gli-irish-music-days_0ef50a3e-991c-4555-abda-e3028b8b395c.html"
+    },
+    "paragraphs": [
+      "Milano **diventa** (becomes) un po' irlandese! Dal 12 al 24 novembre **arrivano** (arrive) gli Irish Music Days. Sono due **settimane** (weeks) di **concerti** (concerts) e **feste** (parties). La musica viene dall'Irlanda, un'**isola** (island) nel nord dell'Europa.",
+      "Il **primo** (first) giorno è il 12 novembre, in un pub irlandese. Il pub si chiama Pogue Mahone's. Lì **presentano** (they present) un nuovo **disco** (album). Il disco ha le **canzoni** (songs) di Shane MacGowan, un **famoso** (famous) **cantante** (singer) irlandese.",
+      "Poi ci sono tanti concerti in città. Nei locali **suonano** (play) **gruppi** (bands) rock, punk e folk. Il 21 novembre un ristorante irlandese **festeggia** (celebrates) dieci anni. Ci sono canzoni, musica e **cibo** (food) **fritto** (fried) **tipico** (typical).",
+      "Il 23 novembre ci sono **musicisti** (musicians) e **ballerini** (dancers). I ballerini **ballano** (dance) le **danze** (dances) **tradizionali** (traditional) dell'Irlanda. L'**ultima** (last) festa è il 24 novembre, all'Alcatraz. Suona il gruppo Kneecap, di Belfast. I **biglietti** (tickets) sono già **finiti** (sold out)!"
+    ],
+    "paragraphs_en": [
+      "Milan becomes a little bit Irish! From 12 to 24 November, the Irish Music Days are coming. It is two weeks of concerts and parties. The music comes from Ireland, an island in the north of Europe.",
+      "The first day is 12 November, in an Irish pub. The pub is called Pogue Mahone's. There they are presenting a new album. The album has the songs of Shane MacGowan, a famous Irish singer.",
+      "Then there are lots of concerts in the city. Rock, punk and folk bands play in the venues. On 21 November an Irish restaurant celebrates ten years. There are songs, music and typical fried food.",
+      "On 23 November there are musicians and dancers. The dancers perform the traditional dances of Ireland. The last party is on 24 November, at the Alcatraz. The band Kneecap, from Belfast, plays. The tickets are already sold out!"
+    ],
+    "fr": {
+      "diventa": "devient",
+      "arrivano": "arrivent",
+      "settimane": "semaines",
+      "concerti": "concerts",
+      "feste": "fêtes",
+      "isola": "île",
+      "primo": "premier",
+      "presentano": "présentent",
+      "disco": "disque, album",
+      "canzoni": "chansons",
+      "famoso": "célèbre",
+      "cantante": "chanteur",
+      "suonano": "jouent (de la musique)",
+      "gruppi": "groupes",
+      "festeggia": "fête",
+      "cibo": "nourriture",
+      "fritto": "frit",
+      "tipico": "typique",
+      "musicisti": "musiciens",
+      "ballerini": "danseurs",
+      "ballano": "dansent",
+      "danze": "danses",
+      "tradizionali": "traditionnelles",
+      "ultima": "dernière",
+      "biglietti": "billets",
+      "finiti": "épuisés, finis"
+    },
+    "lemma": {
+      "diventa": "diventare",
+      "arrivano": "arrivare",
+      "presentano": "presentare",
+      "suonano": "suonare",
+      "festeggia": "festeggiare",
+      "ballano": "ballare"
+    },
+    "examples": {
+      "diventa": [
+        [
+          "Il caffè diventa freddo subito.",
+          "The coffee gets cold right away.",
+          "Le café devient froid tout de suite."
+        ],
+        [
+          "Io divento rosso al sole.",
+          "I go red in the sun.",
+          "Je deviens rouge au soleil."
+        ]
+      ],
+      "arrivano": [
+        [
+          "I miei amici arrivano stasera.",
+          "My friends arrive this evening.",
+          "Mes amis arrivent ce soir."
+        ],
+        [
+          "Io arrivo a casa alle sette.",
+          "I get home at seven.",
+          "J'arrive à la maison à sept heures."
+        ]
+      ],
+      "settimane": [
+        [
+          "Tra due settimane vado al mare.",
+          "In two weeks I'm going to the seaside.",
+          "Dans deux semaines, je vais à la mer."
+        ],
+        [
+          "Le settimane passano veloci.",
+          "The weeks go by fast.",
+          "Les semaines passent vite."
+        ]
+      ],
+      "concerti": [
+        [
+          "D'estate ci sono concerti in piazza.",
+          "In summer there are concerts in the square.",
+          "L'été, il y a des concerts sur la place."
+        ],
+        [
+          "Mi piacciono i concerti all'aperto.",
+          "I like open-air concerts.",
+          "J'aime les concerts en plein air."
+        ]
+      ],
+      "feste": [
+        [
+          "A dicembre ci sono tante feste.",
+          "In December there are lots of parties.",
+          "En décembre, il y a beaucoup de fêtes."
+        ],
+        [
+          "Le feste in famiglia sono belle.",
+          "Family parties are lovely.",
+          "Les fêtes en famille sont agréables."
+        ]
+      ],
+      "isola": [
+        [
+          "L'isola è piccola e tranquilla.",
+          "The island is small and quiet.",
+          "L'île est petite et tranquille."
+        ],
+        [
+          "Andiamo sull'isola in traghetto.",
+          "We go to the island by ferry.",
+          "Nous allons sur l'île en ferry."
+        ]
+      ],
+      "primo": [
+        [
+          "Il primo autobus parte alle sei.",
+          "The first bus leaves at six.",
+          "Le premier bus part à six heures."
+        ],
+        [
+          "Abito al primo piano.",
+          "I live on the first floor.",
+          "J'habite au premier étage."
+        ]
+      ],
+      "presentano": [
+        [
+          "Oggi presentano il nuovo menù.",
+          "Today they are presenting the new menu.",
+          "Aujourd'hui, ils présentent le nouveau menu."
+        ],
+        [
+          "Io presento Marco a mia sorella.",
+          "I introduce Marco to my sister.",
+          "Je présente Marco à ma sœur."
+        ]
+      ],
+      "disco": [
+        [
+          "Ho comprato un disco vecchio.",
+          "I bought an old record.",
+          "J'ai acheté un vieux disque."
+        ],
+        [
+          "Questo disco è bellissimo.",
+          "This album is beautiful.",
+          "Cet album est magnifique."
+        ]
+      ],
+      "canzoni": [
+        [
+          "Le canzoni alla radio sono nuove.",
+          "The songs on the radio are new.",
+          "Les chansons à la radio sont nouvelles."
+        ],
+        [
+          "Mia figlia canta canzoni in macchina.",
+          "My daughter sings songs in the car.",
+          "Ma fille chante des chansons en voiture."
+        ]
+      ],
+      "famoso": [
+        [
+          "Questo bar è famoso per il caffè.",
+          "This café is famous for its coffee.",
+          "Ce bar est célèbre pour son café."
+        ],
+        [
+          "Il cuoco è famoso in città.",
+          "The chef is famous in the city.",
+          "Le cuisinier est célèbre en ville."
+        ]
+      ],
+      "cantante": [
+        [
+          "La cantante ha una bella voce.",
+          "The singer has a beautiful voice.",
+          "La chanteuse a une belle voix."
+        ],
+        [
+          "Mio cugino fa il cantante.",
+          "My cousin is a singer.",
+          "Mon cousin est chanteur."
+        ]
+      ],
+      "suonano": [
+        [
+          "Le campane suonano a mezzogiorno.",
+          "The bells ring at noon.",
+          "Les cloches sonnent à midi."
+        ],
+        [
+          "Io suono il piano la sera.",
+          "I play the piano in the evening.",
+          "Je joue du piano le soir."
+        ]
+      ],
+      "gruppi": [
+        [
+          "Lavoriamo in gruppi di quattro.",
+          "We work in groups of four.",
+          "Nous travaillons en groupes de quatre."
+        ],
+        [
+          "I gruppi di turisti sono in piazza.",
+          "The groups of tourists are in the square.",
+          "Les groupes de touristes sont sur la place."
+        ]
+      ],
+      "festeggia": [
+        [
+          "Mia nonna festeggia ottant'anni.",
+          "My grandmother is celebrating her eightieth birthday.",
+          "Ma grand-mère fête ses quatre-vingts ans."
+        ],
+        [
+          "Io festeggio il compleanno al bar.",
+          "I celebrate my birthday at the café.",
+          "Je fête mon anniversaire au café."
+        ]
+      ],
+      "cibo": [
+        [
+          "Il cibo qui è buono.",
+          "The food here is good.",
+          "La nourriture ici est bonne."
+        ],
+        [
+          "Compro il cibo al mercato.",
+          "I buy food at the market.",
+          "J'achète la nourriture au marché."
+        ]
+      ],
+      "fritto": [
+        [
+          "Il pesce fritto è il mio preferito.",
+          "Fried fish is my favourite.",
+          "Le poisson frit est mon préféré."
+        ],
+        [
+          "Oggi a pranzo c'è pesce fritto.",
+          "Today there's fried fish for lunch.",
+          "Aujourd'hui, il y a du poisson frit à midi."
+        ]
+      ],
+      "tipico": [
+        [
+          "La pizza è un piatto tipico.",
+          "Pizza is a typical dish.",
+          "La pizza est un plat typique."
+        ],
+        [
+          "Questo è un dolce tipico di Napoli.",
+          "This is a typical cake from Naples.",
+          "C'est un gâteau typique de Naples."
+        ]
+      ],
+      "musicisti": [
+        [
+          "I musicisti suonano in metro.",
+          "The musicians play in the metro.",
+          "Les musiciens jouent dans le métro."
+        ],
+        [
+          "Due musicisti cantano al bar.",
+          "Two musicians are singing at the café.",
+          "Deux musiciens chantent au café."
+        ]
+      ],
+      "ballerini": [
+        [
+          "I ballerini sono molto bravi.",
+          "The dancers are very good.",
+          "Les danseurs sont très bons."
+        ],
+        [
+          "I ballerini provano in palestra.",
+          "The dancers rehearse in the gym.",
+          "Les danseurs répètent dans le gymnase."
+        ]
+      ],
+      "ballano": [
+        [
+          "Gli sposi ballano tutta la notte.",
+          "The newlyweds dance all night.",
+          "Les mariés dansent toute la nuit."
+        ],
+        [
+          "Io ballo in cucina con la radio.",
+          "I dance in the kitchen with the radio on.",
+          "Je danse dans la cuisine avec la radio."
+        ]
+      ],
+      "danze": [
+        [
+          "Le danze iniziano alle nove.",
+          "The dancing starts at nine.",
+          "Les danses commencent à neuf heures."
+        ],
+        [
+          "A scuola impariamo danze nuove.",
+          "At school we learn new dances.",
+          "À l'école, nous apprenons de nouvelles danses."
+        ]
+      ],
+      "tradizionali": [
+        [
+          "A Natale mangiamo piatti tradizionali.",
+          "At Christmas we eat traditional dishes.",
+          "À Noël, nous mangeons des plats traditionnels."
+        ],
+        [
+          "Le feste tradizionali sono in estate.",
+          "The traditional festivals are in summer.",
+          "Les fêtes traditionnelles ont lieu en été."
+        ]
+      ],
+      "ultima": [
+        [
+          "Questa è l'ultima fermata.",
+          "This is the last stop.",
+          "C'est le dernier arrêt."
+        ],
+        [
+          "L'ultima metro parte a mezzanotte.",
+          "The last metro leaves at midnight.",
+          "Le dernier métro part à minuit."
+        ]
+      ],
+      "biglietti": [
+        [
+          "Compro i biglietti alla stazione.",
+          "I buy the tickets at the station.",
+          "J'achète les billets à la gare."
+        ],
+        [
+          "I biglietti del bus costano poco.",
+          "Bus tickets are cheap.",
+          "Les tickets de bus ne coûtent pas cher."
+        ]
+      ],
+      "finiti": [
+        [
+          "I biscotti sono finiti.",
+          "The biscuits are all gone.",
+          "Il n'y a plus de biscuits."
+        ],
+        [
+          "I compiti sono finiti, che bello!",
+          "Homework is done, great!",
+          "Les devoirs sont finis, super !"
+        ]
+      ]
+    }
   }
 ]

@@ -9942,5 +9942,351 @@
         ]
       ]
     }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Χριστουγεννιάτικα φώτα στο Σύνταγμα",
+    "title_fr": "Des lumières de Noël à Syntagma",
+    "title_en": "Christmas lights in Syntagma",
+    "source": {
+      "name": "Libre",
+      "url": "https://www.libre.gr/2026/11/09/christougenna-stin-athina-xekinise-o-st/"
+    },
+    "paragraphs": [
+      "Τα **Χριστούγεννα** (Christmas) έρχονται **νωρίς** (early) στην Αθήνα! Τη Δευτέρα το πρωί, **εργάτες** (workers) του **Δήμου** (City Council) Αθηναίων ήρθαν στην **πλατεία** (square) Συντάγματος. Εκεί **άρχισαν** (started) να βάζουν **λαμπάκια** (fairy lights) στα **δέντρα** (trees). Είναι ο πρώτος **στολισμός** (decoration) για τις **γιορτές** (holidays).",
+      "Η πλατεία Συντάγματος είναι στο κέντρο της **πόλης** (city). Κάθε **χρόνο** (year), εκεί γίνονται οι μεγάλες γιορτές των Χριστουγέννων. Ο στολισμός **ξεκινάει** (starts) από εκεί. Οι εργάτες **βάζουν** (put) λαμπάκια και σε πολλούς **κεντρικούς** (central) **δρόμους** (streets).",
+      "Η **δουλειά** (work) θα γίνει σιγά σιγά. Ο δήμος θέλει να **τελειώσει** (finish) πριν αρχίσουν οι γιορτές. Τις **επόμενες** (next) **εβδομάδες** (weeks), τα φώτα θα **φωτίζουν** (light up) το κέντρο της Αθήνας.",
+      "Το μεγάλο **χριστουγεννιάτικο** (Christmas) δέντρο δεν είναι **ακόμα** (yet) στην πλατεία. Αυτό θα είναι το επόμενο βήμα. Ο δήμος δεν έχει πει ακόμα την ημέρα. Δεν ξέρουμε επίσης πότε θα **ανάψει** (be switched on) το δέντρο."
+    ],
+    "paragraphs_en": [
+      "Christmas is coming early to Athens! On Monday morning, workers from the City of Athens came to Syntagma Square. There they started putting fairy lights on the trees. It is the first decoration for the holidays.",
+      "Syntagma Square is in the centre of the city. Every year, the big Christmas celebrations take place there. The decorating starts from there. The workers are also putting lights on many central streets.",
+      "The work will be done little by little. The city wants to finish before the holidays begin. In the next few weeks, the lights will brighten the centre of Athens.",
+      "The big Christmas tree is not in the square yet. That will be the next step. The city has not announced the day yet. We also don't know when the tree will be lit."
+    ],
+    "fr": {
+      "Χριστούγεννα": "Noël",
+      "νωρίς": "tôt",
+      "εργάτες": "ouvriers",
+      "Δήμου": "Mairie (municipalité)",
+      "πλατεία": "place",
+      "άρχισαν": "ont commencé",
+      "λαμπάκια": "guirlandes lumineuses",
+      "δέντρα": "arbres",
+      "στολισμός": "décoration",
+      "γιορτές": "fêtes",
+      "πόλης": "ville",
+      "χρόνο": "année",
+      "ξεκινάει": "commence",
+      "βάζουν": "mettent",
+      "κεντρικούς": "centraux",
+      "δρόμους": "rues",
+      "δουλειά": "travail",
+      "τελειώσει": "finir",
+      "επόμενες": "prochaines",
+      "εβδομάδες": "semaines",
+      "φωτίζουν": "éclairent",
+      "χριστουγεννιάτικο": "de Noël",
+      "ακόμα": "encore (pas encore)",
+      "ανάψει": "s'allumer"
+    },
+    "lemma": {
+      "άρχισαν": "αρχίζω",
+      "ξεκινάει": "ξεκινάω",
+      "βάζουν": "βάζω",
+      "τελειώσει": "τελειώνω",
+      "φωτίζουν": "φωτίζω",
+      "ανάψει": "ανάβω"
+    },
+    "examples": {
+      "Χριστούγεννα": [
+        [
+          "Τα Χριστούγεννα είναι η αγαπημένη μου γιορτή.",
+          "Christmas is my favourite holiday.",
+          "Noël est ma fête préférée."
+        ],
+        [
+          "Θα περάσουμε τα Χριστούγεννα στο χωριό.",
+          "We will spend Christmas in the village.",
+          "Nous passerons Noël au village."
+        ]
+      ],
+      "νωρίς": [
+        [
+          "Ξυπνάω νωρίς κάθε μέρα.",
+          "I wake up early every day.",
+          "Je me réveille tôt tous les jours."
+        ],
+        [
+          "Το λεωφορείο ήρθε νωρίς σήμερα.",
+          "The bus came early today.",
+          "Le bus est arrivé tôt aujourd'hui."
+        ]
+      ],
+      "εργάτες": [
+        [
+          "Οι εργάτες φτιάχνουν τον δρόμο.",
+          "The workers are fixing the road.",
+          "Les ouvriers réparent la route."
+        ],
+        [
+          "Οι εργάτες πίνουν καφέ στο διάλειμμα.",
+          "The workers drink coffee on their break.",
+          "Les ouvriers boivent un café à la pause."
+        ]
+      ],
+      "Δήμου": [
+        [
+          "Πήγα στο γραφείο του Δήμου.",
+          "I went to the city council office.",
+          "Je suis allé au bureau de la mairie."
+        ],
+        [
+          "Το φορτηγό του Δήμου μαζεύει τα σκουπίδια.",
+          "The council truck collects the rubbish.",
+          "Le camion de la mairie ramasse les poubelles."
+        ]
+      ],
+      "πλατεία": [
+        [
+          "Η πλατεία είναι γεμάτη παιδιά.",
+          "The square is full of children.",
+          "La place est pleine d'enfants."
+        ],
+        [
+          "Συναντιόμαστε στην πλατεία στις έξι.",
+          "We meet in the square at six.",
+          "On se retrouve sur la place à six heures."
+        ]
+      ],
+      "άρχισαν": [
+        [
+          "Τα μαθήματα άρχισαν τον Σεπτέμβριο.",
+          "The lessons started in September.",
+          "Les cours ont commencé en septembre."
+        ],
+        [
+          "Κάθε μέρα αρχίζω δουλειά στις εννιά.",
+          "Every day I start work at nine.",
+          "Chaque jour, je commence le travail à neuf heures."
+        ]
+      ],
+      "λαμπάκια": [
+        [
+          "Τα λαμπάκια στο μπαλκόνι είναι κόκκινα.",
+          "The fairy lights on the balcony are red.",
+          "Les guirlandes sur le balcon sont rouges."
+        ],
+        [
+          "Αγόρασα λαμπάκια για το σπίτι.",
+          "I bought fairy lights for the house.",
+          "J'ai acheté des guirlandes lumineuses pour la maison."
+        ]
+      ],
+      "δέντρα": [
+        [
+          "Τα δέντρα στο πάρκο είναι ψηλά.",
+          "The trees in the park are tall.",
+          "Les arbres du parc sont grands."
+        ],
+        [
+          "Ο δρόμος μας έχει πολλά δέντρα.",
+          "Our street has a lot of trees.",
+          "Notre rue a beaucoup d'arbres."
+        ]
+      ],
+      "στολισμός": [
+        [
+          "Ο στολισμός του σπιτιού είναι έτοιμος.",
+          "The decoration of the house is ready.",
+          "La décoration de la maison est prête."
+        ],
+        [
+          "Ο στολισμός της βιτρίνας είναι ωραίος.",
+          "The shop window decoration is lovely.",
+          "La décoration de la vitrine est jolie."
+        ]
+      ],
+      "γιορτές": [
+        [
+          "Στις γιορτές τρώμε πολλά γλυκά.",
+          "During the holidays we eat lots of sweets.",
+          "Pendant les fêtes, on mange beaucoup de gâteaux."
+        ],
+        [
+          "Οι γιορτές περνούν γρήγορα.",
+          "The holidays go by quickly.",
+          "Les fêtes passent vite."
+        ]
+      ],
+      "πόλης": [
+        [
+          "Το κέντρο της πόλης έχει κίνηση.",
+          "The city centre has traffic.",
+          "Le centre-ville est embouteillé."
+        ],
+        [
+          "Ο χάρτης της πόλης είναι στο κινητό μου.",
+          "The city map is on my phone.",
+          "Le plan de la ville est sur mon portable."
+        ]
+      ],
+      "χρόνο": [
+        [
+          "Κάθε χρόνο πάμε διακοπές στην Κρήτη.",
+          "Every year we go on holiday to Crete.",
+          "Chaque année, nous partons en vacances en Crète."
+        ],
+        [
+          "Τον επόμενο χρόνο θα μάθω ιταλικά.",
+          "Next year I will learn Italian.",
+          "L'année prochaine, j'apprendrai l'italien."
+        ]
+      ],
+      "ξεκινάει": [
+        [
+          "Η ταινία ξεκινάει στις οχτώ.",
+          "The film starts at eight.",
+          "Le film commence à huit heures."
+        ],
+        [
+          "Το πρωί ξεκινάω με έναν καφέ.",
+          "In the morning I start with a coffee.",
+          "Le matin, je commence par un café."
+        ]
+      ],
+      "βάζουν": [
+        [
+          "Τα παιδιά βάζουν τα παπούτσια τους.",
+          "The children are putting on their shoes.",
+          "Les enfants mettent leurs chaussures."
+        ],
+        [
+          "Πάντα βάζω ζάχαρη στον καφέ.",
+          "I always put sugar in my coffee.",
+          "Je mets toujours du sucre dans mon café."
+        ]
+      ],
+      "κεντρικούς": [
+        [
+          "Τα μαγαζιά είναι σε κεντρικούς δρόμους.",
+          "The shops are on central streets.",
+          "Les magasins sont dans des rues centrales."
+        ],
+        [
+          "Περπατάμε σε κεντρικούς δρόμους της Αθήνας.",
+          "We walk on central streets of Athens.",
+          "Nous marchons dans des rues centrales d'Athènes."
+        ]
+      ],
+      "δρόμους": [
+        [
+          "Ξέρω καλά τους δρόμους της γειτονιάς.",
+          "I know the neighbourhood streets well.",
+          "Je connais bien les rues du quartier."
+        ],
+        [
+          "Καθαρίζουν τους δρόμους κάθε πρωί.",
+          "They clean the streets every morning.",
+          "On nettoie les rues tous les matins."
+        ]
+      ],
+      "δουλειά": [
+        [
+          "Η δουλειά μου είναι κοντά στο σπίτι.",
+          "My work is close to home.",
+          "Mon travail est près de chez moi."
+        ],
+        [
+          "Μετά τη δουλειά πάω γυμναστήριο.",
+          "After work I go to the gym.",
+          "Après le travail, je vais à la salle de sport."
+        ]
+      ],
+      "τελειώσει": [
+        [
+          "Θα φύγω όταν τελειώσει η ταινία.",
+          "I will leave when the film ends.",
+          "Je partirai quand le film sera fini."
+        ],
+        [
+          "Στις πέντε τελειώνω τη δουλειά.",
+          "I finish work at five.",
+          "Je finis le travail à cinq heures."
+        ]
+      ],
+      "επόμενες": [
+        [
+          "Τις επόμενες μέρες θα βρέξει.",
+          "It will rain in the next few days.",
+          "Il va pleuvoir les prochains jours."
+        ],
+        [
+          "Οι επόμενες διακοπές είναι τον Αύγουστο.",
+          "The next holidays are in August.",
+          "Les prochaines vacances sont en août."
+        ]
+      ],
+      "εβδομάδες": [
+        [
+          "Έμεινα δύο εβδομάδες στο νησί.",
+          "I stayed two weeks on the island.",
+          "Je suis resté deux semaines sur l'île."
+        ],
+        [
+          "Οι εβδομάδες περνούν γρήγορα.",
+          "The weeks go by quickly.",
+          "Les semaines passent vite."
+        ]
+      ],
+      "φωτίζουν": [
+        [
+          "Τα φώτα φωτίζουν τον δρόμο.",
+          "The lights light up the street.",
+          "Les lumières éclairent la rue."
+        ],
+        [
+          "Με το κινητό φωτίζω τις σκάλες.",
+          "I light the stairs with my phone.",
+          "J'éclaire l'escalier avec mon portable."
+        ]
+      ],
+      "χριστουγεννιάτικο": [
+        [
+          "Στολίσαμε το χριστουγεννιάτικο δέντρο.",
+          "We decorated the Christmas tree.",
+          "Nous avons décoré le sapin de Noël."
+        ],
+        [
+          "Ακούω ένα χριστουγεννιάτικο τραγούδι.",
+          "I'm listening to a Christmas song.",
+          "J'écoute une chanson de Noël."
+        ]
+      ],
+      "ακόμα": [
+        [
+          "Ο καφές είναι ακόμα ζεστός.",
+          "The coffee is still hot.",
+          "Le café est encore chaud."
+        ],
+        [
+          "Δεν έχω φάει ακόμα.",
+          "I haven't eaten yet.",
+          "Je n'ai pas encore mangé."
+        ]
+      ],
+      "ανάψει": [
+        [
+          "Περίμενε να ανάψει το πράσινο φανάρι.",
+          "Wait for the green light to come on.",
+          "Attends que le feu passe au vert."
+        ],
+        [
+          "Το βράδυ ανάβω το φως στην κουζίνα.",
+          "In the evening I turn on the kitchen light.",
+          "Le soir, j'allume la lumière de la cuisine."
+        ]
+      ]
+    }
   }
 ]
