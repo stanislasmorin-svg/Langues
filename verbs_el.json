@@ -1,0 +1,374 @@
+{
+ "έρχομαι": {
+  "fr": "venir",
+  "en": "to come"
+ },
+ "αγοράζω": {
+  "fr": "acheter",
+  "en": "to buy"
+ },
+ "αγωνίζομαι": {
+  "fr": "concourir, s'affronter",
+  "en": "to compete"
+ },
+ "αλλάζω": {
+  "fr": "changer",
+  "en": "to change"
+ },
+ "ανάβω": {
+  "fr": "allumer",
+  "en": "to switch on"
+ },
+ "ανήκω": {
+  "fr": "appartenir",
+  "en": "to belong"
+ },
+ "ανακυκλώνω": {
+  "fr": "recycler",
+  "en": "to recycle"
+ },
+ "ανησυχώ": {
+  "fr": "s'inquiéter",
+  "en": "to worry"
+ },
+ "ανοίγω": {
+  "fr": "ouvrir",
+  "en": "to open"
+ },
+ "αποφασίζω": {
+  "fr": "décider",
+  "en": "to decide"
+ },
+ "αρχίζω": {
+  "fr": "commencer",
+  "en": "to begin"
+ },
+ "βάζω": {
+  "fr": "mettre",
+  "en": "to put"
+ },
+ "βάφω": {
+  "fr": "peindre",
+  "en": "to paint"
+ },
+ "βγαίνω": {
+  "fr": "sortir",
+  "en": "to go out"
+ },
+ "βλέπω": {
+  "fr": "voir",
+  "en": "to see"
+ },
+ "βοηθάω": {
+  "fr": "aider",
+  "en": "to help"
+ },
+ "βοηθώ": {
+  "fr": "aider",
+  "en": "to help"
+ },
+ "βρέχω": {
+  "fr": "pleuvoir",
+  "en": "to rain"
+ },
+ "βρίσκω": {
+  "fr": "trouver",
+  "en": "to find"
+ },
+ "γελάω": {
+  "fr": "rire",
+  "en": "to laugh"
+ },
+ "γεννιέμαι": {
+  "fr": "naître",
+  "en": "to be born"
+ },
+ "γιορτάζω": {
+  "fr": "fêter, célébrer",
+  "en": "to celebrate"
+ },
+ "γράφομαι": {
+  "fr": "s'inscrire",
+  "en": "to sign up"
+ },
+ "γυρίζω": {
+  "fr": "revenir",
+  "en": "to come back"
+ },
+ "δείχνω": {
+  "fr": "montrer",
+  "en": "to show"
+ },
+ "δοκιμάζω": {
+  "fr": "goûter, essayer",
+  "en": "to taste, to try"
+ },
+ "δουλεύω": {
+  "fr": "travailler",
+  "en": "to work"
+ },
+ "εξηγώ": {
+  "fr": "expliquer",
+  "en": "to explain"
+ },
+ "επιστρέφω": {
+  "fr": "revenir",
+  "en": "to come back"
+ },
+ "ετοιμάζω": {
+  "fr": "préparer",
+  "en": "to prepare"
+ },
+ "ευχαριστώ": {
+  "fr": "remercier",
+  "en": "to thank"
+ },
+ "ζητάω": {
+  "fr": "demander",
+  "en": "to ask for"
+ },
+ "ζυγίζω": {
+  "fr": "peser",
+  "en": "to weigh"
+ },
+ "ζω": {
+  "fr": "vivre",
+  "en": "to live"
+ },
+ "θυμίζω": {
+  "fr": "rappeler",
+  "en": "to remind"
+ },
+ "κάνω": {
+  "fr": "faire",
+  "en": "to do, to make"
+ },
+ "καθαρίζω": {
+  "fr": "nettoyer",
+  "en": "to clean"
+ },
+ "καλωσορίζω": {
+  "fr": "accueillir",
+  "en": "to welcome"
+ },
+ "κερδίζω": {
+  "fr": "gagner",
+  "en": "to win"
+ },
+ "κλείνω": {
+  "fr": "fermer",
+  "en": "to close"
+ },
+ "κοιτάζω": {
+  "fr": "regarder",
+  "en": "to look at"
+ },
+ "κολλάω": {
+  "fr": "coller",
+  "en": "to stick"
+ },
+ "κοστίζω": {
+  "fr": "coûter",
+  "en": "to cost"
+ },
+ "κρατάω": {
+  "fr": "durer, tenir",
+  "en": "to last, to hold"
+ },
+ "κόβω": {
+  "fr": "couper, arrêter",
+  "en": "to cut, to quit"
+ },
+ "λέω": {
+  "fr": "dire",
+  "en": "to say"
+ },
+ "μένω": {
+  "fr": "rester",
+  "en": "to stay"
+ },
+ "μαθαίνω": {
+  "fr": "apprendre",
+  "en": "to learn"
+ },
+ "μελετώ": {
+  "fr": "étudier",
+  "en": "to study"
+ },
+ "μετακομίζω": {
+  "fr": "déménager",
+  "en": "to move house"
+ },
+ "μεταφέρω": {
+  "fr": "déplacer",
+  "en": "to move"
+ },
+ "μιλάω": {
+  "fr": "parler",
+  "en": "to talk"
+ },
+ "μπαίνω": {
+  "fr": "entrer",
+  "en": "to go in"
+ },
+ "μυρίζω": {
+  "fr": "sentir",
+  "en": "to smell"
+ },
+ "ξεκινάω": {
+  "fr": "partir, commencer",
+  "en": "to set off, to start"
+ },
+ "ξεκινώ": {
+  "fr": "commencer, partir",
+  "en": "to start, to set off"
+ },
+ "ξεχνάω": {
+  "fr": "oublier",
+  "en": "to forget"
+ },
+ "πέφτω": {
+  "fr": "tomber",
+  "en": "to fall"
+ },
+ "παίρνω": {
+  "fr": "prendre, recevoir",
+  "en": "to take, to get"
+ },
+ "παρκάρω": {
+  "fr": "se garer",
+  "en": "to park"
+ },
+ "περιμένω": {
+  "fr": "attendre",
+  "en": "to wait"
+ },
+ "περισσεύω": {
+  "fr": "rester (en trop)",
+  "en": "to be left over"
+ },
+ "περνάω": {
+  "fr": "passer, traverser",
+  "en": "to pass, to go through"
+ },
+ "περπατάω": {
+  "fr": "marcher",
+  "en": "to walk"
+ },
+ "πετυχαίνω": {
+  "fr": "réussir",
+  "en": "to succeed"
+ },
+ "πηγαίνω": {
+  "fr": "aller, emmener",
+  "en": "to go, to take"
+ },
+ "πουλιέμαι": {
+  "fr": "se vendre",
+  "en": "to be sold"
+ },
+ "προσέχω": {
+  "fr": "prendre soin de",
+  "en": "to take care of"
+ },
+ "προχωράω": {
+  "fr": "avancer",
+  "en": "to go ahead"
+ },
+ "ράβω": {
+  "fr": "coudre",
+  "en": "to sew"
+ },
+ "σβήνω": {
+  "fr": "effacer, éteindre",
+  "en": "to erase, to switch off"
+ },
+ "σκάβω": {
+  "fr": "creuser",
+  "en": "to dig"
+ },
+ "σκέφτομαι": {
+  "fr": "penser, réfléchir",
+  "en": "to think"
+ },
+ "σκαλίζω": {
+  "fr": "sculpter",
+  "en": "to carve"
+ },
+ "στέκομαι": {
+  "fr": "se tenir debout",
+  "en": "to stand"
+ },
+ "σταματάω": {
+  "fr": "arrêter, s'arrêter",
+  "en": "to stop"
+ },
+ "συμμετέχω": {
+  "fr": "participer",
+  "en": "to take part"
+ },
+ "συναντιέμαι": {
+  "fr": "se retrouver",
+  "en": "to meet"
+ },
+ "σώζω": {
+  "fr": "sauver",
+  "en": "to save"
+ },
+ "ταξιδεύω": {
+  "fr": "voyager",
+  "en": "to travel"
+ },
+ "τελειώνω": {
+  "fr": "finir, terminer",
+  "en": "to finish, to end"
+ },
+ "τρέχω": {
+  "fr": "courir",
+  "en": "to run"
+ },
+ "τυπώνομαι": {
+  "fr": "être imprimé",
+  "en": "to be printed"
+ },
+ "φέρνω": {
+  "fr": "apporter, amener",
+  "en": "to bring"
+ },
+ "φτάνω": {
+  "fr": "arriver, suffire",
+  "en": "to arrive, to be enough"
+ },
+ "φτιάχνω": {
+  "fr": "fabriquer, créer",
+  "en": "to make"
+ },
+ "φυλάω": {
+  "fr": "garder",
+  "en": "to guard"
+ },
+ "φυτεύω": {
+  "fr": "planter",
+  "en": "to plant"
+ },
+ "φωνάζω": {
+  "fr": "crier",
+  "en": "to shout"
+ },
+ "φωτίζω": {
+  "fr": "éclairer",
+  "en": "to light up"
+ },
+ "χρειάζομαι": {
+  "fr": "avoir besoin de",
+  "en": "to need"
+ },
+ "χρησιμοποιώ": {
+  "fr": "utiliser",
+  "en": "to use"
+ },
+ "χτίζω": {
+  "fr": "construire",
+  "en": "to build"
+ }
+}

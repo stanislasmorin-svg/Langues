@@ -25,10 +25,10 @@ def seo(path, title, desc, kind="website"):
 LANGS = {
     "el": dict(file="lessons.json", out="grec/", title="Greek of the day", eyebrow="Ελληνικά κάθε μέρα", name="Greek", col="Ελληνικά", short="ΕΛ",
                tagline="Every morning, a real story from Athens in simple Greek, with the hard words translated and audio.",
-               place="Athens", voice="el-GR-AthinaNeural", gtts="el", other=("it", "Italian of the day →"), legacy=True),
+               verbs="verbs_el.json", place="Athens", voice="el-GR-AthinaNeural", gtts="el", other=("it", "Italian of the day →"), legacy=True),
     "it": dict(file="lessons_it.json", out="it/", title="Italian of the day", eyebrow="Italiano ogni giorno", name="Italian", col="Italiano", short="IT",
                tagline="Every morning, a real story from Italy in simple Italian, with the hard words translated and audio.",
-               place="Italy", voice="it-IT-ElsaNeural", gtts="it", other=("el", "Greek of the day →")),
+               verbs="verbs_it.json", place="Italy", voice="it-IT-ElsaNeural", gtts="it", other=("el", "Greek of the day →")),
 }
 
 def ex_audio_name(lang, text):
@@ -432,36 +432,74 @@ GLOSS_CSS = """
 .lex tr.letter td{border:0;padding:18px 0 4px;font-size:13px;font-weight:600;color:var(--accent)}
 """
 
+def sort_key(w):
+    import unicodedata
+    w = unicodedata.normalize("NFD", w.lower())
+    return "".join(c for c in w if not unicodedata.combining(c))
+
 def gloss_page(lessons, lang, L):
-    seen, rows = set(), []
+    """One card per French word (French alphabetical order); a card lists every Greek/Italian word with that meaning."""
+    outdir = os.path.join(ROOT, L["out"])
+    vp = os.path.join(ROOT, L.get("verbs", ""))
+    verbs = json.load(open(vp, encoding="utf-8")) if L.get("verbs") and os.path.exists(vp) else {}
+    groups = {}
     for s in sorted(lessons, key=lambda s: s["date"]):
-        fr = s.get("fr", {}); lem = s.get("lemma", {})
+        fr = s.get("fr", {}); lem = s.get("lemma", {}); ex = s.get("examples", {})
         for p in s["paragraphs"]:
             for m in RX.finditer(p):
-                gr, en = m.group(1), m.group(2)
-                f = fr.get(gr, "")
-                if lem.get(gr): gr = f"{gr} ({lem[gr]})"
-                k = (f.lower(), en.lower(), gr.lower())
-                if k in seen: continue
-                seen.add(k); rows.append((f, en, gr, s["date"]))
-    rows.sort(key=lambda r: (fr_key(r[0]), r[1].lower()))
+                w, en = m.group(1), m.group(2)
+                f_all = fr.get(w, "").strip() or en
+                vb = verbs.get(lem.get(w, ""))
+                if vb:  # verbs: French infinitive, dictionary form, English infinitive
+                    f_all, en = vb["fr"], vb["en"]
+                lead = re.match(r"^\([^)]*\)\s*", f_all)
+                lead = lead.group(0) if lead else ""
+                terms = [t.strip() for t in re.split(r"\s*[,;/]\s*", f_all[len(lead):]) if t.strip()] or [f_all]
+                for t in terms:
+                    f = (lead + t) if lead else t
+                    base = t.lstrip("\"«“ ")
+                    skey, plain = fr_key(base)
+                    key = (skey.replace("œ", "oe").replace("æ", "ae"), plain.lower())
+                    g = groups.setdefault(key, dict(fr=f, words=[], en=[], ex=[], d=s["date"]))
+                    label = lem[w] if vb else (f"{w} ({lem[w]})" if lem.get(w) else w)
+                    if label not in g["words"]: g["words"].append(label)
+                    for e_t in [x.strip() for x in en.split(",") if x.strip()]:
+                        if e_t.lower() not in [y.lower() for y in g["en"]]: g["en"].append(e_t)
+                    for e in ex.get(w, []):
+                        if len(e) < 2 or any(x[0] == e[0] for x in g["ex"]): continue
+                        e = list(e[:3]) + [""] * (3 - len(e[:3]))
+                        n = ex_audio_name(lang, e[0]); fp = os.path.join(outdir, "audio", "ex", n)
+                        if os.path.exists(fp):
+                            e.append("audio/ex/" + n + "?v=" + hashlib.md5(open(fp, "rb").read()).hexdigest()[:8])
+                        g["ex"].append(e)
+    rows = sorted(groups.items(), key=lambda kv: kv[0])
     out, cur = [], None
-    for f, en, gr, d in rows:
-        ch = (fr_key(f)[0][:1] or "#").upper()
+    for key, g in rows:
+        ch = (key[0][:1] or "#").upper()
         if ch != cur:
-            cur = ch; out.append(f'<tr class="letter"><td colspan="3">{html.escape(ch)}</td></tr>')
-        out.append(f'<tr data-s="{html.escape((f+" "+en+" "+gr).lower(), quote=True)}"><td>{html.escape(f)}</td><td>{html.escape(en)}</td>'
-                   f'<td><a href="cours/{d}.html" title="Lesson of {d}">{html.escape(gr)}</a></td></tr>')
+            cur = ch; out.append(f'<li class="letter">{html.escape(ch)}</li>')
+        g["ex"] = g["ex"][:6]
+        gr, en, n = " · ".join(g["words"]), ", ".join(g["en"]), len(g["ex"])
+        hint = f'<span class="hint">{n} sentence{"s" if n > 1 else ""} ↻</span>' if n else ""
+        data = html.escape(json.dumps(g["ex"][:6], ensure_ascii=False), quote=True)
+        srch = html.escape(" ".join([g["fr"], gr, en, key[0]]).lower(), quote=True)
+        out.append(f'<li data-s="{srch}"><button class="card" type="button" data-ex="{data}" data-gr="{html.escape(g["fr"])}" data-tr="{html.escape(gr)}" data-fr="{html.escape(en)}" data-lem=""'
+                   f'{"" if n else " disabled"}><span class="gr">{html.escape(g["fr"])}</span><span class="fr">{html.escape(gr)}</span><span class="fr2">{html.escape(en)}</span>{hint}</button>'
+                   f'<a class="from" href="cours/{g["d"]}.html">lesson of {g["d"][8:10]}/{g["d"][5:7]}</a></li>')
     js = """(function(){var q=document.getElementById('q');q.addEventListener('input',function(){var v=q.value.trim().toLowerCase();
-document.querySelectorAll('.lex tr[data-s]').forEach(function(r){r.hidden=v&&r.dataset.s.indexOf(v)<0;});
-document.querySelectorAll('.lex tr.letter').forEach(function(r){r.hidden=!!v;});});})();"""
-    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{L["name"]} vocabulary list with English and French · Masimera</title>{seo(L["out"] + "mots.html", L["name"] + " vocabulary · Masimera", "All the " + L["name"] + " words from the Masimera daily lessons, translated into English and French, with links to the lesson where each word appears.")}{FONTS}<style>{CSS}{GLOSS_CSS}</style></head><body><div class="wrap">
-<header><span class="eyebrow">{L["col"]}</span><h1>All words</h1><p class="sub">{len(rows)} words from the lessons, in French alphabetical order. Tap a word in {L["name"]} to open its lesson.</p></header>
+document.querySelectorAll('.vocab li[data-s]').forEach(function(r){r.hidden=v&&r.dataset.s.indexOf(v)<0;});
+document.querySelectorAll('.vocab li.letter').forEach(function(r){r.hidden=!!v;});});})();"""
+    extra = (".vocab li.letter{grid-column:1/-1;border:0;padding:18px 0 2px;font-size:15px;font-weight:600;color:var(--accent)}"
+             ".vocab .from{display:block;font-size:12px;color:var(--muted);padding:0 0 8px}.vocab li[hidden]{display:none}"
+             ".lexc .card>.gr{font-family:var(--ui);color:var(--gloss)}.lexc .card>.fr{font-family:var(--text);font-size:17px;font-weight:600;color:var(--fg)}"
+             ".lexc .card>.fr2{color:var(--muted)}")
+    return f"""<!doctype html><html lang="en" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{L["name"]} vocabulary list with English and French · Masimera</title>{seo(L["out"] + "mots.html", L["name"] + " vocabulary · Masimera", "All the " + L["name"] + " words from the Masimera daily lessons, translated into English and French, with example sentences and audio.")}{FONTS}<style>{CSS}{GLOSS_CSS}{extra}</style></head><body><div class="wrap">
+<header><span class="eyebrow">{L["col"]}</span><h1>All words</h1><p class="sub">{len(rows)} words from the lessons, in French alphabetical order. Tap a word to see and hear example sentences.</p></header>
 <input class="search" id="q" type="search" placeholder="Search (French, English or {L["name"]})…" autocomplete="off">
-<table class="lex"><thead><tr><th>Français</th><th>English</th><th>{L["col"]}</th></tr></thead><tbody>{"".join(out)}</tbody></table>
+<ul class="vocab lexc">{"".join(out)}</ul>
 <nav class="row"><a href="index.html">All lessons</a> · <a href="../index.html">Home</a></nav>
-</div><script>{js}</script></body></html>"""
+</div><script>{js}</script><script>{JS}</script></body></html>"""
 
 def build(lang, L):
     path = os.path.join(ROOT, L["file"])

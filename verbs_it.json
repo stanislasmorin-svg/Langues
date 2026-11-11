@@ -1,0 +1,206 @@
+{
+ "abbassare": {
+  "fr": "baisser",
+  "en": "to lower"
+ },
+ "aggiungere": {
+  "fr": "ajouter",
+  "en": "to add"
+ },
+ "aiutare": {
+  "fr": "aider",
+  "en": "to help"
+ },
+ "andare": {
+  "fr": "aller",
+  "en": "to go"
+ },
+ "aprire": {
+  "fr": "ouvrir",
+  "en": "to open"
+ },
+ "arrivare": {
+  "fr": "arriver",
+  "en": "to arrive"
+ },
+ "ballare": {
+  "fr": "danser",
+  "en": "to dance"
+ },
+ "cambiare": {
+  "fr": "changer",
+  "en": "to change"
+ },
+ "chiedere": {
+  "fr": "demander",
+  "en": "to ask for"
+ },
+ "chiudere": {
+  "fr": "fermer",
+  "en": "to close"
+ },
+ "colpire": {
+  "fr": "frapper, toucher",
+  "en": "to hit"
+ },
+ "compiere": {
+  "fr": "atteindre (un âge)",
+  "en": "to turn (an age)"
+ },
+ "costare": {
+  "fr": "coûter",
+  "en": "to cost"
+ },
+ "costruire": {
+  "fr": "construire",
+  "en": "to build"
+ },
+ "decidere": {
+  "fr": "décider",
+  "en": "to decide"
+ },
+ "diventare": {
+  "fr": "devenir",
+  "en": "to become"
+ },
+ "durare": {
+  "fr": "durer",
+  "en": "to last"
+ },
+ "entrare": {
+  "fr": "entrer",
+  "en": "to go in"
+ },
+ "festeggiare": {
+  "fr": "fêter",
+  "en": "to celebrate"
+ },
+ "finire": {
+  "fr": "finir",
+  "en": "to finish"
+ },
+ "guardare": {
+  "fr": "regarder",
+  "en": "to look at"
+ },
+ "incontrare": {
+  "fr": "rencontrer",
+  "en": "to meet"
+ },
+ "iniziare": {
+  "fr": "commencer",
+  "en": "to start"
+ },
+ "lasciare": {
+  "fr": "laisser",
+  "en": "to leave"
+ },
+ "lavorare": {
+  "fr": "travailler",
+  "en": "to work"
+ },
+ "mangiare": {
+  "fr": "manger",
+  "en": "to eat"
+ },
+ "nascere": {
+  "fr": "naître",
+  "en": "to be born"
+ },
+ "pagare": {
+  "fr": "payer",
+  "en": "to pay"
+ },
+ "parare": {
+  "fr": "arrêter (un tir)",
+  "en": "to save (a shot)"
+ },
+ "piacere": {
+  "fr": "plaire",
+  "en": "to please"
+ },
+ "portare": {
+  "fr": "apporter",
+  "en": "to bring"
+ },
+ "prendere": {
+  "fr": "prendre",
+  "en": "to take"
+ },
+ "prenotare": {
+  "fr": "réserver",
+  "en": "to book"
+ },
+ "presentare": {
+  "fr": "présenter",
+  "en": "to present"
+ },
+ "proteggere": {
+  "fr": "protéger",
+  "en": "to protect"
+ },
+ "raccontare": {
+  "fr": "raconter",
+  "en": "to tell"
+ },
+ "respirare": {
+  "fr": "respirer",
+  "en": "to breathe"
+ },
+ "restare": {
+  "fr": "rester",
+  "en": "to stay"
+ },
+ "ripetere": {
+  "fr": "répéter, refaire",
+  "en": "to repeat"
+ },
+ "segnare": {
+  "fr": "marquer",
+  "en": "to score"
+ },
+ "sfidare": {
+  "fr": "défier, affronter",
+  "en": "to challenge"
+ },
+ "spiegare": {
+  "fr": "expliquer",
+  "en": "to explain"
+ },
+ "suonare": {
+  "fr": "jouer (de la musique)",
+  "en": "to play (music)"
+ },
+ "tenere": {
+  "fr": "tenir",
+  "en": "to hold"
+ },
+ "tirare": {
+  "fr": "tirer",
+  "en": "to shoot"
+ },
+ "tornare": {
+  "fr": "revenir, rentrer",
+  "en": "to come back"
+ },
+ "trasformare": {
+  "fr": "transformer",
+  "en": "to transform"
+ },
+ "valere": {
+  "fr": "valoir, être valable",
+  "en": "to be valid"
+ },
+ "vedere": {
+  "fr": "voir",
+  "en": "to see"
+ },
+ "visitare": {
+  "fr": "visiter",
+  "en": "to visit"
+ },
+ "volere": {
+  "fr": "vouloir",
+  "en": "to want"
+ }
+}
