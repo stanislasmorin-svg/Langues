@@ -2447,5 +2447,330 @@
         ]
       ]
     }
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Un weekend per la nuova carta d'identità",
+    "title_fr": "Un week-end pour la nouvelle carte d'identité",
+    "title_en": "A weekend for the new ID card",
+    "source": {
+      "name": "Canale Dieci",
+      "url": "https://canaledieci.it/2026/11/10/carta-didentita-elettronica-nuovo-weekend-di-aperture-straordinarie-in-7-sportelli-di-roma/"
+    },
+    "paragraphs": [
+      "Questo **fine settimana** (weekend) a Roma è speciale. Sette **sportelli** (counters) della città **restano** (stay) aperti anche nei giorni di festa. Lì puoi **chiedere** (apply for) la nuova carta d'identità elettronica.",
+      "**Sabato** (Saturday) 14 novembre aprono tutti e sette, dalla mattina al **pomeriggio** (afternoon). **Domenica** (Sunday) 15 novembre aprono solo i quattro sportelli in **centro** (city centre). Sono aperti fino a mezzogiorno e mezzo.",
+      "Non puoi andare senza **appuntamento** (appointment). Devi **prenotare** (book) su internet, sul sito del Ministero dell'Interno. Le **prenotazioni** (bookings) **iniziano** (start) venerdì 13 novembre alle 9. Quando i **posti** (places) **finiscono** (run out), non si può più prenotare.",
+      "Cosa **porti** (do you bring) con te? La **ricevuta** (receipt) della prenotazione e una foto recente. Poi una carta per **pagare** (to pay). E infine la tua **vecchia** (old) carta d'identità.",
+      "Perché tanta **fretta** (hurry)? Dal 31 gennaio 2027 la carta d'identità di **carta** (paper) non **vale** (is valid) più. Chi ha ancora quella vecchia deve **cambiarla** (to change it) presto."
+    ],
+    "paragraphs_en": [
+      "This weekend is special in Rome. Seven city counters stay open even on days off. There you can apply for the new electronic ID card.",
+      "On Saturday 14 November all seven open, from morning to afternoon. On Sunday 15 November only the four counters in the city centre open. They are open until half past twelve.",
+      "You can't go without an appointment. You must book online, on the Ministry of the Interior's website. Bookings start on Friday 13 November at 9. When the places run out, you can't book any more.",
+      "What do you bring with you? The booking receipt and a recent photo. Then a card to pay. And finally your old ID card.",
+      "Why such a hurry? From 31 January 2027, the paper ID card is no longer valid. Anyone who still has the old one must change it soon."
+    ],
+    "fr": {
+      "fine settimana": "week-end",
+      "sportelli": "guichets",
+      "restano": "restent",
+      "chiedere": "demander",
+      "Sabato": "samedi",
+      "pomeriggio": "après-midi",
+      "Domenica": "dimanche",
+      "centro": "centre-ville",
+      "appuntamento": "rendez-vous",
+      "prenotare": "réserver",
+      "prenotazioni": "réservations",
+      "iniziano": "commencent",
+      "posti": "places",
+      "finiscono": "s'épuisent, finissent",
+      "porti": "apportes",
+      "ricevuta": "reçu",
+      "pagare": "payer",
+      "vecchia": "vieille, ancienne",
+      "fretta": "hâte, précipitation",
+      "carta": "papier",
+      "vale": "est valable",
+      "cambiarla": "la changer"
+    },
+    "lemma": {
+      "restano": "restare",
+      "chiedere": "chiedere",
+      "prenotare": "prenotare",
+      "iniziano": "iniziare",
+      "finiscono": "finire",
+      "porti": "portare",
+      "pagare": "pagare",
+      "vale": "valere",
+      "cambiarla": "cambiare"
+    },
+    "examples": {
+      "fine settimana": [
+        [
+          "Questo fine settimana vado al mare.",
+          "This weekend I'm going to the seaside.",
+          "Ce week-end, je vais à la mer."
+        ],
+        [
+          "Il fine settimana dormo tanto.",
+          "At the weekend I sleep a lot.",
+          "Le week-end, je dors beaucoup."
+        ]
+      ],
+      "sportelli": [
+        [
+          "Gli sportelli della posta sono chiusi.",
+          "The post office counters are closed.",
+          "Les guichets de la poste sont fermés."
+        ],
+        [
+          "In banca ci sono tre sportelli.",
+          "There are three counters at the bank.",
+          "À la banque, il y a trois guichets."
+        ]
+      ],
+      "restano": [
+        [
+          "I negozi restano chiusi oggi.",
+          "The shops stay closed today.",
+          "Les magasins restent fermés aujourd'hui."
+        ],
+        [
+          "Io resto a casa stasera.",
+          "I'm staying at home tonight.",
+          "Je reste à la maison ce soir."
+        ]
+      ],
+      "chiedere": [
+        [
+          "Posso chiedere un bicchiere d'acqua?",
+          "Can I ask for a glass of water?",
+          "Je peux demander un verre d'eau ?"
+        ],
+        [
+          "Chiedo il conto al cameriere.",
+          "I ask the waiter for the bill.",
+          "Je demande l'addition au serveur."
+        ]
+      ],
+      "Sabato": [
+        [
+          "Sabato andiamo al cinema.",
+          "On Saturday we're going to the cinema.",
+          "Samedi, on va au cinéma."
+        ],
+        [
+          "Sabato c'è il mercato in piazza.",
+          "On Saturday there's a market in the square.",
+          "Samedi, il y a le marché sur la place."
+        ]
+      ],
+      "pomeriggio": [
+        [
+          "Nel pomeriggio bevo un tè.",
+          "In the afternoon I drink tea.",
+          "L'après-midi, je bois un thé."
+        ],
+        [
+          "Ci vediamo oggi pomeriggio?",
+          "Shall we meet this afternoon?",
+          "On se voit cet après-midi ?"
+        ]
+      ],
+      "Domenica": [
+        [
+          "Domenica pranziamo dalla nonna.",
+          "On Sunday we have lunch at grandma's.",
+          "Dimanche, on déjeune chez mamie."
+        ],
+        [
+          "Domenica il negozio è chiuso.",
+          "On Sunday the shop is closed.",
+          "Dimanche, le magasin est fermé."
+        ]
+      ],
+      "centro": [
+        [
+          "Abito vicino al centro.",
+          "I live near the centre.",
+          "J'habite près du centre-ville."
+        ],
+        [
+          "Prendo l'autobus per il centro.",
+          "I take the bus to the centre.",
+          "Je prends le bus pour le centre-ville."
+        ]
+      ],
+      "appuntamento": [
+        [
+          "Ho un appuntamento dal dentista.",
+          "I have a dentist appointment.",
+          "J'ai rendez-vous chez le dentiste."
+        ],
+        [
+          "L'appuntamento è alle dieci.",
+          "The appointment is at ten.",
+          "Le rendez-vous est à dix heures."
+        ]
+      ],
+      "prenotare": [
+        [
+          "Voglio prenotare un tavolo per due.",
+          "I want to book a table for two.",
+          "Je veux réserver une table pour deux."
+        ],
+        [
+          "Prenoto sempre il treno online.",
+          "I always book the train online.",
+          "Je réserve toujours le train en ligne."
+        ]
+      ],
+      "prenotazioni": [
+        [
+          "Il ristorante non prende prenotazioni.",
+          "The restaurant doesn't take bookings.",
+          "Le restaurant ne prend pas de réservations."
+        ],
+        [
+          "Le prenotazioni sono finite.",
+          "The bookings are full.",
+          "Les réservations sont complètes."
+        ]
+      ],
+      "iniziano": [
+        [
+          "Le lezioni iniziano alle otto.",
+          "Lessons start at eight.",
+          "Les cours commencent à huit heures."
+        ],
+        [
+          "Io inizio a lavorare alle nove.",
+          "I start work at nine.",
+          "Je commence à travailler à neuf heures."
+        ]
+      ],
+      "posti": [
+        [
+          "Sul treno non ci sono posti.",
+          "There are no seats on the train.",
+          "Il n'y a pas de places dans le train."
+        ],
+        [
+          "Al cinema ci sono ancora posti.",
+          "There are still seats at the cinema.",
+          "Il reste des places au cinéma."
+        ]
+      ],
+      "finiscono": [
+        [
+          "I biscotti finiscono sempre presto.",
+          "The biscuits always run out fast.",
+          "Les biscuits partent toujours vite."
+        ],
+        [
+          "Io finisco il caffè e arrivo.",
+          "I'll finish my coffee and come.",
+          "Je finis mon café et j'arrive."
+        ]
+      ],
+      "porti": [
+        [
+          "Tu porti il pane stasera?",
+          "Are you bringing the bread tonight?",
+          "Tu apportes le pain ce soir ?"
+        ],
+        [
+          "Io porto il vino alla festa.",
+          "I'm bringing the wine to the party.",
+          "J'apporte le vin à la fête."
+        ]
+      ],
+      "ricevuta": [
+        [
+          "Mi dà la ricevuta, per favore?",
+          "Can I have the receipt, please?",
+          "Vous me donnez le reçu, s'il vous plaît ?"
+        ],
+        [
+          "Ho perso la ricevuta del negozio.",
+          "I lost the shop receipt.",
+          "J'ai perdu le reçu du magasin."
+        ]
+      ],
+      "pagare": [
+        [
+          "Posso pagare con la carta?",
+          "Can I pay by card?",
+          "Je peux payer par carte ?"
+        ],
+        [
+          "Oggi pago io il caffè.",
+          "Today I'm paying for the coffee.",
+          "Aujourd'hui, c'est moi qui paie le café."
+        ]
+      ],
+      "vecchia": [
+        [
+          "La mia bici è vecchia.",
+          "My bike is old.",
+          "Mon vélo est vieux."
+        ],
+        [
+          "Questa è una vecchia foto di famiglia.",
+          "This is an old family photo.",
+          "C'est une vieille photo de famille."
+        ]
+      ],
+      "fretta": [
+        [
+          "Scusa, ho fretta!",
+          "Sorry, I'm in a hurry!",
+          "Désolé, je suis pressé !"
+        ],
+        [
+          "Non c'è fretta, aspetto.",
+          "There's no hurry, I'll wait.",
+          "Rien ne presse, j'attends."
+        ]
+      ],
+      "carta": [
+        [
+          "Uso una borsa di carta.",
+          "I use a paper bag.",
+          "J'utilise un sac en papier."
+        ],
+        [
+          "Mi serve un foglio di carta.",
+          "I need a sheet of paper.",
+          "J'ai besoin d'une feuille de papier."
+        ]
+      ],
+      "vale": [
+        [
+          "Il biglietto vale per tutto il giorno.",
+          "The ticket is valid all day.",
+          "Le billet est valable toute la journée."
+        ],
+        [
+          "Questo sconto vale anche per te.",
+          "This discount is valid for you too.",
+          "Cette réduction est valable pour toi aussi."
+        ]
+      ],
+      "cambiarla": [
+        [
+          "La lampadina è rotta, devo cambiarla.",
+          "The bulb is broken, I must change it.",
+          "L'ampoule est cassée, je dois la changer."
+        ],
+        [
+          "Io cambio casa a dicembre.",
+          "I'm moving house in December.",
+          "Je déménage en décembre."
+        ]
+      ]
+    }
   }
 ]

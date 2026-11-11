@@ -10288,5 +10288,380 @@
         ]
       ]
     }
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Ο Δήμος φροντίζει την υγεία μας",
+    "title_fr": "La mairie prend soin de notre santé",
+    "title_en": "The city takes care of our health",
+    "source": {
+      "name": "Athina 9.84",
+      "url": "https://athina984.gr/2026/11/10/dimos-athinaion-3-1-draseis-apo-ta-dimotika-iatreia/"
+    },
+    "paragraphs": [
+      "Ο **Δήμος** (City) Αθηναίων έχει **ιατρεία** (clinics) για όλους. Τον Νοέμβριο, τα ιατρεία **ετοιμάζουν** (are preparing) τέσσερις νέες **δράσεις** (activities). Ο **στόχος** (goal) είναι απλός. Θέλουν να μένουμε **υγιείς** (healthy).",
+      "Την Πέμπτη 19 Νοεμβρίου **ξεκινά** (starts) μια ομάδα για όσους θέλουν να **κόψουν** (to quit) το **κάπνισμα** (smoking). Η ομάδα έχει περίπου δέκα **άτομα** (people). Θα **συναντιούνται** (they will meet) πέντε φορές, κάθε Πέμπτη **απόγευμα** (afternoon). Το ιατρείο είναι στα Άνω Πατήσια.",
+      "Την Τρίτη 24 Νοεμβρίου θα γίνει μια **ομιλία** (talk) στο **διαδίκτυο** (internet). Το θέμα είναι ο **διαβήτης** (diabetes). Ένας **γιατρός** (doctor) και μια **ειδικός** (expert) στο φαγητό θα μιλήσουν. Θα **εξηγήσουν** (they will explain) πώς μικρές αλλαγές **βοηθούν** (help) πολύ την υγεία μας.",
+      "Το Σάββατο 28 Νοεμβρίου υπάρχει ένα **μάθημα** (lesson) για τις **πρώτες βοήθειες** (first aid). Εκεί θα **μάθουμε** (we will learn) πώς να **σώσουμε** (to save) μια ζωή. Στο τέλος, όλοι παίρνουν ένα **χαρτί** (certificate). Για να **γραφτείς** (to sign up), πάρε **τηλέφωνο** (phone) στο 210 2015510."
+    ],
+    "paragraphs_en": [
+      "The City of Athens has clinics for everyone. In November, the clinics are preparing four new activities. The goal is simple. They want us to stay healthy.",
+      "On Thursday 19 November, a group starts for people who want to quit smoking. The group has about ten people. They will meet five times, every Thursday afternoon. The clinic is in Ano Patisia.",
+      "On Tuesday 24 November there will be an online talk. The topic is diabetes. A doctor and a food expert will speak. They will explain how small changes help our health a lot.",
+      "On Saturday 28 November there is a first aid lesson. There we will learn how to save a life. At the end, everyone gets a certificate. To sign up, call 210 2015510."
+    ],
+    "fr": {
+      "Δήμος": "mairie, municipalité",
+      "ιατρεία": "cabinets médicaux, centres de santé",
+      "ετοιμάζουν": "préparent",
+      "δράσεις": "actions, activités",
+      "στόχος": "objectif, but",
+      "υγιείς": "en bonne santé",
+      "ξεκινά": "commence",
+      "κόψουν": "arrêter (de)",
+      "κάπνισμα": "le tabac, le fait de fumer",
+      "άτομα": "personnes",
+      "συναντιούνται": "se retrouveront",
+      "απόγευμα": "après-midi",
+      "ομιλία": "conférence, exposé",
+      "διαδίκτυο": "internet",
+      "διαβήτης": "diabète",
+      "γιατρός": "médecin",
+      "ειδικός": "spécialiste",
+      "εξηγήσουν": "expliquer",
+      "βοηθούν": "aident",
+      "μάθημα": "cours, leçon",
+      "πρώτες βοήθειες": "premiers secours",
+      "μάθουμε": "apprendre (nous)",
+      "σώσουμε": "sauver (nous)",
+      "χαρτί": "papier, attestation",
+      "γραφτείς": "t'inscrire",
+      "τηλέφωνο": "téléphone"
+    },
+    "lemma": {
+      "ετοιμάζουν": "ετοιμάζω",
+      "ξεκινά": "ξεκινώ",
+      "κόψουν": "κόβω",
+      "συναντιούνται": "συναντιέμαι",
+      "εξηγήσουν": "εξηγώ",
+      "βοηθούν": "βοηθώ",
+      "μάθουμε": "μαθαίνω",
+      "σώσουμε": "σώζω",
+      "γραφτείς": "γράφομαι"
+    },
+    "examples": {
+      "Δήμος": [
+        [
+          "Ο Δήμος φυτεύει νέα δέντρα.",
+          "The city is planting new trees.",
+          "La mairie plante de nouveaux arbres."
+        ],
+        [
+          "Ο Δήμος ανοίγει μια νέα παιδική χαρά.",
+          "The city is opening a new playground.",
+          "La mairie ouvre une nouvelle aire de jeux."
+        ]
+      ],
+      "ιατρεία": [
+        [
+          "Τα ιατρεία ανοίγουν στις οκτώ.",
+          "The clinics open at eight.",
+          "Les cabinets médicaux ouvrent à huit heures."
+        ],
+        [
+          "Τα ιατρεία είναι κλειστά σήμερα.",
+          "The clinics are closed today.",
+          "Les cabinets médicaux sont fermés aujourd'hui."
+        ]
+      ],
+      "ετοιμάζουν": [
+        [
+          "Τα παιδιά ετοιμάζουν τις τσάντες τους.",
+          "The children are packing their bags.",
+          "Les enfants préparent leurs sacs."
+        ],
+        [
+          "Κάθε πρωί ετοιμάζω καφέ.",
+          "Every morning I make coffee.",
+          "Chaque matin, je prépare du café."
+        ]
+      ],
+      "δράσεις": [
+        [
+          "Το σχολείο έχει πολλές δράσεις.",
+          "The school has many activities.",
+          "L'école a beaucoup d'activités."
+        ],
+        [
+          "Οι δράσεις είναι δωρεάν.",
+          "The activities are free.",
+          "Les activités sont gratuites."
+        ]
+      ],
+      "στόχος": [
+        [
+          "Ο στόχος μου είναι να τρέξω.",
+          "My goal is to run.",
+          "Mon objectif est de courir."
+        ],
+        [
+          "Ποιος είναι ο στόχος σου;",
+          "What is your goal?",
+          "Quel est ton objectif ?"
+        ]
+      ],
+      "υγιείς": [
+        [
+          "Τα φρούτα μάς κρατούν υγιείς.",
+          "Fruit keeps us healthy.",
+          "Les fruits nous gardent en bonne santé."
+        ],
+        [
+          "Οι γάτες μας είναι υγιείς.",
+          "Our cats are healthy.",
+          "Nos chats sont en bonne santé."
+        ]
+      ],
+      "ξεκινά": [
+        [
+          "Η ταινία ξεκινά στις εννιά.",
+          "The film starts at nine.",
+          "Le film commence à neuf heures."
+        ],
+        [
+          "Ξεκινώ τη δουλειά στις οκτώ.",
+          "I start work at eight.",
+          "Je commence le travail à huit heures."
+        ]
+      ],
+      "κόψουν": [
+        [
+          "Θέλουν να κόψουν τη ζάχαρη.",
+          "They want to cut out sugar.",
+          "Ils veulent arrêter le sucre."
+        ],
+        [
+          "Κόβω τον καφέ μετά τις έξι.",
+          "I give up coffee after six.",
+          "J'arrête le café après six heures."
+        ]
+      ],
+      "κάπνισμα": [
+        [
+          "Το κάπνισμα κάνει κακό.",
+          "Smoking is bad for you.",
+          "Fumer fait du mal."
+        ],
+        [
+          "Εδώ απαγορεύεται το κάπνισμα.",
+          "Smoking is not allowed here.",
+          "Ici, il est interdit de fumer."
+        ]
+      ],
+      "άτομα": [
+        [
+          "Το τραπέζι είναι για τέσσερα άτομα.",
+          "The table is for four people.",
+          "La table est pour quatre personnes."
+        ],
+        [
+          "Στο λεωφορείο είναι πολλά άτομα.",
+          "There are many people on the bus.",
+          "Il y a beaucoup de personnes dans le bus."
+        ]
+      ],
+      "συναντιούνται": [
+        [
+          "Οι φίλοι συναντιούνται στην πλατεία.",
+          "The friends meet in the square.",
+          "Les amis se retrouvent sur la place."
+        ],
+        [
+          "Συναντιέμαι με τη Μαρία στο καφέ.",
+          "I meet Maria at the café.",
+          "Je retrouve Maria au café."
+        ]
+      ],
+      "απόγευμα": [
+        [
+          "Το απόγευμα πίνω τσάι.",
+          "In the afternoon I drink tea.",
+          "L'après-midi, je bois du thé."
+        ],
+        [
+          "Έλα σπίτι μου το απόγευμα.",
+          "Come to my house in the afternoon.",
+          "Viens chez moi l'après-midi."
+        ]
+      ],
+      "ομιλία": [
+        [
+          "Η ομιλία ήταν πολύ ωραία.",
+          "The talk was very nice.",
+          "La conférence était très bien."
+        ],
+        [
+          "Η ομιλία αρχίζει σε λίγο.",
+          "The talk starts soon.",
+          "La conférence commence bientôt."
+        ]
+      ],
+      "διαδίκτυο": [
+        [
+          "Διαβάζω ειδήσεις στο διαδίκτυο.",
+          "I read news on the internet.",
+          "Je lis les infos sur internet."
+        ],
+        [
+          "Το διαδίκτυο δεν δουλεύει σήμερα.",
+          "The internet isn't working today.",
+          "Internet ne marche pas aujourd'hui."
+        ]
+      ],
+      "διαβήτης": [
+        [
+          "Ο διαβήτης είναι μια αρρώστια.",
+          "Diabetes is an illness.",
+          "Le diabète est une maladie."
+        ],
+        [
+          "Ο διαβήτης θέλει προσοχή.",
+          "Diabetes needs care.",
+          "Le diabète demande de l'attention."
+        ]
+      ],
+      "γιατρός": [
+        [
+          "Ο γιατρός είναι πολύ καλός.",
+          "The doctor is very good.",
+          "Le médecin est très bon."
+        ],
+        [
+          "Πού είναι ο γιατρός;",
+          "Where is the doctor?",
+          "Où est le médecin ?"
+        ]
+      ],
+      "ειδικός": [
+        [
+          "Η μητέρα μου είναι ειδικός στα κρασιά.",
+          "My mother is a wine expert.",
+          "Ma mère est spécialiste des vins."
+        ],
+        [
+          "Ο Νίκος είναι ειδικός στους υπολογιστές.",
+          "Nikos is a computer expert.",
+          "Nikos est spécialiste en informatique."
+        ]
+      ],
+      "εξηγήσουν": [
+        [
+          "Θα μας εξηγήσουν τον χάρτη.",
+          "They will explain the map to us.",
+          "Ils vont nous expliquer la carte."
+        ],
+        [
+          "Σου εξηγώ τον δρόμο.",
+          "I'll explain the way to you.",
+          "Je t'explique le chemin."
+        ]
+      ],
+      "βοηθούν": [
+        [
+          "Οι γείτονες βοηθούν τη γιαγιά.",
+          "The neighbours help grandma.",
+          "Les voisins aident la grand-mère."
+        ],
+        [
+          "Βοηθώ τη μαμά στην κουζίνα.",
+          "I help mum in the kitchen.",
+          "J'aide maman dans la cuisine."
+        ]
+      ],
+      "μάθημα": [
+        [
+          "Το μάθημα αρχίζει στις πέντε.",
+          "The lesson starts at five.",
+          "Le cours commence à cinq heures."
+        ],
+        [
+          "Σήμερα έχω μάθημα κιθάρας.",
+          "Today I have a guitar lesson.",
+          "Aujourd'hui, j'ai un cours de guitare."
+        ]
+      ],
+      "πρώτες βοήθειες": [
+        [
+          "Ξέρεις πρώτες βοήθειες;",
+          "Do you know first aid?",
+          "Tu connais les premiers secours ?"
+        ],
+        [
+          "Οι πρώτες βοήθειες σώζουν ζωές.",
+          "First aid saves lives.",
+          "Les premiers secours sauvent des vies."
+        ]
+      ],
+      "μάθουμε": [
+        [
+          "Θέλουμε να μάθουμε ελληνικά.",
+          "We want to learn Greek.",
+          "Nous voulons apprendre le grec."
+        ],
+        [
+          "Μαθαίνω να μαγειρεύω.",
+          "I'm learning to cook.",
+          "J'apprends à cuisiner."
+        ]
+      ],
+      "σώσουμε": [
+        [
+          "Πρέπει να σώσουμε τη γάτα!",
+          "We must save the cat!",
+          "Nous devons sauver le chat !"
+        ],
+        [
+          "Σώζω ένα πουλί από τη γάτα.",
+          "I save a bird from the cat.",
+          "Je sauve un oiseau du chat."
+        ]
+      ],
+      "χαρτί": [
+        [
+          "Γράψε το σε ένα χαρτί.",
+          "Write it on a piece of paper.",
+          "Écris-le sur un papier."
+        ],
+        [
+          "Δεν έχω χαρτί στην τσάντα.",
+          "I have no paper in my bag.",
+          "Je n'ai pas de papier dans mon sac."
+        ]
+      ],
+      "γραφτείς": [
+        [
+          "Μπορείς να γραφτείς στο γυμναστήριο.",
+          "You can sign up at the gym.",
+          "Tu peux t'inscrire à la salle de sport."
+        ],
+        [
+          "Γράφομαι σε ένα μάθημα χορού.",
+          "I'm signing up for a dance class.",
+          "Je m'inscris à un cours de danse."
+        ]
+      ],
+      "τηλέφωνο": [
+        [
+          "Το τηλέφωνο χτυπάει.",
+          "The phone is ringing.",
+          "Le téléphone sonne."
+        ],
+        [
+          "Μιλάω στο τηλέφωνο με τη μαμά.",
+          "I'm talking to mum on the phone.",
+          "Je parle au téléphone avec maman."
+        ]
+      ]
+    }
   }
 ]
