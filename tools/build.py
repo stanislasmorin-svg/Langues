@@ -439,8 +439,8 @@ def gloss_page(lessons, lang, L):
         for p in s["paragraphs"]:
             for m in RX.finditer(p):
                 gr, en = m.group(1), m.group(2)
-                if lem.get(gr): gr = f"{gr} ({lem[gr]})"
                 f = fr.get(gr, "")
+                if lem.get(gr): gr = f"{gr} ({lem[gr]})"
                 k = (f.lower(), en.lower(), gr.lower())
                 if k in seen: continue
                 seen.add(k); rows.append((f, en, gr, s["date"]))
