@@ -2771,6 +2771,68 @@
           "Je déménage en décembre."
         ]
       ]
-    }
+    },
+    "quiz": [
+      {
+        "word": "sportelli",
+        "gr": "sportelli",
+        "en": "counters",
+        "fr": "guichets"
+      },
+      {
+        "word": "pomeriggio",
+        "gr": "pomeriggio",
+        "en": "afternoon",
+        "fr": "après-midi"
+      },
+      {
+        "word": "appuntamento",
+        "gr": "appuntamento",
+        "en": "appointment",
+        "fr": "rendez-vous"
+      },
+      {
+        "word": "prenotare",
+        "gr": "prenotare",
+        "en": "to book",
+        "fr": "réserver"
+      },
+      {
+        "word": "ricevuta",
+        "gr": "ricevuta",
+        "en": "receipt",
+        "fr": "reçu"
+      },
+      {
+        "word": "iniziano",
+        "gr": "iniziare",
+        "en": "to start",
+        "fr": "commencer"
+      },
+      {
+        "word": "fretta",
+        "gr": "fretta",
+        "en": "hurry",
+        "fr": "hâte"
+      },
+      {
+        "word": "pagare",
+        "gr": "pagare",
+        "en": "to pay",
+        "fr": "payer"
+      },
+      {
+        "word": "centro",
+        "gr": "centro",
+        "en": "city centre",
+        "fr": "centre-ville"
+      },
+      {
+        "word": "finiscono",
+        "gr": "finire",
+        "en": "to run out",
+        "fr": "s'épuiser, finir"
+      }
+    ]
   }
 ]

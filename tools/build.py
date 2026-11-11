@@ -224,7 +224,113 @@ JS = r"""
 })();
 """
 
-def lesson_page(s, prev, nxt, lang, L, outdir):
+
+SPEAKER = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+           '<path d="M11 5 6 9H3v6h3l5 4z" fill="currentColor"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>')
+
+QUIZ_CSS = """
+.qcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px}
+.qcard .k{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.qcard .t{font-size:20px;font-weight:600}
+#q,#end{display:flex;flex-direction:column;gap:14px}[hidden]{display:none!important}
+.qhead{display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--muted)}
+.bar{height:6px;background:var(--line);border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
+.ask{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:6px;text-align:center}
+.ask .en{font-size:26px;font-weight:600}.ask .fr{color:var(--gloss);font-size:18px}.ask .tag{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.opt{font:inherit;font-size:21px;padding:16px 10px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer}
+.opt:hover:not(:disabled){border-color:var(--accent)}.opt:disabled{cursor:default}
+.opt.ok{background:#e3f4e8;border-color:#2e7d4f;color:#1b5e38}.opt.ko{background:#fbe5e5;border-color:#c0392b;color:#8e2a20}
+@media (prefers-color-scheme:dark){.opt.ok{background:#173a26;color:#9fe0b7}.opt.ko{background:#3d1a17;color:#f2aaa2}}
+.fb{min-height:64px;font-size:16px;text-align:center}.fb .exg{font-size:18px}.fb .exe{color:var(--muted);font-size:14px}
+.say{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;margin-left:6px;vertical-align:middle;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--accent);cursor:pointer;padding:0}
+.say:hover{border-color:var(--accent)}.say svg{width:18px;height:18px}
+.score{font-size:64px;font-weight:600;text-align:center;line-height:1;margin:8px 0}
+.center{text-align:center}.center .row{justify-content:center}
+.miss{list-style:none;padding:0;margin:0}.miss li{border-bottom:1px solid var(--line);padding:8px 0;display:flex;justify-content:space-between;gap:10px}
+.miss b{font-size:18px}
+"""
+
+def quiz_items(s, lang, outdir, all_lemmas):
+    """Up to 10 quiz questions. Uses s["quiz"] (written by the daily task) if present,
+    otherwise picks non-verb words of the lesson automatically (older lessons)."""
+    words, frm, lem, ex = [], s.get("fr", {}), s.get("lemma", {}), s.get("examples", {})
+    for p in s["paragraphs"]:
+        for m in RX.finditer(p):
+            words.append((m.group(1), m.group(2)))
+    gloss = dict(words)
+    if s.get("quiz"):
+        base = [(q["word"], q.get("gr") or lem.get(q["word"]) or q["word"], q["en"], q.get("fr", frm.get(q["word"], ""))) for q in s["quiz"] if q.get("word") in gloss]
+    else:
+        base = [(w, w, en, frm.get(w, "")) for w, en in words if w not in lem][:10]
+    nouns = [w for w, _ in words if w not in lem]
+    verbs = sorted(set(lem.values()))
+    out = []
+    for w, gr, en, fr in base[:10]:
+        is_verb = w in lem
+        pool = [v for v in (verbs if is_verb else nouns) if v != gr]
+        if is_verb and len(pool) < 3:
+            pool += [v for v in all_lemmas if v != gr and v not in pool][:3 - len(pool)]
+        pairs = ex.get(w, [])
+        e = (pairs[1] if is_verb and len(pairs) > 1 else pairs[0]) if pairs else ["", "", ""]
+        e = list(e[:3]) + [""] * (3 - len(e[:3]))
+        au = ""
+        if e[0]:
+            n = ex_audio_name(lang, e[0]); fpath = os.path.join(outdir, "audio", "ex", n)
+            if os.path.exists(fpath):
+                au = "../audio/ex/" + n + "?v=" + hashlib.md5(open(fpath, "rb").read()).hexdigest()[:8]
+        out.append(dict(gr=gr, en=en, fr=fr, pool=pool, ex=e, au=au))
+    return out if len(out) >= 4 else []
+
+QUIZ_JS = r"""
+function sh(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
+var i=0,score=0,miss=[],$=function(x){return document.getElementById(x)},AU=new Audio(),N=D.length;
+function esc(t){var d=document.createElement('div');d.textContent=t;return d.innerHTML}
+function play(){if(!D[i].au)return;AU.src=D[i].au;AU.currentTime=0;AU.play().catch(function(){})}
+function show(){var it=D[i];$('n').textContent='Question '+(i+1)+' / '+N;$('bar').style.width=(i/N*100)+'%';
+ $('en').textContent=it.en;$('fr').textContent=it.fr;$('fb').innerHTML='';$('next').hidden=true;
+ var o=sh([it.gr].concat(sh(it.pool.slice()).slice(0,3)));$('opts').innerHTML='';
+ o.forEach(function(w){var b=document.createElement('button');b.className='opt';b.type='button';b.textContent=w;b.onclick=function(){pick(b,w)};$('opts').appendChild(b)})}
+function pick(btn,w){var it=D[i],ok=w===it.gr;[].forEach.call($('opts').children,function(b){b.disabled=true;if(b.textContent===it.gr)b.classList.add('ok')});
+ if(ok){score++}else{btn.classList.add('ko');miss.push(it)}
+ $('pts').textContent=score+(score===1?' point':' points');
+ $('fb').innerHTML=(ok?'<strong>Correct!</strong>':'<strong>The answer: '+esc(it.gr)+'</strong>')+(it.ex[0]?'<div class="exg">'+esc(it.ex[0])+(it.au?'<button class="say" type="button" aria-label="Listen" onclick="play()">'+SPK+'</button>':'')+'</div><div class="exe">'+esc(it.ex[1])+(it.ex[2]?' · '+esc(it.ex[2]):'')+'</div>':'');
+ $('next').hidden=false;$('next').textContent=i==N-1?'See my score':'Next →';$('next').focus()}
+$('next').onclick=function(){AU.pause();i++;if(i<N)show();else end()};
+function end(){$('q').hidden=true;$('end').hidden=false;$('sc').textContent=score+' / '+N;
+ $('msg').textContent=score==N?'Perfect! '+BRAVO:score>=N*0.7?'Very good! See you tomorrow.':score>=N*0.4?'Not bad. Read the lesson again and retry.':'Keep going: a little every day goes a long way.';
+ $('rev').hidden=!miss.length;$('miss').innerHTML=miss.map(function(m){return '<li><b>'+esc(m.gr)+'</b><span>'+esc(m.en)+(m.fr?' · '+esc(m.fr):'')+'</span></li>'}).join('')}
+$('again').onclick=function(){i=0;score=0;miss=[];sh(D);$('end').hidden=true;$('q').hidden=false;$('pts').textContent='0 points';show()};
+$('share').onclick=function(){var t='I got '+score+'/'+N+' on today\'s '+LANG+' quiz on Masimera. Can you beat me?',u=location.href.split('?')[0].split('#')[0];
+ if(navigator.share)navigator.share({text:t,url:u}).catch(function(){});else if(navigator.clipboard)navigator.clipboard.writeText(t+' '+u).then(function(){$('share').textContent='Copied ✓'})};
+show();
+"""
+
+def quiz_page(s, items, lang, L):
+    bravo = "Μπράβο!" if lang == "el" else "Bravo!"
+    data = json.dumps(items, ensure_ascii=False).replace("</", "<\\/")
+    t = html.escape(s["title"])
+    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{L["name"]} quiz · {t} · Masimera</title><meta name="robots" content="noindex">{seo(L["out"] + "quiz/" + s["date"] + ".html", L["name"] + " quiz of the day · Masimera", f"10 words from today's lesson: {s['title']}. Can you get them all right?")}{FONTS}<style>{CSS}{QUIZ_CSS}</style></head><body><div class="wrap">
+<header><span class="eyebrow">{L["name"]} quiz · {fr_date(s["date"])}</span><h1>Quiz of the day</h1>
+<p class="sub">{len(items)} words from the lesson: <a href="../cours/{s["date"]}.html">{t}</a></p></header>
+<div id="q">
+<div class="qhead"><span id="n"></span><span id="pts">0 points</span></div>
+<div class="bar"><i id="bar"></i></div>
+<div class="ask"><span class="tag">Choose the {L["name"]} word</span><span class="en" id="en"></span><span class="fr" id="fr"></span></div>
+<div class="opts" id="opts"></div>
+<div class="fb" id="fb" aria-live="polite"></div>
+<div class="row" style="justify-content:center"><button class="play" id="next" type="button" hidden>Next →</button></div>
+</div>
+<div id="end" class="center" hidden>
+<h2>Your score</h2><div class="score" id="sc"></div><p class="sub" id="msg"></p>
+<div class="row"><button class="play" id="share" type="button">Share my score</button><button class="chip" id="again" type="button">Try again</button></div>
+<section id="rev" style="text-align:left;margin-top:12px" hidden><h2>Words to review</h2><ul class="miss" id="miss"></ul></section>
+<p class="row"><a href="../cours/{s["date"]}.html">← Back to the lesson</a> · <a href="../mots.html">All words</a></p>
+</div>
+</div><script>var D={data},SPK={json.dumps(SPEAKER)},LANG={json.dumps(L["name"])},BRAVO={json.dumps(bravo)};{QUIZ_JS}</script></body></html>"""
+
+def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
     words, paras_html, plain = [], [], []
     frm = s.get("fr", {})
     for p in s["paragraphs"]:
@@ -277,9 +383,11 @@ def lesson_page(s, prev, nxt, lang, L, outdir):
     en_html = "".join(f"<p>{html.escape(p)}</p>" for p in s.get("paragraphs_en", []))
     if nxt: nav.append(f'<a href="{nxt["date"]}.html">Next lesson →</a>')
     src = s.get("source")
+    quiz_card = (f'<section class="qcard"><span class="k">Quiz of the day</span><span class="t">Ready to test yourself?</span>'
+                 f'<span class="sub">10 words from this lesson · about 2 minutes</span><div class="row"><a class="play" href="../quiz/{s["date"]}.html">Start the quiz →</a></div></section>\n')
     src_html = f'<p class="note">Source: <a href="{html.escape(src["url"])}" target="_blank" rel="noopener">{html.escape(src["name"])}</a></p>' if src else ""
     return f"""<!doctype html><html lang="en" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{html.escape(s["title"])} · Easy {L["name"]} reading with audio · Masimera</title>{seo(L["out"] + "cours/" + s["date"] + ".html", s["title"] + " · Easy " + L["name"] + " with audio", (s.get("title_en") or s.get("title_fr","")) + ". A real news story from " + L["place"] + " in simple " + L["name"] + ", with audio and " + str(len(words)) + " words translated into English and French.", "article")}{FONTS}<style>{CSS}</style></head><body><div class="wrap">
+<title>{html.escape(s["title"])} · Easy {L["name"]} reading with audio · Masimera</title>{seo(L["out"] + "cours/" + s["date"] + ".html", s["title"] + " · Easy " + L["name"] + " with audio", (s.get("title_en") or s.get("title_fr","")) + ". A real news story from " + L["place"] + " in simple " + L["name"] + ", with audio and " + str(len(words)) + " words translated into English and French.", "article")}{FONTS}<style>{CSS}{QUIZ_CSS if has_quiz else ""}</style></head><body><div class="wrap">
 <header><span class="eyebrow">{fr_date(s["date"])}</span><nav class="row topnav">{" · ".join(nav)}</nav><h1>{html.escape(s["title"])}</h1><p class="sub">{html.escape(s.get("title_en") or s.get("title_fr",""))}</p></header>
 <section class="player">
   {player}
@@ -288,7 +396,7 @@ def lesson_page(s, prev, nxt, lang, L, outdir):
 <section><h2>The text</h2><div class="text hide" id="text">{"".join(paras_html)}</div><div class="text" id="textEn" lang="en" hidden>{en_html}</div></section>
 <div class="row"><button class="chip" id="glossBtn" aria-pressed="false">Translations hidden</button>{'<button class="chip" id="enBtn" aria-pressed="false">Show English translation</button>' if en_html else ""}</div>
 {src_html}
-<div class="row"><button class="chip" id="shareBtn" type="button">Share this lesson</button></div>
+{quiz_card if has_quiz else ""}<div class="row"><button class="chip" id="shareBtn" type="button">Share this lesson</button></div>
 <nav class="row">{" · ".join(nav)}</nav>
 </div><script>{JS}</script></body></html>"""
 
@@ -361,10 +469,15 @@ def build(lang, L):
     lessons.sort(key=lambda s: s["date"], reverse=True)
     outdir = os.path.join(ROOT, L["out"])
     os.makedirs(os.path.join(outdir, "cours"), exist_ok=True)
+    os.makedirs(os.path.join(outdir, "quiz"), exist_ok=True)
+    all_lemmas = sorted({v for x in lessons for v in x.get("lemma", {}).values()})
     for i, s in enumerate(lessons):
         prev = lessons[i + 1] if i + 1 < len(lessons) else None
         nxt = lessons[i - 1] if i > 0 else None
-        open(os.path.join(outdir, "cours", s["date"] + ".html"), "w", encoding="utf-8").write(lesson_page(s, prev, nxt, lang, L, outdir))
+        items = quiz_items(s, lang, outdir, all_lemmas)
+        if items:
+            open(os.path.join(outdir, "quiz", s["date"] + ".html"), "w", encoding="utf-8").write(quiz_page(s, items, lang, L))
+        open(os.path.join(outdir, "cours", s["date"] + ".html"), "w", encoding="utf-8").write(lesson_page(s, prev, nxt, lang, L, outdir, bool(items)))
     open(os.path.join(outdir, "index.html"), "w", encoding="utf-8").write(index_page(lessons, lang, L))
     open(os.path.join(outdir, "mots.html"), "w", encoding="utf-8").write(gloss_page(lessons, lang, L))
     print(f"{lang}: built {len(lessons)} lesson(s)")

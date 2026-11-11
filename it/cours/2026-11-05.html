@@ -47,6 +47,27 @@ h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
 .list .d{font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px;min-width:82px}
 .list .t{font-family:var(--text);font-size:17px}
 .list .f{color:var(--muted);font-size:13px;display:block}
+
+.qcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px}
+.qcard .k{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.qcard .t{font-size:20px;font-weight:600}
+#q,#end{display:flex;flex-direction:column;gap:14px}[hidden]{display:none!important}
+.qhead{display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--muted)}
+.bar{height:6px;background:var(--line);border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
+.ask{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:6px;text-align:center}
+.ask .en{font-size:26px;font-weight:600}.ask .fr{color:var(--gloss);font-size:18px}.ask .tag{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.opt{font:inherit;font-size:21px;padding:16px 10px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer}
+.opt:hover:not(:disabled){border-color:var(--accent)}.opt:disabled{cursor:default}
+.opt.ok{background:#e3f4e8;border-color:#2e7d4f;color:#1b5e38}.opt.ko{background:#fbe5e5;border-color:#c0392b;color:#8e2a20}
+@media (prefers-color-scheme:dark){.opt.ok{background:#173a26;color:#9fe0b7}.opt.ko{background:#3d1a17;color:#f2aaa2}}
+.fb{min-height:64px;font-size:16px;text-align:center}.fb .exg{font-size:18px}.fb .exe{color:var(--muted);font-size:14px}
+.say{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;margin-left:6px;vertical-align:middle;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--accent);cursor:pointer;padding:0}
+.say:hover{border-color:var(--accent)}.say svg{width:18px;height:18px}
+.score{font-size:64px;font-weight:600;text-align:center;line-height:1;margin:8px 0}
+.center{text-align:center}.center .row{justify-content:center}
+.miss{list-style:none;padding:0;margin:0}.miss li{border-bottom:1px solid var(--line);padding:8px 0;display:flex;justify-content:space-between;gap:10px}
+.miss b{font-size:18px}
 </style></head><body><div class="wrap">
 <header><span class="eyebrow">Thursday, 5 November 2026</span><nav class="row topnav"><a href="2026-11-04.html">← Previous lesson</a> · <a href="../index.html">All lessons</a> · <a href="../mots.html">All words</a> · <a href="2026-11-06.html">Next lesson →</a></nav><h1>Musei gratis a Roma</h1><p class="sub">Free museums in Rome</p></header>
 <section class="player">
@@ -56,6 +77,7 @@ h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
 <section><h2>The text</h2><div class="text hide" id="text"><p>Il 4 novembre è una <span class="w">festa</span><span class="g"> (holiday · fête)</span> in Italia. È la <span class="w">Giornata</span><span class="g"> (Day · Journée)</span> dell&#x27;Unità Nazionale e delle Forze Armate. Per questa festa, molti <span class="w">musei</span><span class="g"> (museums · musées)</span> di Roma sono <span class="w">gratis</span><span class="g"> (free · gratuit(s))</span> per tutti. Lo <span class="w">decide</span><span class="g"> (decides · (il) décide)</span> il <span class="w">Ministero</span><span class="g"> (Ministry · ministère)</span> della Cultura.</p><p>Si può <span class="w">entrare</span><span class="g"> (go in · entrer)</span> al Colosseo, al Foro Romano e al Palatino. Qui il <span class="w">biglietto</span><span class="g"> (ticket · billet)</span> gratis si <span class="w">prende</span><span class="g"> (gets · (on) prend)</span> alla <span class="w">cassa</span><span class="g"> (ticket office · caisse, guichet)</span>. Non si può <span class="w">prenotare</span><span class="g"> (book · réserver)</span>. Chi <span class="w">arriva</span><span class="g"> (arrives · (il) arrive)</span> <span class="w">presto</span><span class="g"> (early · tôt)</span>, entra prima.</p><p>Anche il Pantheon e Castel Sant&#x27;Angelo sono <span class="w">aperti</span><span class="g"> (open · ouverts)</span> gratis. Il Pantheon <span class="w">apre</span><span class="g"> (opens · (il) ouvre)</span> alle nove e <span class="w">chiude</span><span class="g"> (closes · (il) ferme)</span> alle sette di <span class="w">sera</span><span class="g"> (evening · soir)</span>. C&#x27;è anche il Museo degli Strumenti Musicali. Da Palazzo Poli si <span class="w">vede</span><span class="g"> (can see · (on) voit)</span> la Fontana di Trevi <span class="w">dall&#x27;alto</span><span class="g"> (from above · d&#x27;en haut)</span>.</p><p>Per alcuni musei serve una <span class="w">prenotazione</span><span class="g"> (booking · réservation)</span> su internet. Prima di <span class="w">andare</span><span class="g"> (going · aller)</span>, è meglio <span class="w">guardare</span><span class="g"> (look at · regarder)</span> il <span class="w">sito</span><span class="g"> (website · site (internet))</span> del museo.</p></div><div class="text" id="textEn" lang="en" hidden><p>4 November is a holiday in Italy. It is the Day of National Unity and the Armed Forces. For this holiday, many museums in Rome are free for everyone. The Ministry of Culture decides it.</p><p>You can go into the Colosseum, the Roman Forum and the Palatine. Here you get the free ticket at the ticket office. You cannot book. Whoever arrives early goes in first.</p><p>The Pantheon and Castel Sant&#x27;Angelo are also open for free. The Pantheon opens at nine and closes at seven in the evening. There is also the Museum of Musical Instruments. From Palazzo Poli you can see the Trevi Fountain from above.</p><p>For some museums you need an online booking. Before going, it is better to look at the museum&#x27;s website.</p></div></section>
 <div class="row"><button class="chip" id="glossBtn" aria-pressed="false">Translations hidden</button><button class="chip" id="enBtn" aria-pressed="false">Show English translation</button></div>
 <p class="note">Source: <a href="https://www.roma-events.it/2026/11/03/musei-gratis-a-roma-il-4-novembre-ecco-dove-andare/" target="_blank" rel="noopener">Roma Events</a></p>
+<section class="qcard"><span class="k">Quiz of the day</span><span class="t">Ready to test yourself?</span><span class="sub">10 words from this lesson · about 2 minutes</span><div class="row"><a class="play" href="../quiz/2026-11-05.html">Start the quiz →</a></div></section>
 <div class="row"><button class="chip" id="shareBtn" type="button">Share this lesson</button></div>
 <nav class="row"><a href="2026-11-04.html">← Previous lesson</a> · <a href="../index.html">All lessons</a> · <a href="../mots.html">All words</a> · <a href="2026-11-06.html">Next lesson →</a></nav>
 </div><script>

@@ -10662,6 +10662,68 @@
           "Je parle au téléphone avec maman."
         ]
       ]
-    }
+    },
+    "quiz": [
+      {
+        "word": "γιατρός",
+        "gr": "γιατρός",
+        "en": "doctor",
+        "fr": "médecin"
+      },
+      {
+        "word": "απόγευμα",
+        "gr": "απόγευμα",
+        "en": "afternoon",
+        "fr": "après-midi"
+      },
+      {
+        "word": "στόχος",
+        "gr": "στόχος",
+        "en": "goal",
+        "fr": "objectif"
+      },
+      {
+        "word": "κάπνισμα",
+        "gr": "κάπνισμα",
+        "en": "smoking",
+        "fr": "le tabac"
+      },
+      {
+        "word": "ετοιμάζουν",
+        "gr": "ετοιμάζω",
+        "en": "to prepare",
+        "fr": "préparer"
+      },
+      {
+        "word": "διαδίκτυο",
+        "gr": "διαδίκτυο",
+        "en": "internet",
+        "fr": "internet"
+      },
+      {
+        "word": "ξεκινά",
+        "gr": "ξεκινώ",
+        "en": "to start",
+        "fr": "commencer"
+      },
+      {
+        "word": "μάθημα",
+        "gr": "μάθημα",
+        "en": "lesson",
+        "fr": "cours, leçon"
+      },
+      {
+        "word": "εξηγήσουν",
+        "gr": "εξηγώ",
+        "en": "to explain",
+        "fr": "expliquer"
+      },
+      {
+        "word": "μάθουμε",
+        "gr": "μαθαίνω",
+        "en": "to learn",
+        "fr": "apprendre"
+      }
+    ]
   }
 ]
