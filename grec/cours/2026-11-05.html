@@ -171,7 +171,7 @@ h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
     });
   });
   var gb = document.getElementById('glossBtn'), eb = document.getElementById('enBtn'), text = document.getElementById('text'), en = document.getElementById('textEn');
-  gb.addEventListener('click', function(){
+  if (gb) gb.addEventListener('click', function(){
     var show = gb.getAttribute('aria-pressed') !== 'true';
     gb.setAttribute('aria-pressed', show); gb.textContent = show ? 'Translations shown' : 'Translations hidden';
     text.classList.toggle('hide', !show);

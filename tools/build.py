@@ -201,7 +201,7 @@ JS = r"""
     });
   });
   var gb = document.getElementById('glossBtn'), eb = document.getElementById('enBtn'), text = document.getElementById('text'), en = document.getElementById('textEn');
-  gb.addEventListener('click', function(){
+  if (gb) gb.addEventListener('click', function(){
     var show = gb.getAttribute('aria-pressed') !== 'true';
     gb.setAttribute('aria-pressed', show); gb.textContent = show ? 'Translations shown' : 'Translations hidden';
     text.classList.toggle('hide', !show);
@@ -432,6 +432,59 @@ GLOSS_CSS = """
 .lex tr.letter td{border:0;padding:18px 0 4px;font-size:13px;font-weight:600;color:var(--accent)}
 """
 
+
+WORDS_QUIZ_JS = r"""
+(function(){
+var LANG=document.body.dataset.lang, PAGE=location.href.split('?')[0].split('#')[0];
+var $=function(x){return document.getElementById(x)};
+function esc(t){var d=document.createElement('div');d.textContent=t;return d.innerHTML}
+function sh(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
+var ALL=[].map.call(document.querySelectorAll('.vocab .card'),function(c){var ex=JSON.parse(c.dataset.ex||'[]');var e=ex[0]||null;
+ return {fr:c.dataset.gr,en:c.dataset.fr,gr:c.dataset.tr.split(' · ')[0],v:c.dataset.v==='1',ex:e?e.slice(0,3):null,au:e&&e[3]?e[3]:''}});
+var ch=parseInt(new URLSearchParams(location.search).get('challenge'),10); if(!(ch>=0&&ch<=10))ch=null;
+if(ch!==null){$('wqTitle').textContent='A friend scored '+ch+'/10. Can you beat them?';$('wqStart').textContent='Accept the challenge →';}
+var D=[],i=0,score=0,miss=[],AU=new Audio();
+function pickSet(){var pool=sh(ALL.slice()),seen={},out=[];for(var k=0;k<pool.length&&out.length<10;k++){var w=pool[k];if(seen[w.gr])continue;seen[w.gr]=1;out.push(w)}return out}
+function start(){D=pickSet();i=0;score=0;miss=[];$('wqIntro').hidden=true;$('wqEnd').hidden=true;$('wqQ').hidden=false;$('wqPts').textContent='0 points';show();$('wq').scrollIntoView({block:'start'})}
+function show(){var it=D[i];$('wqN').textContent='Question '+(i+1)+' / 10';$('wqBar').style.width=(i*10)+'%';
+ $('wqEn').textContent=it.fr;$('wqFr').textContent=it.en;$('wqFb').innerHTML='';$('wqNext').hidden=true;
+ var others=sh(ALL.filter(function(o){return o.v===it.v&&o.gr!==it.gr&&o.fr!==it.fr})).map(function(o){return o.gr}).filter(function(g,k,a){return a.indexOf(g)===k}).slice(0,3);
+ var o=sh([it.gr].concat(others));$('wqOpts').innerHTML='';
+ o.forEach(function(w){var b=document.createElement('button');b.className='opt';b.type='button';b.textContent=w;b.onclick=function(){pick(b,w)};$('wqOpts').appendChild(b)})}
+window.wqPlay=function(){var it=D[i];if(!it.au)return;AU.src=it.au;AU.currentTime=0;AU.play().catch(function(){})};
+function pick(btn,w){var it=D[i],ok=w===it.gr;[].forEach.call($('wqOpts').children,function(b){b.disabled=true;if(b.textContent===it.gr)b.classList.add('ok')});
+ if(ok)score++;else{btn.classList.add('ko');miss.push(it)}
+ $('wqPts').textContent=score+(score===1?' point':' points');
+ $('wqFb').innerHTML=(ok?'<strong>Correct!</strong>':'<strong>The answer: '+esc(it.gr)+'</strong>')+(it.ex?'<div class="exg">'+esc(it.ex[0])+(it.au?'<button class="say" type="button" aria-label="Listen" onclick="wqPlay()">'+SPK+'</button>':'')+'</div><div class="exe">'+esc(it.ex[1])+(it.ex[2]?' · '+esc(it.ex[2]):'')+'</div>':'');
+ $('wqNext').hidden=false;$('wqNext').textContent=i==9?'See my score':'Next →'}
+$('wqNext').onclick=function(){AU.pause();i++;if(i<10)show();else end()};
+function end(){$('wqQ').hidden=true;$('wqEnd').hidden=false;$('wqBar').style.width='100%';$('wqSc').textContent=score+' / 10';
+ var m=score==10?'Perfect!':score>=7?'Very good!':score>=4?'Not bad!':'Keep going: a little every day goes a long way.';
+ if(ch!==null)m=score>ch?'You beat your friend ('+ch+'/10)!':score==ch?'Tie with your friend ('+ch+'/10)!':'Your friend wins this time ('+ch+'/10). Try again!';
+ $('wqMsg').textContent=m;$('wqShare').textContent='Challenge a friend';
+ $('wqRev').hidden=!miss.length;$('wqMiss').innerHTML=miss.map(function(x){return '<li><b>'+esc(x.gr)+'</b><span>'+esc(x.fr)+' · '+esc(x.en)+'</span></li>'}).join('')}
+$('wqStart').onclick=start;$('wqAgain').onclick=start;
+$('wqShare').onclick=function(){var u=PAGE+'?challenge='+score+'#wq',t='I got '+score+'/10 on the Masimera '+LANG+' challenge. Can you beat me?';
+ if(navigator.share)navigator.share({text:t,url:u}).catch(function(){});
+ else if(navigator.clipboard)navigator.clipboard.writeText(t+' '+u).then(function(){$('wqShare').textContent='Link copied ✓'});else prompt('Copy this link:',u)};
+})();
+"""
+
+def words_quiz_html(L):
+    return f"""<section class="qcard" id="wq">
+<div id="wqIntro"><span class="k">{L["name"]} challenge</span><div class="t" id="wqTitle" style="margin:6px 0">Want to take the quiz?</div>
+<p class="sub" style="margin:0 0 12px">10 random words from all the lessons. A new quiz every time.</p>
+<div class="row"><button class="play" id="wqStart" type="button">Start the quiz →</button></div></div>
+<div id="wqQ" hidden style="display:flex;flex-direction:column;gap:14px">
+<div class="qhead"><span id="wqN"></span><span id="wqPts">0 points</span></div><div class="bar"><i id="wqBar"></i></div>
+<div class="ask"><span class="tag">Choose the {L["name"]} word</span><span class="en" id="wqEn"></span><span class="fr" id="wqFr" style="color:var(--muted)"></span></div>
+<div class="opts" id="wqOpts"></div><div class="fb" id="wqFb" aria-live="polite"></div>
+<div class="row" style="justify-content:center"><button class="play" id="wqNext" type="button" hidden>Next →</button></div></div>
+<div id="wqEnd" class="center" hidden><h2>Your score</h2><div class="score" id="wqSc"></div><p class="sub" id="wqMsg"></p>
+<div class="row" style="margin-top:10px"><button class="play" id="wqShare" type="button">Challenge a friend</button><button class="chip" id="wqAgain" type="button">New quiz</button></div>
+<section id="wqRev" style="text-align:left;margin-top:14px" hidden><h2>Words to review</h2><ul class="miss" id="wqMiss"></ul></section></div>
+</section>"""
+
 def sort_key(w):
     import unicodedata
     w = unicodedata.normalize("NFD", w.lower())
@@ -460,7 +513,7 @@ def gloss_page(lessons, lang, L):
                     base = t.lstrip("\"«“ ")
                     skey, plain = fr_key(base)
                     key = (skey.replace("œ", "oe").replace("æ", "ae"), plain.lower())
-                    g = groups.setdefault(key, dict(fr=f, words=[], en=[], ex=[], d=s["date"]))
+                    g = groups.setdefault(key, dict(fr=f, words=[], en=[], ex=[], d=s["date"], v=bool(vb)))
                     label = lem[w] if vb else (f"{w} ({lem[w]})" if lem.get(w) else w)
                     if label not in g["words"]: g["words"].append(label)
                     for e_t in [x.strip() for x in en.split(",") if x.strip()]:
@@ -483,7 +536,7 @@ def gloss_page(lessons, lang, L):
         hint = f'<span class="hint">{n} sentence{"s" if n > 1 else ""} ↻</span>' if n else ""
         data = html.escape(json.dumps(g["ex"][:6], ensure_ascii=False), quote=True)
         srch = html.escape(" ".join([g["fr"], gr, en, key[0]]).lower(), quote=True)
-        out.append(f'<li data-s="{srch}"><button class="card" type="button" data-ex="{data}" data-gr="{html.escape(g["fr"])}" data-tr="{html.escape(gr)}" data-fr="{html.escape(en)}" data-lem=""'
+        out.append(f'<li data-s="{srch}"><button class="card" type="button" data-ex="{data}" data-gr="{html.escape(g["fr"])}" data-tr="{html.escape(gr)}" data-fr="{html.escape(en)}" data-lem="" data-v="{1 if g["v"] else 0}"'
                    f'{"" if n else " disabled"}><span class="gr">{html.escape(g["fr"])}</span><span class="fr">{html.escape(gr)}</span><span class="fr2">{html.escape(en)}</span>{hint}</button>'
                    f'<a class="from" href="cours/{g["d"]}.html">lesson of {g["d"][8:10]}/{g["d"][5:7]}</a></li>')
     js = """(function(){var q=document.getElementById('q');q.addEventListener('input',function(){var v=q.value.trim().toLowerCase();
@@ -494,12 +547,13 @@ document.querySelectorAll('.vocab li.letter').forEach(function(r){r.hidden=!!v;}
              ".lexc .card>.gr{font-family:var(--ui);color:var(--gloss)}.lexc .card>.fr{font-family:var(--text);font-size:17px;font-weight:600;color:var(--fg)}"
              ".lexc .card>.fr2{color:var(--muted)}")
     return f"""<!doctype html><html lang="en" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{L["name"]} vocabulary list with English and French · Masimera</title>{seo(L["out"] + "mots.html", L["name"] + " vocabulary · Masimera", "All the " + L["name"] + " words from the Masimera daily lessons, translated into English and French, with example sentences and audio.")}{FONTS}<style>{CSS}{GLOSS_CSS}{extra}</style></head><body><div class="wrap">
+<title>{L["name"]} vocabulary list with English and French · Masimera</title>{seo(L["out"] + "mots.html", L["name"] + " vocabulary · Masimera", "All the " + L["name"] + " words from the Masimera daily lessons, translated into English and French, with example sentences and audio.")}{FONTS}<style>{CSS}{GLOSS_CSS}{QUIZ_CSS}{extra}</style></head><body data-lang="{L["name"]}"><div class="wrap">
 <header><span class="eyebrow">{L["col"]}</span><h1>All words</h1><p class="sub">{len(rows)} words from the lessons, in French alphabetical order. Tap a word to see and hear example sentences.</p></header>
+{words_quiz_html(L)}
 <input class="search" id="q" type="search" placeholder="Search (French, English or {L["name"]})…" autocomplete="off">
 <ul class="vocab lexc">{"".join(out)}</ul>
 <nav class="row"><a href="index.html">All lessons</a> · <a href="../index.html">Home</a></nav>
-</div><script>{js}</script><script>{JS}</script></body></html>"""
+</div><script>{js}</script><script>var SPK={json.dumps(SPEAKER)};{WORDS_QUIZ_JS}</script><script>{JS}</script></body></html>"""
 
 def build(lang, L):
     path = os.path.join(ROOT, L["file"])
