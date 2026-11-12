@@ -10725,5 +10725,415 @@
         "fr": "apprendre"
       }
     ]
+  },
+  {
+    "date": "2026-11-12",
+    "title": "Οι νέοι έχουν φωνή στην Αθήνα",
+    "title_fr": "Les jeunes ont leur mot à dire à Athènes",
+    "title_en": "Young people have a voice in Athens",
+    "source": {
+      "name": "Aftodioikisi.gr",
+      "url": "https://www.aftodioikisi.gr/ota/dimoi/dimos-athinaion-anoixe-i-platforma-symmetochis-sto-dimotiko-symvoylio-neolaias-athinaion/"
+    },
+    "paragraphs": [
+      "Ο Δήμος Αθηναίων **φτιάχνει** (is creating) μια νέα **ομάδα** (group) για τους **νέους** (young people). Τη λένε «Συμβούλιο Νεολαίας». Η ομάδα θα έχει 43 **μέλη** (members). Μπορούν να **μπουν** (to join) νέοι από 17 έως 30 **χρονών** (years old). Πρέπει να **μένουν** (live), να σπουδάζουν ή να **δουλεύουν** (work) στην Αθήνα.",
+      "Κάποια μέλη έρχονται από **συλλόγους** (clubs) της πόλης. Για παράδειγμα, από τον **αθλητισμό** (sport), το **εμπόριο** (trade) και το **περιβάλλον** (environment). Άλλα μέλη θα βγουν με **κλήρωση** (draw). Η ομάδα θα **μαζεύεται** (will meet) μία φορά τον μήνα, για δύο χρόνια.",
+      "Οι νέοι θα **γράφουν** (will write) **προτάσεις** (proposals) για την πόλη. Θα μιλούν για τον **πολιτισμό** (culture), το περιβάλλον και τις νέες **ιδέες** (ideas). Ο δήμος θα **ακούει** (will listen to) τις προτάσεις τους. Όμως την τελική **απόφαση** (decision) την παίρνει το Δημοτικό Συμβούλιο.",
+      "Ο **δήμαρχος** (mayor) Χάρης Δούκας λέει στους νέους: «Θέλουμε να έχετε **φωνή** (voice).» Για να **δηλώσεις** (to sign up) συμμετοχή, μπες στη **σελίδα** (website) youth.cityofathens.gr."
+    ],
+    "paragraphs_en": [
+      "The City of Athens is creating a new group for young people. It is called the \"Youth Council\". The group will have 43 members. Young people from 17 to 30 years old can join. They must live, study or work in Athens.",
+      "Some members come from clubs and associations in the city. For example, from sport, trade and the environment. Other members will be chosen by drawing lots. The group will meet once a month, for two years.",
+      "The young people will write proposals for the city. They will talk about culture, the environment and new ideas. The city will listen to their proposals. But the final decision is taken by the City Council.",
+      "Mayor Haris Doukas tells young people: \"We want you to have a voice.\" To sign up, go to the website youth.cityofathens.gr."
+    ],
+    "fr": {
+      "φτιάχνει": "crée, fabrique",
+      "ομάδα": "groupe, équipe",
+      "νέους": "jeunes",
+      "μέλη": "membres",
+      "μπουν": "entrer, rejoindre",
+      "χρονών": "ans (d'âge)",
+      "μένουν": "habitent",
+      "δουλεύουν": "travaillent",
+      "συλλόγους": "associations, clubs",
+      "αθλητισμό": "sport",
+      "εμπόριο": "commerce",
+      "περιβάλλον": "environnement",
+      "κλήρωση": "tirage au sort",
+      "μαζεύεται": "se réunira",
+      "γράφουν": "écriront",
+      "προτάσεις": "propositions",
+      "πολιτισμό": "culture",
+      "ιδέες": "idées",
+      "ακούει": "écoutera",
+      "απόφαση": "décision",
+      "δήμαρχος": "maire",
+      "φωνή": "voix",
+      "δηλώσεις": "déclarer, t'inscrire",
+      "σελίδα": "site, page"
+    },
+    "lemma": {
+      "φτιάχνει": "φτιάχνω",
+      "μπουν": "μπαίνω",
+      "μένουν": "μένω",
+      "δουλεύουν": "δουλεύω",
+      "μαζεύεται": "μαζεύομαι",
+      "γράφουν": "γράφω",
+      "ακούει": "ακούω",
+      "δηλώσεις": "δηλώνω"
+    },
+    "examples": {
+      "φτιάχνει": [
+        [
+          "Η μαμά φτιάχνει καφέ.",
+          "Mum is making coffee.",
+          "Maman fait du café."
+        ],
+        [
+          "Κάθε Κυριακή φτιάχνω πίτα.",
+          "Every Sunday I make a pie.",
+          "Chaque dimanche, je fais une tourte."
+        ]
+      ],
+      "ομάδα": [
+        [
+          "Η ομάδα μας παίζει απόψε.",
+          "Our team is playing tonight.",
+          "Notre équipe joue ce soir."
+        ],
+        [
+          "Είμαστε μια μικρή ομάδα φίλων.",
+          "We are a small group of friends.",
+          "Nous sommes un petit groupe d'amis."
+        ]
+      ],
+      "νέους": [
+        [
+          "Το καφέ αρέσει στους νέους.",
+          "Young people like this café.",
+          "Les jeunes aiment ce café."
+        ],
+        [
+          "Η πόλη έχει πάρκα για τους νέους.",
+          "The city has parks for young people.",
+          "La ville a des parcs pour les jeunes."
+        ]
+      ],
+      "μέλη": [
+        [
+          "Η οικογένεια έχει πέντε μέλη.",
+          "The family has five members.",
+          "La famille a cinq membres."
+        ],
+        [
+          "Τα μέλη του συλλόγου ήρθαν νωρίς.",
+          "The club members came early.",
+          "Les membres du club sont venus tôt."
+        ]
+      ],
+      "μπουν": [
+        [
+          "Τα παιδιά θέλουν να μπουν στο σπίτι.",
+          "The children want to go into the house.",
+          "Les enfants veulent entrer dans la maison."
+        ],
+        [
+          "Κάθε πρωί μπαίνω στο λεωφορείο.",
+          "Every morning I get on the bus.",
+          "Chaque matin, je monte dans le bus."
+        ]
+      ],
+      "χρονών": [
+        [
+          "Ο γιος μου είναι δέκα χρονών.",
+          "My son is ten years old.",
+          "Mon fils a dix ans."
+        ],
+        [
+          "Η γιαγιά είναι ογδόντα χρονών.",
+          "Grandma is eighty years old.",
+          "Grand-mère a quatre-vingts ans."
+        ]
+      ],
+      "μένουν": [
+        [
+          "Οι φίλοι μου μένουν στο Παγκράτι.",
+          "My friends live in Pangrati.",
+          "Mes amis habitent à Pangrati."
+        ],
+        [
+          "Εγώ μένω κοντά στο μετρό.",
+          "I live near the metro.",
+          "J'habite près du métro."
+        ]
+      ],
+      "δουλεύουν": [
+        [
+          "Οι γονείς μου δουλεύουν πολύ.",
+          "My parents work a lot.",
+          "Mes parents travaillent beaucoup."
+        ],
+        [
+          "Σήμερα δουλεύω από το σπίτι.",
+          "Today I'm working from home.",
+          "Aujourd'hui, je travaille de chez moi."
+        ]
+      ],
+      "συλλόγους": [
+        [
+          "Η πόλη έχει πολλούς συλλόγους.",
+          "The city has many clubs.",
+          "La ville a beaucoup d'associations."
+        ],
+        [
+          "Τα παιδιά πάνε σε αθλητικούς συλλόγους.",
+          "The children go to sports clubs.",
+          "Les enfants vont dans des clubs sportifs."
+        ]
+      ],
+      "αθλητισμό": [
+        [
+          "Αγαπώ τον αθλητισμό.",
+          "I love sport.",
+          "J'adore le sport."
+        ],
+        [
+          "Ο δήμος δίνει λεφτά για τον αθλητισμό.",
+          "The city gives money for sport.",
+          "La mairie donne de l'argent pour le sport."
+        ]
+      ],
+      "εμπόριο": [
+        [
+          "Ο θείος μου δουλεύει στο εμπόριο.",
+          "My uncle works in trade.",
+          "Mon oncle travaille dans le commerce."
+        ],
+        [
+          "Το εμπόριο στην Ερμού είναι μεγάλο.",
+          "Trade on Ermou Street is big.",
+          "Le commerce rue Ermou est important."
+        ]
+      ],
+      "περιβάλλον": [
+        [
+          "Προσέχουμε το περιβάλλον.",
+          "We look after the environment.",
+          "Nous protégeons l'environnement."
+        ],
+        [
+          "Το ποδήλατο είναι καλό για το περιβάλλον.",
+          "Cycling is good for the environment.",
+          "Le vélo est bon pour l'environnement."
+        ]
+      ],
+      "κλήρωση": [
+        [
+          "Η κλήρωση γίνεται αύριο.",
+          "The draw takes place tomorrow.",
+          "Le tirage au sort a lieu demain."
+        ],
+        [
+          "Κέρδισα ένα δώρο στην κλήρωση.",
+          "I won a gift in the draw.",
+          "J'ai gagné un cadeau au tirage au sort."
+        ]
+      ],
+      "μαζεύεται": [
+        [
+          "Η οικογένεια μαζεύεται την Κυριακή.",
+          "The family gets together on Sunday.",
+          "La famille se réunit le dimanche."
+        ],
+        [
+          "Το βράδυ μαζεύομαι με φίλους.",
+          "In the evening I get together with friends.",
+          "Le soir, je me retrouve avec des amis."
+        ]
+      ],
+      "γράφουν": [
+        [
+          "Τα παιδιά γράφουν στο τετράδιο.",
+          "The children write in the notebook.",
+          "Les enfants écrivent dans le cahier."
+        ],
+        [
+          "Κάθε μέρα γράφω μια λίστα.",
+          "Every day I write a list.",
+          "Chaque jour, j'écris une liste."
+        ]
+      ],
+      "προτάσεις": [
+        [
+          "Έχεις προτάσεις για το φαγητό;",
+          "Do you have suggestions for the food?",
+          "Tu as des propositions pour le repas ?"
+        ],
+        [
+          "Οι γείτονες κάνουν προτάσεις για το πάρκο.",
+          "The neighbours make proposals for the park.",
+          "Les voisins font des propositions pour le parc."
+        ]
+      ],
+      "πολιτισμό": [
+        [
+          "Η Αθήνα έχει πολύ πολιτισμό.",
+          "Athens has a lot of culture.",
+          "Athènes a beaucoup de culture."
+        ],
+        [
+          "Μιλάμε για τον πολιτισμό της Ελλάδας.",
+          "We talk about Greek culture.",
+          "Nous parlons de la culture grecque."
+        ]
+      ],
+      "ιδέες": [
+        [
+          "Έχω δύο ιδέες για το Σάββατο.",
+          "I have two ideas for Saturday.",
+          "J'ai deux idées pour samedi."
+        ],
+        [
+          "Οι ιδέες σου είναι πολύ καλές.",
+          "Your ideas are very good.",
+          "Tes idées sont très bonnes."
+        ]
+      ],
+      "ακούει": [
+        [
+          "Ο παππούς ακούει ραδιόφωνο.",
+          "Grandpa listens to the radio.",
+          "Grand-père écoute la radio."
+        ],
+        [
+          "Στο μετρό ακούω μουσική.",
+          "On the metro I listen to music.",
+          "Dans le métro, j'écoute de la musique."
+        ]
+      ],
+      "απόφαση": [
+        [
+          "Πήρα μια μεγάλη απόφαση.",
+          "I made a big decision.",
+          "J'ai pris une grande décision."
+        ],
+        [
+          "Η απόφαση είναι δική σου.",
+          "The decision is yours.",
+          "La décision t'appartient."
+        ]
+      ],
+      "δήμαρχος": [
+        [
+          "Ο δήμαρχος μιλάει στην πλατεία.",
+          "The mayor is speaking in the square.",
+          "Le maire parle sur la place."
+        ],
+        [
+          "Ο δήμαρχος ανοίγει το νέο πάρκο.",
+          "The mayor opens the new park.",
+          "Le maire inaugure le nouveau parc."
+        ]
+      ],
+      "φωνή": [
+        [
+          "Η φωνή της είναι πολύ ωραία.",
+          "Her voice is very beautiful.",
+          "Sa voix est très belle."
+        ],
+        [
+          "Δεν ακούω καλά τη φωνή σου.",
+          "I can't hear your voice well.",
+          "Je n'entends pas bien ta voix."
+        ]
+      ],
+      "δηλώσεις": [
+        [
+          "Πρέπει να δηλώσεις το παιδί στο σχολείο.",
+          "You must register the child at school.",
+          "Tu dois inscrire l'enfant à l'école."
+        ],
+        [
+          "Σήμερα δηλώνω συμμετοχή στον αγώνα.",
+          "Today I am signing up for the race.",
+          "Aujourd’hui, je m’inscris à la course."
+        ]
+      ],
+      "σελίδα": [
+        [
+          "Διάβασε τη σελίδα του μουσείου.",
+          "Read the museum's website.",
+          "Lis le site du musée."
+        ],
+        [
+          "Η σελίδα δεν ανοίγει στο κινητό.",
+          "The page won't open on my phone.",
+          "La page ne s'ouvre pas sur mon portable."
+        ]
+      ]
+    },
+    "quiz": [
+      {
+        "word": "ομάδα",
+        "gr": "ομάδα",
+        "en": "group",
+        "fr": "groupe"
+      },
+      {
+        "word": "μέλη",
+        "gr": "μέλη",
+        "en": "members",
+        "fr": "membres"
+      },
+      {
+        "word": "φτιάχνει",
+        "gr": "φτιάχνω",
+        "en": "to make",
+        "fr": "faire, fabriquer"
+      },
+      {
+        "word": "περιβάλλον",
+        "gr": "περιβάλλον",
+        "en": "environment",
+        "fr": "environnement"
+      },
+      {
+        "word": "μένουν",
+        "gr": "μένω",
+        "en": "to live",
+        "fr": "habiter"
+      },
+      {
+        "word": "κλήρωση",
+        "gr": "κλήρωση",
+        "en": "draw",
+        "fr": "tirage au sort"
+      },
+      {
+        "word": "προτάσεις",
+        "gr": "προτάσεις",
+        "en": "proposals",
+        "fr": "propositions"
+      },
+      {
+        "word": "δουλεύουν",
+        "gr": "δουλεύω",
+        "en": "to work",
+        "fr": "travailler"
+      },
+      {
+        "word": "απόφαση",
+        "gr": "απόφαση",
+        "en": "decision",
+        "fr": "décision"
+      },
+      {
+        "word": "ακούει",
+        "gr": "ακούω",
+        "en": "to listen",
+        "fr": "écouter"
+      }
+    ]
   }
 ]

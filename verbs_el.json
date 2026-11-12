@@ -11,6 +11,10 @@
   "fr": "concourir, s'affronter",
   "en": "to compete"
  },
+ "ακούω": {
+  "fr": "écouter, entendre",
+  "en": "to listen, to hear"
+ },
  "αλλάζω": {
   "fr": "changer",
   "en": "to change"
@@ -91,6 +95,10 @@
   "fr": "s'inscrire",
   "en": "to sign up"
  },
+ "γράφω": {
+  "fr": "écrire",
+  "en": "to write"
+ },
  "γυρίζω": {
   "fr": "revenir",
   "en": "to come back"
@@ -98,6 +106,10 @@
  "δείχνω": {
   "fr": "montrer",
   "en": "to show"
+ },
+ "δηλώνω": {
+  "fr": "déclarer, s'inscrire",
+  "en": "to declare, to sign up"
  },
  "δοκιμάζω": {
   "fr": "goûter, essayer",
@@ -186,6 +198,10 @@
  "μένω": {
   "fr": "rester",
   "en": "to stay"
+ },
+ "μαζεύομαι": {
+  "fr": "se réunir",
+  "en": "to gather"
  },
  "μαθαίνω": {
   "fr": "apprendre",

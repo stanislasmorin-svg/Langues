@@ -47,6 +47,10 @@
   "fr": "atteindre (un âge)",
   "en": "to turn (an age)"
  },
+ "comprare": {
+  "fr": "acheter",
+  "en": "to buy"
+ },
  "costare": {
   "fr": "coûter",
   "en": "to cost"
@@ -71,6 +75,10 @@
   "fr": "entrer",
   "en": "to go in"
  },
+ "fermarsi": {
+  "fr": "s'arrêter",
+  "en": "to stop"
+ },
  "festeggiare": {
   "fr": "fêter",
   "en": "to celebrate"
@@ -78,6 +86,10 @@
  "finire": {
   "fr": "finir",
   "en": "to finish"
+ },
+ "funzionare": {
+  "fr": "fonctionner",
+  "en": "to work, to run"
  },
  "guardare": {
   "fr": "regarder",
@@ -114,6 +126,10 @@
  "parare": {
   "fr": "arrêter (un tir)",
   "en": "to save (a shot)"
+ },
+ "partire": {
+  "fr": "partir",
+  "en": "to leave"
  },
  "piacere": {
   "fr": "plaire",
@@ -155,6 +171,10 @@
   "fr": "répéter, refaire",
   "en": "to repeat"
  },
+ "riprendere": {
+  "fr": "reprendre",
+  "en": "to resume"
+ },
  "segnare": {
   "fr": "marquer",
   "en": "to score"
@@ -166,6 +186,10 @@
  "spiegare": {
   "fr": "expliquer",
   "en": "to explain"
+ },
+ "spostarsi": {
+  "fr": "se déplacer",
+  "en": "to get around"
  },
  "suonare": {
   "fr": "jouer (de la musique)",

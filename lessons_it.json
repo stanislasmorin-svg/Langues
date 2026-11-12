@@ -2834,5 +2834,415 @@
         "fr": "s'épuiser, finir"
       }
     ]
+  },
+  {
+    "date": "2026-11-12",
+    "title": "Sciopero dei mezzi a Napoli",
+    "title_fr": "Grève des transports à Naples",
+    "title_en": "Transport strike in Naples",
+    "source": {
+      "name": "Moveo (Telepass)",
+      "url": "https://moveo.telepass.com/sciopero-anm-napoli-16-novembre-2026"
+    },
+    "paragraphs": [
+      "Lunedì 16 novembre a Napoli c'è uno **sciopero** (strike). Riguarda l'Anm, l'**azienda** (company) dei **mezzi pubblici** (public transport). Lo sciopero **dura** (lasts) quattro ore, dalle 11 alle 15. In queste ore la **metropolitana** (underground), gli autobus e le **funicolari** (funiculars) possono **fermarsi** (stop).",
+      "Prima delle 11, i mezzi **funzionano** (run) come sempre. L'**ultima** (last) **corsa** (trip) della metro Linea 1 **parte** (leaves) verso le 10:30. Per le funicolari, l'ultima corsa è alle 10:50. Dopo le 15:30, il **servizio** (service) **riprende** (starts again) piano piano.",
+      "Cosa fare? È meglio **spostarsi** (to travel) prima o dopo lo sciopero. Puoi **comprare** (buy) il **biglietto** (ticket) online, così eviti la **fila** (queue). Per i **tragitti** (journeys) brevi, puoi usare la **bici** (bike) o il **monopattino** (scooter). Ci sarà anche più traffico sulle **strade** (roads) principali.",
+      "Attenzione: gli **orari** (times) possono **cambiare** (change) all'ultimo minuto. Le **notizie** (news) aggiornate sono sul sito anm.it."
+    ],
+    "paragraphs_en": [
+      "On Monday 16 November there is a strike in Naples. It concerns ANM, the public transport company. The strike lasts four hours, from 11 to 3 pm. During these hours the underground, buses and funiculars may stop.",
+      "Before 11, transport runs as usual. The last Line 1 metro train leaves at around 10:30. For the funiculars, the last run is at 10:50. After 3:30 pm, the service starts again little by little.",
+      "What to do? It's better to travel before or after the strike. You can buy your ticket online, so you avoid the queue. For short journeys, you can use a bike or a scooter. There will also be more traffic on the main roads.",
+      "Watch out: times can change at the last minute. Up-to-date news is on the anm.it website."
+    ],
+    "fr": {
+      "sciopero": "grève",
+      "azienda": "entreprise",
+      "mezzi pubblici": "transports en commun",
+      "dura": "dure",
+      "metropolitana": "métro",
+      "funicolari": "funiculaires",
+      "fermarsi": "s'arrêter",
+      "funzionano": "fonctionnent",
+      "ultima": "dernière",
+      "corsa": "trajet, passage",
+      "parte": "part",
+      "servizio": "service",
+      "riprende": "reprend",
+      "spostarsi": "se déplacer",
+      "comprare": "acheter",
+      "biglietto": "billet, ticket",
+      "fila": "file d'attente",
+      "tragitti": "trajets",
+      "bici": "vélo",
+      "monopattino": "trottinette",
+      "strade": "routes, rues",
+      "orari": "horaires",
+      "cambiare": "changer",
+      "notizie": "nouvelles, informations"
+    },
+    "lemma": {
+      "dura": "durare",
+      "fermarsi": "fermarsi",
+      "funzionano": "funzionare",
+      "parte": "partire",
+      "riprende": "riprendere",
+      "spostarsi": "spostarsi",
+      "comprare": "comprare",
+      "cambiare": "cambiare"
+    },
+    "examples": {
+      "sciopero": [
+        [
+          "Domani c'è sciopero dei treni.",
+          "Tomorrow there's a train strike.",
+          "Demain, il y a une grève des trains."
+        ],
+        [
+          "Lo sciopero finisce alle sei.",
+          "The strike ends at six.",
+          "La grève se termine à six heures."
+        ]
+      ],
+      "azienda": [
+        [
+          "Mio padre lavora in un'azienda.",
+          "My father works for a company.",
+          "Mon père travaille dans une entreprise."
+        ],
+        [
+          "L'azienda è vicino a casa.",
+          "The company is near home.",
+          "L'entreprise est près de la maison."
+        ]
+      ],
+      "mezzi pubblici": [
+        [
+          "Uso sempre i mezzi pubblici.",
+          "I always use public transport.",
+          "J'utilise toujours les transports en commun."
+        ],
+        [
+          "I mezzi pubblici sono pieni la mattina.",
+          "Public transport is crowded in the morning.",
+          "Les transports en commun sont bondés le matin."
+        ]
+      ],
+      "dura": [
+        [
+          "Il film dura due ore.",
+          "The film lasts two hours.",
+          "Le film dure deux heures."
+        ],
+        [
+          "Il viaggio in metro dura dieci minuti.",
+          "The metro ride takes ten minutes.",
+          "Le trajet en métro dure dix minutes."
+        ]
+      ],
+      "metropolitana": [
+        [
+          "Prendo la metropolitana per andare al lavoro.",
+          "I take the underground to go to work.",
+          "Je prends le métro pour aller au travail."
+        ],
+        [
+          "La metropolitana è chiusa stasera.",
+          "The underground is closed tonight.",
+          "Le métro est fermé ce soir."
+        ]
+      ],
+      "funicolari": [
+        [
+          "A Napoli ci sono quattro funicolari.",
+          "There are four funiculars in Naples.",
+          "À Naples, il y a quatre funiculaires."
+        ],
+        [
+          "Le funicolari salgono sulla collina.",
+          "The funiculars go up the hill.",
+          "Les funiculaires montent sur la colline."
+        ]
+      ],
+      "fermarsi": [
+        [
+          "Il bus deve fermarsi qui.",
+          "The bus has to stop here.",
+          "Le bus doit s'arrêter ici."
+        ],
+        [
+          "Il treno si ferma a ogni stazione.",
+          "The train stops at every station.",
+          "Le train s'arrête à chaque gare."
+        ]
+      ],
+      "funzionano": [
+        [
+          "Le scale mobili non funzionano.",
+          "The escalators aren't working.",
+          "Les escalators ne marchent pas."
+        ],
+        [
+          "I semafori funzionano di nuovo.",
+          "The traffic lights are working again.",
+          "Les feux marchent à nouveau."
+        ]
+      ],
+      "ultima": [
+        [
+          "Questa è l'ultima fermata.",
+          "This is the last stop.",
+          "C'est le dernier arrêt."
+        ],
+        [
+          "L'ultima pizza è per te.",
+          "The last pizza is for you.",
+          "La dernière pizza est pour toi."
+        ]
+      ],
+      "corsa": [
+        [
+          "La prossima corsa è tra dieci minuti.",
+          "The next one leaves in ten minutes.",
+          "Le prochain passe dans dix minutes."
+        ],
+        [
+          "Ho perso l'ultima corsa del bus.",
+          "I missed the last bus.",
+          "J'ai raté le dernier bus."
+        ]
+      ],
+      "parte": [
+        [
+          "Il treno parte alle otto.",
+          "The train leaves at eight.",
+          "Le train part à huit heures."
+        ],
+        [
+          "Io parto domani per Roma.",
+          "I'm leaving for Rome tomorrow.",
+          "Je pars demain pour Rome."
+        ]
+      ],
+      "servizio": [
+        [
+          "Il servizio è molto veloce.",
+          "The service is very fast.",
+          "Le service est très rapide."
+        ],
+        [
+          "Il servizio dei bus è gratis oggi.",
+          "The bus service is free today.",
+          "Le service de bus est gratuit aujourd'hui."
+        ]
+      ],
+      "riprende": [
+        [
+          "La partita riprende dopo la pausa.",
+          "The match resumes after the break.",
+          "Le match reprend après la pause."
+        ],
+        [
+          "Domani mia figlia riprende la scuola.",
+          "Tomorrow my daughter goes back to school.",
+          "Demain, ma fille reprend l'école."
+        ]
+      ],
+      "spostarsi": [
+        [
+          "È facile spostarsi in bici.",
+          "It's easy to get around by bike.",
+          "C'est facile de se déplacer à vélo."
+        ],
+        [
+          "Io mi sposto sempre a piedi.",
+          "I always get around on foot.",
+          "Je me déplace toujours à pied."
+        ]
+      ],
+      "comprare": [
+        [
+          "Devo comprare il pane.",
+          "I have to buy bread.",
+          "Je dois acheter du pain."
+        ],
+        [
+          "Io compro la frutta al mercato.",
+          "I buy fruit at the market.",
+          "J'achète des fruits au marché."
+        ]
+      ],
+      "biglietto": [
+        [
+          "Ho il biglietto per il concerto.",
+          "I have the ticket for the concert.",
+          "J'ai le billet pour le concert."
+        ],
+        [
+          "Il biglietto costa due euro.",
+          "The ticket costs two euros.",
+          "Le ticket coûte deux euros."
+        ]
+      ],
+      "fila": [
+        [
+          "C'è una lunga fila alla posta.",
+          "There's a long queue at the post office.",
+          "Il y a une longue file à la poste."
+        ],
+        [
+          "Facciamo la fila per il gelato.",
+          "We're queuing for ice cream.",
+          "On fait la queue pour une glace."
+        ]
+      ],
+      "tragitti": [
+        [
+          "Faccio tragitti brevi in città.",
+          "I make short trips in town.",
+          "Je fais de courts trajets en ville."
+        ],
+        [
+          "I tragitti in bus sono lunghi.",
+          "Bus journeys are long.",
+          "Les trajets en bus sont longs."
+        ]
+      ],
+      "bici": [
+        [
+          "Vado al lavoro in bici.",
+          "I go to work by bike.",
+          "Je vais au travail à vélo."
+        ],
+        [
+          "La mia bici è rossa.",
+          "My bike is red.",
+          "Mon vélo est rouge."
+        ]
+      ],
+      "monopattino": [
+        [
+          "Mio figlio ha un monopattino nuovo.",
+          "My son has a new scooter.",
+          "Mon fils a une nouvelle trottinette."
+        ],
+        [
+          "Il monopattino è comodo in città.",
+          "A scooter is handy in town.",
+          "La trottinette est pratique en ville."
+        ]
+      ],
+      "strade": [
+        [
+          "Le strade sono bagnate oggi.",
+          "The roads are wet today.",
+          "Les rues sont mouillées aujourd'hui."
+        ],
+        [
+          "Queste strade sono molto strette.",
+          "These streets are very narrow.",
+          "Ces rues sont très étroites."
+        ]
+      ],
+      "orari": [
+        [
+          "Gli orari del negozio sono sulla porta.",
+          "The shop's opening hours are on the door.",
+          "Les horaires du magasin sont sur la porte."
+        ],
+        [
+          "Controllo gli orari dei treni.",
+          "I check the train times.",
+          "Je vérifie les horaires des trains."
+        ]
+      ],
+      "cambiare": [
+        [
+          "Voglio cambiare casa.",
+          "I want to move house.",
+          "Je veux déménager."
+        ],
+        [
+          "Io cambio treno a Milano.",
+          "I change trains in Milan.",
+          "Je change de train à Milan."
+        ]
+      ],
+      "notizie": [
+        [
+          "Leggo le notizie al bar.",
+          "I read the news at the café.",
+          "Je lis les nouvelles au café."
+        ],
+        [
+          "Ci sono buone notizie oggi.",
+          "There is good news today.",
+          "Il y a de bonnes nouvelles aujourd'hui."
+        ]
+      ]
+    },
+    "quiz": [
+      {
+        "word": "sciopero",
+        "gr": "sciopero",
+        "en": "strike",
+        "fr": "grève"
+      },
+      {
+        "word": "biglietto",
+        "gr": "biglietto",
+        "en": "ticket",
+        "fr": "billet"
+      },
+      {
+        "word": "parte",
+        "gr": "partire",
+        "en": "to leave",
+        "fr": "partir"
+      },
+      {
+        "word": "fila",
+        "gr": "fila",
+        "en": "queue",
+        "fr": "file d'attente"
+      },
+      {
+        "word": "comprare",
+        "gr": "comprare",
+        "en": "to buy",
+        "fr": "acheter"
+      },
+      {
+        "word": "orari",
+        "gr": "orari",
+        "en": "times, timetable",
+        "fr": "horaires"
+      },
+      {
+        "word": "corsa",
+        "gr": "corsa",
+        "en": "trip, run",
+        "fr": "trajet"
+      },
+      {
+        "word": "cambiare",
+        "gr": "cambiare",
+        "en": "to change",
+        "fr": "changer"
+      },
+      {
+        "word": "strade",
+        "gr": "strade",
+        "en": "roads",
+        "fr": "routes, rues"
+      },
+      {
+        "word": "spostarsi",
+        "gr": "spostarsi",
+        "en": "to get around",
+        "fr": "se déplacer"
+      }
+    ]
   }
 ]
