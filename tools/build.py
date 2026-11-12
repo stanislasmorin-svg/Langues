@@ -93,6 +93,7 @@ h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
 .list .f{color:var(--muted);font-size:13px;display:block}
 """
 FONTS = ''
+FONTS += '<meta name="google" content="notranslate">'
 FONTS += '<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">'
 
 GA_ID = "G-GPPTJ2QQFS"
@@ -310,7 +311,7 @@ def quiz_page(s, items, lang, L):
     bravo = "Μπράβο!" if lang == "el" else "Bravo!"
     data = json.dumps(items, ensure_ascii=False).replace("</", "<\\/")
     t = html.escape(s["title"])
-    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    return f"""<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{L["name"]} quiz · {t} · Masimera</title><meta name="robots" content="noindex">{seo(L["out"] + "quiz/" + s["date"] + ".html", L["name"] + " quiz of the day · Masimera", f"10 words from today's lesson: {s['title']}. Can you get them all right?")}{FONTS}<style>{CSS}{QUIZ_CSS}</style></head><body><div class="wrap">
 <header><span class="eyebrow">{L["name"]} quiz · {fr_date(s["date"])}</span><h1>Quiz of the day</h1>
 <p class="sub">{len(items)} words from the lesson: <a href="../cours/{s["date"]}.html">{t}</a></p></header>
@@ -386,14 +387,14 @@ def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
     quiz_card = (f'<section class="qcard"><span class="k">Quiz of the day</span><span class="t">Ready to test yourself?</span>'
                  f'<span class="sub">10 words from this lesson · about 2 minutes</span><div class="row"><a class="play" href="../quiz/{s["date"]}.html">Start the quiz →</a></div></section>\n')
     src_html = f'<p class="note">Source: <a href="{html.escape(src["url"])}" target="_blank" rel="noopener">{html.escape(src["name"])}</a></p>' if src else ""
-    return f"""<!doctype html><html lang="en" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    return f"""<!doctype html><html lang="en" translate="no" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(s["title"])} · Easy {L["name"]} reading with audio · Masimera</title>{seo(L["out"] + "cours/" + s["date"] + ".html", s["title"] + " · Easy " + L["name"] + " with audio", (s.get("title_en") or s.get("title_fr","")) + ". A real news story from " + L["place"] + " in simple " + L["name"] + ", with audio and " + str(len(words)) + " words translated into English and French.", "article")}{FONTS}<style>{CSS}{QUIZ_CSS if has_quiz else ""}</style></head><body><div class="wrap">
 <header><span class="eyebrow">{fr_date(s["date"])}</span><nav class="row topnav">{" · ".join(nav)}</nav><h1>{html.escape(s["title"])}</h1><p class="sub">{html.escape(s.get("title_en") or s.get("title_fr",""))}</p></header>
 <section class="player">
   {player}
 </section>
 <section><h2>The {len(words)} words</h2>{'<p class="note" style="margin:-4px 0 10px">Tap a word to see example sentences in ' + L["name"] + ', with English and French translations.</p>' if ex else ""}<ul class="vocab">{vocab}</ul></section>
-<section><h2>The text</h2><div class="text hide" id="text">{"".join(paras_html)}</div><div class="text" id="textEn" lang="en" hidden>{en_html}</div></section>
+<section><h2>The text</h2><div class="text hide" id="text" lang="{lang}">{"".join(paras_html)}</div><div class="text" id="textEn" lang="en" hidden>{en_html}</div></section>
 <div class="row"><button class="chip" id="glossBtn" aria-pressed="false">Translations hidden</button>{'<button class="chip" id="enBtn" aria-pressed="false">Show English translation</button>' if en_html else ""}</div>
 {src_html}
 {quiz_card if has_quiz else ""}<div class="row"><button class="chip" id="shareBtn" type="button">Share this lesson</button></div>
@@ -405,7 +406,7 @@ def index_page(lessons, lang, L):
     o = LANGS[L["other"][0]]
     other = "../" + o["out"]
     head = f'<a class="play" href="cours/{lessons[0]["date"]}.html">Read today\'s lesson →</a> ' if lessons else ""
-    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    return f"""<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{L["title"]} · Learn {L["name"]} with simple news and audio · Masimera</title>{seo(L["out"], L["title"] + " · Masimera", L["tagline"] + " All lessons, free.")}{FONTS}<style>{CSS}</style></head><body><div class="wrap">
 <header><span class="eyebrow">{L["eyebrow"]}</span><h1>{L["title"]}</h1><p class="sub">{L["tagline"]}</p></header>
 <p class="row">{head}<a href="mots.html">All words (FR · EN · {L["short"]})</a> · <a href="../index.html">Home</a></p>
@@ -546,7 +547,7 @@ document.querySelectorAll('.vocab li.letter').forEach(function(r){r.hidden=!!v;}
              ".vocab .from{display:block;font-size:12px;color:var(--muted);padding:0 0 8px}.vocab li[hidden]{display:none}"
              ".lexc .card>.gr{font-family:var(--ui);color:var(--gloss)}.lexc .card>.fr{font-family:var(--text);font-size:17px;font-weight:600;color:var(--fg)}"
              ".lexc .card>.fr2{color:var(--muted)}")
-    return f"""<!doctype html><html lang="en" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    return f"""<!doctype html><html lang="en" translate="no" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{L["name"]} vocabulary list with English and French · Masimera</title>{seo(L["out"] + "mots.html", L["name"] + " vocabulary · Masimera", "All the " + L["name"] + " words from the Masimera daily lessons, translated into English and French, with example sentences and audio.")}{FONTS}<style>{CSS}{GLOSS_CSS}{QUIZ_CSS}{extra}</style></head><body data-lang="{L["name"]}"><div class="wrap">
 <header><span class="eyebrow">{L["col"]}</span><h1>All words</h1><p class="sub">{len(rows)} words from the lessons, in French alphabetical order. Tap a word to see and hear example sentences.</p></header>
 {words_quiz_html(L)}
@@ -576,7 +577,7 @@ def build(lang, L):
 
 def redirect(target):
     t = html.escape(target, quote=True)
-    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url={t}">'
+    return (f'<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url={t}">'
             f'<meta name="robots" content="noindex"><link rel="canonical" href="{t}"><title>Redirecting</title></head><body><p><a href="{t}">This lesson has moved: click here</a></p>'
             f'<script>location.replace({json.dumps(target)} + location.hash)</script></body></html>')
 
@@ -624,7 +625,7 @@ def home_page():
         else:
             body = '<span class="f">The first lesson is coming soon.</span>'
         cards.append(f'<div class="lang"><span class="k">{lang_name} · {L["eyebrow"]}</span>{body}</div>')
-    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    return f"""<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Masimera · Learn Greek or Italian with simple daily news and audio</title>
 {seo("", "Masimera · 15 minutes a day to learn Greek or Italian", "Every morning, a real local news story in simple Greek or Italian, with the hard words translated and audio. 15 minutes a day, free.")}
 {FONTS}<style>{CSS}{HOME_CSS}</style></head><body><div class="wrap">
@@ -655,7 +656,7 @@ def home_page():
 </div></body></html>"""
 
 def thanks_page():
-    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    return f"""<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Thank you · Masimera</title><meta name="robots" content="noindex">{FONTS}<style>{CSS}</style></head><body><div class="wrap">
 <header><span class="eyebrow">Masimera</span><h1>You're in!</h1>
 <p class="sub">Your first lesson arrives tomorrow morning, around 6 am (Paris time). If you don't see it, check your spam folder.</p></header>
