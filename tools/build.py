@@ -685,7 +685,7 @@ def home_page():
 <p class="lead">Every morning, a real news story, rewritten in simple sentences, with audio and the hard words translated into English and French. Slow and steady: a little every day, and you progress.</p>
 <section><h2>Today's lessons</h2><div class="langs">{"".join(cards)}</div></section>
 <section><h2>How it works</h2><ol class="steps">
-<li><b>1</b><div><strong>Read a real story</strong><span>Local news from Athens or Italy, written so simply a child could follow it.</span></div></li>
+<li><b>1</b><div><strong>Read a real story</strong><span>Local news, rewritten and simplified according to your level.</span></div></li>
 <li><b>2</b><div><strong>Listen</strong><span>A natural voice reads the text. Slow it down if you need to.</span></div></li>
 <li><b>3</b><div><strong>Learn 20 to 30 words</strong><span>Each word in English and French, with short example sentences you can hear.</span></div></li>
 <li><b>4</b><div><strong>Come back tomorrow</strong><span>A new lesson every morning. All the words you've met stay in your glossary.</span></div></li>
