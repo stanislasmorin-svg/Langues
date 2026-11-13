@@ -286,6 +286,8 @@ def quiz_items(s, lang, outdir, all_lemmas):
 QUIZ_JS = r"""
 function sh(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
 var i=0,score=0,miss=[],$=function(x){return document.getElementById(x)},AU=new Audio(),N=D.length;
+var CH=parseInt(new URLSearchParams(location.search).get('challenge'),10);if(!(CH>=0&&CH<=N))CH=null;
+if(CH!==null){$('chal').hidden=false;$('chal').textContent='A friend scored '+CH+'/'+N+' on this quiz. Can you beat them?';}
 function esc(t){var d=document.createElement('div');d.textContent=t;return d.innerHTML}
 function play(){if(!D[i].au)return;AU.src=D[i].au;AU.currentTime=0;AU.play().catch(function(){})}
 function show(){var it=D[i];$('n').textContent='Question '+(i+1)+' / '+N;$('bar').style.width=(i/N*100)+'%';
@@ -300,21 +302,60 @@ function pick(btn,w){var it=D[i],ok=w===it.gr;[].forEach.call($('opts').children
 $('next').onclick=function(){AU.pause();i++;if(i<N)show();else end()};
 function end(){$('q').hidden=true;$('end').hidden=false;$('sc').textContent=score+' / '+N;
  $('msg').textContent=score==N?'Perfect! '+BRAVO:score>=N*0.7?'Very good! See you tomorrow.':score>=N*0.4?'Not bad. Read the lesson again and retry.':'Keep going: a little every day goes a long way.';
+ if(CH!==null)$('msg').textContent=score>CH?'You beat your friend ('+CH+'/'+N+')!':score==CH?'Tie with your friend ('+CH+'/'+N+')!':'Your friend wins this time ('+CH+'/'+N+'). Try again!';
+ $('share').textContent='Challenge a friend';
  $('rev').hidden=!miss.length;$('miss').innerHTML=miss.map(function(m){return '<li><b>'+esc(m.gr)+'</b><span>'+esc(m.en)+(m.fr?' · '+esc(m.fr):'')+'</span></li>'}).join('')}
 $('again').onclick=function(){i=0;score=0;miss=[];sh(D);$('end').hidden=true;$('q').hidden=false;$('pts').textContent='0 points';show()};
-$('share').onclick=function(){var t='I got '+score+'/'+N+' on today\'s '+LANG+' quiz on Masimera. Can you beat me?',u=location.href.split('?')[0].split('#')[0];
+$('share').onclick=function(){var t='I got '+score+'/'+N+' on today\'s '+LANG+' quiz on Masimera. Can you beat me?',u=location.href.split('?')[0].split('#')[0]+'?challenge='+score;
  if(navigator.share)navigator.share({text:t,url:u}).catch(function(){});else if(navigator.clipboard)navigator.clipboard.writeText(t+' '+u).then(function(){$('share').textContent='Copied ✓'})};
 show();
 """
+
+
+SHARE_CSS = """
+.brandmini{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:16px;color:var(--fg);text-decoration:none;margin-bottom:10px}
+.brandmini img{width:24px;height:24px;border-radius:6px}
+.pitch{margin:8px 0 0;font-size:15px;color:var(--muted)}
+.chal{background:var(--soft);border-radius:12px;padding:12px 14px;font-weight:600;margin-top:10px}
+.signup{background:var(--soft);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px;text-align:left;margin-top:16px}
+.signup h2{margin:0;color:var(--fg);font-size:17px;letter-spacing:0;text-transform:none}
+.signup p{margin:0;font-size:14px;color:var(--muted)}
+.signup form{display:flex;flex-direction:column;gap:10px}
+.signup input[type=email],.signup select{font:inherit;font-size:16px;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--fg);width:100%}
+.signup .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.signup button.play{align-self:flex-start}
+"""
+
+def brand_mini():
+    return '<a class="brandmini" href="/"><img src="/icon-192.png" alt="">Masimera</a>'
+
+def pitch(L):
+    return (f'<p class="pitch"><b>Masimera</b>: every morning, a real news story from {L["place"]} '
+            f'in simple {L["name"]}, with audio. 15 minutes a day.</p>')
+
+def signup_box(L):
+    opts = "".join(f'<option{" selected" if o == L["name"] else ""}>{o}</option>' for o in ("Greek", "Italian", "Greek and Italian"))
+    return f"""<section class="signup"><h2>Want a new lesson and quiz every morning?</h2>
+<p>A real news story in simple {L["name"]}, with audio and the hard words translated. Free, one email a day.</p>
+<form action="{FORM_ACTION}" method="POST">
+<input type="hidden" name="_subject" value="Masimera sign-up">
+<input type="hidden" name="_next" value="https://masimera.com/thanks.html">
+<input type="hidden" name="_template" value="table">
+<input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+<input type="email" name="email" required placeholder="you@example.com" autocomplete="email" aria-label="Your email">
+<select name="language" aria-label="Language">{opts}</select>
+<button class="play" type="submit">Sign up</button>
+</form></section>"""
 
 def quiz_page(s, items, lang, L):
     bravo = "Μπράβο!" if lang == "el" else "Bravo!"
     data = json.dumps(items, ensure_ascii=False).replace("</", "<\\/")
     t = html.escape(s["title"])
     return f"""<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{L["name"]} quiz · {t} · Masimera</title><meta name="robots" content="noindex">{seo(L["out"] + "quiz/" + s["date"] + ".html", L["name"] + " quiz of the day · Masimera", f"10 words from today's lesson: {s['title']}. Can you get them all right?")}{FONTS}<style>{CSS}{QUIZ_CSS}</style></head><body><div class="wrap">
-<header><span class="eyebrow">{L["name"]} quiz · {fr_date(s["date"])}</span><h1>Quiz of the day</h1>
-<p class="sub">{len(items)} words from the lesson: <a href="../cours/{s["date"]}.html">{t}</a></p></header>
+<title>{L["name"]} quiz · {t} · Masimera</title><meta name="robots" content="noindex">{seo(L["out"] + "quiz/" + s["date"] + ".html", "Can you beat my score? " + L["name"] + " quiz · Masimera", f"A 2-minute {L['name']} quiz on today's news: {s['title']}. 10 words, 4 choices each.")}{FONTS}<style>{CSS}{QUIZ_CSS}{SHARE_CSS}</style></head><body><div class="wrap">
+<header>{brand_mini()}<br><span class="eyebrow">{L["name"]} quiz · {fr_date(s["date"])}</span><h1>Quiz of the day</h1>
+<p class="sub">{len(items)} words from the lesson: <a href="../cours/{s["date"]}.html">{t}</a></p>{pitch(L)}
+<p class="chal" id="chal" hidden></p></header>
 <div id="q">
 <div class="qhead"><span id="n"></span><span id="pts">0 points</span></div>
 <div class="bar"><i id="bar"></i></div>
@@ -327,6 +368,7 @@ def quiz_page(s, items, lang, L):
 <h2>Your score</h2><div class="score" id="sc"></div><p class="sub" id="msg"></p>
 <div class="row"><button class="play" id="share" type="button">Share my score</button><button class="chip" id="again" type="button">Try again</button></div>
 <section id="rev" style="text-align:left;margin-top:12px" hidden><h2>Words to review</h2><ul class="miss" id="miss"></ul></section>
+{signup_box(L)}
 <p class="row"><a href="../cours/{s["date"]}.html">← Back to the lesson</a> · <a href="../mots.html">All words</a></p>
 </div>
 </div><script>var D={data},SPK={json.dumps(SPEAKER)},LANG={json.dumps(L["name"])},BRAVO={json.dumps(bravo)};{QUIZ_JS}</script></body></html>"""
@@ -483,7 +525,7 @@ def words_quiz_html(L):
 <div class="row" style="justify-content:center"><button class="play" id="wqNext" type="button" hidden>Next →</button></div></div>
 <div id="wqEnd" class="center" hidden><h2>Your score</h2><div class="score" id="wqSc"></div><p class="sub" id="wqMsg"></p>
 <div class="row" style="margin-top:10px"><button class="play" id="wqShare" type="button">Challenge a friend</button><button class="chip" id="wqAgain" type="button">New quiz</button></div>
-<section id="wqRev" style="text-align:left;margin-top:14px" hidden><h2>Words to review</h2><ul class="miss" id="wqMiss"></ul></section></div>
+<section id="wqRev" style="text-align:left;margin-top:14px" hidden><h2>Words to review</h2><ul class="miss" id="wqMiss"></ul></section>{signup_box(L)}</div>
 </section>"""
 
 def sort_key(w):
@@ -548,8 +590,8 @@ document.querySelectorAll('.vocab li.letter').forEach(function(r){r.hidden=!!v;}
              ".lexc .card>.gr{font-family:var(--ui);color:var(--gloss)}.lexc .card>.fr{font-family:var(--text);font-size:17px;font-weight:600;color:var(--fg)}"
              ".lexc .card>.fr2{color:var(--muted)}")
     return f"""<!doctype html><html lang="en" translate="no" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{L["name"]} vocabulary list with English and French · Masimera</title>{seo(L["out"] + "mots.html", L["name"] + " vocabulary · Masimera", "All the " + L["name"] + " words from the Masimera daily lessons, translated into English and French, with example sentences and audio.")}{FONTS}<style>{CSS}{GLOSS_CSS}{QUIZ_CSS}{extra}</style></head><body data-lang="{L["name"]}"><div class="wrap">
-<header><span class="eyebrow">{L["col"]}</span><h1>All words</h1><p class="sub">{len(rows)} words from the lessons, in French alphabetical order. Tap a word to see and hear example sentences.</p></header>
+<title>{L["name"]} vocabulary list with English and French · Masimera</title>{seo(L["out"] + "mots.html", L["name"] + " vocabulary · Masimera", "All the " + L["name"] + " words from the Masimera daily lessons, translated into English and French, with example sentences and audio.")}{FONTS}<style>{CSS}{GLOSS_CSS}{QUIZ_CSS}{SHARE_CSS}{extra}</style></head><body data-lang="{L["name"]}"><div class="wrap">
+<header>{brand_mini()}<br><span class="eyebrow">{L["col"]}</span><h1>All words</h1><p class="sub">All the words from the lessons. Tap a word to see and hear example sentences.</p>{pitch(L)}</header>
 {words_quiz_html(L)}
 <input class="search" id="q" type="search" placeholder="Search (French, English or {L["name"]})…" autocomplete="off">
 <ul class="vocab lexc">{"".join(out)}</ul>
