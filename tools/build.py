@@ -8,6 +8,7 @@ Each paragraph marks translated words as **mot** (English translation).
 fr: {"<mot exactement comme dans **mot**>": "<traduction française>"} (pour le lexique mots.html)
 examples (optional): {"<mot>": [["phrase grecque", "English translation", "traduction française"], ...]}
 """
+import math
 import json, re, html, os, hashlib
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -44,6 +45,8 @@ def fr_date(iso):
     return f"{DAYS[d.weekday()]}, {d.day} {MONTHS[d.month-1]} {d.year}"
 
 CSS = """
+.sitefoot{border-top:1px solid var(--line);margin-top:8px;padding-top:14px;font-size:14px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px}
+.toplink{float:right;font-size:14px;margin-top:2px}
 :root{--bg:#f6f7f9;--surface:#fff;--fg:#1c1f24;--muted:#5b6370;--line:#dde1e8;--accent:#1a56b4;--soft:#e4ecf8;--gloss:#8a5a14;
 --text:"Times New Roman",Times,"Liberation Serif","Noto Serif",serif;--ui:"Times New Roman",Times,"Liberation Serif","Noto Serif",serif}
 @media (prefers-color-scheme:dark){:root{--bg:#13161b;--surface:#1b1f26;--fg:#e7eaef;--muted:#a0a8b4;--line:#2d333d;--accent:#8ab4f8;--soft:#1f2b3d;--gloss:#e3b469;color-scheme:dark}}
@@ -326,6 +329,8 @@ SHARE_CSS = """
 .signup button.play{align-self:flex-start}
 """
 
+FOOTER = '<footer class="sitefoot"><a href="/method.html">The Masimera method</a><span>·</span><a href="/">Home</a></footer>'
+
 def brand_mini():
     return '<a class="brandmini" href="/"><img src="/icon-192.png" alt="">Masimera</a>'
 
@@ -371,6 +376,7 @@ def quiz_page(s, items, lang, L):
 {signup_box(L)}
 <p class="row"><a href="../cours/{s["date"]}.html">← Back to the lesson</a> · <a href="../mots.html">All words</a></p>
 </div>
+{FOOTER}
 </div><script>var D={data},SPK={json.dumps(SPEAKER)},LANG={json.dumps(L["name"])},BRAVO={json.dumps(bravo)};{QUIZ_JS}</script></body></html>"""
 
 def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
@@ -441,6 +447,7 @@ def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
 {src_html}
 {quiz_card if has_quiz else ""}<div class="row"><button class="chip" id="shareBtn" type="button">Share this lesson</button></div>
 <nav class="row">{" · ".join(nav)}</nav>
+{FOOTER}
 </div><script>{JS}</script></body></html>"""
 
 def index_page(lessons, lang, L):
@@ -453,6 +460,7 @@ def index_page(lessons, lang, L):
 <header><span class="eyebrow">{L["eyebrow"]}</span><h1>{L["title"]}</h1><p class="sub">{L["tagline"]}</p></header>
 <p class="row">{head}<a href="mots.html">All words (FR · EN · {L["short"]})</a> · <a href="../index.html">Home</a></p>
 <section><h2>All lessons</h2><ul class="list">{items or '<li class="note">The first lesson is coming soon.</li>'}</ul></section>
+{FOOTER}
 </div></body></html>"""
 
 ARTICLES = re.compile(r"^(?:l'|l’|d'|d’|le |la |les |un |une |des |du |de la |de l'|de l’|de |à |au |aux |se |s'|a |ont |est |sont |va |vont |va |s’)", re.I)
@@ -596,6 +604,7 @@ document.querySelectorAll('.vocab li.letter').forEach(function(r){r.hidden=!!v;}
 <input class="search" id="q" type="search" placeholder="Search (French, English or {L["name"]})…" autocomplete="off">
 <ul class="vocab lexc">{"".join(out)}</ul>
 <nav class="row"><a href="index.html">All lessons</a> · <a href="../index.html">Home</a></nav>
+{FOOTER}
 </div><script>{js}</script><script>var SPK={json.dumps(SPEAKER)};{WORDS_QUIZ_JS}</script><script>{JS}</script></body></html>"""
 
 def build(lang, L):
@@ -671,7 +680,7 @@ def home_page():
 <title>Masimera · Learn Greek or Italian with simple daily news and audio</title>
 {seo("", "Masimera · 15 minutes a day to learn Greek or Italian", "Every morning, a real local news story in simple Greek or Italian, with the hard words translated and audio. 15 minutes a day, free.")}
 {FONTS}<style>{CSS}{HOME_CSS}</style></head><body><div class="wrap">
-<header><span class="eyebrow">15 minutes a day</span><h1 class="brand">Masimera</h1>
+<header><a class="toplink" href="/method.html">The Masimera method</a><span class="eyebrow">15 minutes a day</span><h1 class="brand">Masimera</h1>
 <p class="meaning">μάθημα (lesson) + μέρα (day): the lesson of the day</p></header>
 <p class="lead">Every morning, a real news story, rewritten in simple sentences, with audio and the hard words translated into English and French. Slow and steady: a little every day, and you progress.</p>
 <section><h2>Today's lessons</h2><div class="langs">{"".join(cards)}</div></section>
@@ -681,7 +690,7 @@ def home_page():
 <li><b>3</b><div><strong>Learn 20 to 30 words</strong><span>Each word in English and French, with short example sentences you can hear.</span></div></li>
 <li><b>4</b><div><strong>Come back tomorrow</strong><span>A new lesson every morning. All the words you've met stay in your glossary.</span></div></li>
 </ol></section>
-<section class="join"><h2 style="margin:0">Get it every morning</h2>
+<section class="join" id="join"><h2 style="margin:0">Get it every morning</h2>
 <p>The lesson arrives in your inbox at 6 am, with one button to open it.</p>
 <form action="{FORM_ACTION}" method="POST">
 <input type="hidden" name="_subject" value="Masimera sign-up">
@@ -695,6 +704,159 @@ def home_page():
 <button class="play" type="submit">Sign up</button>
 <p class="small">Free. One email a day. Reply "stop" to any email to unsubscribe.</p>
 </form></section>
+{FOOTER}
+</div></body></html>"""
+
+from math import erf as _erf, sqrt as _sqrt
+
+def _chart_spoken():
+    # Nation 2006, Table 13: conversation, cumulative coverage (word families, + proper nouns from 3,000)
+    pts = [(0, 0.0), (1000, 84.0), (2000, 89.35), (3000, 96.03), (6000, 97.67), (7000, 97.95)]  # 1,000: measured on Masimera lessons
+    L, R, T, B, XM, YLO, XLO = 56, 560, 30, 270, 8000, 0, 0
+    x = lambda w: L + (w - XLO) / (XM - XLO) * (R - L)
+    y = lambda p: B - (p - YLO) / (100 - YLO) * (B - T)
+    out = ['<p class="ctitle"><b>With 3,000 word families, you understand about 96% of everyday conversation</b><br><span>Share of the words of native conversation you know, by vocabulary size</span></p>',
+           '<div class="cscroll"><svg viewBox="0 0 760 330" role="img" aria-label="With 3,000 word families, you understand about 96% of everyday conversation" class="chart">']
+    for p in (0, 20, 40, 60, 80, 100):
+        out.append(f'<line x1="{L}" x2="{R}" y1="{y(p):.1f}" y2="{y(p):.1f}" class="cg"/><text x="{L-8}" y="{y(p)+4:.1f}" text-anchor="end" class="cl">{p}%</text>')
+    for w in range(XLO, XM + 1, 1000):
+        out.append(f'<text x="{x(w):.1f}" y="{B+18}" text-anchor="middle" class="cl">{w:,}</text>')
+    out.append(f'<text x="{R}" y="{B+40}" text-anchor="end" class="cl">Word families you know</text>')
+    for p, dy, lab in ((98, -3, ["98%: comfortable"]), (95, 13, ["95%: you can follow", "and guess the rest"])):
+        tl = "".join(f'<tspan x="{R+8}" dy="{0 if i == 0 else 17}">{t}</tspan>' for i, t in enumerate(lab))
+        out.append(f'<line x1="{L}" x2="{R}" y1="{y(p):.1f}" y2="{y(p):.1f}" class="cr"/><text x="{R+8}" y="{y(p)+dy:.1f}" class="cl">{tl}</text>')
+    # smooth trend: least-squares fit of 100 - A·e^(-w/k1) - (100-A)·e^(-w/k2) to the points (dots show the real values)
+    fit = lambda w: 100 - 79.5 * math.exp(-w / 300) - 20.5 * math.exp(-w / 2450)
+    curve = [(w, fit(w)) for w in range(0, XM + 1, 25)]
+    path = " ".join(f"{'M' if i == 0 else 'L'}{x(w):.1f},{y(p):.1f}" for i, (w, p) in enumerate(curve))
+    out.append(f'<path d="{path}" class="cline"/>')
+    for w, p in pts:
+        out.append(f'<circle cx="{x(w):.1f}" cy="{y(p):.1f}" r="4.5" class="{'copen' if w == 1000 else 'cdot'}"><title>{w:,} word families: {p:.0f}%</title></circle>')
+        if w == 1000:
+            out.append(f'<text x="{x(w)+12:.1f}" y="{y(p)+42:.1f}" class="cv">84%<tspan class="cl"> (measured on Masimera lessons)</tspan></text>')
+        elif w and w != 6000:
+            out.append(f'<text x="{x(w) + (8 if w == 3000 else 0):.1f}" y="{y(p) + 22:.1f}" text-anchor="{'start' if w == 3000 else 'middle'}" class="cv">{p:.0f}%</text>')
+    out.append("</svg></div>")
+    return "".join(out)
+
+def _chart_cefr():
+    # Milton & Alexiou: learner vocabulary (lemmatised words) per CEFR level, low-high across the languages they report
+    # (French, Greek, English); C1-C2 tests were capped at 5,000 words, so those are low estimates.
+    lv = [("A1", 1160, 1500), ("A2", 1650, 2500), ("B1", 2420, 3290), ("B2", 2630, 3960), ("C1", 3210, 4500), ("C2", 3525, 5000)]
+    L, R, T, B, YM = 70, 740, 30, 270, 5500
+    band = (R - L) / len(lv)
+    x = lambda i: L + band * (i + 0.5)
+    y = lambda w: B - w / YM * (B - T)
+    out = ['<p class="ctitle"><b>You reach B1 with roughly 3,000 words</b><br><span>Words learners know at each level (dictionary words): middle point and range across studies</span></p>',
+           '<div class="cscroll"><svg viewBox="0 0 760 320" role="img" aria-label="You reach B1 with roughly 3,000 words" class="chart">']
+    for w in range(0, 5001, 1000):
+        out.append(f'<line x1="{L}" x2="{R}" y1="{y(w):.1f}" y2="{y(w):.1f}" class="cg"/><text x="{L-8}" y="{y(w)+4:.1f}" text-anchor="end" class="cl">{w:,}</text>')
+    for i, (name, lo, hi) in enumerate(lv):
+        mid = (lo + hi) / 2
+        cls = "cdot" if name == "B1" else "cdotm"
+        out.append(f'<line x1="{x(i):.1f}" x2="{x(i):.1f}" y1="{y(lo):.1f}" y2="{y(hi):.1f}" class="cwh"/>'
+                   f'<line x1="{x(i)-8:.1f}" x2="{x(i)+8:.1f}" y1="{y(lo):.1f}" y2="{y(lo):.1f}" class="cwh"/><line x1="{x(i)-8:.1f}" x2="{x(i)+8:.1f}" y1="{y(hi):.1f}" y2="{y(hi):.1f}" class="cwh"/>'
+                   f'<circle cx="{x(i):.1f}" cy="{y(mid):.1f}" r="5" class="{cls}"><title>{name}: {lo:,} to {hi:,} words</title></circle>'
+                   f'<text x="{x(i)+12:.1f}" y="{y(mid)+5:.1f}" class="cv">{round(mid, -2):,.0f}</text>'
+                   f'<text x="{x(i):.1f}" y="{B+20}" text-anchor="middle" class="cl">{name}</text>')
+    out.append(f'<text x="{R}" y="{B+42}" text-anchor="end" class="cl">C1 and C2 are likely higher: the tests stopped at 5,000 words</text></svg></div>')
+    return "".join(out)
+
+LEVELS = [(1, "A, easy", 97, 99, 100, "4–5", "60–75"), (2, "A", 96, 99, 99, "5", "70–85"), (3, "A", 95, 98, 99, "5–6", "80–95"),
+          (4, "B, medium", 92, 97, 98, "6–7", "100–120"), (5, "B (today's lessons)", 89, 95, 97, "7–8", "110–145"),
+          (6, "B", 87, 94, 97, "8–9", "125–155"), (7, "B", 85, 93, 96, "9–10", "140–170"), (8, "C, advanced", 82, 91, 95, "10–12", "160–190"),
+          (9, "C", 79, 89, 94, "12–14", "175–205"), (10, "C", 76, 87, 93, "14–16", "190–220")]
+
+def _levels_table():
+    rows = "".join(f'<tr{" class=cur" if n == 5 else ""}><td>{n}</td><td>{base}</td><td>{a}%</td><td>{b}%</td><td>{c}%</td><td>{sl}</td><td>{ln}</td></tr>' for n, base, a, b, c, sl, ln in LEVELS)
+    return ('<div class="tscroll"><table class="lv"><thead><tr><th>Level</th><th>Base text</th><th>Among the 2,000 most common</th><th>Among the 5,000</th><th>Among the 10,000</th>'
+            f'<th>Words per sentence</th><th>Text length (words)</th></tr></thead><tbody>{rows}</tbody></table></div>')
+
+CHART_CSS = """
+.ctitle{margin:6px 0 0;font-size:16px}.ctitle span{font-size:14px;color:var(--muted)}.cscroll{overflow-x:auto;margin:4px 0}.chart{width:100%;min-width:600px;height:auto;font-family:var(--ui);font-size:15px}
+.chart .ct{font-size:19px;font-weight:600;fill:var(--fg)}.chart .cs,.chart .cl{fill:var(--muted)}.chart .cv{fill:var(--fg)}
+.chart .cg{stroke:var(--line)}.chart .cr{stroke:var(--muted);stroke-dasharray:3 3}.chart .cline{fill:none;stroke:var(--accent);stroke-width:2.5}
+.chart .cdot{fill:var(--accent)}.chart .cdotm{fill:var(--muted)}.chart .cmut{stroke:var(--line);stroke-width:2.5}.chart .clead{stroke:var(--muted);stroke-width:.75}.chart .copen{fill:var(--bg);stroke:var(--accent);stroke-width:2}.chart .cwh{stroke:var(--muted);stroke-width:1.5}
+.tscroll{overflow-x:auto}.lv{border-collapse:collapse;width:100%;font-size:14px}.lv th{font-size:12px;font-weight:600;text-align:left;color:var(--muted);padding:6px 8px 6px 0;border-bottom:1px solid var(--line);vertical-align:bottom}
+.lv td{padding:7px 8px 7px 0;border-bottom:1px solid var(--line);white-space:nowrap}.lv tr.cur td{font-weight:700}
+"""
+
+METHOD_CSS = """
+.cards3{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.c3{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.c3 h3{margin:0;font-size:18px}.c3 .lbl{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.c3 p{margin:0;font-size:15px;line-height:1.5}
+.nums{width:100%;border-collapse:collapse}.nums td{padding:9px 8px 9px 0;border-bottom:1px solid var(--line);vertical-align:baseline}
+.nums td:last-child{text-align:right;font-weight:600;white-space:nowrap}
+.big{font-size:20px;line-height:1.5;margin:0}
+.keys{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:4px 0 8px}
+.key{border-top:3px solid var(--accent);padding:12px 2px 0}
+.key b{display:block;font-size:26px;line-height:1.15;color:var(--accent);margin-bottom:6px}
+.key p{margin:0;font-size:16px;line-height:1.5}
+.src{font-size:13px;color:var(--muted)}.src li{margin:4px 0}
+"""
+
+def method_page():
+    srcs = [("Brysbaert et al., 2016", "https://pmc.ncbi.nlm.nih.gov/articles/PMC4965448"),
+            ("Milton & Alexiou, vocabulary size and CEFR levels", "https://www.enl.auth.gr/gala/14th/Papers/English%20papers/Milton&Alexiou.pdf"),
+            ("Nation, 2006", "https://www.wgtn.ac.nz/__data/assets/pdf_file/0018/1626120/2006-How-large-a-vocab.pdf"),
+            ("Matsuoka & Hirsh, 2010 (on Hu & Nation, 2000)", "https://files.eric.ed.gov/fulltext/EJ887877.pdf"),
+            ("Chen & Feng, 2017", "https://www.degruyterbrill.com/document/doi/10.1515/cjal-2017-0004/html?lang=en"),
+            ("Roediger & Karpicke, 2006", "https://psychology.ecu.edu/wp-content/pv-uploads/sites/216/2019/03/Roediger-Karpicke-2006.pdf"),
+            ("Ellis, 2002", "https://www.cambridge.org/core/product/C4A2C08A0900E306078B9819D7ABF428"),
+            ("Cepeda et al., 2006", "https://pubmed.ncbi.nlm.nih.gov/16719566/")]
+    src_html = "".join(f'<li><a href="{html.escape(u)}" target="_blank" rel="noopener">{html.escape(t)}</a></li>' for t, u in srcs)
+    return f"""<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Masimera method · How to learn a language with simple daily news</title>{seo("method.html", "The Masimera method", "How we understand a language: words, sentence structure and working out the rest. How many words you need, and why 15 minutes of simple news a day works.")}{FONTS}<style>{CSS}{SHARE_CSS}{METHOD_CSS}{CHART_CSS}</style></head><body><div class="wrap">
+<header>{brand_mini()}<br><span class="eyebrow">The Masimera method</span><h1>How you really learn to understand a language</h1>
+<p class="big">Understanding a language rests on three things: knowing the words, seeing how sentences are built, and working out what you don't know yet. Masimera trains all three, every day, in 15 minutes.</p></header>
+
+<section class="keys">
+<div class="key"><b>3,000 words</b><p>are enough to follow about 96% of everyday conversation, roughly level B1. The most common words do most of the work.</p></div>
+<div class="key"><b>Hear, not just read</b><p>Knowing a word is not the same as catching it in a spoken sentence. Text and audio together train both.</p></div>
+<div class="key"><b>15 minutes a day</b><p>Meeting words again and again, and recalling them, makes them stick far better than cramming.</p></div>
+</section>
+
+<section><h2>How many words do you need?</h2>
+<table class="nums"><tbody>
+<tr><td>Get by day to day (level A2)</td><td>1,500 – 2,200 words</td></tr>
+<tr><td>Hold a conversation on everyday topics (B1)</td><td>2,500 – 3,300 words</td></tr>
+<tr><td>Read a novel without a dictionary</td><td>8,000 – 9,000 word families</td></tr>
+<tr><td>An educated native speaker understands</td><td>about 42,000 words</td></tr>
+</tbody></table>
+<p class="note" style="margin-top:10px">A word means a dictionary word: <i>eat, eats, ate, eaten</i> count as one.</p>
+<p>The good news: a few thousand common words do most of the work. In our lessons, about <b>9 words in 10</b> are among the 2,000 most common words of the language. We translate the rest.</p></section>
+
+<section><h2>Where do you stand?</h2>
+{_chart_spoken()}
+<p>The first few thousand words do most of the work: with 2,000 word families you already know 9 words in 10 of what native speakers say. Beyond 3,000, each new word adds little to everyday understanding.</p>
+<p style="border-left:3px solid var(--accent);padding:4px 0 4px 14px"><b>But knowing a word is not the same as hearing it.</b> In real speech, words run into each other: there are no gaps between them, and the sentence goes by only once. These percentages assume you can tell where each word starts and ends, and follow how the sentence is built. For most learners, that is the real hurdle. That's why every Masimera lesson pairs the text with its audio: first you see the words, then you learn to hear them.</p>
+{_chart_cefr()}
+<p>The levels are close together in words: each step is a few hundred to a thousand new words. A short lesson every day, with 20 to 30 words, covers that ground steadily.</p></section>
+
+<section><h2>Three layers, trained every day</h2><div class="cards3">
+<div class="c3"><h3>1. Knowing the words</h3>
+<span class="lbl">What research says</span><p>A word sticks after meeting it several times: around 10 encounters give strong results. Recalling a word from memory fixes it far better than rereading it (61% remembered a week later, versus 40%).</p>
+<span class="lbl">What Masimera does</span><p>The most common words first, the rest translated. Every word comes back in the text, two example sentences, the audio and the quiz, which makes you recall it.</p></div>
+<div class="c3"><h3>2. Seeing how sentences are built</h3>
+<span class="lbl">What research says</span><p>We pick up grammar by meeting the same patterns again and again, more than by learning rules.</p>
+<span class="lbl">What Masimera does</span><p>Short sentences, one idea each, so the structure stands out. The same patterns come back every day. Each verb shows its dictionary form, and a full translation lets you check you understood the sentence, not just the words.</p></div>
+<div class="c3"><h3>3. Working out the rest</h3>
+<span class="lbl">What research says</span><p>You can guess an unknown word from context only if you understand almost everything around it: 95% of the words for some readers, 98% for most.</p>
+<span class="lbl">What Masimera does</span><p>Every text is tuned to stay in that zone. Translations are hidden by default: you try to guess first, then tap the word to check.</p></div>
+</div></section>
+
+<section><h2>Our levels</h2>
+<p>Coming soon: every lesson in 10 levels. Today's lessons are level 5. Each level up uses a few more rare words and slightly longer sentences; the words outside the most common ones are the ones we translate.</p>
+{_levels_table()}
+<p class="note" style="margin-top:8px">These are starting targets, adjusted over time with readers' "Too easy? / Too hard?" choices and quiz scores.</p></section>
+
+<section><h2>Little, but every day</h2>
+<p>Spreading learning over time makes it stick far better than cramming. That's why Masimera is one short lesson each morning, built on a real local news story: you remember better what actually interests you, and you want to come back tomorrow.</p>
+<p class="row"><a class="play" href="/">Read today's lesson →</a><a href="/#join">Get it every morning</a></p></section>
+
+<section><h2>Sources</h2><ul class="src">{src_html}</ul></section>
+{FOOTER}
 </div></body></html>"""
 
 def thanks_page():
@@ -703,6 +865,7 @@ def thanks_page():
 <header><span class="eyebrow">Masimera</span><h1>You're in!</h1>
 <p class="sub">Your first lesson arrives tomorrow morning, around 6 am (Paris time). If you don't see it, check your spam folder.</p></header>
 <p class="row"><a class="play" href="index.html">Back to today's lessons</a></p>
+{FOOTER}
 </div></body></html>"""
 
 def main():
@@ -710,6 +873,7 @@ def main():
         build(lang, L)
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(home_page())
     open(os.path.join(ROOT, "thanks.html"), "w", encoding="utf-8").write(thanks_page())
+    open(os.path.join(ROOT, "method.html"), "w", encoding="utf-8").write(method_page())
     # anciennes adresses du grec (avant le dossier grec/) → redirection
     for lang, L in LANGS.items():
         if not L.get("legacy"): continue
@@ -718,7 +882,7 @@ def main():
             open(os.path.join(ROOT, "cours", s["date"] + ".html"), "w", encoding="utf-8").write(redirect(f'../{L["out"]}cours/{s["date"]}.html'))
         open(os.path.join(ROOT, "mots.html"), "w", encoding="utf-8").write(redirect(f'{L["out"]}mots.html'))
     open(os.path.join(ROOT, ".nojekyll"), "w").close()
-    urls = [(BASE, None)]
+    urls = [(BASE, None), (BASE + "method.html", None)]
     for lang, L in LANGS.items():
         ls = sorted(json.load(open(os.path.join(ROOT, L["file"]), encoding="utf-8")), key=lambda s: s["date"], reverse=True)
         last = ls[0]["date"] if ls else None
