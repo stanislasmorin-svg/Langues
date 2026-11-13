@@ -147,6 +147,10 @@
   "fr": "vivre",
   "en": "to live"
  },
+ "ζωγραφίζω": {
+  "fr": "dessiner, peindre",
+  "en": "to draw, to paint"
+ },
  "θυμίζω": {
   "fr": "rappeler",
   "en": "to remind"
@@ -166,6 +170,10 @@
  "κερδίζω": {
   "fr": "gagner",
   "en": "to win"
+ },
+ "κινούμαι": {
+  "fr": "bouger, se déplacer",
+  "en": "to move"
  },
  "κλείνω": {
   "fr": "fermer",
@@ -247,6 +255,10 @@
   "fr": "tomber",
   "en": "to fall"
  },
+ "παίζω": {
+  "fr": "jouer",
+  "en": "to play"
+ },
  "παίρνω": {
   "fr": "prendre, recevoir",
   "en": "to take, to get"
@@ -318,6 +330,10 @@
  "σταματάω": {
   "fr": "arrêter, s'arrêter",
   "en": "to stop"
+ },
+ "συζητάω": {
+  "fr": "discuter",
+  "en": "to discuss, to talk"
  },
  "συμμετέχω": {
   "fr": "participer",

@@ -91,6 +91,10 @@
   "fr": "fonctionner",
   "en": "to work, to run"
  },
+ "giocare": {
+  "fr": "jouer",
+  "en": "to play"
+ },
  "guardare": {
   "fr": "regarder",
   "en": "to look at"
@@ -127,9 +131,17 @@
   "fr": "arrêter (un tir)",
   "en": "to save (a shot)"
  },
+ "pareggiare": {
+  "fr": "égaliser, faire match nul",
+  "en": "to equalise, to draw"
+ },
  "partire": {
   "fr": "partir",
   "en": "to leave"
+ },
+ "passare": {
+  "fr": "passer",
+  "en": "to pass, to go through"
  },
  "piacere": {
   "fr": "plaire",
@@ -175,6 +187,10 @@
   "fr": "reprendre",
   "en": "to resume"
  },
+ "sbagliare": {
+  "fr": "se tromper, rater",
+  "en": "to make a mistake, to miss"
+ },
  "segnare": {
   "fr": "marquer",
   "en": "to score"
@@ -218,6 +234,10 @@
  "vedere": {
   "fr": "voir",
   "en": "to see"
+ },
+ "vincere": {
+  "fr": "gagner",
+  "en": "to win"
  },
  "visitare": {
   "fr": "visiter",
