@@ -11544,5 +11544,440 @@
     "fr": "jouer"
    }
   ]
+ },
+ {
+  "date": "2026-11-14",
+  "title": "Ένας γεμάτος μήνας στην αγορά της Κυψέλης",
+  "title_fr": "Un mois bien rempli au marché de Kypseli",
+  "title_en": "A busy month at the Kypseli market",
+  "source": {
+   "name": "Technopolis – Δήμος Αθηναίων",
+   "url": "https://www.athens-technopolis.gr/index.php/el/ekdiloseis/details/2026-11-01/1486-dak-nov-pr-2026"
+  },
+  "paragraphs": [
+   "Η Κυψέλη είναι μια **γειτονιά** (neighbourhood) στο κέντρο της Αθήνας. Εκεί υπάρχει μια παλιά δημοτική **αγορά** (market). Είναι ένα όμορφο **κτίριο** (building) για όλους. Τον Νοέμβριο, η αγορά έχει **πρόγραμμα** (programme) για όλο τον μήνα. Οι περισσότερες **εκδηλώσεις** (events) είναι **δωρεάν** (free).",
+   "Αυτό το **Σαββατοκύριακο** (weekend) έχει μια vintage αγορά. Υπάρχουν 21 **πάγκοι** (stalls) με παλιά, όμορφα πράγματα. Την Κυριακή το πρωί, τα παιδιά βλέπουν μια **παράσταση** (show) με **κούκλες** (puppets).",
+   "Κάθε Τετάρτη το απόγευμα, μπορείς να **αγοράσεις** (buy) **βιολογικά** (organic) **φρούτα** (fruit) και **λαχανικά** (vegetables). Στις 20 Νοεμβρίου έρχονται **προϊόντα** (products) από την Πάρο. Ο κόσμος **δοκιμάζει** (tastes) φαγητά και **ακούει** (listens to) **ζωντανή** (live) μουσική.",
+   "Υπάρχουν και **μαθήματα** (classes). Οι μεγάλοι **μαθαίνουν** (learn) **κέντημα** (embroidery). Τα παιδιά **τραγουδούν** (sing) σε μια **χορωδία** (choir). Για αυτά τα μαθήματα **πληρώνεις** (you pay). Στις 25 Νοεμβρίου, οι φίλοι **παίζουν** (play) Σκραμπλ **μαζί** (together)."
+  ],
+  "paragraphs_en": [
+   "Kypseli is a neighbourhood in the centre of Athens. There is an old municipal market there. It is a beautiful building for everyone. In November, the market has a programme for the whole month. Most of the events are free.",
+   "This weekend there is a vintage market. There are 21 stalls with old, beautiful things. On Sunday morning, children watch a puppet show.",
+   "Every Wednesday afternoon, you can buy organic fruit and vegetables. On 20 November, products from Paros arrive. People taste food and listen to live music.",
+   "There are also classes. Adults learn embroidery. Children sing in a choir. You pay for these classes. On 25 November, friends play Scrabble together."
+  ],
+  "fr": {
+   "γειτονιά": "quartier",
+   "αγορά": "marché",
+   "κτίριο": "bâtiment",
+   "πρόγραμμα": "programme",
+   "εκδηλώσεις": "événements",
+   "δωρεάν": "gratuit",
+   "Σαββατοκύριακο": "week-end",
+   "πάγκοι": "étals, stands",
+   "παράσταση": "spectacle",
+   "κούκλες": "marionnettes",
+   "αγοράσεις": "acheter",
+   "βιολογικά": "bio",
+   "φρούτα": "fruits",
+   "λαχανικά": "légumes",
+   "προϊόντα": "produits",
+   "δοκιμάζει": "goûte",
+   "ακούει": "écoute",
+   "ζωντανή": "live, en direct",
+   "μαθήματα": "cours",
+   "μαθαίνουν": "apprennent",
+   "κέντημα": "broderie",
+   "τραγουδούν": "chantent",
+   "χορωδία": "chorale",
+   "πληρώνεις": "tu paies",
+   "παίζουν": "jouent",
+   "μαζί": "ensemble"
+  },
+  "lemma": {
+   "αγοράσεις": "αγοράζω",
+   "δοκιμάζει": "δοκιμάζω",
+   "ακούει": "ακούω",
+   "μαθαίνουν": "μαθαίνω",
+   "τραγουδούν": "τραγουδώ",
+   "πληρώνεις": "πληρώνω",
+   "παίζουν": "παίζω"
+  },
+  "examples": {
+   "γειτονιά": [
+    [
+     "Η γειτονιά μας είναι ήσυχη.",
+     "Our neighbourhood is quiet.",
+     "Notre quartier est calme."
+    ],
+    [
+     "Μένω σε μια ωραία γειτονιά.",
+     "I live in a nice neighbourhood.",
+     "J'habite dans un joli quartier."
+    ]
+   ],
+   "αγορά": [
+    [
+     "Η αγορά ανοίγει στις οκτώ.",
+     "The market opens at eight.",
+     "Le marché ouvre à huit heures."
+    ],
+    [
+     "Πάμε στην αγορά για ψάρια.",
+     "Let's go to the market for fish.",
+     "Allons au marché pour acheter du poisson."
+    ]
+   ],
+   "κτίριο": [
+    [
+     "Το κτίριο έχει πέντε ορόφους.",
+     "The building has five floors.",
+     "L'immeuble a cinq étages."
+    ],
+    [
+     "Αυτό το κτίριο είναι πολύ παλιό.",
+     "This building is very old.",
+     "Ce bâtiment est très ancien."
+    ]
+   ],
+   "πρόγραμμα": [
+    [
+     "Ποιο είναι το πρόγραμμα σήμερα;",
+     "What's the programme today?",
+     "Quel est le programme aujourd'hui ?"
+    ],
+    [
+     "Το πρόγραμμα του σινεμά άλλαξε.",
+     "The cinema schedule has changed.",
+     "Le programme du cinéma a changé."
+    ]
+   ],
+   "εκδηλώσεις": [
+    [
+     "Οι εκδηλώσεις αρχίζουν το βράδυ.",
+     "The events start in the evening.",
+     "Les événements commencent le soir."
+    ],
+    [
+     "Μου αρέσουν οι εκδηλώσεις στην πλατεία.",
+     "I like the events in the square.",
+     "J'aime les événements sur la place."
+    ]
+   ],
+   "δωρεάν": [
+    [
+     "Η είσοδος είναι δωρεάν.",
+     "Entry is free.",
+     "L'entrée est gratuite."
+    ],
+    [
+     "Το νερό εδώ είναι δωρεάν.",
+     "The water here is free.",
+     "Ici, l'eau est gratuite."
+    ]
+   ],
+   "Σαββατοκύριακο": [
+    [
+     "Το Σαββατοκύριακο πάμε στη θάλασσα.",
+     "At the weekend we go to the sea.",
+     "Le week-end, nous allons à la mer."
+    ],
+    [
+     "Τι κάνεις το Σαββατοκύριακο;",
+     "What are you doing at the weekend?",
+     "Que fais-tu ce week-end ?"
+    ]
+   ],
+   "πάγκοι": [
+    [
+     "Οι πάγκοι έχουν φρέσκα φρούτα.",
+     "The stalls have fresh fruit.",
+     "Les étals ont des fruits frais."
+    ],
+    [
+     "Στη λαϊκή υπάρχουν πολλοί πάγκοι.",
+     "There are many stalls at the street market.",
+     "Il y a beaucoup d'étals au marché."
+    ]
+   ],
+   "παράσταση": [
+    [
+     "Η παράσταση αρχίζει στις εννιά.",
+     "The show starts at nine.",
+     "Le spectacle commence à neuf heures."
+    ],
+    [
+     "Είδαμε μια ωραία παράσταση χθες.",
+     "We saw a nice show yesterday.",
+     "Nous avons vu un beau spectacle hier."
+    ]
+   ],
+   "κούκλες": [
+    [
+     "Τα παιδιά γελάνε με τις κούκλες.",
+     "The children laugh at the puppets.",
+     "Les enfants rient devant les marionnettes."
+    ],
+    [
+     "Ο παππούς φτιάχνει κούκλες από ξύλο.",
+     "Grandpa makes puppets out of wood.",
+     "Grand-père fabrique des marionnettes en bois."
+    ]
+   ],
+   "αγοράσεις": [
+    [
+     "Θέλεις να αγοράσεις ψωμί;",
+     "Do you want to buy bread?",
+     "Tu veux acheter du pain ?"
+    ],
+    [
+     "Κάθε πρωί αγοράζω εφημερίδα.",
+     "Every morning I buy a newspaper.",
+     "Chaque matin, j'achète un journal."
+    ]
+   ],
+   "βιολογικά": [
+    [
+     "Αγοράζω πάντα βιολογικά αυγά.",
+     "I always buy organic eggs.",
+     "J'achète toujours des œufs bio."
+    ],
+    [
+     "Τα βιολογικά φρούτα είναι ακριβά.",
+     "Organic fruit is expensive.",
+     "Les fruits bio sont chers."
+    ]
+   ],
+   "φρούτα": [
+    [
+     "Τρώω φρούτα κάθε μέρα.",
+     "I eat fruit every day.",
+     "Je mange des fruits tous les jours."
+    ],
+    [
+     "Τα φρούτα είναι στο τραπέζι.",
+     "The fruit is on the table.",
+     "Les fruits sont sur la table."
+    ]
+   ],
+   "λαχανικά": [
+    [
+     "Η σούπα έχει πολλά λαχανικά.",
+     "The soup has lots of vegetables.",
+     "La soupe contient beaucoup de légumes."
+    ],
+    [
+     "Τα λαχανικά είναι στο ψυγείο.",
+     "The vegetables are in the fridge.",
+     "Les légumes sont dans le frigo."
+    ]
+   ],
+   "προϊόντα": [
+    [
+     "Αυτά τα προϊόντα είναι από την Κρήτη.",
+     "These products are from Crete.",
+     "Ces produits viennent de Crète."
+    ],
+    [
+     "Το μαγαζί έχει ελληνικά προϊόντα.",
+     "The shop has Greek products.",
+     "Le magasin a des produits grecs."
+    ]
+   ],
+   "δοκιμάζει": [
+    [
+     "Η μαμά δοκιμάζει τη σούπα.",
+     "Mum tastes the soup.",
+     "Maman goûte la soupe."
+    ],
+    [
+     "Πάντα δοκιμάζω το φαγητό πρώτα.",
+     "I always taste the food first.",
+     "Je goûte toujours le plat d'abord."
+    ]
+   ],
+   "ακούει": [
+    [
+     "Ο Νίκος ακούει ράδιο στο αυτοκίνητο.",
+     "Nikos listens to the radio in the car.",
+     "Nikos écoute la radio dans la voiture."
+    ],
+    [
+     "Το βράδυ ακούω μουσική.",
+     "In the evening I listen to music.",
+     "Le soir, j'écoute de la musique."
+    ]
+   ],
+   "ζωντανή": [
+    [
+     "Το μπαρ έχει ζωντανή μουσική.",
+     "The bar has live music.",
+     "Le bar propose de la musique live."
+    ],
+    [
+     "Βλέπω τον αγώνα σε ζωντανή μετάδοση.",
+     "I'm watching the match live.",
+     "Je regarde le match en direct."
+    ]
+   ],
+   "μαθήματα": [
+    [
+     "Τα μαθήματα αρχίζουν τον Σεπτέμβριο.",
+     "Classes start in September.",
+     "Les cours commencent en septembre."
+    ],
+    [
+     "Κάνω μαθήματα κιθάρας.",
+     "I take guitar lessons.",
+     "Je prends des cours de guitare."
+    ]
+   ],
+   "μαθαίνουν": [
+    [
+     "Τα παιδιά μαθαίνουν αγγλικά.",
+     "The children are learning English.",
+     "Les enfants apprennent l'anglais."
+    ],
+    [
+     "Τώρα μαθαίνω να μαγειρεύω.",
+     "Now I'm learning to cook.",
+     "Maintenant, j'apprends à cuisiner."
+    ]
+   ],
+   "κέντημα": [
+    [
+     "Η γιαγιά κάνει κέντημα το βράδυ.",
+     "Grandma does embroidery in the evening.",
+     "Grand-mère fait de la broderie le soir."
+    ],
+    [
+     "Το κέντημα στο τραπεζομάντιλο είναι ωραίο.",
+     "The embroidery on the tablecloth is lovely.",
+     "La broderie sur la nappe est jolie."
+    ]
+   ],
+   "τραγουδούν": [
+    [
+     "Οι φίλοι τραγουδούν στο πάρτι.",
+     "The friends sing at the party.",
+     "Les amis chantent à la fête."
+    ],
+    [
+     "Στο μπάνιο τραγουδώ δυνατά.",
+     "In the bathroom I sing loudly.",
+     "Dans la salle de bain, je chante fort."
+    ]
+   ],
+   "χορωδία": [
+    [
+     "Η χορωδία τραγουδάει στην εκκλησία.",
+     "The choir sings in the church.",
+     "La chorale chante à l'église."
+    ],
+    [
+     "Η κόρη μου είναι σε μια χορωδία.",
+     "My daughter is in a choir.",
+     "Ma fille fait partie d'une chorale."
+    ]
+   ],
+   "πληρώνεις": [
+    [
+     "Εσύ πληρώνεις τον καφέ σήμερα.",
+     "You're paying for the coffee today.",
+     "C'est toi qui paies le café aujourd'hui."
+    ],
+    [
+     "Κάθε μήνα πληρώνω το ρεύμα.",
+     "Every month I pay the electricity bill.",
+     "Chaque mois, je paie l'électricité."
+    ]
+   ],
+   "παίζουν": [
+    [
+     "Τα παιδιά παίζουν στο πάρκο.",
+     "The children play in the park.",
+     "Les enfants jouent au parc."
+    ],
+    [
+     "Το Σάββατο παίζω τάβλι.",
+     "On Saturdays I play backgammon.",
+     "Le samedi, je joue au backgammon."
+    ]
+   ],
+   "μαζί": [
+    [
+     "Τρώμε μαζί κάθε Κυριακή.",
+     "We eat together every Sunday.",
+     "Nous mangeons ensemble chaque dimanche."
+    ],
+    [
+     "Πάμε μαζί στη δουλειά.",
+     "We go to work together.",
+     "Nous allons au travail ensemble."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "γειτονιά",
+    "gr": "γειτονιά",
+    "en": "neighbourhood",
+    "fr": "quartier"
+   },
+   {
+    "word": "αγορά",
+    "gr": "αγορά",
+    "en": "market",
+    "fr": "marché"
+   },
+   {
+    "word": "κτίριο",
+    "gr": "κτίριο",
+    "en": "building",
+    "fr": "bâtiment"
+   },
+   {
+    "word": "πάγκοι",
+    "gr": "πάγκοι",
+    "en": "stalls",
+    "fr": "étals, stands"
+   },
+   {
+    "word": "λαχανικά",
+    "gr": "λαχανικά",
+    "en": "vegetables",
+    "fr": "légumes"
+   },
+   {
+    "word": "χορωδία",
+    "gr": "χορωδία",
+    "en": "choir",
+    "fr": "chorale"
+   },
+   {
+    "word": "δοκιμάζει",
+    "gr": "δοκιμάζω",
+    "en": "to taste, to try",
+    "fr": "goûter, essayer"
+   },
+   {
+    "word": "ακούει",
+    "gr": "ακούω",
+    "en": "to listen, to hear",
+    "fr": "écouter, entendre"
+   },
+   {
+    "word": "τραγουδούν",
+    "gr": "τραγουδώ",
+    "en": "to sing",
+    "fr": "chanter"
+   },
+   {
+    "word": "πληρώνεις",
+    "gr": "πληρώνω",
+    "en": "to pay",
+    "fr": "payer"
+   }
+  ]
  }
 ]

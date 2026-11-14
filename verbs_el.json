@@ -291,6 +291,10 @@
   "fr": "aller, emmener",
   "en": "to go, to take"
  },
+ "πληρώνω": {
+  "fr": "payer",
+  "en": "to pay"
+ },
  "πουλιέμαι": {
   "fr": "se vendre",
   "en": "to be sold"
@@ -358,6 +362,10 @@
  "τρέχω": {
   "fr": "courir",
   "en": "to run"
+ },
+ "τραγουδώ": {
+  "fr": "chanter",
+  "en": "to sing"
  },
  "τυπώνομαι": {
   "fr": "être imprimé",

@@ -123,6 +123,10 @@
   "fr": "naître",
   "en": "to be born"
  },
+ "nuotare": {
+  "fr": "nager",
+  "en": "to swim"
+ },
  "pagare": {
   "fr": "payer",
   "en": "to pay"
@@ -226,6 +230,10 @@
  "trasformare": {
   "fr": "transformer",
   "en": "to transform"
+ },
+ "trovare": {
+  "fr": "trouver",
+  "en": "to find"
  },
  "valere": {
   "fr": "valoir, être valable",

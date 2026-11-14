@@ -3628,5 +3628,452 @@
     "fr": "passer"
    }
   ]
+ },
+ {
+  "date": "2026-11-14",
+  "title": "Un nuovo Lido per Milano",
+  "title_fr": "Un nouveau Lido pour Milan",
+  "title_en": "A new Lido for Milan",
+  "source": {
+   "name": "Il Giorno",
+   "url": "https://www.ilgiorno.it/milano/cronaca/lido-piazzale-lotto-dpjjn6rz"
+  },
+  "paragraphs": [
+   "A Milano c'è un posto molto **amato** (loved): il Lido di piazzale Lotto. È una vecchia **piscina** (swimming pool) della città. Ora il Lido **cambia** (changes) e **diventa** (becomes) nuovo. I **lavori** (works) **iniziano** (start) a gennaio. Il nuovo Lido apre nella **primavera** (spring) del 2027.",
+   "Intorno alla vecchia **vasca** (pool) ci sono 17.000 metri quadrati di **verde** (greenery). La vasca diventa un piccolo **lago** (lake). Quando fa molto **caldo** (hot), qui la gente **trova** (finds) un posto fresco. Gli **spazi** (spaces) pubblici sono **gratis** (free).",
+   "Dall'**estate** (summer) 2027 apre una nuova piscina **all'aperto** (outdoor). Chi non è **socio** (member) **paga** (pays) un **biglietto** (ticket) per un giorno. Ci sono anche due piscine **coperte** (indoor). Così la gente **nuota** (swims) tutto l'anno.",
+   "Nel nuovo centro c'è una grande **palestra** (gym). Ci sono anche corsi, un bar e uno spazio per i **bambini** (children). Le **famiglie** (families) hanno uno **sconto** (discount). Un'**azienda** (company) spagnola, GOfit, paga tutti i lavori. Ma il Lido resta del **Comune** (city council)."
+  ],
+  "paragraphs_en": [
+   "In Milan there is a much-loved place: the Lido in Piazzale Lotto. It is an old city swimming pool. Now the Lido is changing and becoming new. The works start in January. The new Lido opens in spring 2027.",
+   "Around the old pool there are 17,000 square metres of greenery. The pool becomes a small lake. When it is very hot, people find a cool place here. The public spaces are free.",
+   "From summer 2027 a new outdoor pool opens. People who are not members pay for a one-day ticket. There are also two indoor pools. So people can swim all year round.",
+   "In the new centre there is a big gym. There are also classes, a café and a space for children. Families get a discount. A Spanish company, GOfit, pays for all the works. But the Lido still belongs to the city council."
+  ],
+  "fr": {
+   "amato": "aimé",
+   "piscina": "piscine",
+   "cambia": "change",
+   "diventa": "devient",
+   "lavori": "travaux",
+   "iniziano": "commencent",
+   "primavera": "printemps",
+   "vasca": "bassin",
+   "verde": "verdure, espaces verts",
+   "lago": "lac",
+   "caldo": "chaud",
+   "trova": "trouve",
+   "spazi": "espaces",
+   "gratis": "gratuits",
+   "estate": "été",
+   "all'aperto": "en plein air",
+   "socio": "membre",
+   "paga": "paie",
+   "biglietto": "billet",
+   "coperte": "couvertes",
+   "nuota": "nage",
+   "palestra": "salle de sport",
+   "bambini": "enfants",
+   "famiglie": "familles",
+   "sconto": "réduction",
+   "azienda": "entreprise",
+   "Comune": "mairie, commune"
+  },
+  "lemma": {
+   "cambia": "cambiare",
+   "diventa": "diventare",
+   "iniziano": "iniziare",
+   "trova": "trovare",
+   "paga": "pagare",
+   "nuota": "nuotare"
+  },
+  "examples": {
+   "amato": [
+    [
+     "Questo bar è molto amato.",
+     "This bar is very popular.",
+     "Ce bar est très apprécié."
+    ],
+    [
+     "Il nonno è amato da tutti.",
+     "Grandpa is loved by everyone.",
+     "Grand-père est aimé de tous."
+    ]
+   ],
+   "piscina": [
+    [
+     "La piscina apre alle nove.",
+     "The pool opens at nine.",
+     "La piscine ouvre à neuf heures."
+    ],
+    [
+     "Vado in piscina il martedì.",
+     "I go to the pool on Tuesdays.",
+     "Je vais à la piscine le mardi."
+    ]
+   ],
+   "cambia": [
+    [
+     "Il tempo cambia ogni giorno.",
+     "The weather changes every day.",
+     "Le temps change chaque jour."
+    ],
+    [
+     "Io cambio treno a Bologna.",
+     "I change trains in Bologna.",
+     "Je change de train à Bologne."
+    ]
+   ],
+   "diventa": [
+    [
+     "Il cielo diventa grigio.",
+     "The sky is turning grey.",
+     "Le ciel devient gris."
+    ],
+    [
+     "La sera divento stanco.",
+     "In the evening I get tired.",
+     "Le soir, je deviens fatigué."
+    ]
+   ],
+   "lavori": [
+    [
+     "I lavori in casa sono finiti.",
+     "The work on the house is finished.",
+     "Les travaux dans la maison sont finis."
+    ],
+    [
+     "Ci sono lavori sulla strada.",
+     "There are roadworks on the street.",
+     "Il y a des travaux dans la rue."
+    ]
+   ],
+   "iniziano": [
+    [
+     "Le lezioni iniziano alle otto.",
+     "Lessons start at eight.",
+     "Les cours commencent à huit heures."
+    ],
+    [
+     "Io inizio il lavoro alle nove.",
+     "I start work at nine.",
+     "Je commence le travail à neuf heures."
+    ]
+   ],
+   "primavera": [
+    [
+     "In primavera ci sono molti fiori.",
+     "In spring there are lots of flowers.",
+     "Au printemps, il y a beaucoup de fleurs."
+    ],
+    [
+     "La primavera è la mia stagione preferita.",
+     "Spring is my favourite season.",
+     "Le printemps est ma saison préférée."
+    ]
+   ],
+   "vasca": [
+    [
+     "La vasca del giardino è piena d'acqua.",
+     "The garden pond is full of water.",
+     "Le bassin du jardin est plein d'eau."
+    ],
+    [
+     "I pesci nuotano nella vasca.",
+     "The fish swim in the tank.",
+     "Les poissons nagent dans le bassin."
+    ]
+   ],
+   "verde": [
+    [
+     "Il parco è pieno di verde.",
+     "The park is full of greenery.",
+     "Le parc est plein de verdure."
+    ],
+    [
+     "In città serve più verde.",
+     "The city needs more greenery.",
+     "La ville a besoin de plus de verdure."
+    ]
+   ],
+   "lago": [
+    [
+     "Il lago è molto calmo oggi.",
+     "The lake is very calm today.",
+     "Le lac est très calme aujourd'hui."
+    ],
+    [
+     "Andiamo al lago domenica.",
+     "Let's go to the lake on Sunday.",
+     "Allons au lac dimanche."
+    ]
+   ],
+   "caldo": [
+    [
+     "Oggi fa molto caldo.",
+     "It's very hot today.",
+     "Il fait très chaud aujourd'hui."
+    ],
+    [
+     "Con questo caldo bevo tanta acqua.",
+     "In this heat I drink lots of water.",
+     "Avec cette chaleur, je bois beaucoup d'eau."
+    ]
+   ],
+   "trova": [
+    [
+     "Marco non trova le chiavi.",
+     "Marco can't find the keys.",
+     "Marco ne trouve pas les clés."
+    ],
+    [
+     "Io trovo sempre parcheggio qui.",
+     "I always find parking here.",
+     "Je trouve toujours une place ici."
+    ]
+   ],
+   "spazi": [
+    [
+     "Gli spazi in cucina sono piccoli.",
+     "The spaces in the kitchen are small.",
+     "Les espaces dans la cuisine sont petits."
+    ],
+    [
+     "La scuola ha spazi per giocare.",
+     "The school has spaces to play.",
+     "L'école a des espaces pour jouer."
+    ]
+   ],
+   "gratis": [
+    [
+     "Il caffè oggi è gratis.",
+     "The coffee is free today.",
+     "Le café est gratuit aujourd'hui."
+    ],
+    [
+     "Il museo è gratis la domenica.",
+     "The museum is free on Sundays.",
+     "Le musée est gratuit le dimanche."
+    ]
+   ],
+   "estate": [
+    [
+     "In estate andiamo al mare.",
+     "In summer we go to the seaside.",
+     "L'été, nous allons à la mer."
+    ],
+    [
+     "Questa estate resto in città.",
+     "This summer I'm staying in town.",
+     "Cet été, je reste en ville."
+    ]
+   ],
+   "all'aperto": [
+    [
+     "Stasera mangiamo all'aperto.",
+     "Tonight we're eating outdoors.",
+     "Ce soir, nous mangeons dehors."
+    ],
+    [
+     "Il cinema all'aperto apre a luglio.",
+     "The outdoor cinema opens in July.",
+     "Le cinéma en plein air ouvre en juillet."
+    ]
+   ],
+   "socio": [
+    [
+     "Mio padre è socio del club.",
+     "My father is a member of the club.",
+     "Mon père est membre du club."
+    ],
+    [
+     "Ogni socio ha una tessera.",
+     "Every member has a card.",
+     "Chaque membre a une carte."
+    ]
+   ],
+   "paga": [
+    [
+     "Chi paga il conto stasera?",
+     "Who's paying the bill tonight?",
+     "Qui paie l'addition ce soir ?"
+    ],
+    [
+     "Io pago con la carta.",
+     "I pay by card.",
+     "Je paie par carte."
+    ]
+   ],
+   "biglietto": [
+    [
+     "Il biglietto del bus costa poco.",
+     "The bus ticket is cheap.",
+     "Le ticket de bus ne coûte pas cher."
+    ],
+    [
+     "Ho perso il biglietto del treno.",
+     "I've lost my train ticket.",
+     "J'ai perdu mon billet de train."
+    ]
+   ],
+   "coperte": [
+    [
+     "Le piscine coperte sono calde.",
+     "Indoor pools are warm.",
+     "Les piscines couvertes sont chaudes."
+    ],
+    [
+     "In inverno uso le piscine coperte.",
+     "In winter I use indoor pools.",
+     "En hiver, je vais dans les piscines couvertes."
+    ]
+   ],
+   "nuota": [
+    [
+     "Mia figlia nuota molto bene.",
+     "My daughter swims very well.",
+     "Ma fille nage très bien."
+    ],
+    [
+     "Io nuoto due volte a settimana.",
+     "I swim twice a week.",
+     "Je nage deux fois par semaine."
+    ]
+   ],
+   "palestra": [
+    [
+     "La palestra è vicino a casa.",
+     "The gym is near home.",
+     "La salle de sport est près de chez moi."
+    ],
+    [
+     "Vado in palestra dopo il lavoro.",
+     "I go to the gym after work.",
+     "Je vais à la salle de sport après le travail."
+    ]
+   ],
+   "bambini": [
+    [
+     "I bambini giocano nel cortile.",
+     "The children play in the courtyard.",
+     "Les enfants jouent dans la cour."
+    ],
+    [
+     "Questo menù è per i bambini.",
+     "This menu is for children.",
+     "Ce menu est pour les enfants."
+    ]
+   ],
+   "famiglie": [
+    [
+     "Molte famiglie vanno al parco.",
+     "Many families go to the park.",
+     "Beaucoup de familles vont au parc."
+    ],
+    [
+     "Il ristorante è pieno di famiglie.",
+     "The restaurant is full of families.",
+     "Le restaurant est plein de familles."
+    ]
+   ],
+   "sconto": [
+    [
+     "Gli studenti hanno uno sconto.",
+     "Students get a discount.",
+     "Les étudiants ont une réduction."
+    ],
+    [
+     "Oggi il negozio fa uno sconto.",
+     "The shop has a discount today.",
+     "Aujourd'hui, le magasin fait une réduction."
+    ]
+   ],
+   "azienda": [
+    [
+     "Lavoro in una piccola azienda.",
+     "I work in a small company.",
+     "Je travaille dans une petite entreprise."
+    ],
+    [
+     "Questa azienda fa il caffè.",
+     "This company makes coffee.",
+     "Cette entreprise fabrique du café."
+    ]
+   ],
+   "Comune": [
+    [
+     "Il Comune pulisce le strade.",
+     "The city council cleans the streets.",
+     "La mairie nettoie les rues."
+    ],
+    [
+     "Vado al Comune per un documento.",
+     "I'm going to the town hall for a document.",
+     "Je vais à la mairie pour un document."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "piscina",
+    "gr": "piscina",
+    "en": "swimming pool",
+    "fr": "piscine"
+   },
+   {
+    "word": "lavori",
+    "gr": "lavori",
+    "en": "works",
+    "fr": "travaux"
+   },
+   {
+    "word": "lago",
+    "gr": "lago",
+    "en": "lake",
+    "fr": "lac"
+   },
+   {
+    "word": "estate",
+    "gr": "estate",
+    "en": "summer",
+    "fr": "été"
+   },
+   {
+    "word": "biglietto",
+    "gr": "biglietto",
+    "en": "ticket",
+    "fr": "billet"
+   },
+   {
+    "word": "palestra",
+    "gr": "palestra",
+    "en": "gym",
+    "fr": "salle de sport"
+   },
+   {
+    "word": "cambia",
+    "gr": "cambiare",
+    "en": "to change",
+    "fr": "changer"
+   },
+   {
+    "word": "iniziano",
+    "gr": "iniziare",
+    "en": "to start",
+    "fr": "commencer"
+   },
+   {
+    "word": "trova",
+    "gr": "trovare",
+    "en": "to find",
+    "fr": "trouver"
+   },
+   {
+    "word": "nuota",
+    "gr": "nuotare",
+    "en": "to swim",
+    "fr": "nager"
+   }
+  ]
  }
 ]
