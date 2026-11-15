@@ -46,7 +46,8 @@ def fr_date(iso):
 
 CSS = """
 .sitefoot{border-top:1px solid var(--line);margin-top:8px;padding-top:14px;font-size:14px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px}
-.toplink{float:right;font-size:14px;margin-top:2px}
+.toplink{float:right;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);text-decoration:none;margin-top:4px}.toplink:hover{text-decoration:underline}
+.sharetop{float:right;background:var(--accent);color:#fff;border:0;border-radius:999px;padding:3px 12px;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
 :root{--bg:#f6f7f9;--surface:#fff;--fg:#1c1f24;--muted:#5b6370;--line:#dde1e8;--accent:#1a56b4;--soft:#e4ecf8;--gloss:#8a5a14;
 --text:"Times New Roman",Times,"Liberation Serif","Noto Serif",serif;--ui:"Times New Roman",Times,"Liberation Serif","Noto Serif",serif}
 @media (prefers-color-scheme:dark){:root{--bg:#13161b;--surface:#1b1f26;--fg:#e7eaef;--muted:#a0a8b4;--line:#2d333d;--accent:#8ab4f8;--soft:#1f2b3d;--gloss:#e3b469;color-scheme:dark}}
@@ -221,7 +222,7 @@ JS = r"""
   b.addEventListener('click', function(){
     var url = location.href.split('?')[0].split('#')[0], title = document.title;
     if (navigator.share) { navigator.share({title: title, url: url}).catch(function(){}); return; }
-    var done = function(){ b.textContent = 'Link copied ✓'; setTimeout(function(){ b.textContent = 'Share this lesson'; }, 2000); };
+    var done = function(){ b.textContent = 'Link copied ✓'; setTimeout(function(){ b.textContent = 'Share'; }, 2000); };
     if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, function(){ prompt('Copy this link:', url); });
     else prompt('Copy this link:', url);
   });
@@ -234,7 +235,7 @@ SPEAKER = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-wi
 
 QUIZ_CSS = """
 .qcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px}
-.qcard .k{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.qcard .k{font-size:15px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
 .qcard .t{font-size:20px;font-weight:600}
 #q,#end{display:flex;flex-direction:column;gap:14px}[hidden]{display:none!important}
 .qhead{display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--muted)}
@@ -437,7 +438,7 @@ def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
     src_html = f'<p class="note">Source: <a href="{html.escape(src["url"])}" target="_blank" rel="noopener">{html.escape(src["name"])}</a></p>' if src else ""
     return f"""<!doctype html><html lang="en" translate="no" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(s["title"])} · Easy {L["name"]} reading with audio · Masimera</title>{seo(L["out"] + "cours/" + s["date"] + ".html", s["title"] + " · Easy " + L["name"] + " with audio", (s.get("title_en") or s.get("title_fr","")) + ". A real news story from " + L["place"] + " in simple " + L["name"] + ", with audio and " + str(len(words)) + " words translated into English and French.", "article")}{FONTS}<style>{CSS}{QUIZ_CSS if has_quiz else ""}</style></head><body><div class="wrap">
-<header><span class="eyebrow">{fr_date(s["date"])}</span><nav class="row topnav">{" · ".join(nav)}</nav><h1>{html.escape(s["title"])}</h1><p class="sub">{html.escape(s.get("title_en") or s.get("title_fr",""))}</p></header>
+<header><button class="sharetop" id="shareBtn" type="button">Share</button><span class="eyebrow">{fr_date(s["date"])}</span><nav class="row topnav">{" · ".join(nav)}</nav><h1>{html.escape(s["title"])}</h1><p class="sub">{html.escape(s.get("title_en") or s.get("title_fr",""))}</p></header>
 <section class="player">
   {player}
 </section>
@@ -445,7 +446,7 @@ def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
 <section><h2>The text</h2><div class="text hide" id="text" lang="{lang}">{"".join(paras_html)}</div><div class="text" id="textEn" lang="en" hidden>{en_html}</div></section>
 <div class="row"><button class="chip" id="glossBtn" aria-pressed="false">Translations hidden</button>{'<button class="chip" id="enBtn" aria-pressed="false">Show English translation</button>' if en_html else ""}</div>
 {src_html}
-{quiz_card if has_quiz else ""}<div class="row"><button class="chip" id="shareBtn" type="button">Share this lesson</button></div>
+{quiz_card if has_quiz else ""}
 <nav class="row">{" · ".join(nav)}</nav>
 {FOOTER}
 </div><script>{JS}</script></body></html>"""
