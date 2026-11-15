@@ -46,7 +46,7 @@ def fr_date(iso):
 
 CSS = """
 .sitefoot{border-top:1px solid var(--line);margin-top:8px;padding-top:14px;font-size:14px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px}
-.toplink{float:right;font-size:14px;margin-top:2px}
+.toplink{float:right;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);text-decoration:none}.toplink:hover{text-decoration:underline}
 :root{--bg:#f6f7f9;--surface:#fff;--fg:#1c1f24;--muted:#5b6370;--line:#dde1e8;--accent:#1a56b4;--soft:#e4ecf8;--gloss:#8a5a14;
 --text:"Times New Roman",Times,"Liberation Serif","Noto Serif",serif;--ui:"Times New Roman",Times,"Liberation Serif","Noto Serif",serif}
 @media (prefers-color-scheme:dark){:root{--bg:#13161b;--surface:#1b1f26;--fg:#e7eaef;--muted:#a0a8b4;--line:#2d333d;--accent:#8ab4f8;--soft:#1f2b3d;--gloss:#e3b469;color-scheme:dark}}
@@ -234,7 +234,7 @@ SPEAKER = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-wi
 
 QUIZ_CSS = """
 .qcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px}
-.qcard .k{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.qcard .k{font-size:12.6px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
 .qcard .t{font-size:20px;font-weight:600}
 #q,#end{display:flex;flex-direction:column;gap:14px}[hidden]{display:none!important}
 .qhead{display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--muted)}
@@ -634,7 +634,7 @@ def redirect(target):
 
 # Formulaire d'inscription : FormSubmit envoie chaque inscription par e-mail (objet « Masimera sign-up »),
 # et la tâche du matin ajoute les nouvelles adresses à abonnes.txt.
-FORM_ACTION = "https://formsubmit.co/stanislas.morin@gmail.com"
+FORM_ACTION = "https://formsubmit.co/84d12b8203fe112268ea9f3949a66c59"
 
 HOME_CSS = """
 .brand{font-family:var(--text);font-weight:600;font-size:clamp(40px,12vw,64px);line-height:1;margin:6px 0 4px;letter-spacing:-.01em}
