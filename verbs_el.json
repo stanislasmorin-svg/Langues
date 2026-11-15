@@ -207,6 +207,10 @@
   "fr": "rester",
   "en": "to stay"
  },
+ "μαγειρεύω": {
+  "fr": "cuisiner",
+  "en": "to cook"
+ },
  "μαζεύομαι": {
   "fr": "se réunir",
   "en": "to gather"
@@ -326,6 +330,10 @@
  "σκαλίζω": {
   "fr": "sculpter",
   "en": "to carve"
+ },
+ "σκαρφαλώνω": {
+  "fr": "grimper",
+  "en": "to climb"
  },
  "στέκομαι": {
   "fr": "se tenir debout",

@@ -127,6 +127,10 @@
   "fr": "nager",
   "en": "to swim"
  },
+ "ospitare": {
+  "fr": "accueillir, héberger",
+  "en": "to host"
+ },
  "pagare": {
   "fr": "payer",
   "en": "to pay"
@@ -171,6 +175,10 @@
   "fr": "protéger",
   "en": "to protect"
  },
+ "provare": {
+  "fr": "essayer",
+  "en": "to try"
+ },
  "raccontare": {
   "fr": "raconter",
   "en": "to tell"
@@ -190,6 +198,10 @@
  "riprendere": {
   "fr": "reprendre",
   "en": "to resume"
+ },
+ "rispettare": {
+  "fr": "respecter",
+  "en": "to respect"
  },
  "sbagliare": {
   "fr": "se tromper, rater",

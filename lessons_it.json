@@ -4075,5 +4075,429 @@
     "fr": "nager"
    }
   ]
+ },
+ {
+  "date": "2026-11-15",
+  "title": "Una fiera delle barche a Napoli",
+  "title_fr": "Un salon nautique à Naples",
+  "title_en": "A boat show in Naples",
+  "source": {
+   "name": "BiNews",
+   "url": "https://www.binews.it/evidenza/napoli-14-novembre-2026-inaugurata-questa-mattina-a-napoli-la-40a-edizione-del-salone-nautico-internazionale-navigare-in-corso-sino-a-domenica-22-al-molo-luise-di-mergellina/"
+  },
+  "paragraphs": [
+   "A Napoli c'è una grande **fiera** (fair) delle **barche** (boats). Si chiama Navigare. Quest'anno **festeggia** (celebrates) la quarantesima edizione. Si trova sul **molo** (pier) Luise, a Mergellina. La fiera **resta** (stays) aperta fino a domenica 22 novembre.",
+   "Ci sono più di 90 barche. Ci sono piccoli **gommoni** (dinghies) e grandi yacht. Le barche sono **lunghe** (long) da 6 a 27 metri. I **visitatori** (visitors) possono anche **provare** (try) una barca in mare. Basta **prenotare** (book) un **giro** (trip).",
+   "Sabato mattina c'era tanta **gente** (people). Il **sole** (sun) era caldo, come in **primavera** (spring). Anche il **sindaco** (mayor) Gaetano Manfredi era alla fiera. Lui dice che le barche danno **lavoro** (work) a molte persone. Ma servono **porti** (ports) più moderni, che **rispettano** (respect) la natura.",
+   "Il **biglietto** (ticket) **costa** (costs) 6 euro, più 2 euro di **prevendita** (booking fee). La fiera **apre** (opens) ogni giorno e **chiude** (closes) alle 17:30. Nel 2027 Napoli **ospiterà** (will host) anche l'America's Cup. È una famosa **gara** (race) di barche a vela."
+  ],
+  "paragraphs_en": [
+   "In Naples there is a big boat fair. It is called Navigare. This year it celebrates its fortieth edition. It is on the Luise pier, in Mergellina. The fair stays open until Sunday 22 November.",
+   "There are more than 90 boats. There are small dinghies and big yachts. The boats are from 6 to 27 metres long. Visitors can also try a boat at sea. You just need to book a trip.",
+   "On Saturday morning there were lots of people. The sun was warm, like in spring. The mayor, Gaetano Manfredi, was also at the fair. He says that boats give work to many people. But we need more modern ports that respect nature.",
+   "The ticket costs 6 euros, plus a 2-euro booking fee. The fair opens every day and closes at 5:30 pm. In 2027 Naples will also host the America's Cup. It is a famous sailing race."
+  ],
+  "fr": {
+   "fiera": "foire, salon",
+   "barche": "bateaux",
+   "festeggia": "fête, célèbre",
+   "molo": "jetée, quai",
+   "resta": "reste",
+   "gommoni": "canots pneumatiques",
+   "lunghe": "longues",
+   "visitatori": "visiteurs",
+   "provare": "essayer",
+   "prenotare": "réserver",
+   "giro": "tour, balade",
+   "gente": "gens, monde",
+   "sole": "soleil",
+   "primavera": "printemps",
+   "sindaco": "maire",
+   "lavoro": "travail",
+   "porti": "ports",
+   "rispettano": "respectent",
+   "biglietto": "billet",
+   "costa": "coûte",
+   "prevendita": "frais de prévente",
+   "apre": "ouvre",
+   "chiude": "ferme",
+   "ospiterà": "accueillera",
+   "gara": "course, compétition"
+  },
+  "lemma": {
+   "festeggia": "festeggiare",
+   "resta": "restare",
+   "provare": "provare",
+   "prenotare": "prenotare",
+   "rispettano": "rispettare",
+   "costa": "costare",
+   "apre": "aprire",
+   "chiude": "chiudere",
+   "ospiterà": "ospitare"
+  },
+  "examples": {
+   "fiera": [
+    [
+     "La fiera apre domani mattina.",
+     "The fair opens tomorrow morning.",
+     "La foire ouvre demain matin."
+    ],
+    [
+     "Andiamo alla fiera insieme?",
+     "Shall we go to the fair together?",
+     "On va à la foire ensemble ?"
+    ]
+   ],
+   "barche": [
+    [
+     "Le barche sono nel porto.",
+     "The boats are in the harbour.",
+     "Les bateaux sont dans le port."
+    ],
+    [
+     "Mio zio ha due barche.",
+     "My uncle has two boats.",
+     "Mon oncle a deux bateaux."
+    ]
+   ],
+   "festeggia": [
+    [
+     "Marco festeggia il compleanno stasera.",
+     "Marco is celebrating his birthday tonight.",
+     "Marco fête son anniversaire ce soir."
+    ],
+    [
+     "Io festeggio con gli amici al bar.",
+     "I celebrate with friends at the bar.",
+     "Je fais la fête avec des amis au bar."
+    ]
+   ],
+   "molo": [
+    [
+     "Ci vediamo al molo alle otto.",
+     "See you at the pier at eight.",
+     "On se voit sur la jetée à huit heures."
+    ],
+    [
+     "Il molo è pieno di gente.",
+     "The pier is full of people.",
+     "La jetée est pleine de monde."
+    ]
+   ],
+   "resta": [
+    [
+     "Il negozio resta chiuso lunedì.",
+     "The shop stays closed on Monday.",
+     "Le magasin reste fermé lundi."
+    ],
+    [
+     "Stasera io resto a casa.",
+     "Tonight I'm staying home.",
+     "Ce soir, je reste à la maison."
+    ]
+   ],
+   "gommoni": [
+    [
+     "I gommoni sono sulla spiaggia.",
+     "The dinghies are on the beach.",
+     "Les canots pneumatiques sont sur la plage."
+    ],
+    [
+     "D'estate affittano gommoni al porto.",
+     "In summer they rent dinghies at the port.",
+     "L'été, on loue des canots pneumatiques au port."
+    ]
+   ],
+   "lunghe": [
+    [
+     "D'estate le giornate sono lunghe.",
+     "In summer the days are long.",
+     "En été, les journées sont longues."
+    ],
+    [
+     "Queste file sono troppo lunghe.",
+     "These queues are too long.",
+     "Ces files d'attente sont trop longues."
+    ]
+   ],
+   "visitatori": [
+    [
+     "I visitatori entrano nel museo.",
+     "The visitors enter the museum.",
+     "Les visiteurs entrent dans le musée."
+    ],
+    [
+     "Oggi ci sono pochi visitatori.",
+     "Today there are few visitors.",
+     "Aujourd'hui, il y a peu de visiteurs."
+    ]
+   ],
+   "provare": [
+    [
+     "Posso provare questa giacca?",
+     "Can I try on this jacket?",
+     "Je peux essayer cette veste ?"
+    ],
+    [
+     "Io provo sempre i dolci nuovi.",
+     "I always try new desserts.",
+     "J'essaie toujours les nouveaux desserts."
+    ]
+   ],
+   "prenotare": [
+    [
+     "Devo prenotare un tavolo per stasera.",
+     "I need to book a table for tonight.",
+     "Je dois réserver une table pour ce soir."
+    ],
+    [
+     "Io prenoto il treno sul telefono.",
+     "I book the train on my phone.",
+     "Je réserve le train sur mon téléphone."
+    ]
+   ],
+   "giro": [
+    [
+     "Facciamo un giro in centro?",
+     "Shall we go for a walk downtown?",
+     "On fait un tour en ville ?"
+    ],
+    [
+     "Il giro in barca dura un'ora.",
+     "The boat trip lasts an hour.",
+     "Le tour en bateau dure une heure."
+    ]
+   ],
+   "gente": [
+    [
+     "C'è tanta gente al mercato.",
+     "There are lots of people at the market.",
+     "Il y a beaucoup de monde au marché."
+    ],
+    [
+     "La gente aspetta l'autobus.",
+     "People are waiting for the bus.",
+     "Les gens attendent le bus."
+    ]
+   ],
+   "sole": [
+    [
+     "Oggi c'è il sole.",
+     "It's sunny today.",
+     "Aujourd'hui, il y a du soleil."
+    ],
+    [
+     "Il sole entra dalla finestra.",
+     "The sun comes in through the window.",
+     "Le soleil entre par la fenêtre."
+    ]
+   ],
+   "primavera": [
+    [
+     "In primavera il parco è bellissimo.",
+     "In spring the park is beautiful.",
+     "Au printemps, le parc est magnifique."
+    ],
+    [
+     "La primavera arriva presto quest'anno.",
+     "Spring is coming early this year.",
+     "Le printemps arrive tôt cette année."
+    ]
+   ],
+   "sindaco": [
+    [
+     "Il sindaco parla in piazza.",
+     "The mayor is speaking in the square.",
+     "Le maire parle sur la place."
+    ],
+    [
+     "Conosci il sindaco della città?",
+     "Do you know the city's mayor?",
+     "Tu connais le maire de la ville ?"
+    ]
+   ],
+   "lavoro": [
+    [
+     "Vado al lavoro in metro.",
+     "I go to work by metro.",
+     "Je vais au travail en métro."
+    ],
+    [
+     "Il lavoro finisce alle sei.",
+     "Work finishes at six.",
+     "Le travail finit à six heures."
+    ]
+   ],
+   "porti": [
+    [
+     "I porti sono pieni di navi.",
+     "The ports are full of ships.",
+     "Les ports sont pleins de navires."
+    ],
+    [
+     "In Italia ci sono molti porti.",
+     "There are many ports in Italy.",
+     "En Italie, il y a beaucoup de ports."
+    ]
+   ],
+   "rispettano": [
+    [
+     "I bambini rispettano le regole.",
+     "The children respect the rules.",
+     "Les enfants respectent les règles."
+    ],
+    [
+     "Io rispetto sempre la fila.",
+     "I always respect the queue.",
+     "Je respecte toujours la file d'attente."
+    ]
+   ],
+   "biglietto": [
+    [
+     "Ho perso il biglietto del bus.",
+     "I lost my bus ticket.",
+     "J'ai perdu mon ticket de bus."
+    ],
+    [
+     "Il biglietto è sul tavolo.",
+     "The ticket is on the table.",
+     "Le billet est sur la table."
+    ]
+   ],
+   "costa": [
+    [
+     "Il caffè costa un euro.",
+     "The coffee costs one euro.",
+     "Le café coûte un euro."
+    ],
+    [
+     "Quanto costa questa borsa?",
+     "How much does this bag cost?",
+     "Combien coûte ce sac ?"
+    ]
+   ],
+   "prevendita": [
+    [
+     "Compro i biglietti in prevendita.",
+     "I buy the tickets in advance.",
+     "J'achète les billets en prévente."
+    ],
+    [
+     "La prevendita apre lunedì.",
+     "Advance sales open on Monday.",
+     "La prévente ouvre lundi."
+    ]
+   ],
+   "apre": [
+    [
+     "La farmacia apre alle nove.",
+     "The pharmacy opens at nine.",
+     "La pharmacie ouvre à neuf heures."
+    ],
+    [
+     "Io apro la finestra ogni mattina.",
+     "I open the window every morning.",
+     "J'ouvre la fenêtre chaque matin."
+    ]
+   ],
+   "chiude": [
+    [
+     "Il bar chiude a mezzanotte.",
+     "The bar closes at midnight.",
+     "Le bar ferme à minuit."
+    ],
+    [
+     "Io chiudo la porta a chiave.",
+     "I lock the door.",
+     "Je ferme la porte à clé."
+    ]
+   ],
+   "ospiterà": [
+    [
+     "La scuola ospiterà una festa.",
+     "The school will host a party.",
+     "L'école accueillera une fête."
+    ],
+    [
+     "Io ospito mia sorella questo weekend.",
+     "I'm hosting my sister this weekend.",
+     "J'accueille ma sœur ce week-end."
+    ]
+   ],
+   "gara": [
+    [
+     "Domenica c'è una gara di corsa.",
+     "On Sunday there's a running race.",
+     "Dimanche, il y a une course à pied."
+    ],
+    [
+     "Chi vince la gara?",
+     "Who wins the race?",
+     "Qui gagne la course ?"
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "fiera",
+    "gr": "fiera",
+    "en": "fair",
+    "fr": "foire, salon"
+   },
+   {
+    "word": "barche",
+    "gr": "barche",
+    "en": "boats",
+    "fr": "bateaux"
+   },
+   {
+    "word": "biglietto",
+    "gr": "biglietto",
+    "en": "ticket",
+    "fr": "billet"
+   },
+   {
+    "word": "gara",
+    "gr": "gara",
+    "en": "race",
+    "fr": "course"
+   },
+   {
+    "word": "sindaco",
+    "gr": "sindaco",
+    "en": "mayor",
+    "fr": "maire"
+   },
+   {
+    "word": "lavoro",
+    "gr": "lavoro",
+    "en": "work",
+    "fr": "travail"
+   },
+   {
+    "word": "prenotare",
+    "gr": "prenotare",
+    "en": "to book",
+    "fr": "réserver"
+   },
+   {
+    "word": "costa",
+    "gr": "costare",
+    "en": "to cost",
+    "fr": "coûter"
+   },
+   {
+    "word": "apre",
+    "gr": "aprire",
+    "en": "to open",
+    "fr": "ouvrir"
+   },
+   {
+    "word": "chiude",
+    "gr": "chiudere",
+    "en": "to close",
+    "fr": "fermer"
+   }
+  ]
  }
 ]

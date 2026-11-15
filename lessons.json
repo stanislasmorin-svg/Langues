@@ -11979,5 +11979,427 @@
     "fr": "payer"
    }
   ]
+ },
+ {
+  "date": "2026-11-15",
+  "title": "Μια μεγάλη γιορτή για παιδιά στο Γκάζι",
+  "title_fr": "Une grande fête pour les enfants à Gazi",
+  "title_en": "A big festival for children in Gazi",
+  "source": {
+   "name": "Athens Voice",
+   "url": "https://www.athensvoice.gr/life/life-in-athens/997374/mia-mera-prin-apo-to-athens-kidot-festival-2026-anakalupste-ta-highlights-kai-to-programma-draseon/"
+  },
+  "paragraphs": [
+   "Αυτό το Σαββατοκύριακο η Αθήνα έχει μια μεγάλη **γιορτή** (festival) για **οικογένειες** (families). Λέγεται KIDOT Festival. Είναι στο Γκάζι, σε ένα παλιό **αμαξοστάσιο** (depot) για λεωφορεία. Η γιορτή είναι **ανοιχτή** (open) από τις 11 το πρωί ως τις 9 το βράδυ.",
+   "Η γιορτή είναι για παιδιά από 0 έως 12 **χρονών** (years old). Υπάρχουν τέσσερις **χώροι** (areas) για παιχνίδι. Τα **μωρά** (babies) έχουν τη δική τους **γωνιά** (corner). Τα μεγαλύτερα παιδιά **σκαρφαλώνουν** (climb) σε έναν **τοίχο** (wall).",
+   "Στα **εργαστήρια** (workshops), τα παιδιά **μαγειρεύουν** (cook) και **φτιάχνουν** (make) ρομπότ. **Ζωγραφίζουν** (paint) σε **τεράστιους** (huge) καμβάδες. Μετά, οι **ζωγραφιές** (paintings) θα γίνουν **δώρο** (gift) για άλλα παιδιά. Τα παιδιά **δοκιμάζουν** (try) και ένα αναπηρικό **καροτσάκι** (wheelchair), μαζί με έναν **αθλητή** (athlete).",
+   "Οι **γονείς** (parents) παίζουν και αυτοί με τα παιδιά. Αν **αγοράσεις** (buy) από πριν, το **εισιτήριο** (ticket) για μία μέρα κοστίζει 12 ευρώ. Με αυτό, **μπαίνεις** (you get in) σε όλα τα εργαστήρια και τις **παραστάσεις** (shows). Τα μωρά κάτω από έναν χρόνο μπαίνουν δωρεάν."
+  ],
+  "paragraphs_en": [
+   "This weekend Athens has a big festival for families. It is called KIDOT Festival. It is in Gazi, in an old bus depot. The festival is open from 11 in the morning to 9 in the evening.",
+   "The festival is for children from 0 to 12 years old. There are four areas for play. The babies have their own corner. The older children climb a wall.",
+   "In the workshops, the children cook and make robots. They paint on huge canvases. Afterwards, the paintings will be a gift for other children. The children also try a wheelchair, together with an athlete.",
+   "The parents play with the children too. If you buy in advance, the ticket for one day costs 12 euros. With it, you get into all the workshops and shows. Babies under one year old get in for free."
+  ],
+  "fr": {
+   "γιορτή": "fête, festival",
+   "οικογένειες": "familles",
+   "αμαξοστάσιο": "dépôt (de bus)",
+   "ανοιχτή": "ouverte",
+   "χρονών": "ans (âge)",
+   "χώροι": "espaces",
+   "μωρά": "bébés",
+   "γωνιά": "coin",
+   "σκαρφαλώνουν": "grimpent",
+   "τοίχο": "mur",
+   "εργαστήρια": "ateliers",
+   "μαγειρεύουν": "cuisinent",
+   "φτιάχνουν": "fabriquent, font",
+   "Ζωγραφίζουν": "peignent, dessinent",
+   "τεράστιους": "immenses, énormes",
+   "ζωγραφιές": "dessins, peintures",
+   "δώρο": "cadeau",
+   "δοκιμάζουν": "essaient",
+   "καροτσάκι": "fauteuil roulant, poussette",
+   "αθλητή": "athlète",
+   "γονείς": "parents",
+   "αγοράσεις": "acheter",
+   "εισιτήριο": "billet, ticket",
+   "μπαίνεις": "tu entres",
+   "παραστάσεις": "spectacles"
+  },
+  "lemma": {
+   "σκαρφαλώνουν": "σκαρφαλώνω",
+   "μαγειρεύουν": "μαγειρεύω",
+   "φτιάχνουν": "φτιάχνω",
+   "Ζωγραφίζουν": "ζωγραφίζω",
+   "δοκιμάζουν": "δοκιμάζω",
+   "αγοράσεις": "αγοράζω",
+   "μπαίνεις": "μπαίνω"
+  },
+  "examples": {
+   "γιορτή": [
+    [
+     "Αύριο έχουμε γιορτή στο σπίτι.",
+     "Tomorrow we have a party at home.",
+     "Demain, on fait une fête à la maison."
+    ],
+    [
+     "Η γιορτή αρχίζει στις οκτώ.",
+     "The party starts at eight.",
+     "La fête commence à huit heures."
+    ]
+   ],
+   "οικογένειες": [
+    [
+     "Οι οικογένειες πάνε στη θάλασσα.",
+     "The families go to the sea.",
+     "Les familles vont à la mer."
+    ],
+    [
+     "Πολλές οικογένειες μένουν εδώ.",
+     "Many families live here.",
+     "Beaucoup de familles habitent ici."
+    ]
+   ],
+   "αμαξοστάσιο": [
+    [
+     "Το λεωφορείο είναι στο αμαξοστάσιο.",
+     "The bus is at the depot.",
+     "Le bus est au dépôt."
+    ],
+    [
+     "Το αμαξοστάσιο είναι πολύ μεγάλο.",
+     "The depot is very big.",
+     "Le dépôt est très grand."
+    ]
+   ],
+   "ανοιχτή": [
+    [
+     "Η πόρτα είναι ανοιχτή.",
+     "The door is open.",
+     "La porte est ouverte."
+    ],
+    [
+     "Είναι ανοιχτή η τράπεζα σήμερα;",
+     "Is the bank open today?",
+     "La banque est ouverte aujourd'hui ?"
+    ]
+   ],
+   "χρονών": [
+    [
+     "Ο γιος μου είναι πέντε χρονών.",
+     "My son is five years old.",
+     "Mon fils a cinq ans."
+    ],
+    [
+     "Πόσο χρονών είσαι;",
+     "How old are you?",
+     "Quel âge as-tu ?"
+    ]
+   ],
+   "χώροι": [
+    [
+     "Οι χώροι στο πάρκο είναι καθαροί.",
+     "The areas in the park are clean.",
+     "Les espaces du parc sont propres."
+    ],
+    [
+     "Στο καφέ υπάρχουν δύο χώροι.",
+     "The café has two areas.",
+     "Le café a deux espaces."
+    ]
+   ],
+   "μωρά": [
+    [
+     "Τα μωρά κοιμούνται νωρίς.",
+     "Babies sleep early.",
+     "Les bébés dorment tôt."
+    ],
+    [
+     "Τα μωρά κλαίνε στο λεωφορείο.",
+     "The babies are crying on the bus.",
+     "Les bébés pleurent dans le bus."
+    ]
+   ],
+   "γωνιά": [
+    [
+     "Η γάτα κοιμάται στη γωνιά.",
+     "The cat sleeps in the corner.",
+     "Le chat dort dans le coin."
+    ],
+    [
+     "Αυτή η γωνιά έχει ήλιο.",
+     "This corner gets the sun.",
+     "Ce coin est au soleil."
+    ]
+   ],
+   "σκαρφαλώνουν": [
+    [
+     "Οι γάτες σκαρφαλώνουν στο δέντρο.",
+     "The cats climb the tree.",
+     "Les chats grimpent à l'arbre."
+    ],
+    [
+     "Κάθε Κυριακή σκαρφαλώνω στον λόφο.",
+     "Every Sunday I climb the hill.",
+     "Chaque dimanche, je grimpe sur la colline."
+    ]
+   ],
+   "τοίχο": [
+    [
+     "Βάζω μια φωτογραφία στον τοίχο.",
+     "I put a photo on the wall.",
+     "Je mets une photo au mur."
+    ],
+    [
+     "Βάφουμε τον τοίχο άσπρο.",
+     "We are painting the wall white.",
+     "Nous peignons le mur en blanc."
+    ]
+   ],
+   "εργαστήρια": [
+    [
+     "Τα εργαστήρια αρχίζουν το πρωί.",
+     "The workshops start in the morning.",
+     "Les ateliers commencent le matin."
+    ],
+    [
+     "Το σχολείο έχει εργαστήρια για παιδιά.",
+     "The school has workshops for children.",
+     "L'école a des ateliers pour enfants."
+    ]
+   ],
+   "μαγειρεύουν": [
+    [
+     "Οι φίλοι μου μαγειρεύουν απόψε.",
+     "My friends are cooking tonight.",
+     "Mes amis cuisinent ce soir."
+    ],
+    [
+     "Σήμερα μαγειρεύω μακαρόνια για όλους.",
+     "Today I'm cooking pasta for everyone.",
+     "Aujourd'hui, je cuisine des pâtes pour tout le monde."
+    ]
+   ],
+   "φτιάχνουν": [
+    [
+     "Τα παιδιά φτιάχνουν ένα κέικ.",
+     "The children are making a cake.",
+     "Les enfants font un gâteau."
+    ],
+    [
+     "Κάθε πρωί φτιάχνω καφέ.",
+     "I make coffee every morning.",
+     "Je fais du café chaque matin."
+    ]
+   ],
+   "Ζωγραφίζουν": [
+    [
+     "Ζωγραφίζουν στο χαρτί με μολύβια.",
+     "They draw on paper with pencils.",
+     "Ils dessinent sur du papier avec des crayons."
+    ],
+    [
+     "Συχνά ζωγραφίζω λουλούδια στον κήπο.",
+     "I often paint flowers in the garden.",
+     "Je peins souvent des fleurs dans le jardin."
+    ]
+   ],
+   "τεράστιους": [
+    [
+     "Το μουσείο έχει τεράστιους πίνακες.",
+     "The museum has huge paintings.",
+     "Le musée a d'immenses tableaux."
+    ],
+    [
+     "Τρώμε τεράστιους λουκουμάδες.",
+     "We eat huge doughnuts.",
+     "Nous mangeons d'énormes beignets."
+    ]
+   ],
+   "ζωγραφιές": [
+    [
+     "Οι ζωγραφιές είναι στον τοίχο.",
+     "The drawings are on the wall.",
+     "Les dessins sont au mur."
+    ],
+    [
+     "Μου αρέσουν οι ζωγραφιές σου.",
+     "I like your drawings.",
+     "J'aime tes dessins."
+    ]
+   ],
+   "δώρο": [
+    [
+     "Έχω ένα δώρο για σένα.",
+     "I have a gift for you.",
+     "J'ai un cadeau pour toi."
+    ],
+    [
+     "Το δώρο είναι στο τραπέζι.",
+     "The gift is on the table.",
+     "Le cadeau est sur la table."
+    ]
+   ],
+   "δοκιμάζουν": [
+    [
+     "Οι πελάτες δοκιμάζουν το κρασί.",
+     "The customers taste the wine.",
+     "Les clients goûtent le vin."
+    ],
+    [
+     "Στο μαγαζί δοκιμάζω τα παπούτσια.",
+     "At the shop I try on the shoes.",
+     "Au magasin, j'essaie les chaussures."
+    ]
+   ],
+   "καροτσάκι": [
+    [
+     "Ο παππούς κάθεται σε αναπηρικό καροτσάκι.",
+     "Grandpa sits in a wheelchair.",
+     "Papy est assis dans un fauteuil roulant."
+    ],
+    [
+     "Το καροτσάκι χωράει στο μετρό.",
+     "The wheelchair fits in the metro.",
+     "Le fauteuil roulant rentre dans le métro."
+    ]
+   ],
+   "αθλητή": [
+    [
+     "Ξέρω έναν αθλητή από τη γειτονιά.",
+     "I know an athlete from the neighbourhood.",
+     "Je connais un athlète du quartier."
+    ],
+    [
+     "Βλέπουμε τον αθλητή στην τηλεόραση.",
+     "We see the athlete on TV.",
+     "Nous voyons l'athlète à la télé."
+    ]
+   ],
+   "γονείς": [
+    [
+     "Οι γονείς μου μένουν στον Πειραιά.",
+     "My parents live in Piraeus.",
+     "Mes parents habitent au Pirée."
+    ],
+    [
+     "Οι γονείς περιμένουν έξω από το σχολείο.",
+     "The parents wait outside the school.",
+     "Les parents attendent devant l'école."
+    ]
+   ],
+   "αγοράσεις": [
+    [
+     "Θέλεις να αγοράσεις ψωμί;",
+     "Do you want to buy bread?",
+     "Tu veux acheter du pain ?"
+    ],
+    [
+     "Πάντα αγοράζω φρούτα από τη λαϊκή.",
+     "I always buy fruit at the street market.",
+     "J'achète toujours des fruits au marché."
+    ]
+   ],
+   "εισιτήριο": [
+    [
+     "Βγάζω εισιτήριο για το μετρό.",
+     "I get a ticket for the metro.",
+     "Je prends un ticket de métro."
+    ],
+    [
+     "Το εισιτήριο είναι στην τσέπη μου.",
+     "The ticket is in my pocket.",
+     "Le ticket est dans ma poche."
+    ]
+   ],
+   "μπαίνεις": [
+    [
+     "Εσύ μπαίνεις πρώτος στο λεωφορείο;",
+     "Are you getting on the bus first?",
+     "Tu montes le premier dans le bus ?"
+    ],
+    [
+     "Κάθε βράδυ μπαίνω στο σπίτι αργά.",
+     "Every evening I come home late.",
+     "Chaque soir, je rentre tard à la maison."
+    ]
+   ],
+   "παραστάσεις": [
+    [
+     "Οι παραστάσεις αρχίζουν στις εννιά.",
+     "The shows start at nine.",
+     "Les spectacles commencent à neuf heures."
+    ],
+    [
+     "Το θέατρο έχει παραστάσεις κάθε βράδυ.",
+     "The theatre has shows every evening.",
+     "Le théâtre a des spectacles tous les soirs."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "γιορτή",
+    "gr": "γιορτή",
+    "en": "festival, party",
+    "fr": "fête"
+   },
+   {
+    "word": "οικογένειες",
+    "gr": "οικογένειες",
+    "en": "families",
+    "fr": "familles"
+   },
+   {
+    "word": "τοίχο",
+    "gr": "τοίχο",
+    "en": "wall",
+    "fr": "mur"
+   },
+   {
+    "word": "εργαστήρια",
+    "gr": "εργαστήρια",
+    "en": "workshops",
+    "fr": "ateliers"
+   },
+   {
+    "word": "δώρο",
+    "gr": "δώρο",
+    "en": "gift",
+    "fr": "cadeau"
+   },
+   {
+    "word": "εισιτήριο",
+    "gr": "εισιτήριο",
+    "en": "ticket",
+    "fr": "billet"
+   },
+   {
+    "word": "σκαρφαλώνουν",
+    "gr": "σκαρφαλώνω",
+    "en": "to climb",
+    "fr": "grimper"
+   },
+   {
+    "word": "μαγειρεύουν",
+    "gr": "μαγειρεύω",
+    "en": "to cook",
+    "fr": "cuisiner"
+   },
+   {
+    "word": "Ζωγραφίζουν",
+    "gr": "ζωγραφίζω",
+    "en": "to paint, to draw",
+    "fr": "peindre, dessiner"
+   },
+   {
+    "word": "μπαίνεις",
+    "gr": "μπαίνω",
+    "en": "to enter, to get in",
+    "fr": "entrer"
+   }
+  ]
  }
 ]
