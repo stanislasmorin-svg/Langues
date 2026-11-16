@@ -81,7 +81,7 @@ def fr_date(iso):
 CSS = """
 .sitefoot{border-top:1px solid var(--line);margin-top:8px;padding-top:14px;font-size:14px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px}
 .toplink{float:right;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);text-decoration:none;margin-top:4px}.toplink:hover{text-decoration:underline}
-.sharetop{float:right;background:var(--accent);color:#fff;border:0;border-radius:999px;padding:3px 12px;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
+.sharetop{float:right;background:var(--accent);color:#fff;border:0;border-radius:999px;padding:4px 14px;font:inherit;font-size:15px;font-weight:600;cursor:pointer}
 :root{--bg:#f6f7f9;--surface:#fff;--fg:#1c1f24;--muted:#5b6370;--line:#dde1e8;--accent:#1a56b4;--soft:#e4ecf8;--gloss:#8a5a14;
 --text:"Times New Roman",Times,"Liberation Serif","Noto Serif",serif;--ui:"Times New Roman",Times,"Liberation Serif","Noto Serif",serif}
 @media (prefers-color-scheme:dark){:root{--bg:#13161b;--surface:#1b1f26;--fg:#e7eaef;--muted:#a0a8b4;--line:#2d333d;--accent:#8ab4f8;--soft:#1f2b3d;--gloss:#e3b469;color-scheme:dark}}
@@ -275,7 +275,9 @@ QUIZ_CSS = """
 .qhead{display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--muted)}
 .bar{height:6px;background:var(--line);border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
 .ask{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:6px;text-align:center}
-.ask .en{font-size:26px;font-weight:600}.ask .fr{color:var(--gloss);font-size:18px}.ask .tag{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.ask .en{font-size:26px;font-weight:600}
+.isq .ask .en{font-size:21px;line-height:1.35}.isq .ask .fr{font-size:16px}
+.isq .opts{grid-template-columns:1fr}.isq .opt{font-size:18px;text-align:left;padding:13px 16px}.ask .fr{color:var(--gloss);font-size:18px}.ask .tag{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .opts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .opt{font:inherit;font-size:21px;padding:16px 10px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer}
 .opt:hover:not(:disabled){border-color:var(--accent)}.opt:disabled{cursor:default}
@@ -305,7 +307,8 @@ def quiz_items(s, lang, outdir, all_lemmas):
     nouns = [w for w, _ in words if w not in lem]
     verbs = sorted(set(lem.values()))
     out = []
-    for w, gr, en, fr in base[:10]:
+    qs = [q for q in s.get("questions", []) if q.get("q") and len(q.get("choices", [])) in (3, 4)][:3]
+    for w, gr, en, fr in base[:10 - len(qs)]:
         is_verb = w in lem
         pool = [v for v in (verbs if is_verb else nouns) if v != gr]
         if is_verb and len(pool) < 3:
@@ -319,7 +322,14 @@ def quiz_items(s, lang, outdir, all_lemmas):
             if os.path.exists(fpath):
                 au = "../audio/ex/" + n + "?v=" + hashlib.md5(open(fpath, "rb").read()).hexdigest()[:8]
         out.append(dict(gr=gr, en=en, fr=fr, pool=pool, ex=e, au=au))
-    return out if len(out) >= 4 else []
+    if len(out) < 4:
+        return []
+    # questions on the text (written by the daily task): choices[0] is the right answer;
+    # spread among the words, at positions 3, 6 and 9
+    for k, q in enumerate(qs):
+        out.insert(min(2 + 3 * k, len(out)), dict(kind="q", gr=q["choices"][0], en=q["q"], fr="", pool=q["choices"][1:],
+                        ex=[q.get("quote", ""), q.get("quote_en", ""), ""], au=""))
+    return out
 
 QUIZ_JS = r"""
 function sh(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
@@ -329,6 +339,7 @@ if(CH!==null){$('chal').hidden=false;$('chal').textContent='A friend scored '+CH
 function esc(t){var d=document.createElement('div');d.textContent=t;return d.innerHTML}
 function play(){if(!D[i].au)return;AU.src=D[i].au;AU.currentTime=0;AU.play().catch(function(){})}
 function show(){var it=D[i];$('n').textContent='Question '+(i+1)+' / '+N;$('bar').style.width=(i/N*100)+'%';
+ $('q').classList.toggle('isq',it.kind==='q');$('tag').textContent=it.kind==='q'?'Question about the text':'Choose the '+LANG+' word';
  $('en').textContent=it.en;$('fr').textContent=it.fr;$('fb').innerHTML='';$('next').hidden=true;
  var o=sh([it.gr].concat(sh(it.pool.slice()).slice(0,3)));$('opts').innerHTML='';
  o.forEach(function(w){var b=document.createElement('button');b.className='opt';b.type='button';b.textContent=w;b.onclick=function(){pick(b,w)};$('opts').appendChild(b)})}
@@ -343,7 +354,7 @@ function end(){$('q').hidden=true;$('end').hidden=false;$('sc').textContent=scor
  if(CH!==null)$('msg').textContent=score>CH?'You beat your friend ('+CH+'/'+N+')!':score==CH?'Tie with your friend ('+CH+'/'+N+')!':'Your friend wins this time ('+CH+'/'+N+'). Try again!';
  $('share').textContent='Challenge a friend';
  $('rev').hidden=!miss.length;$('miss').innerHTML=miss.map(function(m){return '<li><b>'+esc(m.gr)+'</b><span>'+esc(m.en)+(m.fr?' · '+esc(m.fr):'')+'</span></li>'}).join('')}
-$('again').onclick=function(){i=0;score=0;miss=[];sh(D);$('end').hidden=true;$('q').hidden=false;$('pts').textContent='0 points';show()};
+$('again').onclick=function(){i=0;score=0;miss=[];var W=sh(D.filter(function(x){return x.kind!=='q'}));D=D.map(function(x){return x.kind==='q'?x:W.shift()});$('end').hidden=true;$('q').hidden=false;$('pts').textContent='0 points';show()};
 $('share').onclick=function(){var t='I got '+score+'/'+N+' on today\'s '+LANG+' quiz on Masimera. Can you beat me?',u=location.href.split('?')[0].split('#')[0]+'?challenge='+score;
  if(navigator.share)navigator.share({text:t,url:u}).catch(function(){});else if(navigator.clipboard)navigator.clipboard.writeText(t+' '+u).then(function(){$('share').textContent='Copied ✓'})};
 show();
@@ -387,6 +398,11 @@ def signup_box(L):
 <button class="play" type="submit">Sign up</button>
 </form></section>"""
 
+def nq_txt(items):
+    nq = sum(1 for x in items if x.get("kind") == "q")
+    nw = len(items) - nq
+    return f"{nw} words" + (f" and {nq} question{'s' if nq > 1 else ''}" if nq else "")
+
 def quiz_page(s, items, lang, L):
     bravo = "Μπράβο!" if lang == "el" else "Bravo!"
     data = json.dumps(items, ensure_ascii=False).replace("</", "<\\/")
@@ -394,12 +410,12 @@ def quiz_page(s, items, lang, L):
     return f"""<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{L["name"]} quiz · {t} · Masimera</title><meta name="robots" content="noindex">{seo(L["out"] + "quiz/" + s["date"] + ".html", "Can you beat my score? " + L["name"] + " quiz · Masimera", f"A 2-minute {L['name']} quiz on today's news: {s['title']}. 10 words, 4 choices each.")}{FONTS}<style>{CSS}{QUIZ_CSS}{SHARE_CSS}</style></head><body><div class="wrap">
 <header>{brand_mini()}<br><span class="eyebrow">{L["name"]} quiz · {fr_date(s["date"])}</span><h1>Quiz of the day</h1>
-<p class="sub">{len(items)} words from the lesson: <a href="../cours/{s["date"]}.html">{t}</a></p>{pitch(L)}
+<p class="sub">{nq_txt(items)} from the lesson: <a href="../cours/{s["date"]}.html">{t}</a></p>{pitch(L)}
 <p class="chal" id="chal" hidden></p></header>
 <div id="q">
 <div class="qhead"><span id="n"></span><span id="pts">0 points</span></div>
 <div class="bar"><i id="bar"></i></div>
-<div class="ask"><span class="tag">Choose the {L["name"]} word</span><span class="en" id="en"></span><span class="fr" id="fr"></span></div>
+<div class="ask"><span class="tag" id="tag">Choose the {L["name"]} word</span><span class="en" id="en"></span><span class="fr" id="fr"></span></div>
 <div class="opts" id="opts"></div>
 <div class="fb" id="fb" aria-live="polite"></div>
 <div class="row" style="justify-content:center"><button class="play" id="next" type="button" hidden>Next →</button></div>
@@ -576,7 +592,7 @@ def words_quiz_html(L):
 <div class="row"><button class="play" id="wqStart" type="button">Start the quiz →</button></div></div>
 <div id="wqQ" hidden style="display:flex;flex-direction:column;gap:14px">
 <div class="qhead"><span id="wqN"></span><span id="wqPts">0 points</span></div><div class="bar"><i id="wqBar"></i></div>
-<div class="ask"><span class="tag">Choose the {L["name"]} word</span><span class="en" id="wqEn"></span><span class="fr" id="wqFr" style="color:var(--muted)"></span></div>
+<div class="ask"><span class="tag" id="tag">Choose the {L["name"]} word</span><span class="en" id="wqEn"></span><span class="fr" id="wqFr" style="color:var(--muted)"></span></div>
 <div class="opts" id="wqOpts"></div><div class="fb" id="wqFb" aria-live="polite"></div>
 <div class="row" style="justify-content:center"><button class="play" id="wqNext" type="button" hidden>Next →</button></div></div>
 <div id="wqEnd" class="center" hidden><h2>Your score</h2><div class="score" id="wqSc"></div><p class="sub" id="wqMsg"></p>
