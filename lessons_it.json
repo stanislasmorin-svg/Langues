@@ -4499,5 +4499,417 @@
     "fr": "fermer"
    }
   ]
+ },
+ {
+  "date": "2026-11-16",
+  "title": "Bollette un po' più leggere",
+  "title_fr": "Des factures un peu plus légères",
+  "title_en": "Slightly lighter bills",
+  "source": {
+   "name": "Informazione Fiscale",
+   "url": "https://www.informazionefiscale.it/decreto-bollette-gas-prezzo-energia-quanto-si-risparmia"
+  },
+  "paragraphs": [
+   "Il **governo** (government) ha **approvato** (approved) un nuovo **decreto** (decree) per le **bollette** (bills). Le bollette sono i fogli per la luce e il gas di casa. Il governo vuole **abbassare** (to lower) i **costi** (costs) dell'energia.",
+   "Il decreto mette un **limite** (limit) al **prezzo** (price) del gas. Questo limite **dura** (lasts) fino a 18 mesi. Così anche la luce **costerà** (will cost) un po' meno.",
+   "Per le **famiglie** (families) il **risparmio** (saving) è **piccolo** (small). Una famiglia **risparmia** (saves) tra 15 e 40 euro all'**anno** (year). Sono meno di 4 euro al **mese** (month). Ma oggi una famiglia **spende** (spends) già 300 o 400 euro in più all'anno.",
+   "Le **aziende** (companies) risparmiano di più. Un piccolo **artigiano** (craftsman) risparmia circa 280 euro all'anno.",
+   "Ci vuole **pazienza** (patience). I risparmi **arrivano** (arrive) solo da **gennaio** (January). La presidente del Consiglio Giorgia Meloni dice che gli **effetti** (effects) **richiederanno** (will take) tempo."
+  ],
+  "paragraphs_en": [
+   "The government has approved a new decree for bills. Bills are the papers for the electricity and gas at home. The government wants to lower energy costs.",
+   "The decree puts a limit on the price of gas. This limit lasts up to 18 months. So electricity will also cost a little less.",
+   "For families the saving is small. A family saves between 15 and 40 euros a year. That is less than 4 euros a month. But today a family already spends 300 or 400 euros more a year.",
+   "Companies save more. A small craftsman saves about 280 euros a year.",
+   "Patience is needed. The savings only arrive from January. Prime Minister Giorgia Meloni says that the effects will take time."
+  ],
+  "fr": {
+   "governo": "gouvernement",
+   "approvato": "approuvé",
+   "decreto": "décret",
+   "bollette": "factures",
+   "abbassare": "baisser",
+   "costi": "coûts",
+   "limite": "limite, plafond",
+   "prezzo": "prix",
+   "dura": "dure",
+   "costerà": "coûtera",
+   "famiglie": "familles",
+   "risparmio": "économie",
+   "piccolo": "petit",
+   "risparmia": "économise",
+   "anno": "an, année",
+   "mese": "mois",
+   "spende": "dépense",
+   "aziende": "entreprises",
+   "artigiano": "artisan",
+   "pazienza": "patience",
+   "arrivano": "arrivent",
+   "gennaio": "janvier",
+   "effetti": "effets",
+   "richiederanno": "demanderont, prendront"
+  },
+  "lemma": {
+   "approvato": "approvare",
+   "abbassare": "abbassare",
+   "dura": "durare",
+   "costerà": "costare",
+   "risparmia": "risparmiare",
+   "spende": "spendere",
+   "arrivano": "arrivare",
+   "richiederanno": "richiedere"
+  },
+  "examples": {
+   "governo": [
+    [
+     "Il governo parla delle scuole.",
+     "The government talks about schools.",
+     "Le gouvernement parle des écoles."
+    ],
+    [
+     "Il nuovo governo lavora a Roma.",
+     "The new government works in Rome.",
+     "Le nouveau gouvernement travaille à Rome."
+    ]
+   ],
+   "approvato": [
+    [
+     "Il capo ha approvato il mio progetto.",
+     "The boss approved my project.",
+     "Le chef a approuvé mon projet."
+    ],
+    [
+     "Io approvo la tua idea.",
+     "I approve of your idea.",
+     "J'approuve ton idée."
+    ]
+   ],
+   "decreto": [
+    [
+     "Leggo il decreto sul giornale.",
+     "I read the decree in the paper.",
+     "Je lis le décret dans le journal."
+    ],
+    [
+     "Il decreto è sul sito del comune.",
+     "The decree is on the town's website.",
+     "Le décret est sur le site de la mairie."
+    ]
+   ],
+   "bollette": [
+    [
+     "Pago le bollette alla posta.",
+     "I pay the bills at the post office.",
+     "Je paie les factures à la poste."
+    ],
+    [
+     "Le bollette arrivano ogni mese.",
+     "The bills arrive every month.",
+     "Les factures arrivent chaque mois."
+    ]
+   ],
+   "abbassare": [
+    [
+     "Puoi abbassare la musica, per favore?",
+     "Can you turn the music down, please?",
+     "Tu peux baisser la musique, s'il te plaît ?"
+    ],
+    [
+     "Abbasso il volume della TV.",
+     "I turn down the TV volume.",
+     "Je baisse le volume de la télé."
+    ]
+   ],
+   "costi": [
+    [
+     "I costi della casa sono alti.",
+     "The costs of the house are high.",
+     "Les coûts de la maison sont élevés."
+    ],
+    [
+     "Dividiamo i costi della cena.",
+     "Let's split the cost of dinner.",
+     "Partageons les frais du dîner."
+    ]
+   ],
+   "limite": [
+    [
+     "Il limite di velocità è cinquanta.",
+     "The speed limit is fifty.",
+     "La limite de vitesse est de cinquante."
+    ],
+    [
+     "C'è un limite per i bagagli.",
+     "There is a limit for luggage.",
+     "Il y a une limite pour les bagages."
+    ]
+   ],
+   "prezzo": [
+    [
+     "Il prezzo del pane è salito.",
+     "The price of bread has gone up.",
+     "Le prix du pain a augmenté."
+    ],
+    [
+     "Qual è il prezzo del biglietto?",
+     "What is the price of the ticket?",
+     "Quel est le prix du billet ?"
+    ]
+   ],
+   "dura": [
+    [
+     "Il film dura due ore.",
+     "The film lasts two hours.",
+     "Le film dure deux heures."
+    ],
+    [
+     "La lezione dura un'ora.",
+     "The lesson lasts an hour.",
+     "Le cours dure une heure."
+    ]
+   ],
+   "costerà": [
+    [
+     "Il biglietto costerà due euro.",
+     "The ticket will cost two euros.",
+     "Le billet coûtera deux euros."
+    ],
+    [
+     "Il caffè costa un euro.",
+     "The coffee costs one euro.",
+     "Le café coûte un euro."
+    ]
+   ],
+   "famiglie": [
+    [
+     "Molte famiglie vanno al mare.",
+     "Many families go to the seaside.",
+     "Beaucoup de familles vont à la mer."
+    ],
+    [
+     "Le famiglie mangiano insieme la domenica.",
+     "Families eat together on Sundays.",
+     "Les familles mangent ensemble le dimanche."
+    ]
+   ],
+   "risparmio": [
+    [
+     "Il risparmio è importante per noi.",
+     "Saving is important for us.",
+     "L'épargne est importante pour nous."
+    ],
+    [
+     "Con la bici c'è un bel risparmio.",
+     "With the bike there's a nice saving.",
+     "Avec le vélo, on fait une belle économie."
+    ]
+   ],
+   "piccolo": [
+    [
+     "Il mio appartamento è piccolo.",
+     "My flat is small.",
+     "Mon appartement est petit."
+    ],
+    [
+     "Ho un piccolo cane bianco.",
+     "I have a small white dog.",
+     "J'ai un petit chien blanc."
+    ]
+   ],
+   "risparmia": [
+    [
+     "Mia madre risparmia sulla spesa.",
+     "My mother saves on the shopping.",
+     "Ma mère économise sur les courses."
+    ],
+    [
+     "Io risparmio andando in bici.",
+     "I save money by cycling.",
+     "J'économise en allant à vélo."
+    ]
+   ],
+   "anno": [
+    [
+     "Vado in Grecia ogni anno.",
+     "I go to Greece every year.",
+     "Je vais en Grèce chaque année."
+    ],
+    [
+     "Quest'anno studio l'italiano.",
+     "This year I'm studying Italian.",
+     "Cette année, j'étudie l'italien."
+    ]
+   ],
+   "mese": [
+    [
+     "Pago l'affitto ogni mese.",
+     "I pay the rent every month.",
+     "Je paie le loyer chaque mois."
+    ],
+    [
+     "Il mese prossimo cambio casa.",
+     "Next month I'm moving house.",
+     "Le mois prochain, je déménage."
+    ]
+   ],
+   "spende": [
+    [
+     "Marco spende tanto al bar.",
+     "Marco spends a lot at the bar.",
+     "Marco dépense beaucoup au bar."
+    ],
+    [
+     "Io spendo poco per il pranzo.",
+     "I spend little on lunch.",
+     "Je dépense peu pour le déjeuner."
+    ]
+   ],
+   "aziende": [
+    [
+     "Le aziende cercano nuovi lavoratori.",
+     "Companies are looking for new workers.",
+     "Les entreprises cherchent de nouveaux employés."
+    ],
+    [
+     "In città ci sono molte aziende.",
+     "There are many companies in the city.",
+     "En ville, il y a beaucoup d'entreprises."
+    ]
+   ],
+   "artigiano": [
+    [
+     "L'artigiano ripara la mia sedia.",
+     "The craftsman repairs my chair.",
+     "L'artisan répare ma chaise."
+    ],
+    [
+     "Mio zio è un artigiano.",
+     "My uncle is a craftsman.",
+     "Mon oncle est artisan."
+    ]
+   ],
+   "pazienza": [
+    [
+     "Ci vuole pazienza con i bambini.",
+     "You need patience with children.",
+     "Il faut de la patience avec les enfants."
+    ],
+    [
+     "Aspetto il bus con pazienza.",
+     "I wait for the bus patiently.",
+     "J'attends le bus avec patience."
+    ]
+   ],
+   "arrivano": [
+    [
+     "Gli amici arrivano alle otto.",
+     "The friends arrive at eight.",
+     "Les amis arrivent à huit heures."
+    ],
+    [
+     "Il treno arriva in ritardo.",
+     "The train arrives late.",
+     "Le train arrive en retard."
+    ]
+   ],
+   "gennaio": [
+    [
+     "A gennaio fa molto freddo.",
+     "It's very cold in January.",
+     "En janvier, il fait très froid."
+    ],
+    [
+     "Il mio compleanno è a gennaio.",
+     "My birthday is in January.",
+     "Mon anniversaire est en janvier."
+    ]
+   ],
+   "effetti": [
+    [
+     "Gli effetti del caffè sono veloci.",
+     "The effects of coffee are quick.",
+     "Les effets du café sont rapides."
+    ],
+    [
+     "Vedo gli effetti dello sport.",
+     "I see the effects of sport.",
+     "Je vois les effets du sport."
+    ]
+   ],
+   "richiederanno": [
+    [
+     "I lavori richiederanno due settimane.",
+     "The works will take two weeks.",
+     "Les travaux prendront deux semaines."
+    ],
+    [
+     "Questo lavoro richiede tempo.",
+     "This job takes time.",
+     "Ce travail demande du temps."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "bollette",
+    "gr": "bollette",
+    "en": "bills",
+    "fr": "factures"
+   },
+   {
+    "word": "prezzo",
+    "gr": "prezzo",
+    "en": "price",
+    "fr": "prix"
+   },
+   {
+    "word": "famiglie",
+    "gr": "famiglie",
+    "en": "families",
+    "fr": "familles"
+   },
+   {
+    "word": "risparmio",
+    "gr": "risparmio",
+    "en": "saving",
+    "fr": "économie"
+   },
+   {
+    "word": "mese",
+    "gr": "mese",
+    "en": "month",
+    "fr": "mois"
+   },
+   {
+    "word": "pazienza",
+    "gr": "pazienza",
+    "en": "patience",
+    "fr": "patience"
+   },
+   {
+    "word": "abbassare",
+    "gr": "abbassare",
+    "en": "to lower",
+    "fr": "baisser"
+   },
+   {
+    "word": "dura",
+    "gr": "durare",
+    "en": "to last",
+    "fr": "durer"
+   },
+   {
+    "word": "risparmia",
+    "gr": "risparmiare",
+    "en": "to save",
+    "fr": "économiser"
+   },
+   {
+    "word": "spende",
+    "gr": "spendere",
+    "en": "to spend",
+    "fr": "dépenser"
+   }
+  ]
  }
 ]

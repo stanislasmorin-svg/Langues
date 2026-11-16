@@ -12401,5 +12401,413 @@
     "fr": "entrer"
    }
   ]
+ },
+ {
+  "date": "2026-11-16",
+  "title": "Περισσότερα χρήματα για ζεστό σπίτι",
+  "title_fr": "Plus d'argent pour une maison chaude",
+  "title_en": "More money for a warm home",
+  "source": {
+   "name": "Greek City Times",
+   "url": "https://greekcitytimes.com/2026/11/15/mitsotakis-heating-allowance-1560-hydrocarbon-bids-crete-cyprus-cable"
+  },
+  "paragraphs": [
+   "Ο **χειμώνας** (winter) **έρχεται** (is coming). Πολλές **οικογένειες** (families) **πληρώνουν** (pay) **ακριβά** (a lot) για τη **θέρμανση** (heating). Γι' αυτό η **κυβέρνηση** (government) δίνει ένα **επίδομα** (allowance). Είναι χρήματα για ένα ζεστό σπίτι.",
+   "Φέτος το επίδομα είναι 30% πιο **μεγάλο** (big) από πέρσι. Μια οικογένεια μπορεί να **πάρει** (get) μέχρι 1.560 ευρώ. Το 2019 έπαιρνε μόνο 350 ευρώ. Τα χρήματα είναι για κάθε **είδος** (type) θέρμανσης. Το **ποσό** (amount) αλλάζει με τον **καιρό** (weather) κάθε **περιοχής** (region).",
+   "Περίπου 1,2 εκατομμύρια **σπίτια** (households) θα πάρουν το επίδομα. Τώρα το παίρνουν και οικογένειες με μεγαλύτερο **εισόδημα** (income). Για ένα **ζευγάρι** (couple) με δύο παιδιά, το **όριο** (limit) είναι 34.000 ευρώ τον χρόνο.",
+   "Οι οικογένειες κάνουν **αίτηση** (application) στο ίντερνετ, στην πλατφόρμα myHeating. Η **προθεσμία** (deadline) **τελειώνει** (ends) στις 4 Δεκεμβρίου. Τα πρώτα χρήματα θα **έρθουν** (will come) πριν από τις 23 Δεκεμβρίου. Ο **πρωθυπουργός** (prime minister) λέει στον κόσμο να μην **περιμένει** (wait) ως την τελευταία μέρα."
+  ],
+  "paragraphs_en": [
+   "Winter is coming. Many families pay a lot for heating. That is why the government gives an allowance. It is money for a warm home.",
+   "This year the allowance is 30% bigger than last year. A family can get up to 1,560 euros. In 2019 it got only 350 euros. The money is for every type of heating. The amount changes with the weather of each region.",
+   "About 1.2 million households will get the allowance. Now families with a bigger income get it too. For a couple with two children, the limit is 34,000 euros a year.",
+   "Families apply on the internet, on the myHeating platform. The deadline ends on 4 December. The first money will come before 23 December. The prime minister tells people not to wait until the last day."
+  ],
+  "fr": {
+   "χειμώνας": "hiver",
+   "έρχεται": "arrive, vient",
+   "οικογένειες": "familles",
+   "πληρώνουν": "(ils) paient",
+   "ακριβά": "cher",
+   "θέρμανση": "chauffage",
+   "κυβέρνηση": "gouvernement",
+   "επίδομα": "allocation, aide",
+   "μεγάλο": "grand",
+   "πάρει": "recevoir, prendre",
+   "είδος": "type, sorte",
+   "ποσό": "montant",
+   "καιρό": "temps (météo)",
+   "περιοχής": "de la région",
+   "σπίτια": "foyers, maisons",
+   "εισόδημα": "revenu",
+   "ζευγάρι": "couple",
+   "όριο": "limite, plafond",
+   "αίτηση": "demande",
+   "προθεσμία": "délai, date limite",
+   "τελειώνει": "se termine",
+   "έρθουν": "(ils) viendront",
+   "πρωθυπουργός": "Premier ministre",
+   "περιμένει": "attendre"
+  },
+  "lemma": {
+   "έρχεται": "έρχομαι",
+   "πληρώνουν": "πληρώνω",
+   "πάρει": "παίρνω",
+   "τελειώνει": "τελειώνω",
+   "έρθουν": "έρχομαι",
+   "περιμένει": "περιμένω"
+  },
+  "examples": {
+   "χειμώνας": [
+    [
+     "Ο χειμώνας είναι κρύος εδώ.",
+     "Winter is cold here.",
+     "L'hiver est froid ici."
+    ],
+    [
+     "Ο χειμώνας αρχίζει τον Δεκέμβριο.",
+     "Winter starts in December.",
+     "L'hiver commence en décembre."
+    ]
+   ],
+   "έρχεται": [
+    [
+     "Το λεωφορείο έρχεται τώρα.",
+     "The bus is coming now.",
+     "Le bus arrive maintenant."
+    ],
+    [
+     "Σε λίγο έρχομαι στο καφέ.",
+     "I'm coming to the café soon.",
+     "J'arrive au café dans un instant."
+    ]
+   ],
+   "οικογένειες": [
+    [
+     "Οι οικογένειες τρώνε μαζί την Κυριακή.",
+     "Families eat together on Sunday.",
+     "Les familles mangent ensemble le dimanche."
+    ],
+    [
+     "Πολλές οικογένειες μένουν στη γειτονιά.",
+     "Many families live in the neighbourhood.",
+     "Beaucoup de familles habitent dans le quartier."
+    ]
+   ],
+   "πληρώνουν": [
+    [
+     "Οι φίλοι πληρώνουν τον καφέ.",
+     "The friends pay for the coffee.",
+     "Les amis paient le café."
+    ],
+    [
+     "Στο σούπερ μάρκετ πληρώνω με κάρτα.",
+     "I pay by card at the supermarket.",
+     "Je paie par carte au supermarché."
+    ]
+   ],
+   "ακριβά": [
+    [
+     "Τα ρούχα εδώ κοστίζουν ακριβά.",
+     "The clothes here cost a lot.",
+     "Les vêtements ici coûtent cher."
+    ],
+    [
+     "Πληρώνουμε ακριβά το ταξί.",
+     "We pay a lot for the taxi.",
+     "Nous payons cher le taxi."
+    ]
+   ],
+   "θέρμανση": [
+    [
+     "Η θέρμανση δεν δουλεύει σήμερα.",
+     "The heating isn't working today.",
+     "Le chauffage ne marche pas aujourd'hui."
+    ],
+    [
+     "Η θέρμανση είναι ανοιχτή όλη μέρα.",
+     "The heating is on all day.",
+     "Le chauffage est allumé toute la journée."
+    ]
+   ],
+   "κυβέρνηση": [
+    [
+     "Η κυβέρνηση έχει νέο σχέδιο.",
+     "The government has a new plan.",
+     "Le gouvernement a un nouveau plan."
+    ],
+    [
+     "Η κυβέρνηση μιλά για τα σχολεία.",
+     "The government talks about the schools.",
+     "Le gouvernement parle des écoles."
+    ]
+   ],
+   "επίδομα": [
+    [
+     "Το επίδομα έρχεται κάθε μήνα.",
+     "The allowance comes every month.",
+     "L'allocation arrive chaque mois."
+    ],
+    [
+     "Παίρνω ένα επίδομα για το παιδί.",
+     "I get an allowance for the child.",
+     "Je reçois une allocation pour l'enfant."
+    ]
+   ],
+   "μεγάλο": [
+    [
+     "Το σπίτι μας είναι μεγάλο.",
+     "Our house is big.",
+     "Notre maison est grande."
+    ],
+    [
+     "Θέλω ένα μεγάλο ποτήρι νερό.",
+     "I want a big glass of water.",
+     "Je veux un grand verre d'eau."
+    ]
+   ],
+   "πάρει": [
+    [
+     "Η Μαρία θα πάρει ένα ταξί.",
+     "Maria will take a taxi.",
+     "Maria va prendre un taxi."
+    ],
+    [
+     "Κάθε πρωί παίρνω καφέ.",
+     "I get coffee every morning.",
+     "Je prends un café chaque matin."
+    ]
+   ],
+   "είδος": [
+    [
+     "Τι είδος μουσικής ακούς;",
+     "What type of music do you listen to?",
+     "Quel genre de musique écoutes-tu ?"
+    ],
+    [
+     "Αυτό το είδος ψωμιού είναι νόστιμο.",
+     "This type of bread is tasty.",
+     "Ce type de pain est bon."
+    ]
+   ],
+   "ποσό": [
+    [
+     "Το ποσό είναι δέκα ευρώ.",
+     "The amount is ten euros.",
+     "Le montant est de dix euros."
+    ],
+    [
+     "Γράφω το ποσό στο χαρτί.",
+     "I write the amount on the paper.",
+     "J'écris le montant sur le papier."
+    ]
+   ],
+   "καιρό": [
+    [
+     "Τι καιρό κάνει σήμερα;",
+     "What's the weather like today?",
+     "Quel temps fait-il aujourd'hui ?"
+    ],
+    [
+     "Με καλό καιρό πάμε για βόλτα.",
+     "In good weather we go for a walk.",
+     "Par beau temps, on va se promener."
+    ]
+   ],
+   "περιοχής": [
+    [
+     "Τα σχολεία της περιοχής είναι καλά.",
+     "The schools of the area are good.",
+     "Les écoles de la région sont bonnes."
+    ],
+    [
+     "Ο φούρνος της περιοχής ανοίγει νωρίς.",
+     "The area's bakery opens early.",
+     "La boulangerie du quartier ouvre tôt."
+    ]
+   ],
+   "σπίτια": [
+    [
+     "Τα σπίτια εδώ είναι παλιά.",
+     "The houses here are old.",
+     "Les maisons ici sont vieilles."
+    ],
+    [
+     "Στον δρόμο υπάρχουν λίγα σπίτια.",
+     "There are few houses on the street.",
+     "Il y a peu de maisons dans la rue."
+    ]
+   ],
+   "εισόδημα": [
+    [
+     "Το εισόδημα της οικογένειας είναι μικρό.",
+     "The family's income is small.",
+     "Le revenu de la famille est petit."
+    ],
+    [
+     "Ένα καλό εισόδημα βοηθά πολύ.",
+     "A good income helps a lot.",
+     "Un bon revenu aide beaucoup."
+    ]
+   ],
+   "ζευγάρι": [
+    [
+     "Ένα ζευγάρι πίνει καφέ δίπλα μας.",
+     "A couple is drinking coffee next to us.",
+     "Un couple boit un café à côté de nous."
+    ],
+    [
+     "Το ζευγάρι μένει στον τρίτο όροφο.",
+     "The couple lives on the third floor.",
+     "Le couple habite au troisième étage."
+    ]
+   ],
+   "όριο": [
+    [
+     "Το όριο ταχύτητας είναι πενήντα.",
+     "The speed limit is fifty.",
+     "La limite de vitesse est de cinquante."
+    ],
+    [
+     "Υπάρχει όριο για τις βαλίτσες.",
+     "There is a limit for the suitcases.",
+     "Il y a une limite pour les valises."
+    ]
+   ],
+   "αίτηση": [
+    [
+     "Κάνω αίτηση για δουλειά.",
+     "I'm applying for a job.",
+     "Je fais une demande d'emploi."
+    ],
+    [
+     "Η αίτηση είναι στο ίντερνετ.",
+     "The application is on the internet.",
+     "La demande se fait sur internet."
+    ]
+   ],
+   "προθεσμία": [
+    [
+     "Η προθεσμία είναι την Παρασκευή.",
+     "The deadline is on Friday.",
+     "La date limite est vendredi."
+    ],
+    [
+     "Έχουμε προθεσμία μέχρι αύριο.",
+     "We have a deadline until tomorrow.",
+     "Nous avons jusqu'à demain comme délai."
+    ]
+   ],
+   "τελειώνει": [
+    [
+     "Το μάθημα τελειώνει στις οκτώ.",
+     "The lesson ends at eight.",
+     "Le cours se termine à huit heures."
+    ],
+    [
+     "Σήμερα τελειώνω τη δουλειά στις πέντε.",
+     "Today I finish work at five.",
+     "Aujourd'hui, je finis le travail à cinq heures."
+    ]
+   ],
+   "έρθουν": [
+    [
+     "Οι φίλοι θα έρθουν το βράδυ.",
+     "The friends will come in the evening.",
+     "Les amis viendront ce soir."
+    ],
+    [
+     "Κάθε μέρα έρχομαι με το λεωφορείο.",
+     "Every day I come by bus.",
+     "Chaque jour, je viens en bus."
+    ]
+   ],
+   "πρωθυπουργός": [
+    [
+     "Ο πρωθυπουργός μιλά στην τηλεόραση.",
+     "The prime minister speaks on TV.",
+     "Le Premier ministre parle à la télévision."
+    ],
+    [
+     "Ο πρωθυπουργός είναι στην Αθήνα σήμερα.",
+     "The prime minister is in Athens today.",
+     "Le Premier ministre est à Athènes aujourd'hui."
+    ]
+   ],
+   "περιμένει": [
+    [
+     "Η μαμά περιμένει στη στάση.",
+     "Mum is waiting at the stop.",
+     "Maman attend à l'arrêt."
+    ],
+    [
+     "Εδώ περιμένω το λεωφορείο.",
+     "I'm waiting for the bus here.",
+     "J'attends le bus ici."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "οικογένειες",
+    "gr": "οικογένειες",
+    "en": "families",
+    "fr": "familles"
+   },
+   {
+    "word": "θέρμανση",
+    "gr": "θέρμανση",
+    "en": "heating",
+    "fr": "chauffage"
+   },
+   {
+    "word": "επίδομα",
+    "gr": "επίδομα",
+    "en": "allowance",
+    "fr": "allocation"
+   },
+   {
+    "word": "εισόδημα",
+    "gr": "εισόδημα",
+    "en": "income",
+    "fr": "revenu"
+   },
+   {
+    "word": "ζευγάρι",
+    "gr": "ζευγάρι",
+    "en": "couple",
+    "fr": "couple"
+   },
+   {
+    "word": "προθεσμία",
+    "gr": "προθεσμία",
+    "en": "deadline",
+    "fr": "date limite"
+   },
+   {
+    "word": "πληρώνουν",
+    "gr": "πληρώνω",
+    "en": "to pay",
+    "fr": "payer"
+   },
+   {
+    "word": "πάρει",
+    "gr": "παίρνω",
+    "en": "to get, to take",
+    "fr": "prendre, recevoir"
+   },
+   {
+    "word": "τελειώνει",
+    "gr": "τελειώνω",
+    "en": "to end, to finish",
+    "fr": "finir"
+   },
+   {
+    "word": "περιμένει",
+    "gr": "περιμένω",
+    "en": "to wait",
+    "fr": "attendre"
+   }
+  ]
  }
 ]

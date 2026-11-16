@@ -15,6 +15,10 @@
   "fr": "aller",
   "en": "to go"
  },
+ "approvare": {
+  "fr": "approuver",
+  "en": "to approve"
+ },
  "aprire": {
   "fr": "ouvrir",
   "en": "to open"
@@ -191,6 +195,10 @@
   "fr": "rester",
   "en": "to stay"
  },
+ "richiedere": {
+  "fr": "demander, nécessiter",
+  "en": "to require, to take"
+ },
  "ripetere": {
   "fr": "répéter, refaire",
   "en": "to repeat"
@@ -198,6 +206,10 @@
  "riprendere": {
   "fr": "reprendre",
   "en": "to resume"
+ },
+ "risparmiare": {
+  "fr": "économiser",
+  "en": "to save"
  },
  "rispettare": {
   "fr": "respecter",
@@ -214,6 +226,10 @@
  "sfidare": {
   "fr": "défier, affronter",
   "en": "to challenge"
+ },
+ "spendere": {
+  "fr": "dépenser",
+  "en": "to spend"
  },
  "spiegare": {
   "fr": "expliquer",
