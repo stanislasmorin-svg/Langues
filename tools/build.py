@@ -23,10 +23,44 @@ def seo(path, title, desc, kind="website"):
             f'<meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">'
             f'<meta property="og:url" content="{e(url)}"><meta property="og:image" content="{BASE}icon-512.png">'
             f'<meta name="twitter:card" content="summary">')
+
+SITE_DESC = ("Masimera is a free website for learning Greek and Italian by reading the local news. "
+             "Every morning it publishes one short lesson per language: a real local news story, rewritten in simple language, "
+             "with audio, 20 to 30 key words translated into English and French, example sentences and a 10-word quiz. "
+             "It takes about 15 minutes a day and keeps you informed about local life.")
+ORG = {"@type": "Organization", "@id": BASE + "#org", "name": "Masimera", "url": BASE,
+       "logo": BASE + "icon-512.png", "description": SITE_DESC}
+
+def ld(data):
+    """Structured data (JSON-LD) for search engines and AI assistants. Invisible on the page."""
+    data = {"@context": "https://schema.org", **data}
+    return '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False).replace("</", "<\\/") + "</script>"
+
+LLMS_TXT = f"""# Masimera
+
+> {SITE_DESC}
+
+Site: {BASE}
+Languages taught: Greek (Modern Greek) and Italian. Explanations in English, word translations in English and French.
+Price: free. A new lesson is published every morning (Greek and Italian), with an optional daily email.
+
+## Method
+- About 3,000 words cover around 96% of everyday conversation, roughly level B1 (Nation 2006).
+- Lessons train three things: words, sentence structure, and guessing the rest from context.
+- Every lesson has audio, because recognizing a word when you hear it is a skill of its own.
+- Details and sources: {BASE}method.html
+
+## Main pages
+- [Greek of the day]({BASE}grec/): all Greek lessons, newest first
+- [Italian of the day]({BASE}it/): all Italian lessons, newest first
+- [Greek vocabulary]({BASE}grec/mots.html): every Greek word from the lessons, in English and French, with example sentences and audio
+- [Italian vocabulary]({BASE}it/mots.html): every Italian word from the lessons, in English and French, with example sentences and audio
+- [The Masimera method]({BASE}method.html): how many words you need and why 15 minutes a day works
+"""
 LANGS = {
     "el": dict(file="lessons.json", out="grec/", title="Greek of the day", eyebrow="Ελληνικά κάθε μέρα", name="Greek", col="Ελληνικά", short="ΕΛ",
-               tagline="Every morning, a real story from Athens in simple Greek, with the hard words translated and audio.",
-               verbs="verbs_el.json", place="Athens", voice="el-GR-AthinaNeural", gtts="el", other=("it", "Italian of the day →"), legacy=True),
+               tagline="Every morning, a real news story from Greece in simple Greek, with the hard words translated and audio.",
+               verbs="verbs_el.json", place="Greece", voice="el-GR-AthinaNeural", gtts="el", other=("it", "Italian of the day →"), legacy=True),
     "it": dict(file="lessons_it.json", out="it/", title="Italian of the day", eyebrow="Italiano ogni giorno", name="Italian", col="Italiano", short="IT",
                tagline="Every morning, a real story from Italy in simple Italian, with the hard words translated and audio.",
                verbs="verbs_it.json", place="Italy", voice="it-IT-ElsaNeural", gtts="it", other=("el", "Greek of the day →")),
@@ -437,7 +471,15 @@ def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
                  f'<span class="sub">10 words from this lesson · about 2 minutes</span><div class="row"><a class="play" href="../quiz/{s["date"]}.html">Start the quiz →</a></div></section>\n')
     src_html = f'<p class="note">Source: <a href="{html.escape(src["url"])}" target="_blank" rel="noopener">{html.escape(src["name"])}</a></p>' if src else ""
     return f"""<!doctype html><html lang="en" translate="no" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{html.escape(s["title"])} · Easy {L["name"]} reading with audio · Masimera</title>{seo(L["out"] + "cours/" + s["date"] + ".html", s["title"] + " · Easy " + L["name"] + " with audio", (s.get("title_en") or s.get("title_fr","")) + ". A real news story from " + L["place"] + " in simple " + L["name"] + ", with audio and " + str(len(words)) + " words translated into English and French.", "article")}{FONTS}<style>{CSS}{QUIZ_CSS if has_quiz else ""}</style></head><body><div class="wrap">
+<title>{html.escape(s["title"])} · Easy {L["name"]} reading with audio · Masimera</title>{seo(L["out"] + "cours/" + s["date"] + ".html", s["title"] + " · Easy " + L["name"] + " with audio", (s.get("title_en") or s.get("title_fr","")) + ". A real news story from " + L["place"] + " in simple " + L["name"] + ", with audio and " + str(len(words)) + " words translated into English and French.", "article")}{ld({
+    "@type": ["Article", "LearningResource"], "headline": s["title"], "name": s["title"],
+    "alternativeHeadline": s.get("title_en") or s.get("title_fr", ""),
+    "description": (s.get("title_en") or s.get("title_fr","")) + ". A real news story from " + L["place"] + " in simple " + L["name"] + ", with audio and " + str(len(words)) + " words translated into English and French.",
+    "url": BASE + L["out"] + "cours/" + s["date"] + ".html", "datePublished": s["date"], "inLanguage": lang,
+    "learningResourceType": "Reading lesson with audio", "teaches": L["name"] + " vocabulary and reading",
+    "educationalUse": "Language learning", "isAccessibleForFree": True, "image": BASE + "icon-512.png",
+    "author": {"@id": BASE + "#org"}, "publisher": ORG,
+    **({"isBasedOn": {"@type": "NewsArticle", "url": src["url"], "publisher": {"@type": "Organization", "name": src["name"]}}} if src else {})})}{FONTS}<style>{CSS}{QUIZ_CSS if has_quiz else ""}</style></head><body><div class="wrap">
 <header><button class="sharetop" id="shareBtn" type="button">Share</button><span class="eyebrow">{fr_date(s["date"])}</span><nav class="row topnav">{" · ".join(nav)}</nav><h1>{html.escape(s["title"])}</h1><p class="sub">{html.escape(s.get("title_en") or s.get("title_fr",""))}</p></header>
 <section class="player">
   {player}
@@ -457,7 +499,12 @@ def index_page(lessons, lang, L):
     other = "../" + o["out"]
     head = f'<a class="play" href="cours/{lessons[0]["date"]}.html">Read today\'s lesson →</a> ' if lessons else ""
     return f"""<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{L["title"]} · Learn {L["name"]} with simple news and audio · Masimera</title>{seo(L["out"], L["title"] + " · Masimera", L["tagline"] + " All lessons, free.")}{FONTS}<style>{CSS}</style></head><body><div class="wrap">
+<title>{L["title"]} · Learn {L["name"]} with simple news and audio · Masimera</title>{seo(L["out"], L["title"] + " · Masimera", L["tagline"] + " All lessons, free.")}{ld({
+    "@type": "CollectionPage", "name": L["title"], "description": L["tagline"] + " All lessons, free.",
+    "url": BASE + L["out"], "inLanguage": "en", "about": L["name"] + " language", "isAccessibleForFree": True,
+    "publisher": ORG, "mainEntity": {"@type": "ItemList", "numberOfItems": len(lessons), "itemListElement": [
+        {"@type": "ListItem", "position": i + 1, "url": BASE + L["out"] + "cours/" + s["date"] + ".html", "name": s["title"]}
+        for i, s in enumerate(lessons[:30])]}})}{FONTS}<style>{CSS}</style></head><body><div class="wrap">
 <header><span class="eyebrow">{L["eyebrow"]}</span><h1>{L["title"]}</h1><p class="sub">{L["tagline"]}</p></header>
 <p class="row">{head}<a href="mots.html">All words (FR · EN · {L["short"]})</a> · <a href="../index.html">Home</a></p>
 <section><h2>All lessons</h2><ul class="list">{items or '<li class="note">The first lesson is coming soon.</li>'}</ul></section>
@@ -599,7 +646,10 @@ document.querySelectorAll('.vocab li.letter').forEach(function(r){r.hidden=!!v;}
              ".lexc .card>.gr{font-family:var(--ui);color:var(--gloss)}.lexc .card>.fr{font-family:var(--text);font-size:17px;font-weight:600;color:var(--fg)}"
              ".lexc .card>.fr2{color:var(--muted)}")
     return f"""<!doctype html><html lang="en" translate="no" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{L["name"]} vocabulary list with English and French · Masimera</title>{seo(L["out"] + "mots.html", L["name"] + " vocabulary · Masimera", "All the " + L["name"] + " words from the Masimera daily lessons, translated into English and French, with example sentences and audio.")}{FONTS}<style>{CSS}{GLOSS_CSS}{QUIZ_CSS}{SHARE_CSS}{extra}</style></head><body data-lang="{L["name"]}"><div class="wrap">
+<title>{L["name"]} vocabulary list with English and French · Masimera</title>{seo(L["out"] + "mots.html", L["name"] + " vocabulary · Masimera", "All the " + L["name"] + " words from the Masimera daily lessons, translated into English and French, with example sentences and audio.")}{ld({
+    "@type": "DefinedTermSet", "name": L["name"] + " vocabulary from the Masimera lessons",
+    "description": "All the " + L["name"] + " words from the Masimera daily lessons, translated into English and French, with example sentences and audio.",
+    "url": BASE + L["out"] + "mots.html", "inLanguage": [lang, "en", "fr"], "isAccessibleForFree": True, "publisher": ORG})}{FONTS}<style>{CSS}{GLOSS_CSS}{QUIZ_CSS}{SHARE_CSS}{extra}</style></head><body data-lang="{L["name"]}"><div class="wrap">
 <header>{brand_mini()}<br><span class="eyebrow">{L["col"]}</span><h1>All words</h1><p class="sub">All the words from the lessons. Tap a word to see and hear example sentences.</p>{pitch(L)}</header>
 {words_quiz_html(L)}
 <input class="search" id="q" type="search" placeholder="Search (French, English or {L["name"]})…" autocomplete="off">
@@ -680,6 +730,18 @@ def home_page():
     return f"""<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Masimera · Learn Greek or Italian with simple daily news and audio</title>
 {seo("", "Masimera · 15 minutes a day to learn Greek or Italian", "Every morning, a real local news story in simple Greek or Italian, with the hard words translated and audio. 15 minutes a day, free.")}
+{ld({"@graph": [
+    ORG,
+    {"@type": "WebSite", "@id": BASE + "#site", "name": "Masimera", "url": BASE, "description": SITE_DESC,
+     "inLanguage": "en", "publisher": {"@id": BASE + "#org"}},
+    {"@type": "Course", "name": "Greek of the day", "url": BASE + "grec/", "description": "A free daily Greek lesson: a real local news story from Greece in simple Greek, with audio and the key words translated into English and French.",
+     "inLanguage": "el", "isAccessibleForFree": True, "provider": {"@id": BASE + "#org"},
+     "offers": {"@type": "Offer", "price": 0, "priceCurrency": "EUR", "category": "Free"},
+     "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "Online", "courseSchedule": {"@type": "Schedule", "repeatFrequency": "P1D"}}},
+    {"@type": "Course", "name": "Italian of the day", "url": BASE + "it/", "description": "A free daily Italian lesson: a real local news story from Italy in simple Italian, with audio and the key words translated into English and French.",
+     "inLanguage": "it", "isAccessibleForFree": True, "provider": {"@id": BASE + "#org"},
+     "offers": {"@type": "Offer", "price": 0, "priceCurrency": "EUR", "category": "Free"},
+     "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "Online", "courseSchedule": {"@type": "Schedule", "repeatFrequency": "P1D"}}}]})}
 {FONTS}<style>{CSS}{HOME_CSS}</style></head><body><div class="wrap">
 <header><a class="toplink" href="/method.html">The Masimera method</a><span class="eyebrow">15 minutes a day</span><h1 class="brand">Masimera</h1>
 <p class="meaning">μάθημα (lesson) + μέρα (day): the lesson of the day</p></header>
@@ -808,7 +870,12 @@ def method_page():
             ("Cepeda et al., 2006", "https://pubmed.ncbi.nlm.nih.gov/16719566/")]
     src_html = "".join(f'<li><a href="{html.escape(u)}" target="_blank" rel="noopener">{html.escape(t)}</a></li>' for t, u in srcs)
     return f"""<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>The Masimera method · How to learn a language with simple daily news</title>{seo("method.html", "The Masimera method", "How we understand a language: words, sentence structure and working out the rest. How many words you need, and why 15 minutes of simple news a day works.")}{FONTS}<style>{CSS}{SHARE_CSS}{METHOD_CSS}{CHART_CSS}</style></head><body><div class="wrap">
+<title>The Masimera method · How to learn a language with simple daily news</title>{seo("method.html", "The Masimera method", "How we understand a language: words, sentence structure and working out the rest. How many words you need, and why 15 minutes of simple news a day works.")}{ld({
+    "@type": "Article", "headline": "How you really learn to understand a language", "name": "The Masimera method",
+    "description": "How we understand a language: words, sentence structure and working out the rest. How many words you need, and why 15 minutes of simple news a day works.",
+    "url": BASE + "method.html", "inLanguage": "en", "author": {"@id": BASE + "#org"}, "publisher": ORG,
+    "about": ["Vocabulary size", "Language learning", "Listening comprehension"],
+    "citation": [{"@type": "CreativeWork", "name": t, "url": u} for t, u in srcs]})}{FONTS}<style>{CSS}{SHARE_CSS}{METHOD_CSS}{CHART_CSS}</style></head><body><div class="wrap">
 <header>{brand_mini()}<br><span class="eyebrow">The Masimera method</span><h1>How you really learn to understand a language</h1>
 <p class="big">Understanding a language rests on three things: knowing the words, seeing how sentences are built, and working out what you don't know yet. Masimera trains all three, every day, in 15 minutes.</p></header>
 
@@ -893,6 +960,7 @@ def main():
     open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + sm + "</urlset>\n")
     open(os.path.join(ROOT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n")
+    open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8").write(LLMS_TXT)
 
 if __name__ == "__main__":
     main()
