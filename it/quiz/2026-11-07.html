@@ -139,7 +139,7 @@ function end(){$('q').hidden=true;$('end').hidden=false;$('sc').textContent=scor
  $('share').textContent='Challenge a friend';
  $('rev').hidden=!miss.length;$('miss').innerHTML=miss.map(function(m){return '<li><b>'+esc(m.gr)+'</b><span>'+esc(m.en)+(m.fr?' · '+esc(m.fr):'')+'</span></li>'}).join('')}
 $('again').onclick=function(){i=0;score=0;miss=[];var W=sh(D.filter(function(x){return x.kind!=='q'}));D=D.map(function(x){return x.kind==='q'?x:W.shift()});$('end').hidden=true;$('q').hidden=false;$('pts').textContent='0 points';show()};
-$('share').onclick=function(){var t='I got '+score+'/'+N+' on today\'s '+LANG+' quiz on Masimera. Can you beat me?',u=location.href.split('?')[0].split('#')[0]+'?challenge='+score;
+$('share').onclick=function(){var t='I got '+score+'/'+N+' on today\'s '+LANG+' lesson on Masimera. Read it and try to beat me!',u=location.href.split('?')[0].split('#')[0].replace('/quiz/','/cours/')+'?challenge='+score;
  if(navigator.share)navigator.share({text:t,url:u}).catch(function(){});else if(navigator.clipboard)navigator.clipboard.writeText(t+' '+u).then(function(){$('share').textContent='Copied ✓'})};
 show();
 </script></body></html>
