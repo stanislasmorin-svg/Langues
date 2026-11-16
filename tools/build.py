@@ -26,7 +26,7 @@ def seo(path, title, desc, kind="website"):
 
 SITE_DESC = ("Masimera is a free website for learning Greek and Italian by reading the local news. "
              "Every morning it publishes one short lesson per language: a real local news story, rewritten in simple language, "
-             "with audio, 20 to 30 key words translated into English and French, example sentences and a 10-word quiz. "
+             "with audio, 20 to 30 key words translated into English and French, example sentences and a short quiz with words and questions about the text. "
              "It takes about 15 minutes a day and keeps you informed about local life.")
 ORG = {"@type": "Organization", "@id": BASE + "#org", "name": "Masimera", "url": BASE,
        "logo": BASE + "icon-512.png", "description": SITE_DESC}
