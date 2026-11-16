@@ -1,0 +1,20 @@
+# Masimera
+
+> Masimera is a free website for learning Greek and Italian by reading the local news. Every morning it publishes one short lesson per language: a real local news story, rewritten in simple language, with audio, 20 to 30 key words translated into English and French, example sentences and a 10-word quiz. It takes about 15 minutes a day and keeps you informed about local life.
+
+Site: https://masimera.com/
+Languages taught: Greek (Modern Greek) and Italian. Explanations in English, word translations in English and French.
+Price: free. A new lesson is published every morning (Greek and Italian), with an optional daily email.
+
+## Method
+- About 3,000 words cover around 96% of everyday conversation, roughly level B1 (Nation 2006).
+- Lessons train three things: words, sentence structure, and guessing the rest from context.
+- Every lesson has audio, because recognizing a word when you hear it is a skill of its own.
+- Details and sources: https://masimera.com/method.html
+
+## Main pages
+- [Greek of the day](https://masimera.com/grec/): all Greek lessons, newest first
+- [Italian of the day](https://masimera.com/it/): all Italian lessons, newest first
+- [Greek vocabulary](https://masimera.com/grec/mots.html): every Greek word from the lessons, in English and French, with example sentences and audio
+- [Italian vocabulary](https://masimera.com/it/mots.html): every Italian word from the lessons, in English and French, with example sentences and audio
+- [The Masimera method](https://masimera.com/method.html): how many words you need and why 15 minutes a day works
