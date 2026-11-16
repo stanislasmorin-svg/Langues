@@ -408,7 +408,7 @@ def quiz_page(s, items, lang, L):
     data = json.dumps(items, ensure_ascii=False).replace("</", "<\\/")
     t = html.escape(s["title"])
     return f"""<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{L["name"]} quiz · {t} · Masimera</title><meta name="robots" content="noindex">{seo(L["out"] + "quiz/" + s["date"] + ".html", "Can you beat my score? " + L["name"] + " quiz · Masimera", f"A 2-minute {L['name']} quiz on today's news: {s['title']}. 10 words, 4 choices each.")}{FONTS}<style>{CSS}{QUIZ_CSS}{SHARE_CSS}</style></head><body><div class="wrap">
+<title>{L["name"]} quiz · {t} · Masimera</title><meta name="robots" content="noindex">{seo(L["out"] + "quiz/" + s["date"] + ".html", "Can you beat my score? " + L["name"] + " quiz · Masimera", (f"A 2-minute {L['name']} quiz: {s['title']}. 7 words and 3 questions about today's news." if s.get("questions") else f"A 2-minute {L['name']} quiz on today's news: {s['title']}. 10 words, 4 choices each."))}{FONTS}<style>{CSS}{QUIZ_CSS}{SHARE_CSS}</style></head><body><div class="wrap">
 <header>{brand_mini()}<br><span class="eyebrow">{L["name"]} quiz · {fr_date(s["date"])}</span><h1>Quiz of the day</h1>
 <p class="sub">{nq_txt(items)} from the lesson: <a href="../cours/{s["date"]}.html">{t}</a></p>{pitch(L)}
 <p class="chal" id="chal" hidden></p></header>
@@ -484,7 +484,7 @@ def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
     if nxt: nav.append(f'<a href="{nxt["date"]}.html">Next lesson →</a>')
     src = s.get("source")
     quiz_card = (f'<section class="qcard"><span class="k">Quiz of the day</span><span class="t">Ready to test yourself?</span>'
-                 f'<span class="sub">10 words from this lesson · about 2 minutes</span><div class="row"><a class="play" href="../quiz/{s["date"]}.html">Start the quiz →</a></div></section>\n')
+                 f'<span class="sub">{"7 words and 3 questions about the text" if s.get("questions") else "10 words from this lesson"} · about 2 minutes</span><div class="row"><a class="play" href="../quiz/{s["date"]}.html">Start the quiz →</a></div></section>\n')
     src_html = f'<p class="note">Source: <a href="{html.escape(src["url"])}" target="_blank" rel="noopener">{html.escape(src["name"])}</a></p>' if src else ""
     return f"""<!doctype html><html lang="en" translate="no" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(s["title"])} · Easy {L["name"]} reading with audio · Masimera</title>{seo(L["out"] + "cours/" + s["date"] + ".html", s["title"] + " · Easy " + L["name"] + " with audio", (s.get("title_en") or s.get("title_fr","")) + ". A real news story from " + L["place"] + " in simple " + L["name"] + ", with audio and " + str(len(words)) + " words translated into English and French.", "article")}{ld({
