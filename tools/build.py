@@ -355,7 +355,7 @@ function end(){$('q').hidden=true;$('end').hidden=false;$('sc').textContent=scor
  $('share').textContent='Challenge a friend';
  $('rev').hidden=!miss.length;$('miss').innerHTML=miss.map(function(m){return '<li><b>'+esc(m.gr)+'</b><span>'+esc(m.en)+(m.fr?' · '+esc(m.fr):'')+'</span></li>'}).join('')}
 $('again').onclick=function(){i=0;score=0;miss=[];var W=sh(D.filter(function(x){return x.kind!=='q'}));D=D.map(function(x){return x.kind==='q'?x:W.shift()});$('end').hidden=true;$('q').hidden=false;$('pts').textContent='0 points';show()};
-$('share').onclick=function(){var t='I got '+score+'/'+N+' on today\'s '+LANG+' quiz on Masimera. Can you beat me?',u=location.href.split('?')[0].split('#')[0]+'?challenge='+score;
+$('share').onclick=function(){var t='I got '+score+'/'+N+' on today\'s '+LANG+' lesson on Masimera. Read it and try to beat me!',u=location.href.split('?')[0].split('#')[0].replace('/quiz/','/cours/')+'?challenge='+score;
  if(navigator.share)navigator.share({text:t,url:u}).catch(function(){});else if(navigator.clipboard)navigator.clipboard.writeText(t+' '+u).then(function(){$('share').textContent='Copied ✓'})};
 show();
 """
@@ -484,7 +484,10 @@ def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
     if nxt: nav.append(f'<a href="{nxt["date"]}.html">Next lesson →</a>')
     src = s.get("source")
     quiz_card = (f'<section class="qcard"><span class="k">Quiz of the day</span><span class="t">Ready to test yourself?</span>'
-                 f'<span class="sub">{"7 words and 3 questions about the text" if s.get("questions") else "10 words from this lesson"} · about 2 minutes</span><div class="row"><a class="play" href="../quiz/{s["date"]}.html">Start the quiz →</a></div></section>\n')
+                 f'<span class="sub">{"7 words and 3 questions about the text" if s.get("questions") else "10 words from this lesson"} · about 2 minutes</span><div class="row"><a class="play" id="quizLink" href="../quiz/{s["date"]}.html">Start the quiz →</a></div></section>\n'
+                 '<script>(function(){var c=parseInt(new URLSearchParams(location.search).get("challenge"),10);if(!(c>=0&&c<=10))return;'
+                 'var a=document.getElementById("quizLink"),b=document.getElementById("chalTop");if(a)a.href+="?challenge="+c;'
+                 'if(b){b.hidden=false;b.textContent="A friend scored "+c+"/10 on today\'s quiz. Read the lesson, then try to beat them!";}})();</script>\n')
     src_html = f'<p class="note">Source: <a href="{html.escape(src["url"])}" target="_blank" rel="noopener">{html.escape(src["name"])}</a></p>' if src else ""
     return f"""<!doctype html><html lang="en" translate="no" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(s["title"])} · Easy {L["name"]} reading with audio · Masimera</title>{seo(L["out"] + "cours/" + s["date"] + ".html", s["title"] + " · Easy " + L["name"] + " with audio", (s.get("title_en") or s.get("title_fr","")) + ". A real news story from " + L["place"] + " in simple " + L["name"] + ", with audio and " + str(len(words)) + " words translated into English and French.", "article")}{ld({
@@ -496,7 +499,7 @@ def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
     "educationalUse": "Language learning", "isAccessibleForFree": True, "image": BASE + "icon-512.png",
     "author": {"@id": BASE + "#org"}, "publisher": ORG,
     **({"isBasedOn": {"@type": "NewsArticle", "url": src["url"], "publisher": {"@type": "Organization", "name": src["name"]}}} if src else {})})}{FONTS}<style>{CSS}{QUIZ_CSS if has_quiz else ""}</style></head><body><div class="wrap">
-<header><button class="sharetop" id="shareBtn" type="button">Share</button><span class="eyebrow">{fr_date(s["date"])}</span><nav class="row topnav">{" · ".join(nav)}</nav><h1>{html.escape(s["title"])}</h1><p class="sub">{html.escape(s.get("title_en") or s.get("title_fr",""))}</p></header>
+<header><button class="sharetop" id="shareBtn" type="button">Share</button><span class="eyebrow">{fr_date(s["date"])}</span><nav class="row topnav">{" · ".join(nav)}</nav><h1>{html.escape(s["title"])}</h1><p class="sub">{html.escape(s.get("title_en") or s.get("title_fr",""))}</p>{'<p id="chalTop" hidden style="background:var(--soft);border-radius:12px;padding:12px 14px;font-weight:600;margin:12px 0 0">' + '</p>' if has_quiz else ""}</header>
 <section class="player">
   {player}
 </section>
