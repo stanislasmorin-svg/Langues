@@ -81,7 +81,9 @@ def fr_date(iso):
 CSS = """
 .sitefoot{border-top:1px solid var(--line);margin-top:8px;padding-top:14px;font-size:14px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px}
 .toplink{float:right;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);text-decoration:none;margin-top:4px}.toplink:hover{text-decoration:underline}
-.sharetop{float:right;background:var(--accent);color:#fff;border:0;border-radius:999px;padding:4px 14px;font:inherit;font-size:15px;font-weight:600;cursor:pointer}
+.topbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.sharetop{background:var(--accent);color:#fff;border:0;border-radius:999px;padding:9px 18px;font:inherit;font-size:16px;font-weight:600;cursor:pointer;margin-left:auto}
+.friend{background:var(--soft);border-radius:12px;padding:12px 14px;margin:12px 0 0}.friend b{display:block;margin-bottom:4px}.friend a{font-weight:600}
 :root{--bg:#f6f7f9;--surface:#fff;--fg:#1c1f24;--muted:#5b6370;--line:#dde1e8;--accent:#1a56b4;--soft:#e4ecf8;--gloss:#8a5a14;
 --text:"Times New Roman",Times,"Liberation Serif","Noto Serif",serif;--ui:"Times New Roman",Times,"Liberation Serif","Noto Serif",serif}
 @media (prefers-color-scheme:dark){:root{--bg:#13161b;--surface:#1b1f26;--fg:#e7eaef;--muted:#a0a8b4;--line:#2d333d;--accent:#8ab4f8;--soft:#1f2b3d;--gloss:#e3b469;color-scheme:dark}}
@@ -254,12 +256,17 @@ JS = r"""
 (function(){
   var b = document.getElementById('shareBtn'); if (!b) return;
   b.addEventListener('click', function(){
-    var url = location.href.split('?')[0].split('#')[0], title = document.title;
-    if (navigator.share) { navigator.share({title: title, url: url}).catch(function(){}); return; }
-    var done = function(){ b.textContent = 'Link copied ✓'; setTimeout(function(){ b.textContent = 'Share'; }, 2000); };
+    var url = location.href.split('?')[0].split('#')[0] + '?from=friend', title = document.title;
+    if (navigator.share) { navigator.share({title: title, text: b.dataset.text, url: url}).catch(function(){}); return; }
+    var label = b.textContent, done = function(){ b.textContent = 'Link copied ✓'; setTimeout(function(){ b.textContent = label; }, 2000); };
     if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, function(){ prompt('Copy this link:', url); });
     else prompt('Copy this link:', url);
   });
+})();
+(function(){
+  var q = new URLSearchParams(location.search);
+  if (q.get('from') !== 'friend' && !q.has('challenge')) return;
+  ['friendTop', 'friendSignup'].forEach(function(id){ var e = document.getElementById(id); if (e) e.hidden = false; });
 })();
 """
 
@@ -499,8 +506,8 @@ def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
     "learningResourceType": "Reading lesson with audio", "teaches": L["name"] + " vocabulary and reading",
     "educationalUse": "Language learning", "isAccessibleForFree": True, "image": BASE + "icon-512.png",
     "author": {"@id": BASE + "#org"}, "publisher": ORG,
-    **({"isBasedOn": {"@type": "NewsArticle", "url": src["url"], "publisher": {"@type": "Organization", "name": src["name"]}}} if src else {})})}{FONTS}<style>{CSS}{QUIZ_CSS if has_quiz else ""}</style></head><body><div class="wrap">
-<header><button class="sharetop" id="shareBtn" type="button">Share</button><span class="eyebrow">{fr_date(s["date"])}</span><nav class="row topnav">{" · ".join(nav)}</nav><h1>{html.escape(s["title"])}</h1><p class="sub">{html.escape(s.get("title_en") or s.get("title_fr",""))}</p>{'<p id="chalTop" hidden style="background:var(--soft);border-radius:12px;padding:12px 14px;font-weight:600;margin:12px 0 0">' + '</p>' if has_quiz else ""}</header>
+    **({"isBasedOn": {"@type": "NewsArticle", "url": src["url"], "publisher": {"@type": "Organization", "name": src["name"]}}} if src else {})})}{FONTS}<style>{CSS}{SHARE_CSS}{QUIZ_CSS if has_quiz else ""}</style></head><body><div class="wrap">
+<header><div class="topbar"><span class="eyebrow">{fr_date(s["date"])}</span><button class="sharetop" id="shareBtn" type="button" data-text="A short {L["name"]} lesson from today's news, with audio. Free, 15 minutes a day.">Share this lesson with a friend</button></div><nav class="row topnav">{" · ".join(nav)}</nav><h1>{html.escape(s["title"])}</h1><p class="sub">{html.escape(s.get("title_en") or s.get("title_fr",""))}</p>{'<p id="chalTop" hidden style="background:var(--soft);border-radius:12px;padding:12px 14px;font-weight:600;margin:12px 0 0">' + '</p>' if has_quiz else ""}<p class="friend" id="friendTop" hidden><b>A friend shared this lesson with you.</b>Every morning, Masimera sends a short news story in simple {L["name"]}, with audio and the hard words translated. Free. <a href="#friendSignup">Get it every morning ↓</a></p></header>
 <section class="player">
   {player}
 </section>
@@ -509,6 +516,7 @@ def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
 <div class="row"><button class="chip" id="glossBtn" aria-pressed="false">Translations hidden</button>{'<button class="chip" id="enBtn" aria-pressed="false">Show English translation</button>' if en_html else ""}</div>
 {src_html}
 {quiz_card if has_quiz else ""}
+<div id="friendSignup" hidden>{signup_box(L)}</div>
 <nav class="row">{" · ".join(nav)}</nav>
 {FOOTER}
 </div><script>{JS}</script></body></html>"""
