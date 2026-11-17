@@ -119,6 +119,10 @@
   "fr": "travailler",
   "en": "to work"
  },
+ "εμπιστεύομαι": {
+  "fr": "faire confiance",
+  "en": "to trust"
+ },
  "εξηγώ": {
   "fr": "expliquer",
   "en": "to explain"
@@ -243,6 +247,14 @@
   "fr": "sentir",
   "en": "to smell"
  },
+ "νιώθω": {
+  "fr": "ressentir",
+  "en": "to feel"
+ },
+ "νομίζω": {
+  "fr": "penser, croire",
+  "en": "to think"
+ },
  "ξεκινάω": {
   "fr": "partir, commencer",
   "en": "to set off, to start"
@@ -254,6 +266,10 @@
  "ξεχνάω": {
   "fr": "oublier",
   "en": "to forget"
+ },
+ "ξοδεύω": {
+  "fr": "dépenser",
+  "en": "to spend"
  },
  "πέφτω": {
   "fr": "tomber",
@@ -314,6 +330,10 @@
  "ράβω": {
   "fr": "coudre",
   "en": "to sew"
+ },
+ "ρωτάω": {
+  "fr": "demander",
+  "en": "to ask"
  },
  "σβήνω": {
   "fr": "effacer, éteindre",
@@ -418,5 +438,9 @@
  "χτίζω": {
   "fr": "construire",
   "en": "to build"
+ },
+ "ψωνίζω": {
+  "fr": "faire des achats",
+  "en": "to shop"
  }
 }

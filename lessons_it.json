@@ -4911,5 +4911,417 @@
     "fr": "dépenser"
    }
   ]
+ },
+ {
+  "date": "2026-11-17",
+  "title": "Piccoli paesi senza scuola",
+  "title_fr": "Petits villages sans école",
+  "title_en": "Small villages without a school",
+  "source": {
+   "name": "ANSA",
+   "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/12/save-the-children-in-3mila-comuni-a-rischio-lunica-scuola-primaria_9225724b-c41e-4433-9bcd-48630002486f.html"
+  },
+  "paragraphs": [
+   "In Italia ci sono tanti **paesi** (villages) piccoli. In molti paesi c'è una sola **scuola elementare** (primary school). Ma ora queste scuole sono in **pericolo** (danger). Lo **dice** (says) un nuovo **rapporto** (report) di Save the Children.",
+   "In dieci anni hanno **chiuso** (closed) 1.571 scuole. Circa 3.000 **comuni** (towns) possono **perdere** (lose) la loro **unica** (only) scuola elementare. In alcune classi ci sono pochi **alunni** (pupils). Spesso bambini di **età** (age) diverse **studiano** (study) **insieme** (together) nella stessa **aula** (classroom).",
+   "Molte scuole chiudono nel **Sud** (South). Le regioni con più **chiusure** (closures) sono la Campania e la Calabria. Al **Nord** (North) chiudono pochissime scuole, per esempio in Emilia-Romagna.",
+   "Anche i **ragazzi** (teenagers) più grandi hanno un problema. Uno su tre **vive** (lives) in un paese senza **scuola superiore** (high school). Per la scuola superiore, **devono** (must) andare in un altro paese.",
+   "Il rapporto **esce** (comes out) prima del 20 novembre. Il 20 novembre è la **Giornata** (Day) mondiale dei bambini."
+  ],
+  "paragraphs_en": [
+   "In Italy there are many small villages. In many villages there is only one primary school. But now these schools are in danger. A new report by Save the Children says so.",
+   "In ten years, 1,571 schools have closed. About 3,000 towns could lose their only primary school. In some classes there are few pupils. Often children of different ages study together in the same classroom.",
+   "Many schools are closing in the South. The regions with the most closures are Campania and Calabria. In the North very few schools are closing, for example in Emilia-Romagna.",
+   "Older teenagers have a problem too. One in three lives in a town without a high school. For high school, they must go to another town.",
+   "The report comes out before 20 November. 20 November is World Children's Day."
+  ],
+  "fr": {
+   "paesi": "villages",
+   "scuola elementare": "école primaire",
+   "pericolo": "danger",
+   "dice": "dit",
+   "rapporto": "rapport",
+   "chiuso": "fermé",
+   "comuni": "communes",
+   "perdere": "perdre",
+   "unica": "seule",
+   "alunni": "élèves",
+   "età": "âge",
+   "studiano": "étudient",
+   "insieme": "ensemble",
+   "aula": "salle de classe",
+   "Sud": "Sud",
+   "chiusure": "fermetures",
+   "Nord": "Nord",
+   "ragazzi": "adolescents, jeunes",
+   "vive": "vit",
+   "scuola superiore": "lycée",
+   "devono": "doivent",
+   "esce": "sort",
+   "Giornata": "Journée"
+  },
+  "lemma": {
+   "dice": "dire",
+   "chiuso": "chiudere",
+   "perdere": "perdere",
+   "studiano": "studiare",
+   "vive": "vivere",
+   "devono": "dovere",
+   "esce": "uscire"
+  },
+  "examples": {
+   "paesi": [
+    [
+     "I paesi di montagna sono tranquilli.",
+     "Mountain villages are quiet.",
+     "Les villages de montagne sont calmes."
+    ],
+    [
+     "Visito due paesi vicino al mare.",
+     "I'm visiting two villages near the sea.",
+     "Je visite deux villages près de la mer."
+    ]
+   ],
+   "scuola elementare": [
+    [
+     "La scuola elementare è vicino a casa.",
+     "The primary school is near home.",
+     "L'école primaire est près de la maison."
+    ],
+    [
+     "Mio figlio va alla scuola elementare.",
+     "My son goes to primary school.",
+     "Mon fils va à l'école primaire."
+    ]
+   ],
+   "pericolo": [
+    [
+     "La strada ghiacciata è un pericolo.",
+     "The icy road is a danger.",
+     "La route verglacée est un danger."
+    ],
+    [
+     "C'è un cartello di pericolo.",
+     "There is a danger sign.",
+     "Il y a un panneau de danger."
+    ]
+   ],
+   "dice": [
+    [
+     "Mia madre dice sempre di sì.",
+     "My mother always says yes.",
+     "Ma mère dit toujours oui."
+    ],
+    [
+     "Io dico buongiorno al barista.",
+     "I say good morning to the barista.",
+     "Je dis bonjour au barman."
+    ]
+   ],
+   "rapporto": [
+    [
+     "Il rapporto è sul tavolo.",
+     "The report is on the table.",
+     "Le rapport est sur la table."
+    ],
+    [
+     "Leggo il rapporto in treno.",
+     "I read the report on the train.",
+     "Je lis le rapport dans le train."
+    ]
+   ],
+   "chiuso": [
+    [
+     "Il bar ha chiuso presto.",
+     "The bar closed early.",
+     "Le bar a fermé tôt."
+    ],
+    [
+     "Io chiudo la porta di casa.",
+     "I close the front door.",
+     "Je ferme la porte de la maison."
+    ]
+   ],
+   "comuni": [
+    [
+     "Molti comuni hanno un mercato.",
+     "Many towns have a market.",
+     "Beaucoup de communes ont un marché."
+    ],
+    [
+     "I comuni vicini sono molto belli.",
+     "The nearby towns are very beautiful.",
+     "Les communes voisines sont très belles."
+    ]
+   ],
+   "perdere": [
+    [
+     "Non voglio perdere il treno.",
+     "I don't want to miss the train.",
+     "Je ne veux pas rater le train."
+    ],
+    [
+     "Io perdo sempre le chiavi.",
+     "I always lose my keys.",
+     "Je perds toujours mes clés."
+    ]
+   ],
+   "unica": [
+    [
+     "È l'unica farmacia aperta.",
+     "It's the only pharmacy open.",
+     "C'est la seule pharmacie ouverte."
+    ],
+    [
+     "Questa è l'unica strada per il mare.",
+     "This is the only road to the sea.",
+     "C'est la seule route vers la mer."
+    ]
+   ],
+   "alunni": [
+    [
+     "Gli alunni entrano alle otto.",
+     "The pupils go in at eight.",
+     "Les élèves entrent à huit heures."
+    ],
+    [
+     "Gli alunni mangiano a scuola.",
+     "The pupils eat at school.",
+     "Les élèves mangent à l'école."
+    ]
+   ],
+   "età": [
+    [
+     "Abbiamo la stessa età.",
+     "We are the same age.",
+     "Nous avons le même âge."
+    ],
+    [
+     "Qual è la tua età?",
+     "How old are you?",
+     "Quel âge as-tu ?"
+    ]
+   ],
+   "studiano": [
+    [
+     "I ragazzi studiano in biblioteca.",
+     "The teenagers study in the library.",
+     "Les jeunes étudient à la bibliothèque."
+    ],
+    [
+     "Io studio l'italiano la sera.",
+     "I study Italian in the evening.",
+     "J'étudie l'italien le soir."
+    ]
+   ],
+   "insieme": [
+    [
+     "Mangiamo insieme stasera?",
+     "Shall we eat together tonight?",
+     "On mange ensemble ce soir ?"
+    ],
+    [
+     "Andiamo insieme al mercato.",
+     "Let's go to the market together.",
+     "Allons ensemble au marché."
+    ]
+   ],
+   "aula": [
+    [
+     "L'aula è piena di sole.",
+     "The classroom is full of sunlight.",
+     "La salle de classe est pleine de soleil."
+    ],
+    [
+     "L'aula ha dieci banchi.",
+     "The classroom has ten desks.",
+     "La salle de classe a dix pupitres."
+    ]
+   ],
+   "Sud": [
+    [
+     "Mia nonna vive nel Sud.",
+     "My grandmother lives in the South.",
+     "Ma grand-mère vit dans le Sud."
+    ],
+    [
+     "Al Sud fa caldo anche a ottobre.",
+     "In the South it's warm even in October.",
+     "Dans le Sud, il fait chaud même en octobre."
+    ]
+   ],
+   "chiusure": [
+    [
+     "Ci sono chiusure sulla strada per Roma.",
+     "There are closures on the road to Rome.",
+     "Il y a des fermetures sur la route de Rome."
+    ],
+    [
+     "Le chiusure del ponte durano un mese.",
+     "The bridge closures last a month.",
+     "Les fermetures du pont durent un mois."
+    ]
+   ],
+   "Nord": [
+    [
+     "Al Nord fa freddo d'inverno.",
+     "In the North it's cold in winter.",
+     "Dans le Nord, il fait froid en hiver."
+    ],
+    [
+     "Mio fratello lavora al Nord.",
+     "My brother works in the North.",
+     "Mon frère travaille dans le Nord."
+    ]
+   ],
+   "ragazzi": [
+    [
+     "I ragazzi giocano in piazza.",
+     "The kids play in the square.",
+     "Les jeunes jouent sur la place."
+    ],
+    [
+     "I ragazzi prendono il bus.",
+     "The kids take the bus.",
+     "Les jeunes prennent le bus."
+    ]
+   ],
+   "vive": [
+    [
+     "Mia sorella vive a Torino.",
+     "My sister lives in Turin.",
+     "Ma sœur vit à Turin."
+    ],
+    [
+     "Io vivo in un piccolo appartamento.",
+     "I live in a small flat.",
+     "Je vis dans un petit appartement."
+    ]
+   ],
+   "scuola superiore": [
+    [
+     "La scuola superiore è in centro.",
+     "The high school is in the centre.",
+     "Le lycée est dans le centre."
+    ],
+    [
+     "Mia figlia finisce la scuola superiore.",
+     "My daughter is finishing high school.",
+     "Ma fille termine le lycée."
+    ]
+   ],
+   "devono": [
+    [
+     "I bambini devono dormire presto.",
+     "The children must sleep early.",
+     "Les enfants doivent dormir tôt."
+    ],
+    [
+     "Io devo comprare il latte.",
+     "I have to buy milk.",
+     "Je dois acheter du lait."
+    ]
+   ],
+   "esce": [
+    [
+     "Il giornale esce ogni mattina.",
+     "The newspaper comes out every morning.",
+     "Le journal sort chaque matin."
+    ],
+    [
+     "Io esco di casa alle sette.",
+     "I leave home at seven.",
+     "Je sors de chez moi à sept heures."
+    ]
+   ],
+   "Giornata": [
+    [
+     "La Giornata della musica è domani.",
+     "Music Day is tomorrow.",
+     "La Journée de la musique est demain."
+    ],
+    [
+     "La Giornata del libro è in aprile.",
+     "Book Day is in April.",
+     "La Journée du livre est en avril."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "aula",
+    "gr": "aula",
+    "en": "classroom",
+    "fr": "salle de classe"
+   },
+   {
+    "word": "pericolo",
+    "gr": "pericolo",
+    "en": "danger",
+    "fr": "danger"
+   },
+   {
+    "word": "unica",
+    "gr": "unica",
+    "en": "only",
+    "fr": "seule"
+   },
+   {
+    "word": "perdere",
+    "gr": "perdere",
+    "en": "to lose",
+    "fr": "perdre"
+   },
+   {
+    "word": "vive",
+    "gr": "vivere",
+    "en": "to live",
+    "fr": "vivre"
+   },
+   {
+    "word": "devono",
+    "gr": "dovere",
+    "en": "to have to, must",
+    "fr": "devoir"
+   },
+   {
+    "word": "esce",
+    "gr": "uscire",
+    "en": "to go out, to come out",
+    "fr": "sortir"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Quante scuole hanno chiuso in dieci anni?",
+    "choices": [
+     "1.571 scuole",
+     "Due scuole",
+     "Un milione di scuole"
+    ],
+    "quote": "In dieci anni hanno chiuso 1.571 scuole.",
+    "quote_en": "In ten years, 1,571 schools have closed."
+   },
+   {
+    "q": "Dove chiudono molte scuole?",
+    "choices": [
+     "Nel Sud",
+     "Sulla Luna",
+     "In fondo al mare"
+    ],
+    "quote": "Molte scuole chiudono nel Sud.",
+    "quote_en": "Many schools are closing in the South."
+   },
+   {
+    "q": "Quando è la Giornata mondiale dei bambini?",
+    "choices": [
+     "Il 20 novembre",
+     "A Ferragosto",
+     "Ogni ora"
+    ],
+    "quote": "Il 20 novembre è la Giornata mondiale dei bambini.",
+    "quote_en": "20 November is World Children's Day."
+   }
+  ]
  }
 ]

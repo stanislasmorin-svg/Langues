@@ -67,9 +67,17 @@
   "fr": "décider",
   "en": "to decide"
  },
+ "dire": {
+  "fr": "dire",
+  "en": "to say"
+ },
  "diventare": {
   "fr": "devenir",
   "en": "to become"
+ },
+ "dovere": {
+  "fr": "devoir",
+  "en": "to have to"
  },
  "durare": {
   "fr": "durer",
@@ -155,6 +163,10 @@
   "fr": "passer",
   "en": "to pass, to go through"
  },
+ "perdere": {
+  "fr": "perdre",
+  "en": "to lose"
+ },
  "piacere": {
   "fr": "plaire",
   "en": "to please"
@@ -239,6 +251,10 @@
   "fr": "se déplacer",
   "en": "to get around"
  },
+ "studiare": {
+  "fr": "étudier",
+  "en": "to study"
+ },
  "suonare": {
   "fr": "jouer (de la musique)",
   "en": "to play (music)"
@@ -263,6 +279,10 @@
   "fr": "trouver",
   "en": "to find"
  },
+ "uscire": {
+  "fr": "sortir",
+  "en": "to go out"
+ },
  "valere": {
   "fr": "valoir, être valable",
   "en": "to be valid"
@@ -278,6 +298,10 @@
  "visitare": {
   "fr": "visiter",
   "en": "to visit"
+ },
+ "vivere": {
+  "fr": "vivre",
+  "en": "to live"
  },
  "volere": {
   "fr": "vouloir",

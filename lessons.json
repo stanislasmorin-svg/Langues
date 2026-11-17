@@ -12809,5 +12809,418 @@
     "fr": "attendre"
    }
   ]
+ },
+ {
+  "date": "2026-11-17",
+  "title": "Η Black Friday έρχεται",
+  "title_fr": "Le Black Friday arrive",
+  "title_en": "Black Friday is coming",
+  "source": {
+   "name": "To Vima",
+   "url": "https://www.tovima.com/society/67-of-greeks-plan-to-shop-on-black-friday-2026/"
+  },
+  "paragraphs": [
+   "Η Black Friday είναι στις 27 Νοεμβρίου. Είναι μια μέρα με μεγάλες **εκπτώσεις** (discounts) στα **μαγαζιά** (shops). Μια νέα **έρευνα** (survey) **ρωτάει** (asks) τους Έλληνες τι θα κάνουν. Οι 67 στους 100 θα **ψωνίσουν** (will shop). **Πέρσι** (last year) ήταν 63 στους 100.",
+   "Οι **νέοι** (young people) θέλουν να ψωνίσουν πιο πολύ. Πολλοί **περιμένουν** (wait for) αυτή τη μέρα για να **αγοράσουν** (buy) κάτι. Οι περισσότεροι θα **ξοδέψουν** (will spend) από 100 έως 250 ευρώ. Τι θα αγοράσουν; Πρώτα **ρούχα** (clothes), μετά **ηλεκτρονικά** (electronics) και **συσκευές** (appliances) για το σπίτι.",
+   "Αλλά πολλοί δεν **εμπιστεύονται** (trust) τις τιμές. Οι 43 στους 100 **νομίζουν** (think) ότι οι εκπτώσεις δεν είναι **αληθινές** (real). Θέλουν να **βλέπουν** (see) την **παλιά** (old) **τιμή** (price) δίπλα στη νέα. Οι 14 στους 100 **νιώθουν** (feel) **κούραση** (tiredness) από την **πίεση** (pressure) για ψώνια.",
+   "Πού θα ψωνίσουν; Οι 35 στους 100 θα αγοράσουν στο ίντερνετ. Οι 34 στους 100 θα **πάνε** (will go) οι ίδιοι στα μαγαζιά."
+  ],
+  "paragraphs_en": [
+   "Black Friday is on 27 November. It is a day with big discounts in the shops. A new survey asks Greeks what they will do. 67 out of 100 will shop. Last year it was 63 out of 100.",
+   "Young people want to shop more. Many wait for this day to buy something. Most will spend between 100 and 250 euros. What will they buy? First clothes, then electronics and appliances for the home.",
+   "But many do not trust the prices. 43 out of 100 think the discounts are not real. They want to see the old price next to the new one. 14 out of 100 feel tired from the pressure to shop.",
+   "Where will they shop? 35 out of 100 will buy on the internet. 34 out of 100 will go to the shops themselves."
+  ],
+  "fr": {
+   "εκπτώσεις": "soldes, réductions",
+   "μαγαζιά": "magasins",
+   "έρευνα": "enquête",
+   "ρωτάει": "demande",
+   "ψωνίσουν": "feront des achats",
+   "Πέρσι": "l'année dernière",
+   "νέοι": "les jeunes",
+   "περιμένουν": "attendent",
+   "αγοράσουν": "acheter",
+   "ξοδέψουν": "dépenseront",
+   "ρούχα": "vêtements",
+   "ηλεκτρονικά": "électronique",
+   "συσκευές": "appareils",
+   "εμπιστεύονται": "font confiance",
+   "νομίζουν": "pensent",
+   "αληθινές": "vraies",
+   "βλέπουν": "voir",
+   "παλιά": "ancienne",
+   "τιμή": "prix",
+   "νιώθουν": "ressentent",
+   "κούραση": "fatigue",
+   "πίεση": "pression",
+   "πάνε": "iront"
+  },
+  "lemma": {
+   "ρωτάει": "ρωτάω",
+   "ψωνίσουν": "ψωνίζω",
+   "περιμένουν": "περιμένω",
+   "αγοράσουν": "αγοράζω",
+   "ξοδέψουν": "ξοδεύω",
+   "εμπιστεύονται": "εμπιστεύομαι",
+   "νομίζουν": "νομίζω",
+   "βλέπουν": "βλέπω",
+   "νιώθουν": "νιώθω",
+   "πάνε": "πηγαίνω"
+  },
+  "examples": {
+   "εκπτώσεις": [
+    [
+     "Το μαγαζί έχει εκπτώσεις σήμερα.",
+     "The shop has discounts today.",
+     "Le magasin fait des soldes aujourd'hui."
+    ],
+    [
+     "Περιμένω τις εκπτώσεις για παπούτσια.",
+     "I'm waiting for the sales to buy shoes.",
+     "J'attends les soldes pour des chaussures."
+    ]
+   ],
+   "μαγαζιά": [
+    [
+     "Τα μαγαζιά κλείνουν στις εννιά.",
+     "The shops close at nine.",
+     "Les magasins ferment à neuf heures."
+    ],
+    [
+     "Στη γειτονιά μου έχει πολλά μαγαζιά.",
+     "There are many shops in my neighbourhood.",
+     "Il y a beaucoup de magasins dans mon quartier."
+    ]
+   ],
+   "έρευνα": [
+    [
+     "Η έρευνα είναι για τον καφέ.",
+     "The survey is about coffee.",
+     "L'enquête porte sur le café."
+    ],
+    [
+     "Διαβάζω μια έρευνα στο κινητό.",
+     "I'm reading a survey on my phone.",
+     "Je lis une enquête sur mon portable."
+    ]
+   ],
+   "ρωτάει": [
+    [
+     "Ο σερβιτόρος ρωτάει τι θέλουμε.",
+     "The waiter asks what we want.",
+     "Le serveur demande ce que nous voulons."
+    ],
+    [
+     "Ρωτάω τον οδηγό για τη στάση.",
+     "I ask the driver about the stop.",
+     "Je demande l'arrêt au chauffeur."
+    ]
+   ],
+   "ψωνίσουν": [
+    [
+     "Θα ψωνίσουν στη λαϊκή αύριο.",
+     "They will shop at the street market tomorrow.",
+     "Ils feront leurs courses au marché demain."
+    ],
+    [
+     "Ψωνίζω στο σούπερ μάρκετ κάθε Σάββατο.",
+     "I shop at the supermarket every Saturday.",
+     "Je fais mes courses au supermarché chaque samedi."
+    ]
+   ],
+   "Πέρσι": [
+    [
+     "Πέρσι πήγαμε στη Νάξο.",
+     "Last year we went to Naxos.",
+     "L'année dernière, nous sommes allés à Naxos."
+    ],
+    [
+     "Πέρσι το σπίτι ήταν κρύο.",
+     "Last year the house was cold.",
+     "L'année dernière, la maison était froide."
+    ]
+   ],
+   "νέοι": [
+    [
+     "Οι νέοι πίνουν καφέ στην πλατεία.",
+     "Young people drink coffee in the square.",
+     "Les jeunes boivent un café sur la place."
+    ],
+    [
+     "Οι νέοι παίζουν μπάλα στο πάρκο.",
+     "Young people play ball in the park.",
+     "Les jeunes jouent au ballon dans le parc."
+    ]
+   ],
+   "περιμένουν": [
+    [
+     "Πολλοί περιμένουν το λεωφορείο.",
+     "Many people are waiting for the bus.",
+     "Beaucoup de gens attendent le bus."
+    ],
+    [
+     "Περιμένω τη φίλη μου στο καφέ.",
+     "I'm waiting for my friend at the café.",
+     "J'attends mon amie au café."
+    ]
+   ],
+   "αγοράσουν": [
+    [
+     "Θέλουν να αγοράσουν ψωμί.",
+     "They want to buy bread.",
+     "Ils veulent acheter du pain."
+    ],
+    [
+     "Αγοράζω φρούτα από τη λαϊκή.",
+     "I buy fruit at the street market.",
+     "J'achète des fruits au marché."
+    ]
+   ],
+   "ξοδέψουν": [
+    [
+     "Δεν θέλουν να ξοδέψουν πολλά.",
+     "They don't want to spend much.",
+     "Ils ne veulent pas dépenser beaucoup."
+    ],
+    [
+     "Ξοδεύω πολλά για καφέ.",
+     "I spend a lot on coffee.",
+     "Je dépense beaucoup en café."
+    ]
+   ],
+   "ρούχα": [
+    [
+     "Τα ρούχα είναι στην ντουλάπα.",
+     "The clothes are in the wardrobe.",
+     "Les vêtements sont dans l'armoire."
+    ],
+    [
+     "Πλένω τα ρούχα την Κυριακή.",
+     "I wash the clothes on Sunday.",
+     "Je lave les vêtements le dimanche."
+    ]
+   ],
+   "ηλεκτρονικά": [
+    [
+     "Το μαγαζί πουλάει ηλεκτρονικά.",
+     "The shop sells electronics.",
+     "Le magasin vend de l'électronique."
+    ],
+    [
+     "Τα ηλεκτρονικά είναι στον δεύτερο όροφο.",
+     "Electronics are on the second floor.",
+     "L'électronique est au deuxième étage."
+    ]
+   ],
+   "συσκευές": [
+    [
+     "Οι συσκευές της κουζίνας είναι καινούριες.",
+     "The kitchen appliances are new.",
+     "Les appareils de la cuisine sont neufs."
+    ],
+    [
+     "Κλείνω όλες τις συσκευές το βράδυ.",
+     "I switch off all the appliances at night.",
+     "J'éteins tous les appareils le soir."
+    ]
+   ],
+   "εμπιστεύονται": [
+    [
+     "Τα παιδιά εμπιστεύονται τη δασκάλα.",
+     "The children trust the teacher.",
+     "Les enfants font confiance à la maîtresse."
+    ],
+    [
+     "Εμπιστεύομαι τον γιατρό μου.",
+     "I trust my doctor.",
+     "Je fais confiance à mon médecin."
+    ]
+   ],
+   "νομίζουν": [
+    [
+     "Πολλοί νομίζουν ότι θα βρέξει.",
+     "Many people think it will rain.",
+     "Beaucoup pensent qu’il va pleuvoir."
+    ],
+    [
+     "Νομίζω ότι το μετρό έρχεται.",
+     "I think the metro is coming.",
+     "Je pense que le métro arrive."
+    ]
+   ],
+   "αληθινές": [
+    [
+     "Οι ιστορίες του είναι αληθινές.",
+     "His stories are true.",
+     "Ses histoires sont vraies."
+    ],
+    [
+     "Αυτές οι φωτογραφίες είναι αληθινές.",
+     "These photos are real.",
+     "Ces photos sont vraies."
+    ]
+   ],
+   "βλέπουν": [
+    [
+     "Τα παιδιά βλέπουν τηλεόραση.",
+     "The children watch TV.",
+     "Les enfants regardent la télé."
+    ],
+    [
+     "Βλέπω τη θάλασσα από το μπαλκόνι.",
+     "I see the sea from the balcony.",
+     "Je vois la mer depuis le balcon."
+    ]
+   ],
+   "παλιά": [
+    [
+     "Η παλιά μου τσάντα είναι εδώ.",
+     "My old bag is here.",
+     "Mon vieux sac est ici."
+    ],
+    [
+     "Μένω σε μια παλιά πολυκατοικία.",
+     "I live in an old apartment building.",
+     "J'habite dans un vieil immeuble."
+    ]
+   ],
+   "τιμή": [
+    [
+     "Η τιμή του καφέ ανέβηκε.",
+     "The price of coffee went up.",
+     "Le prix du café a augmenté."
+    ],
+    [
+     "Ποια είναι η τιμή;",
+     "What is the price?",
+     "Quel est le prix ?"
+    ]
+   ],
+   "νιώθουν": [
+    [
+     "Οι γονείς νιώθουν χαρά.",
+     "The parents feel happy.",
+     "Les parents ressentent de la joie."
+    ],
+    [
+     "Νιώθω κρύο στο λεωφορείο.",
+     "I feel cold on the bus.",
+     "J'ai froid dans le bus."
+    ]
+   ],
+   "κούραση": [
+    [
+     "Νιώθω κούραση μετά τη δουλειά.",
+     "I feel tired after work.",
+     "Je ressens de la fatigue après le travail."
+    ],
+    [
+     "Η κούραση φεύγει με τον ύπνο.",
+     "Tiredness goes away with sleep.",
+     "La fatigue s'en va avec le sommeil."
+    ]
+   ],
+   "πίεση": [
+    [
+     "Έχω πολλή πίεση στη δουλειά.",
+     "I'm under a lot of pressure at work.",
+     "J'ai beaucoup de pression au travail."
+    ],
+    [
+     "Η πίεση του νερού είναι χαμηλή.",
+     "The water pressure is low.",
+     "La pression de l'eau est basse."
+    ]
+   ],
+   "πάνε": [
+    [
+     "Θα πάνε στο σινεμά απόψε.",
+     "They will go to the cinema tonight.",
+     "Ils iront au cinéma ce soir."
+    ],
+    [
+     "Πηγαίνω στη δουλειά με το μετρό.",
+     "I go to work by metro.",
+     "Je vais au travail en métro."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "ρούχα",
+    "gr": "ρούχα",
+    "en": "clothes",
+    "fr": "vêtements"
+   },
+   {
+    "word": "κούραση",
+    "gr": "κούραση",
+    "en": "tiredness",
+    "fr": "fatigue"
+   },
+   {
+    "word": "αληθινές",
+    "gr": "αληθινές",
+    "en": "real, true",
+    "fr": "vraies"
+   },
+   {
+    "word": "ψωνίσουν",
+    "gr": "ψωνίζω",
+    "en": "to shop",
+    "fr": "faire des achats"
+   },
+   {
+    "word": "ξοδέψουν",
+    "gr": "ξοδεύω",
+    "en": "to spend",
+    "fr": "dépenser"
+   },
+   {
+    "word": "εμπιστεύονται",
+    "gr": "εμπιστεύομαι",
+    "en": "to trust",
+    "fr": "faire confiance"
+   },
+   {
+    "word": "νιώθουν",
+    "gr": "νιώθω",
+    "en": "to feel",
+    "fr": "ressentir"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Πότε είναι η Black Friday;",
+    "choices": [
+     "Στις 27 Νοεμβρίου",
+     "Τον Αύγουστο",
+     "Κάθε Κυριακή πρωί"
+    ],
+    "quote": "Η Black Friday είναι στις 27 Νοεμβρίου.",
+    "quote_en": "Black Friday is on 27 November."
+   },
+   {
+    "q": "Πόσα χρήματα θα ξοδέψουν οι περισσότεροι;",
+    "choices": [
+     "100 έως 250 ευρώ",
+     "Δύο λεπτά",
+     "Ένα εκατομμύριο ευρώ"
+    ],
+    "quote": "Οι περισσότεροι θα ξοδέψουν από 100 έως 250 ευρώ.",
+    "quote_en": "Most will spend between 100 and 250 euros."
+   },
+   {
+    "q": "Τι θα αγοράσουν πρώτα;",
+    "choices": [
+     "Ρούχα",
+     "Καμήλες",
+     "Ένα νησί"
+    ],
+    "quote": "Πρώτα ρούχα, μετά ηλεκτρονικά και συσκευές για το σπίτι.",
+    "quote_en": "First clothes, then electronics and appliances for the home."
+   }
+  ]
  }
 ]
