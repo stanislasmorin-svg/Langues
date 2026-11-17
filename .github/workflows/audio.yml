@@ -49,3 +49,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+      - name: Prévenir Bing (IndexNow)
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          sleep 90
+          python3 tools/indexnow.py || true
