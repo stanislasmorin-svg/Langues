@@ -22,7 +22,8 @@ def seo(path, title, desc, kind="website"):
             f'<meta property="og:type" content="{kind}"><meta property="og:site_name" content="Masimera">'
             f'<meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">'
             f'<meta property="og:url" content="{e(url)}"><meta property="og:image" content="{BASE}icon-512.png">'
-            f'<meta name="twitter:card" content="summary">')
+            f'<meta name="twitter:card" content="summary">'
+            '<meta name="msvalidate.01" content="D72A41D42D834EEC49F3CDEBE04030BD">')
 
 SITE_DESC = ("Masimera is a free website for learning Greek and Italian by reading the local news. "
              "Every morning it publishes one short lesson per language: a real local news story, rewritten in simple language, "
