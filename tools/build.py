@@ -503,7 +503,10 @@ def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
         hint = f'<span class="hint">{len(pairs)} sentence{"s" if len(pairs) > 1 else ""} ↻</span>' if pairs else ""
         return (f'<li><button class="card" type="button" data-ex="{data}" data-gr="{html.escape(a)}" data-tr="{html.escape(b)}" data-fr="{html.escape(f)}" data-lem="{html.escape(lm)}"'
                 f'{"" if pairs else " disabled"}><span class="gr">{html.escape(a)}{lm_html}</span><span class="fr">{html.escape(b)}</span>{f'<span class="fr2">{html.escape(f)}</span>' if f else ""}{hint}</button></li>')
-    vocab = "".join(card(a, b, f) for a, b, f in words)
+    # Cards ("The N words"): only the key words that have example sentences. The other words of the
+    # text keep their translation in the text but get no card (since 19/11: ~40 glossed, 24 key words).
+    cards = [w for w in words if ex.get(w[0])] if ex else words
+    vocab = "".join(card(a, b, f) for a, b, f in cards)
     nav = []
     if prev: nav.append(f'<a href="{prev["date"]}.html">← Previous lesson</a>')
     nav.append('<a href="../index.html">All lessons</a>')
@@ -531,7 +534,7 @@ def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
 <section class="player">
   {player}
 </section>
-<section><h2>The {len(words)} words</h2>{'<p class="note" style="margin:-4px 0 10px">Tap a word to see example sentences in ' + L["name"] + ', with English and French translations.</p>' if ex else ""}<ul class="vocab">{vocab}</ul></section>
+<section><h2>The {len(cards)} words</h2>{'<p class="note" style="margin:-4px 0 10px">Tap a word to see example sentences in ' + L["name"] + ', with English and French translations.</p>' if ex else ""}<ul class="vocab">{vocab}</ul></section>
 <section><h2>The text</h2><div class="text hide" id="text" lang="{lang}">{"".join(paras_html)}</div><div class="text" id="textEn" lang="en" hidden>{en_html}</div></section>
 <div class="row"><button class="chip" id="glossBtn" aria-pressed="false">Translations hidden</button>{'<button class="chip" id="enBtn" aria-pressed="false">Show English translation</button>' if en_html else ""}</div>
 {src_html}
@@ -648,6 +651,8 @@ def gloss_page(lessons, lang, L):
         for p in s["paragraphs"]:
             for m in RX.finditer(p):
                 w, en = m.group(1), m.group(2)
+                if ex and not ex.get(w):  # only the key words (with example sentences) go to All words
+                    continue
                 f_all = fr.get(w, "").strip() or en
                 vb = verbs.get(lem.get(w, ""))
                 if vb:  # verbs: French infinitive, dictionary form, English infinitive
