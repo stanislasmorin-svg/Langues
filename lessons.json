@@ -13222,5 +13222,484 @@
     "quote_en": "First clothes, then electronics and appliances for the home."
    }
   ]
+ },
+ {
+  "date": "2026-11-18",
+  "title": "Ο Ορφέας στο Αρχαιολογικό Μουσείο",
+  "title_fr": "Orphée au Musée archéologique",
+  "title_en": "Orpheus at the Archaeological Museum",
+  "source": {
+   "name": "Proto Thema",
+   "url": "https://en.protothema.gr/2026/10/30/william-kentridges-orpheus-exhibition-opens-at-greeces-national-archaeological-museum/"
+  },
+  "paragraphs": [
+   "Στην Αθήνα υπάρχει μια νέα **έκθεση** (exhibition). Είναι στο Εθνικό Αρχαιολογικό **Μουσείο** (museum). Ο **καλλιτέχνης** (artist) λέγεται Γουίλιαμ Κέντριτζ. Ο Κέντριτζ **έρχεται** (comes) από τη Νότια Αφρική. Η **υπουργός** (minister) Πολιτισμού Λίνα Μενδώνη **άνοιξε** (opened) την έκθεση στις 29 Οκτωβρίου.",
+   "Η έκθεση **λέει** (tells) έναν παλιό **μύθο** (myth). Ο Ορφέας **παίζει** (plays) μουσική με τη **λύρα** (lyre) του. Η **γυναίκα** (wife) του, η Ευρυδίκη, **πεθαίνει** (dies). Ο Ορφέας **κατεβαίνει** (goes down) κάτω από τη γη. Θέλει να τη **φέρει** (bring) πίσω.",
+   "Ο Κέντριτζ **φτιάχνει** (makes) 13 **ατσάλινες** (steel) **φιγούρες** (figures). Έχουν το χρώμα της σκουριάς. Είναι μισοί άνθρωποι και μισά **δέντρα** (trees). Κάποιοι **κρατούν** (hold) **σακίδια** (backpacks). Μιλούν για ανθρώπους που **φεύγουν** (leave) από το σπίτι τους. Υπάρχουν και **ζωγραφιές** (drawings) και εικόνες στους **τοίχους** (walls).",
+   "Δίπλα στα νέα έργα βλέπουμε **αρχαία** (ancient) **αντικείμενα** (objects). Ένα **αγγείο** (vase) δείχνει τον Ορφέα με τη λύρα. Υπάρχει και μια πολύ παλιά λύρα από **ελεφαντόδοντο** (ivory). Ο Κέντριτζ **ανεβάζει** (stages) και την όπερα «Ορφέας» στη Λυρική Σκηνή."
+  ],
+  "paragraphs_en": [
+   "In Athens there is a new exhibition. It is at the National Archaeological Museum. The artist is called William Kentridge. Kentridge comes from South Africa. The Minister of Culture, Lina Mendoni, opened the exhibition on 29 October.",
+   "The exhibition tells an old myth. Orpheus plays music with his lyre. His wife, Eurydice, dies. Orpheus goes down under the earth. He wants to bring her back.",
+   "Kentridge makes 13 steel figures. They have the colour of rust. They are half people and half trees. Some hold backpacks. They speak about people who leave their homes. There are also drawings and pictures on the walls.",
+   "Next to the new works we see ancient objects. A vase shows Orpheus with the lyre. There is also a very old lyre made of ivory. Kentridge is also staging the opera \"Orfeo\" at the Greek National Opera."
+  ],
+  "fr": {
+   "έκθεση": "exposition",
+   "Μουσείο": "musée",
+   "καλλιτέχνης": "artiste",
+   "έρχεται": "vient",
+   "υπουργός": "ministre",
+   "άνοιξε": "a ouvert",
+   "λέει": "raconte, dit",
+   "μύθο": "mythe",
+   "παίζει": "joue",
+   "λύρα": "lyre",
+   "γυναίκα": "femme, épouse",
+   "πεθαίνει": "meurt",
+   "κατεβαίνει": "descend",
+   "φέρει": "ramener, apporter",
+   "φτιάχνει": "fabrique, fait",
+   "ατσάλινες": "en acier",
+   "φιγούρες": "figures, silhouettes",
+   "δέντρα": "arbres",
+   "κρατούν": "tiennent",
+   "σακίδια": "sacs à dos",
+   "φεύγουν": "partent",
+   "ζωγραφιές": "dessins",
+   "τοίχους": "murs",
+   "αρχαία": "anciens, antiques",
+   "αντικείμενα": "objets",
+   "αγγείο": "vase",
+   "ελεφαντόδοντο": "ivoire",
+   "ανεβάζει": "met en scène"
+  },
+  "lemma": {
+   "έρχεται": "έρχομαι",
+   "άνοιξε": "ανοίγω",
+   "λέει": "λέω",
+   "παίζει": "παίζω",
+   "πεθαίνει": "πεθαίνω",
+   "κατεβαίνει": "κατεβαίνω",
+   "φέρει": "φέρνω",
+   "φτιάχνει": "φτιάχνω",
+   "κρατούν": "κρατάω",
+   "φεύγουν": "φεύγω",
+   "ανεβάζει": "ανεβάζω"
+  },
+  "examples": {
+   "έκθεση": [
+    [
+     "Η έκθεση ανοίγει στις δέκα.",
+     "The exhibition opens at ten.",
+     "L'exposition ouvre à dix heures."
+    ],
+    [
+     "Πάμε σε μια έκθεση το Σάββατο;",
+     "Shall we go to an exhibition on Saturday?",
+     "On va à une exposition samedi ?"
+    ]
+   ],
+   "Μουσείο": [
+    [
+     "Το Μουσείο είναι κλειστό σήμερα.",
+     "The Museum is closed today.",
+     "Le Musée est fermé aujourd'hui."
+    ],
+    [
+     "Το Μουσείο έχει ωραίο καφέ.",
+     "The Museum has a nice café.",
+     "Le Musée a un joli café."
+    ]
+   ],
+   "καλλιτέχνης": [
+    [
+     "Ο γείτονάς μου είναι καλλιτέχνης.",
+     "My neighbour is an artist.",
+     "Mon voisin est artiste."
+    ],
+    [
+     "Ένας καλλιτέχνης ζωγραφίζει στην πλατεία.",
+     "An artist is painting in the square.",
+     "Un artiste peint sur la place."
+    ]
+   ],
+   "έρχεται": [
+    [
+     "Το λεωφορείο έρχεται σε πέντε λεπτά.",
+     "The bus is coming in five minutes.",
+     "Le bus arrive dans cinq minutes."
+    ],
+    [
+     "Έρχομαι στο σπίτι σου απόψε.",
+     "I'm coming to your place tonight.",
+     "Je viens chez toi ce soir."
+    ]
+   ],
+   "υπουργός": [
+    [
+     "Η υπουργός μιλάει στην τηλεόραση.",
+     "The minister is speaking on TV.",
+     "La ministre parle à la télévision."
+    ],
+    [
+     "Ο υπουργός είναι στην Αθήνα.",
+     "The minister is in Athens.",
+     "Le ministre est à Athènes."
+    ]
+   ],
+   "άνοιξε": [
+    [
+     "Ο φούρνος άνοιξε στις έξι.",
+     "The bakery opened at six.",
+     "La boulangerie a ouvert à six heures."
+    ],
+    [
+     "Ανοίγω το παράθυρο το πρωί.",
+     "I open the window in the morning.",
+     "J'ouvre la fenêtre le matin."
+    ]
+   ],
+   "λέει": [
+    [
+     "Η γιαγιά λέει ένα παραμύθι.",
+     "Grandma tells a fairy tale.",
+     "Mamie raconte un conte."
+    ],
+    [
+     "Λέω καλημέρα στον γείτονα.",
+     "I say good morning to the neighbour.",
+     "Je dis bonjour au voisin."
+    ]
+   ],
+   "μύθο": [
+    [
+     "Διαβάζω έναν μύθο στο παιδί.",
+     "I read a myth to the child.",
+     "Je lis un mythe à l'enfant."
+    ],
+    [
+     "Ξέρεις αυτόν τον μύθο;",
+     "Do you know this myth?",
+     "Tu connais ce mythe ?"
+    ]
+   ],
+   "παίζει": [
+    [
+     "Ο γιος μου παίζει στο πάρκο.",
+     "My son is playing in the park.",
+     "Mon fils joue au parc."
+    ],
+    [
+     "Παίζω κιθάρα το βράδυ.",
+     "I play the guitar in the evening.",
+     "Je joue de la guitare le soir."
+    ]
+   ],
+   "λύρα": [
+    [
+     "Ο παππούς παίζει λύρα.",
+     "Grandpa plays the lyre.",
+     "Papi joue de la lyre."
+    ],
+    [
+     "Η λύρα είναι από την Κρήτη.",
+     "The lyre is from Crete.",
+     "La lyre vient de Crète."
+    ]
+   ],
+   "γυναίκα": [
+    [
+     "Η γυναίκα του είναι γιατρός.",
+     "His wife is a doctor.",
+     "Sa femme est médecin."
+    ],
+    [
+     "Μια γυναίκα περιμένει το μετρό.",
+     "A woman is waiting for the metro.",
+     "Une femme attend le métro."
+    ]
+   ],
+   "πεθαίνει": [
+    [
+     "Το φυτό πεθαίνει χωρίς νερό.",
+     "The plant dies without water.",
+     "La plante meurt sans eau."
+    ],
+    [
+     "Πεθαίνω της πείνας!",
+     "I'm starving!",
+     "Je meurs de faim !"
+    ]
+   ],
+   "κατεβαίνει": [
+    [
+     "Η Μαρία κατεβαίνει τις σκάλες.",
+     "Maria goes down the stairs.",
+     "Maria descend l'escalier."
+    ],
+    [
+     "Κατεβαίνω στο Σύνταγμα.",
+     "I get off at Syntagma.",
+     "Je descends à Syntagma."
+    ]
+   ],
+   "φέρει": [
+    [
+     "Μπορεί να φέρει ψωμί ο Νίκος;",
+     "Can Nikos bring bread?",
+     "Nikos peut apporter du pain ?"
+    ],
+    [
+     "Φέρνω κρασί στο τραπέζι.",
+     "I bring wine to the table.",
+     "J'apporte du vin à table."
+    ]
+   ],
+   "φτιάχνει": [
+    [
+     "Η μαμά φτιάχνει μια πίτα.",
+     "Mum is making a pie.",
+     "Maman fait une tourte."
+    ],
+    [
+     "Φτιάχνω καφέ για όλους.",
+     "I'm making coffee for everyone.",
+     "Je fais du café pour tout le monde."
+    ]
+   ],
+   "ατσάλινες": [
+    [
+     "Οι καρέκλες είναι ατσάλινες.",
+     "The chairs are made of steel.",
+     "Les chaises sont en acier."
+    ],
+    [
+     "Θέλω ατσάλινες κατσαρόλες.",
+     "I want steel pots.",
+     "Je veux des casseroles en acier."
+    ]
+   ],
+   "φιγούρες": [
+    [
+     "Το παιδί κόβει φιγούρες από χαρτί.",
+     "The child cuts figures out of paper.",
+     "L'enfant découpe des figurines en papier."
+    ],
+    [
+     "Βλέπω φιγούρες στα σύννεφα.",
+     "I see figures in the clouds.",
+     "Je vois des formes dans les nuages."
+    ]
+   ],
+   "δέντρα": [
+    [
+     "Ο δρόμος έχει πολλά δέντρα.",
+     "The street has many trees.",
+     "La rue a beaucoup d'arbres."
+    ],
+    [
+     "Τα δέντρα είναι πράσινα.",
+     "The trees are green.",
+     "Les arbres sont verts."
+    ]
+   ],
+   "κρατούν": [
+    [
+     "Τα παιδιά κρατούν μπαλόνια.",
+     "The children are holding balloons.",
+     "Les enfants tiennent des ballons."
+    ],
+    [
+     "Κρατάω την τσάντα σου.",
+     "I'm holding your bag.",
+     "Je tiens ton sac."
+    ]
+   ],
+   "σακίδια": [
+    [
+     "Οι μαθητές έχουν βαριά σακίδια.",
+     "The pupils have heavy backpacks.",
+     "Les élèves ont des sacs à dos lourds."
+    ],
+    [
+     "Πού είναι τα σακίδια μας;",
+     "Where are our backpacks?",
+     "Où sont nos sacs à dos ?"
+    ]
+   ],
+   "φεύγουν": [
+    [
+     "Οι φίλοι φεύγουν στις έντεκα.",
+     "The friends leave at eleven.",
+     "Les amis partent à onze heures."
+    ],
+    [
+     "Φεύγω για τη δουλειά.",
+     "I'm leaving for work.",
+     "Je pars au travail."
+    ]
+   ],
+   "ζωγραφιές": [
+    [
+     "Οι ζωγραφιές του είναι πολύ ωραίες.",
+     "His drawings are very nice.",
+     "Ses dessins sont très beaux."
+    ],
+    [
+     "Βάζω τις ζωγραφιές στο ψυγείο.",
+     "I put the drawings on the fridge.",
+     "Je mets les dessins sur le frigo."
+    ]
+   ],
+   "τοίχους": [
+    [
+     "Βάφουμε τους τοίχους άσπρους.",
+     "We paint the walls white.",
+     "Nous peignons les murs en blanc."
+    ],
+    [
+     "Το σπίτι έχει χοντρούς τοίχους.",
+     "The house has thick walls.",
+     "La maison a des murs épais."
+    ]
+   ],
+   "αρχαία": [
+    [
+     "Στην Πλάκα υπάρχουν αρχαία σπίτια.",
+     "In Plaka there are ancient houses.",
+     "À Plaka il y a des maisons anciennes."
+    ],
+    [
+     "Μου αρέσουν τα αρχαία αγάλματα.",
+     "I like ancient statues.",
+     "J'aime les statues antiques."
+    ]
+   ],
+   "αντικείμενα": [
+    [
+     "Μην αφήνετε αντικείμενα στο λεωφορείο.",
+     "Don't leave objects on the bus.",
+     "Ne laissez pas d'objets dans le bus."
+    ],
+    [
+     "Το κουτί έχει παλιά αντικείμενα.",
+     "The box has old objects.",
+     "La boîte contient de vieux objets."
+    ]
+   ],
+   "αγγείο": [
+    [
+     "Το αγγείο είναι στο τραπέζι.",
+     "The vase is on the table.",
+     "Le vase est sur la table."
+    ],
+    [
+     "Βάζω λουλούδια στο αγγείο.",
+     "I put flowers in the vase.",
+     "Je mets des fleurs dans le vase."
+    ]
+   ],
+   "ελεφαντόδοντο": [
+    [
+     "Το κουτί είναι από ελεφαντόδοντο.",
+     "The box is made of ivory.",
+     "La boîte est en ivoire."
+    ],
+    [
+     "Το ελεφαντόδοντο είναι άσπρο.",
+     "Ivory is white.",
+     "L'ivoire est blanc."
+    ]
+   ],
+   "ανεβάζει": [
+    [
+     "Το θέατρο ανεβάζει μια νέα παράσταση.",
+     "The theatre is staging a new play.",
+     "Le théâtre monte un nouveau spectacle."
+    ],
+    [
+     "Ανεβάζω τη βαλίτσα στον πάνω όροφο.",
+     "I take the suitcase up to the top floor.",
+     "Je monte la valise à l'étage."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "σακίδια",
+    "gr": "σακίδια",
+    "en": "backpacks",
+    "fr": "sacs à dos"
+   },
+   {
+    "word": "τοίχους",
+    "gr": "τοίχους",
+    "en": "walls",
+    "fr": "murs"
+   },
+   {
+    "word": "δέντρα",
+    "gr": "δέντρα",
+    "en": "trees",
+    "fr": "arbres"
+   },
+   {
+    "word": "κατεβαίνει",
+    "gr": "κατεβαίνω",
+    "en": "to go down",
+    "fr": "descendre"
+   },
+   {
+    "word": "φέρει",
+    "gr": "φέρνω",
+    "en": "to bring",
+    "fr": "apporter"
+   },
+   {
+    "word": "φτιάχνει",
+    "gr": "φτιάχνω",
+    "en": "to make",
+    "fr": "fabriquer, faire"
+   },
+   {
+    "word": "κρατούν",
+    "gr": "κρατάω",
+    "en": "to hold",
+    "fr": "tenir"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Πότε άνοιξε η έκθεση;",
+    "choices": [
+     "Στις 29 Οκτωβρίου",
+     "Στις 31 Φεβρουαρίου",
+     "Το καλοκαίρι του 1850"
+    ],
+    "quote": "Η υπουργός Πολιτισμού Λίνα Μενδώνη άνοιξε την έκθεση στις 29 Οκτωβρίου.",
+    "quote_en": "The Minister of Culture, Lina Mendoni, opened the exhibition on 29 October."
+   },
+   {
+    "q": "Πόσες φιγούρες φτιάχνει ο Κέντριτζ;",
+    "choices": [
+     "13 φιγούρες",
+     "5.000 φιγούρες",
+     "Μισή φιγούρα"
+    ],
+    "quote": "Ο Κέντριτζ φτιάχνει 13 ατσάλινες φιγούρες.",
+    "quote_en": "Kentridge makes 13 steel figures."
+   },
+   {
+    "q": "Από τι είναι η πολύ παλιά λύρα;",
+    "choices": [
+     "Από ελεφαντόδοντο",
+     "Από σοκολάτα",
+     "Από πλαστικό μπουκάλι"
+    ],
+    "quote": "Υπάρχει και μια πολύ παλιά λύρα από ελεφαντόδοντο.",
+    "quote_en": "There is also a very old lyre made of ivory."
+   }
+  ]
  }
 ]

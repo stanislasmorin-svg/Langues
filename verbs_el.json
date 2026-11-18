@@ -31,6 +31,10 @@
   "fr": "recycler",
   "en": "to recycle"
  },
+ "ανεβάζω": {
+  "fr": "monter, mettre en scène",
+  "en": "to raise, to stage"
+ },
  "ανησυχώ": {
   "fr": "s'inquiéter",
   "en": "to worry"
@@ -171,6 +175,10 @@
   "fr": "accueillir",
   "en": "to welcome"
  },
+ "κατεβαίνω": {
+  "fr": "descendre",
+  "en": "to go down"
+ },
  "κερδίζω": {
   "fr": "gagner",
   "en": "to win"
@@ -287,6 +295,10 @@
   "fr": "se garer",
   "en": "to park"
  },
+ "πεθαίνω": {
+  "fr": "mourir",
+  "en": "to die"
+ },
  "περιμένω": {
   "fr": "attendre",
   "en": "to wait"
@@ -402,6 +414,10 @@
  "φέρνω": {
   "fr": "apporter, amener",
   "en": "to bring"
+ },
+ "φεύγω": {
+  "fr": "partir",
+  "en": "to leave"
  },
  "φτάνω": {
   "fr": "arriver, suffire",

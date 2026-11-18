@@ -5323,5 +5323,413 @@
     "quote_en": "20 November is World Children's Day."
    }
   ]
+ },
+ {
+  "date": "2026-11-18",
+  "title": "L'arte unisce Italia e Germania",
+  "title_fr": "L'art unit l'Italie et l'Allemagne",
+  "title_en": "Art brings Italy and Germany together",
+  "source": {
+   "name": "Quotidiano Nazionale",
+   "url": "https://www.quotidiano.net/magazine/vicenza-mostra-italia-germania-np2hiz3m"
+  },
+  "paragraphs": [
+   "A Vicenza **apre** (opens) una grande **mostra** (exhibition). Si chiama «Italia e Germania». È nella Basilica Palladiana. Alla **festa** (celebration) di apertura c'è anche il **presidente** (president) Sergio Mattarella.",
+   "Nella mostra ci sono 168 **opere** (works). Le opere **arrivano** (come) da più di 60 **musei** (museums) e **collezioni** (collections). Ci sono **quadri** (paintings) e **statue** (statues) di grandi **artisti** (artists), come Canova, De Chirico, Kandinsky e Kiefer. Tre opere sono in Italia per la prima **volta** (time).",
+   "La mostra **racconta** (tells) la **storia** (history) dell'arte tra l'Ottocento e il Novecento. Ha dodici **parti** (sections). Il **poeta** (poet) **tedesco** (German) Goethe è come una **guida** (guide) per tutta la mostra.",
+   "Quest'anno Italia e Germania **ricordano** (remember) 75 anni di **rapporti** (relations) tra i due **paesi** (countries). La mostra è **aperta** (open) fino al 2 maggio. Poi **arriveranno** (will come) altre mostre: con la Francia nel 2027 e con la Spagna nel 2028."
+  ],
+  "paragraphs_en": [
+   "In Vicenza a big exhibition opens. It is called \"Italy and Germany\". It is in the Basilica Palladiana. President Sergio Mattarella is also at the opening celebration.",
+   "In the exhibition there are 168 works. The works come from more than 60 museums and collections. There are paintings and statues by great artists, like Canova, De Chirico, Kandinsky and Kiefer. Three works are in Italy for the first time.",
+   "The exhibition tells the history of art between the 19th and the 20th century. It has twelve sections. The German poet Goethe is like a guide for the whole exhibition.",
+   "This year Italy and Germany remember 75 years of relations between the two countries. The exhibition is open until 2 May. Then other exhibitions will come: with France in 2027 and with Spain in 2028."
+  ],
+  "fr": {
+   "apre": "ouvre",
+   "mostra": "exposition",
+   "festa": "fête",
+   "presidente": "président",
+   "opere": "œuvres",
+   "arrivano": "arrivent, viennent",
+   "musei": "musées",
+   "collezioni": "collections",
+   "quadri": "tableaux",
+   "statue": "statues",
+   "artisti": "artistes",
+   "volta": "fois",
+   "racconta": "raconte",
+   "storia": "histoire",
+   "parti": "parties",
+   "poeta": "poète",
+   "tedesco": "allemand",
+   "guida": "guide",
+   "ricordano": "se souviennent de, commémorent",
+   "rapporti": "relations",
+   "paesi": "pays",
+   "aperta": "ouverte",
+   "arriveranno": "arriveront"
+  },
+  "lemma": {
+   "apre": "aprire",
+   "arrivano": "arrivare",
+   "racconta": "raccontare",
+   "ricordano": "ricordare",
+   "arriveranno": "arrivare"
+  },
+  "examples": {
+   "apre": [
+    [
+     "Il bar apre alle sette.",
+     "The bar opens at seven.",
+     "Le bar ouvre à sept heures."
+    ],
+    [
+     "Io apro la finestra.",
+     "I open the window.",
+     "J'ouvre la fenêtre."
+    ]
+   ],
+   "mostra": [
+    [
+     "La mostra è molto bella.",
+     "The exhibition is very beautiful.",
+     "L'exposition est très belle."
+    ],
+    [
+     "Andiamo alla mostra domenica?",
+     "Shall we go to the exhibition on Sunday?",
+     "On va à l'exposition dimanche ?"
+    ]
+   ],
+   "festa": [
+    [
+     "Stasera c'è una festa da Marco.",
+     "Tonight there is a party at Marco's.",
+     "Ce soir il y a une fête chez Marco."
+    ],
+    [
+     "La festa finisce a mezzanotte.",
+     "The party ends at midnight.",
+     "La fête finit à minuit."
+    ]
+   ],
+   "presidente": [
+    [
+     "Il presidente del club è simpatico.",
+     "The club president is nice.",
+     "Le président du club est sympathique."
+    ],
+    [
+     "Il presidente parla alla radio.",
+     "The president speaks on the radio.",
+     "Le président parle à la radio."
+    ]
+   ],
+   "opere": [
+    [
+     "Le opere sono nella sala grande.",
+     "The works are in the big room.",
+     "Les œuvres sont dans la grande salle."
+    ],
+    [
+     "Guardo le opere con mia figlia.",
+     "I look at the works with my daughter.",
+     "Je regarde les œuvres avec ma fille."
+    ]
+   ],
+   "arrivano": [
+    [
+     "Gli ospiti arrivano alle otto.",
+     "The guests arrive at eight.",
+     "Les invités arrivent à huit heures."
+    ],
+    [
+     "Io arrivo a casa tardi.",
+     "I get home late.",
+     "J'arrive tard à la maison."
+    ]
+   ],
+   "musei": [
+    [
+     "I musei sono chiusi il lunedì.",
+     "Museums are closed on Mondays.",
+     "Les musées sont fermés le lundi."
+    ],
+    [
+     "A Roma ci sono tanti musei.",
+     "In Rome there are many museums.",
+     "À Rome il y a beaucoup de musées."
+    ]
+   ],
+   "collezioni": [
+    [
+     "Mio zio ha due collezioni di francobolli.",
+     "My uncle has two stamp collections.",
+     "Mon oncle a deux collections de timbres."
+    ],
+    [
+     "Le collezioni sono al primo piano.",
+     "The collections are on the first floor.",
+     "Les collections sont au premier étage."
+    ]
+   ],
+   "quadri": [
+    [
+     "In salotto ci sono tre quadri.",
+     "There are three paintings in the living room.",
+     "Il y a trois tableaux dans le salon."
+    ],
+    [
+     "Mia nonna dipinge quadri.",
+     "My grandmother paints pictures.",
+     "Ma grand-mère peint des tableaux."
+    ]
+   ],
+   "statue": [
+    [
+     "Nel parco ci sono due statue.",
+     "There are two statues in the park.",
+     "Il y a deux statues dans le parc."
+    ],
+    [
+     "Le statue sono di marmo.",
+     "The statues are made of marble.",
+     "Les statues sont en marbre."
+    ]
+   ],
+   "artisti": [
+    [
+     "In questa via vivono molti artisti.",
+     "Many artists live in this street.",
+     "Beaucoup d'artistes vivent dans cette rue."
+    ],
+    [
+     "Gli artisti suonano in piazza.",
+     "The artists play in the square.",
+     "Les artistes jouent sur la place."
+    ]
+   ],
+   "volta": [
+    [
+     "Una volta alla settimana vado in piscina.",
+     "Once a week I go to the pool.",
+     "Une fois par semaine je vais à la piscine."
+    ],
+    [
+     "È la mia prima volta a Napoli.",
+     "It's my first time in Naples.",
+     "C'est ma première fois à Naples."
+    ]
+   ],
+   "racconta": [
+    [
+     "Il nonno racconta una storia.",
+     "Grandpa tells a story.",
+     "Papi raconte une histoire."
+    ],
+    [
+     "Io racconto tutto a mia sorella.",
+     "I tell my sister everything.",
+     "Je raconte tout à ma sœur."
+    ]
+   ],
+   "storia": [
+    [
+     "Mi piace la storia di Roma.",
+     "I like the history of Rome.",
+     "J'aime l'histoire de Rome."
+    ],
+    [
+     "Questa storia è molto vecchia.",
+     "This story is very old.",
+     "Cette histoire est très vieille."
+    ]
+   ],
+   "parti": [
+    [
+     "Taglio la torta in otto parti.",
+     "I cut the cake into eight pieces.",
+     "Je coupe le gâteau en huit parts."
+    ],
+    [
+     "Il libro ha tre parti.",
+     "The book has three parts.",
+     "Le livre a trois parties."
+    ]
+   ],
+   "poeta": [
+    [
+     "Mio cugino è un poeta.",
+     "My cousin is a poet.",
+     "Mon cousin est poète."
+    ],
+    [
+     "Il poeta legge in biblioteca.",
+     "The poet reads in the library.",
+     "Le poète lit à la bibliothèque."
+    ]
+   ],
+   "tedesco": [
+    [
+     "Il mio vicino è tedesco.",
+     "My neighbour is German.",
+     "Mon voisin est allemand."
+    ],
+    [
+     "Studio il tedesco la sera.",
+     "I study German in the evening.",
+     "J'étudie l'allemand le soir."
+    ]
+   ],
+   "guida": [
+    [
+     "La guida parla anche inglese.",
+     "The guide also speaks English.",
+     "Le guide parle aussi anglais."
+    ],
+    [
+     "Compro una guida della città.",
+     "I buy a guide to the city.",
+     "J'achète un guide de la ville."
+    ]
+   ],
+   "ricordano": [
+    [
+     "I bambini ricordano la strada.",
+     "The children remember the way.",
+     "Les enfants se souviennent du chemin."
+    ],
+    [
+     "Io ricordo il tuo compleanno.",
+     "I remember your birthday.",
+     "Je me souviens de ton anniversaire."
+    ]
+   ],
+   "rapporti": [
+    [
+     "Ho buoni rapporti con i vicini.",
+     "I have good relations with the neighbours.",
+     "J'ai de bonnes relations avec les voisins."
+    ],
+    [
+     "I rapporti in ufficio sono buoni.",
+     "Relations at the office are good.",
+     "Les relations au bureau sont bonnes."
+    ]
+   ],
+   "paesi": [
+    [
+     "Ho visitato molti paesi.",
+     "I have visited many countries.",
+     "J'ai visité beaucoup de pays."
+    ],
+    [
+     "I due paesi sono vicini.",
+     "The two countries are close.",
+     "Les deux pays sont proches."
+    ]
+   ],
+   "aperta": [
+    [
+     "La farmacia è aperta fino alle otto.",
+     "The pharmacy is open until eight.",
+     "La pharmacie est ouverte jusqu'à huit heures."
+    ],
+    [
+     "La porta è aperta.",
+     "The door is open.",
+     "La porte est ouverte."
+    ]
+   ],
+   "arriveranno": [
+    [
+     "I miei amici arriveranno domani.",
+     "My friends will arrive tomorrow.",
+     "Mes amis arriveront demain."
+    ],
+    [
+     "Il treno arriva alle nove.",
+     "The train arrives at nine.",
+     "Le train arrive à neuf heures."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "quadri",
+    "gr": "quadri",
+    "en": "paintings",
+    "fr": "tableaux"
+   },
+   {
+    "word": "rapporti",
+    "gr": "rapporti",
+    "en": "relations",
+    "fr": "relations"
+   },
+   {
+    "word": "volta",
+    "gr": "volta",
+    "en": "time (occasion)",
+    "fr": "fois"
+   },
+   {
+    "word": "racconta",
+    "gr": "raccontare",
+    "en": "to tell",
+    "fr": "raconter"
+   },
+   {
+    "word": "ricordano",
+    "gr": "ricordare",
+    "en": "to remember",
+    "fr": "se souvenir de"
+   },
+   {
+    "word": "arrivano",
+    "gr": "arrivare",
+    "en": "to arrive, to come",
+    "fr": "arriver"
+   },
+   {
+    "word": "apre",
+    "gr": "aprire",
+    "en": "to open",
+    "fr": "ouvrir"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Quante opere ci sono nella mostra?",
+    "choices": [
+     "168 opere",
+     "Due opere",
+     "Un milione di opere"
+    ],
+    "quote": "Nella mostra ci sono 168 opere.",
+    "quote_en": "In the exhibition there are 168 works."
+   },
+   {
+    "q": "Dov'è la mostra?",
+    "choices": [
+     "Nella Basilica Palladiana",
+     "Su una nave",
+     "In una pizzeria"
+    ],
+    "quote": "È nella Basilica Palladiana.",
+    "quote_en": "It is in the Basilica Palladiana."
+   },
+   {
+    "q": "Fino a quando è aperta la mostra?",
+    "choices": [
+     "Fino al 2 maggio",
+     "Fino a stasera alle sei",
+     "Fino all'anno 3000"
+    ],
+    "quote": "La mostra è aperta fino al 2 maggio.",
+    "quote_en": "The exhibition is open until 2 May."
+   }
+  ]
  }
 ]
