@@ -129,22 +129,39 @@ h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
   // Lecture des phrases avec Web Audio : la sortie son reste éveillée en continu (une fois lancée au
   // premier toucher), donc l'iPhone ou le casque ne coupent plus le début. Les MP3 sont préchargés.
   // Si Web Audio n'est pas disponible ou échoue : lecteur audio classique, puis voix du téléphone.
-  var player = new Audio(), timer = null, ctx = null, node = null, token = 0, cache = {};
+  var player = new Audio(), timer = null, ctx = null, node = null, token = 0, cache = {}, keep = null, keepBuf = null, idle = null;
   player.preload = 'auto';
   try { if (navigator.audioSession) navigator.audioSession.type = 'playback'; } catch (e) {}
   function wake(){
     var C = window.AudioContext || window.webkitAudioContext;
     if (!C) return;
-    if (!ctx) {
-      ctx = new C();
-      // son silencieux en boucle, très faible, pour garder la sortie audio active
-      var b = ctx.createBuffer(1, ctx.sampleRate, ctx.sampleRate), d = b.getChannelData(0);
-      for (var k = 0; k < d.length; k++) d[k] = (Math.random() * 2 - 1) * 0.003; // ~ -50 dB : inaudible, mais assez pour que les casques Bluetooth ne se mettent pas en veille
-      var keep = ctx.createBufferSource(); keep.buffer = b; keep.loop = true; keep.connect(ctx.destination); keep.start(0);
-    }
+    if (!ctx) ctx = new C();
+    clearTimeout(idle); startKeep();
     if (ctx.state !== 'running') return ctx.resume();
     return null;
   }
+  // Souffle de maintien en boucle, très faible, pour que l'iPhone et les casques Bluetooth ne se mettent
+  // pas en veille entre deux phrases. Souffle « rose » (moins d'aigus que le blanc, donc moins gênant),
+  // même énergie que l'ancien souffle blanc à 0.003 (~ -55 dB, niveau nécessaire pour les casques Bluetooth).
+  // Il s'arrête 20 s après la dernière phrase et repart au toucher suivant.
+  function startKeep(){
+    if (keep || !ctx) return;
+    if (!keepBuf) {
+      var n = 2 * ctx.sampleRate, d, k, s = 0, b0 = 0, b1 = 0, b2 = 0, b3 = 0, b4 = 0, b5 = 0, b6 = 0;
+      keepBuf = ctx.createBuffer(1, n, ctx.sampleRate); d = keepBuf.getChannelData(0);
+      for (k = 0; k < n; k++) {
+        var w = Math.random() * 2 - 1;
+        b0 = 0.99886 * b0 + w * 0.0555179; b1 = 0.99332 * b1 + w * 0.0750759; b2 = 0.96900 * b2 + w * 0.1538520;
+        b3 = 0.86650 * b3 + w * 0.3104856; b4 = 0.55000 * b4 + w * 0.5329522; b5 = -0.7616 * b5 - w * 0.0168980;
+        d[k] = b0 + b1 + b2 + b3 + b4 + b5 + b6 + w * 0.5362; b6 = w * 0.115926; s += d[k] * d[k];
+      }
+      var g = 0.0017 / Math.sqrt(s / n); // même niveau moyen (RMS) que l'ancien souffle blanc
+      for (k = 0; k < n; k++) d[k] *= g;
+    }
+    keep = ctx.createBufferSource(); keep.buffer = keepBuf; keep.loop = true; keep.connect(ctx.destination); keep.start(0);
+  }
+  function stopKeep(){ if (keep) { try { keep.stop(); } catch (e) {} keep = null; } }
+  function idleLater(){ clearTimeout(idle); idle = setTimeout(stopKeep, 20000); }
   function load(url){
     if (!cache[url]) cache[url] = fetch(url).then(function(r){ if (!r.ok) throw r; return r.arrayBuffer(); })
       .then(function(b){ return new Promise(function(ok, ko){ ctx.decodeAudioData(b, ok, ko); }); });
@@ -156,6 +173,7 @@ h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
     token++; player.pause(); clearTimeout(timer);
     if (node) { try { node.stop(); } catch (e) {} node = null; }
     if (window.speechSynthesis) speechSynthesis.cancel();
+    if (keep) idleLater();
   }
   function playElement(text, url){
     player.src = url; player.currentTime = 0;
@@ -173,6 +191,7 @@ h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
       if (my !== token) return;
       if (ctx.state !== 'running') { playElement(text, url); return; }
       node = ctx.createBufferSource(); node.buffer = r[0]; node.connect(ctx.destination);
+      node.onended = function(){ if (my === token) idleLater(); };
       node.start(ctx.currentTime + (waking ? 0.3 : 0)); // toute l'amorce d'1 s avant la voix, même avec un casque
     }).catch(function(){ if (my === token) playElement(text, url); });
   }
