@@ -5731,5 +5731,445 @@
     "quote_en": "The exhibition is open until 2 May."
    }
   ]
+ },
+ {
+  "date": "2026-11-19",
+  "title": "Bologna sceglie i suoi parchi",
+  "title_fr": "Bologne choisit ses parcs",
+  "title_en": "Bologna chooses its parks",
+  "source": {
+   "name": "Comune di Bologna",
+   "url": "https://www.comune.bologna.it/novita/comunicati-stampa/bilancio-partecipativo-2026-chiuse-le-votazioni-con-36080-votanti-ecco-i-dodici-progetti-vincitori"
+  },
+  "paragraphs": [
+   "A Bologna i **cittadini** (citizens) **scelgono** (choose) come **usare** (to use) una parte dei **soldi** (money) del **Comune** (City Council). Si chiama «bilancio partecipativo». Quest'anno hanno **votato** (voted) 36.080 **persone** (people). Non hanno mai votato così tante persone.",
+   "Può votare chi **vive** (lives), **studia** (studies) o lavora a Bologna. Bisogna avere almeno 16 **anni** (years). Le **proposte** (proposals) sono 49. Il **voto** (vote) è finito il 9 novembre a **mezzogiorno** (noon).",
+   "Ora ci sono 12 **progetti** (projects) **vincitori** (winning). Ogni **quartiere** (neighbourhood) ne ha due. Ogni progetto **riceve** (receives) 175.000 euro. In tutto sono 2,1 milioni di euro.",
+   "Molti progetti sono per i **parchi** (parks) e i **giardini** (gardens). Nel quartiere San Donato **arriva** (arrives) una **pista** (track) per **bici** (bikes) e **pattini** (skates). Ci sono anche nuovi **giochi** (play equipment) per i **bambini** (children). In altri quartieri ci saranno nuovi **alberi** (trees), **panchine** (benches) e **tavoli** (tables).",
+   "A Santo Stefano **nasce** (is born) una piccola **piazza** (square) con **ombra** (shade) e **luci** (lights). Le persone possono **incontrarsi** (meet) lì **senza** (without) **comprare** (to buy) niente. Nei prossimi giorni il Comune **conferma** (confirms) i risultati."
+  ],
+  "paragraphs_en": [
+   "In Bologna, citizens choose how to use part of the City Council's money. It is called the \"participatory budget\". This year 36,080 people voted. So many people have never voted before.",
+   "Anyone who lives, studies or works in Bologna can vote. You must be at least 16 years old. There are 49 proposals. The vote ended on 9 November at noon.",
+   "Now there are 12 winning projects. Each neighbourhood has two. Each project receives 175,000 euros. In total it is 2.1 million euros.",
+   "Many projects are for parks and gardens. In the San Donato neighbourhood, a track for bikes and skates is coming. There is also new play equipment for children. In other neighbourhoods there will be new trees, benches and tables.",
+   "In Santo Stefano, a small square with shade and lights is being created. People can meet there without buying anything. In the coming days, the City Council will confirm the results."
+  ],
+  "fr": {
+   "cittadini": "citoyens",
+   "scelgono": "choisissent",
+   "usare": "utiliser",
+   "soldi": "argent",
+   "Comune": "mairie",
+   "votato": "voté",
+   "persone": "personnes",
+   "vive": "habite, vit",
+   "studia": "étudie",
+   "anni": "ans",
+   "proposte": "propositions",
+   "voto": "vote",
+   "mezzogiorno": "midi",
+   "progetti": "projets",
+   "vincitori": "gagnants",
+   "quartiere": "quartier",
+   "riceve": "reçoit",
+   "parchi": "parcs",
+   "giardini": "jardins",
+   "arriva": "arrive",
+   "pista": "piste",
+   "bici": "vélos",
+   "pattini": "patins",
+   "giochi": "jeux",
+   "bambini": "enfants",
+   "alberi": "arbres",
+   "panchine": "bancs",
+   "tavoli": "tables",
+   "nasce": "naît",
+   "piazza": "place",
+   "ombra": "ombre",
+   "luci": "lumières",
+   "incontrarsi": "se retrouver",
+   "senza": "sans",
+   "comprare": "acheter",
+   "conferma": "confirme"
+  },
+  "lemma": {
+   "scelgono": "scegliere",
+   "usare": "usare",
+   "votato": "votare",
+   "vive": "vivere",
+   "riceve": "ricevere",
+   "arriva": "arrivare",
+   "nasce": "nascere",
+   "incontrarsi": "incontrarsi",
+   "comprare": "comprare",
+   "conferma": "confermare"
+  },
+  "examples": {
+   "cittadini": [
+    [
+     "I cittadini aspettano l'autobus.",
+     "The citizens are waiting for the bus.",
+     "Les citoyens attendent le bus."
+    ],
+    [
+     "Molti cittadini vanno in bici.",
+     "Many citizens go by bike.",
+     "Beaucoup de citoyens vont à vélo."
+    ]
+   ],
+   "scelgono": [
+    [
+     "I bambini scelgono il gelato.",
+     "The children choose the ice cream.",
+     "Les enfants choisissent la glace."
+    ],
+    [
+     "Io scelgo sempre il caffè.",
+     "I always choose coffee.",
+     "Je choisis toujours le café."
+    ]
+   ],
+   "usare": [
+    [
+     "Posso usare il tuo telefono?",
+     "Can I use your phone?",
+     "Je peux utiliser ton téléphone ?"
+    ],
+    [
+     "Uso la bici per andare al lavoro.",
+     "I use my bike to go to work.",
+     "J'utilise mon vélo pour aller au travail."
+    ]
+   ],
+   "soldi": [
+    [
+     "Non ho soldi nel portafoglio.",
+     "I have no money in my wallet.",
+     "Je n'ai pas d'argent dans mon portefeuille."
+    ],
+    [
+     "I soldi sono sul tavolo.",
+     "The money is on the table.",
+     "L'argent est sur la table."
+    ]
+   ],
+   "votato": [
+    [
+     "Ieri ho votato a scuola.",
+     "Yesterday I voted at the school.",
+     "Hier, j'ai voté à l'école."
+    ],
+    [
+     "Domenica voto con mia madre.",
+     "On Sunday I'm voting with my mother.",
+     "Dimanche, je vote avec ma mère."
+    ]
+   ],
+   "vive": [
+    [
+     "Mia sorella vive a Roma.",
+     "My sister lives in Rome.",
+     "Ma sœur habite à Rome."
+    ],
+    [
+     "Io vivo vicino alla stazione.",
+     "I live near the station.",
+     "J'habite près de la gare."
+    ]
+   ],
+   "anni": [
+    [
+     "Mio figlio ha sei anni.",
+     "My son is six years old.",
+     "Mon fils a six ans."
+    ],
+    [
+     "Abito qui da dieci anni.",
+     "I've lived here for ten years.",
+     "J'habite ici depuis dix ans."
+    ]
+   ],
+   "voto": [
+    [
+     "Il voto è domenica.",
+     "The vote is on Sunday.",
+     "Le vote a lieu dimanche."
+    ],
+    [
+     "Il voto è segreto.",
+     "The vote is secret.",
+     "Le vote est secret."
+    ]
+   ],
+   "mezzogiorno": [
+    [
+     "Pranziamo a mezzogiorno.",
+     "We have lunch at noon.",
+     "Nous déjeunons à midi."
+    ],
+    [
+     "Il negozio chiude a mezzogiorno.",
+     "The shop closes at noon.",
+     "Le magasin ferme à midi."
+    ]
+   ],
+   "quartiere": [
+    [
+     "Il mio quartiere è tranquillo.",
+     "My neighbourhood is quiet.",
+     "Mon quartier est calme."
+    ],
+    [
+     "In questo quartiere c'è un buon bar.",
+     "There's a good café in this neighbourhood.",
+     "Dans ce quartier, il y a un bon café."
+    ]
+   ],
+   "riceve": [
+    [
+     "Marco riceve molte lettere.",
+     "Marco receives a lot of letters.",
+     "Marco reçoit beaucoup de lettres."
+    ],
+    [
+     "Io ricevo un messaggio da mia madre.",
+     "I get a message from my mother.",
+     "Je reçois un message de ma mère."
+    ]
+   ],
+   "parchi": [
+    [
+     "I parchi sono pieni la domenica.",
+     "The parks are full on Sundays.",
+     "Les parcs sont pleins le dimanche."
+    ],
+    [
+     "In città ci sono molti parchi.",
+     "There are many parks in the city.",
+     "Il y a beaucoup de parcs en ville."
+    ]
+   ],
+   "giardini": [
+    [
+     "I giardini sono verdi in primavera.",
+     "The gardens are green in spring.",
+     "Les jardins sont verts au printemps."
+    ],
+    [
+     "Passeggiamo nei giardini?",
+     "Shall we walk in the gardens?",
+     "On se promène dans les jardins ?"
+    ]
+   ],
+   "arriva": [
+    [
+     "Il treno arriva alle otto.",
+     "The train arrives at eight.",
+     "Le train arrive à huit heures."
+    ],
+    [
+     "Io arrivo a casa alle sei.",
+     "I get home at six.",
+     "J'arrive à la maison à six heures."
+    ]
+   ],
+   "giochi": [
+    [
+     "I giochi del parco sono nuovi.",
+     "The park's play equipment is new.",
+     "Les jeux du parc sont neufs."
+    ],
+    [
+     "Mio figlio ama i giochi in giardino.",
+     "My son loves the games in the garden.",
+     "Mon fils adore les jeux dans le jardin."
+    ]
+   ],
+   "bambini": [
+    [
+     "I bambini giocano in cortile.",
+     "The children are playing in the courtyard.",
+     "Les enfants jouent dans la cour."
+    ],
+    [
+     "Ci sono molti bambini al mare.",
+     "There are a lot of children at the beach.",
+     "Il y a beaucoup d'enfants à la plage."
+    ]
+   ],
+   "alberi": [
+    [
+     "Gli alberi perdono le foglie.",
+     "The trees are losing their leaves.",
+     "Les arbres perdent leurs feuilles."
+    ],
+    [
+     "Nel cortile ci sono due alberi.",
+     "There are two trees in the courtyard.",
+     "Il y a deux arbres dans la cour."
+    ]
+   ],
+   "panchine": [
+    [
+     "Le panchine sono bagnate.",
+     "The benches are wet.",
+     "Les bancs sont mouillés."
+    ],
+    [
+     "Ci sediamo sulle panchine?",
+     "Shall we sit on the benches?",
+     "On s'assoit sur les bancs ?"
+    ]
+   ],
+   "nasce": [
+    [
+     "In via Roma nasce un nuovo mercato.",
+     "A new market is starting on Via Roma.",
+     "Un nouveau marché voit le jour rue de Rome."
+    ],
+    [
+     "D'estate il sole nasce presto.",
+     "In summer the sun rises early.",
+     "En été, le soleil se lève tôt."
+    ]
+   ],
+   "piazza": [
+    [
+     "La piazza è piena di gente.",
+     "The square is full of people.",
+     "La place est pleine de monde."
+    ],
+    [
+     "Ci vediamo in piazza alle cinque.",
+     "See you in the square at five.",
+     "On se voit sur la place à cinq heures."
+    ]
+   ],
+   "ombra": [
+    [
+     "Mi siedo all'ombra.",
+     "I sit in the shade.",
+     "Je m'assois à l'ombre."
+    ],
+    [
+     "Il gatto dorme all'ombra.",
+     "The cat sleeps in the shade.",
+     "Le chat dort à l'ombre."
+    ]
+   ],
+   "incontrarsi": [
+    [
+     "Gli amici vogliono incontrarsi al bar.",
+     "The friends want to meet at the café.",
+     "Les amis veulent se retrouver au café."
+    ],
+    [
+     "Ci incontriamo davanti al cinema.",
+     "We meet in front of the cinema.",
+     "On se retrouve devant le cinéma."
+    ]
+   ],
+   "comprare": [
+    [
+     "Devo comprare il pane.",
+     "I need to buy bread.",
+     "Je dois acheter du pain."
+    ],
+    [
+     "Compro la frutta al mercato.",
+     "I buy fruit at the market.",
+     "J'achète des fruits au marché."
+    ]
+   ],
+   "conferma": [
+    [
+     "Il medico conferma l'appuntamento.",
+     "The doctor confirms the appointment.",
+     "Le médecin confirme le rendez-vous."
+    ],
+    [
+     "Io confermo la prenotazione.",
+     "I confirm the booking.",
+     "Je confirme la réservation."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "panchine",
+    "gr": "panchine",
+    "en": "benches",
+    "fr": "bancs"
+   },
+   {
+    "word": "ombra",
+    "gr": "ombra",
+    "en": "shade",
+    "fr": "ombre"
+   },
+   {
+    "word": "quartiere",
+    "gr": "quartiere",
+    "en": "neighbourhood",
+    "fr": "quartier"
+   },
+   {
+    "word": "scelgono",
+    "gr": "scegliere",
+    "en": "to choose",
+    "fr": "choisir"
+   },
+   {
+    "word": "riceve",
+    "gr": "ricevere",
+    "en": "to receive",
+    "fr": "recevoir"
+   },
+   {
+    "word": "nasce",
+    "gr": "nascere",
+    "en": "to be born",
+    "fr": "naître"
+   },
+   {
+    "word": "conferma",
+    "gr": "confermare",
+    "en": "to confirm",
+    "fr": "confirmer"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Quante persone hanno votato?",
+    "choices": [
+     "36.080 persone",
+     "Tre persone",
+     "Dieci milioni di persone"
+    ],
+    "quote": "Quest'anno hanno votato 36.080 persone.",
+    "quote_en": "This year 36,080 people voted."
+   },
+   {
+    "q": "Quanti anni bisogna avere per votare?",
+    "choices": [
+     "Almeno 16 anni",
+     "Almeno 99 anni",
+     "Almeno due mesi"
+    ],
+    "quote": "Bisogna avere almeno 16 anni.",
+    "quote_en": "You must be at least 16 years old."
+   },
+   {
+    "q": "Quanti soldi riceve ogni progetto?",
+    "choices": [
+     "175.000 euro",
+     "Cinque euro",
+     "Mille miliardi di euro"
+    ],
+    "quote": "Ogni progetto riceve 175.000 euro.",
+    "quote_en": "Each project receives 175,000 euros."
+   }
+  ]
  }
 ]

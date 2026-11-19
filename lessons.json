@@ -13701,5 +13701,444 @@
     "quote_en": "There is also a very old lyre made of ivory."
    }
   ]
+ },
+ {
+  "date": "2026-11-19",
+  "title": "Ένα μεγάλο δέντρο για τα Χριστούγεννα",
+  "title_fr": "Un grand sapin pour Noël",
+  "title_en": "A big tree for Christmas",
+  "source": {
+   "name": "powergame.gr",
+   "url": "https://www.powergame.gr/ellada/1452134/pote-anavei-to-christougenniatiko-dentro-sto-syntagma-to-programma-tis-giortis/"
+  },
+  "paragraphs": [
+   "Τα Χριστούγεννα **έρχονται** (are coming) στην Αθήνα. Ένα μεγάλο **δέντρο** (tree) **έφτασε** (arrived) στην **πλατεία** (square) Συντάγματος. Είναι ένα **έλατο** (fir tree) με **ύψος** (height) 21 μέτρα. Έρχεται από τις Άνω Ρίζες, ένα **χωριό** (village) κοντά στην Τρίπολη.",
+   "Ο Δήμος **στολίζει** (decorates) το δέντρο. Πάνω του **βάζει** (puts) **κόκκινες** (red) και **χρυσές** (golden) **μπάλες** (balls). Γύρω από την πλατεία θα έχει 168.000 **φωτάκια** (little lights). Στον **δρόμο** (street) Ερμού θα έχει μια **πόρτα** (gate) με φώτα. Ένας Άγιος Βασίλης με φώτα **περιμένει** (waits for) τους **επισκέπτες** (visitors) για **φωτογραφίες** (photos).",
+   "Η μεγάλη **γιορτή** (celebration) είναι την **Τρίτη** (Tuesday) 24 Νοεμβρίου. Η γιορτή **ξεκινάει** (starts) στις πεντέμισι το **απόγευμα** (afternoon). Πρώτα **παίζουν** (play) **μουσική** (music) δύο **ορχήστρες** (orchestras) του Δήμου. Μετά **τραγουδάει** (sings) η Μαρίνα Σπανού. Μια κυρία μιλάει με τα χέρια, στη **νοηματική** (sign) γλώσσα. Έτσι καταλαβαίνουν και όσοι δεν **ακούνε** (hear). Στις επτάμισι ο **δήμαρχος** (mayor) Χάρης Δούκας, ο Γιώργος Λιανός και η Μαρίνα Σπανού **ανάβουν** (light up) το δέντρο.",
+   "Φώτα θα έχει και όλη η **πόλη** (city). Ο Δήμος βάζει **στολίδια** (decorations) σε 44 **γειτονιές** (neighborhoods). Ο δρόμος Αριστοτέλους θα έχει χριστουγεννιάτικα φώτα για πρώτη **φορά** (time). Όλα τα φώτα είναι LED. Έτσι **χρειάζονται** (need) λίγο **ρεύμα** (electricity)."
+  ],
+  "paragraphs_en": [
+   "Christmas is coming to Athens. A big tree has arrived in Syntagma Square. It is a fir tree, 21 metres tall. It comes from Ano Rizes, a village near Tripoli.",
+   "The City is decorating the tree. It is putting red and gold balls on it. Around the square there will be 168,000 little lights. On Ermou Street there will be a gate with lights. A Santa Claus made of lights waits for visitors to take photos.",
+   "The big celebration is on Tuesday 24 November. It starts at half past five in the afternoon. First, two City orchestras play music. Then Marina Spanou sings. A woman speaks with her hands, in sign language. That way, people who cannot hear understand too. At half past seven, Mayor Haris Doukas, Giorgos Lianos and Marina Spanou light up the tree.",
+   "The whole city will have lights too. The City is putting decorations in 44 neighbourhoods. Aristotelous Street will have Christmas lights for the first time. All the lights are LED. So they need little electricity."
+  ],
+  "fr": {
+   "έρχονται": "arrivent, viennent",
+   "δέντρο": "arbre",
+   "έφτασε": "est arrivé",
+   "πλατεία": "place",
+   "έλατο": "sapin",
+   "ύψος": "hauteur",
+   "χωριό": "village",
+   "στολίζει": "décore",
+   "βάζει": "met",
+   "κόκκινες": "rouges",
+   "χρυσές": "dorées",
+   "μπάλες": "boules",
+   "φωτάκια": "petites lumières",
+   "δρόμο": "rue",
+   "πόρτα": "porte",
+   "περιμένει": "attend",
+   "επισκέπτες": "visiteurs",
+   "φωτογραφίες": "photos",
+   "γιορτή": "fête",
+   "Τρίτη": "mardi",
+   "ξεκινάει": "commence",
+   "απόγευμα": "après-midi",
+   "παίζουν": "jouent",
+   "μουσική": "musique",
+   "ορχήστρες": "orchestres",
+   "τραγουδάει": "chante",
+   "νοηματική": "des signes",
+   "ακούνε": "entendent",
+   "δήμαρχος": "maire",
+   "ανάβουν": "allument",
+   "πόλη": "ville",
+   "στολίδια": "décorations",
+   "γειτονιές": "quartiers",
+   "φορά": "fois",
+   "χρειάζονται": "ont besoin de",
+   "ρεύμα": "électricité"
+  },
+  "lemma": {
+   "έρχονται": "έρχομαι",
+   "έφτασε": "φτάνω",
+   "στολίζει": "στολίζω",
+   "βάζει": "βάζω",
+   "περιμένει": "περιμένω",
+   "ξεκινάει": "ξεκινάω",
+   "παίζουν": "παίζω",
+   "τραγουδάει": "τραγουδάω",
+   "ακούνε": "ακούω",
+   "ανάβουν": "ανάβω",
+   "χρειάζονται": "χρειάζομαι"
+  },
+  "examples": {
+   "έρχονται": [
+    [
+     "Οι φίλοι μου έρχονται απόψε.",
+     "My friends are coming tonight.",
+     "Mes amis viennent ce soir."
+    ],
+    [
+     "Αύριο έρχομαι στο σπίτι σου.",
+     "Tomorrow I'm coming to your house.",
+     "Demain, je viens chez toi."
+    ]
+   ],
+   "δέντρο": [
+    [
+     "Το δέντρο στον κήπο είναι ψηλό.",
+     "The tree in the garden is tall.",
+     "L'arbre du jardin est grand."
+    ],
+    [
+     "Η γάτα κάθεται κάτω από το δέντρο.",
+     "The cat is sitting under the tree.",
+     "Le chat est assis sous l'arbre."
+    ]
+   ],
+   "έφτασε": [
+    [
+     "Το λεωφορείο έφτασε νωρίς.",
+     "The bus arrived early.",
+     "Le bus est arrivé tôt."
+    ],
+    [
+     "Κάθε μέρα φτάνω στη δουλειά στις εννιά.",
+     "Every day I get to work at nine.",
+     "Chaque jour, j'arrive au travail à neuf heures."
+    ]
+   ],
+   "πλατεία": [
+    [
+     "Η πλατεία έχει πολλά καφέ.",
+     "The square has a lot of cafés.",
+     "La place a beaucoup de cafés."
+    ],
+    [
+     "Συναντιόμαστε στην πλατεία;",
+     "Shall we meet in the square?",
+     "On se retrouve sur la place ?"
+    ]
+   ],
+   "ύψος": [
+    [
+     "Το σπίτι έχει ύψος δέκα μέτρα.",
+     "The house is ten metres high.",
+     "La maison fait dix mètres de haut."
+    ],
+    [
+     "Τι ύψος έχει αυτή η πόρτα;",
+     "How tall is this door?",
+     "Quelle est la hauteur de cette porte ?"
+    ]
+   ],
+   "χωριό": [
+    [
+     "Η γιαγιά μου μένει σε ένα χωριό.",
+     "My grandmother lives in a village.",
+     "Ma grand-mère habite dans un village."
+    ],
+    [
+     "Το χωριό έχει μόνο ένα καφενείο.",
+     "The village has only one café.",
+     "Le village n'a qu'un seul café."
+    ]
+   ],
+   "στολίζει": [
+    [
+     "Η μαμά στολίζει το τραπέζι.",
+     "Mum is decorating the table.",
+     "Maman décore la table."
+    ],
+    [
+     "Κάθε Δεκέμβριο στολίζω το σπίτι.",
+     "Every December I decorate the house.",
+     "Chaque décembre, je décore la maison."
+    ]
+   ],
+   "βάζει": [
+    [
+     "Ο σερβιτόρος βάζει νερό στο ποτήρι.",
+     "The waiter puts water in the glass.",
+     "Le serveur met de l'eau dans le verre."
+    ],
+    [
+     "Πάντα βάζω ζάχαρη στον καφέ μου.",
+     "I always put sugar in my coffee.",
+     "Je mets toujours du sucre dans mon café."
+    ]
+   ],
+   "πόρτα": [
+    [
+     "Κλείσε την πόρτα, κάνει κρύο.",
+     "Close the door, it's cold.",
+     "Ferme la porte, il fait froid."
+    ],
+    [
+     "Η πόρτα του μαγαζιού είναι ανοιχτή.",
+     "The shop door is open.",
+     "La porte du magasin est ouverte."
+    ]
+   ],
+   "περιμένει": [
+    [
+     "Ο φίλος μου με περιμένει στο καφέ.",
+     "My friend is waiting for me at the café.",
+     "Mon ami m'attend au café."
+    ],
+    [
+     "Εδώ περιμένω το μετρό.",
+     "I wait for the metro here.",
+     "J'attends le métro ici."
+    ]
+   ],
+   "επισκέπτες": [
+    [
+     "Οι επισκέπτες φτάνουν το πρωί.",
+     "The visitors arrive in the morning.",
+     "Les visiteurs arrivent le matin."
+    ],
+    [
+     "Σήμερα έχουμε επισκέπτες στο σπίτι.",
+     "Today we have guests at home.",
+     "Aujourd'hui, nous avons des invités à la maison."
+    ]
+   ],
+   "γιορτή": [
+    [
+     "Η γιορτή του σχολείου είναι αύριο.",
+     "The school celebration is tomorrow.",
+     "La fête de l'école est demain."
+    ],
+    [
+     "Πάμε μαζί στη γιορτή;",
+     "Shall we go to the party together?",
+     "On va ensemble à la fête ?"
+    ]
+   ],
+   "Τρίτη": [
+    [
+     "Την Τρίτη πάω στον γιατρό.",
+     "On Tuesday I'm going to the doctor.",
+     "Mardi, je vais chez le médecin."
+    ],
+    [
+     "Η λαϊκή αγορά είναι κάθε Τρίτη.",
+     "The street market is every Tuesday.",
+     "Le marché a lieu chaque mardi."
+    ]
+   ],
+   "ξεκινάει": [
+    [
+     "Η ταινία ξεκινάει στις εννιά.",
+     "The film starts at nine.",
+     "Le film commence à neuf heures."
+    ],
+    [
+     "Κάθε μέρα ξεκινάω με έναν καφέ.",
+     "Every day I start with a coffee.",
+     "Chaque jour, je commence par un café."
+    ]
+   ],
+   "απόγευμα": [
+    [
+     "Το απόγευμα πίνουμε τσάι.",
+     "In the afternoon we drink tea.",
+     "L'après-midi, nous buvons du thé."
+    ],
+    [
+     "Είσαι ελεύθερος αύριο το απόγευμα;",
+     "Are you free tomorrow afternoon?",
+     "Tu es libre demain après-midi ?"
+    ]
+   ],
+   "παίζουν": [
+    [
+     "Τα παιδιά παίζουν στο πάρκο.",
+     "The children are playing in the park.",
+     "Les enfants jouent au parc."
+    ],
+    [
+     "Κάθε βράδυ παίζω κιθάρα.",
+     "Every evening I play the guitar.",
+     "Chaque soir, je joue de la guitare."
+    ]
+   ],
+   "τραγουδάει": [
+    [
+     "Η κόρη μου τραγουδάει στο μπάνιο.",
+     "My daughter sings in the bath.",
+     "Ma fille chante dans le bain."
+    ],
+    [
+     "Συχνά τραγουδάω στο αυτοκίνητο.",
+     "I often sing in the car.",
+     "Je chante souvent dans la voiture."
+    ]
+   ],
+   "ακούνε": [
+    [
+     "Οι γείτονες ακούνε δυνατή μουσική.",
+     "The neighbours listen to loud music.",
+     "Les voisins écoutent de la musique forte."
+    ],
+    [
+     "Δεν ακούω καλά, μίλα πιο δυνατά.",
+     "I can't hear well, speak louder.",
+     "Je n'entends pas bien, parle plus fort."
+    ]
+   ],
+   "δήμαρχος": [
+    [
+     "Ο δήμαρχος μιλάει στην πλατεία.",
+     "The mayor is speaking in the square.",
+     "Le maire parle sur la place."
+    ],
+    [
+     "Ποιος είναι ο δήμαρχος εδώ;",
+     "Who is the mayor here?",
+     "Qui est le maire ici ?"
+    ]
+   ],
+   "ανάβουν": [
+    [
+     "Το βράδυ ανάβουν τα φώτα του δρόμου.",
+     "In the evening the street lights come on.",
+     "Le soir, les lampadaires s'allument."
+    ],
+    [
+     "Το βράδυ ανάβω το φως στην κουζίνα.",
+     "In the evening I turn on the kitchen light.",
+     "Le soir, j'allume la lumière de la cuisine."
+    ]
+   ],
+   "γειτονιές": [
+    [
+     "Οι παλιές γειτονιές είναι ήσυχες.",
+     "The old neighbourhoods are quiet.",
+     "Les vieux quartiers sont calmes."
+    ],
+    [
+     "Μου αρέσουν οι γειτονιές της Αθήνας.",
+     "I like the neighbourhoods of Athens.",
+     "J'aime les quartiers d'Athènes."
+    ]
+   ],
+   "φορά": [
+    [
+     "Είναι η πρώτη φορά που έρχομαι εδώ.",
+     "It's the first time I've come here.",
+     "C'est la première fois que je viens ici."
+    ],
+    [
+     "Πίνω καφέ μία φορά τη μέρα.",
+     "I drink coffee once a day.",
+     "Je bois du café une fois par jour."
+    ]
+   ],
+   "χρειάζονται": [
+    [
+     "Τα φυτά χρειάζονται νερό.",
+     "Plants need water.",
+     "Les plantes ont besoin d'eau."
+    ],
+    [
+     "Τώρα χρειάζομαι ένα ταξί.",
+     "I need a taxi now.",
+     "J'ai besoin d'un taxi maintenant."
+    ]
+   ],
+   "ρεύμα": [
+    [
+     "Σήμερα δεν έχουμε ρεύμα στο σπίτι.",
+     "Today we have no electricity at home.",
+     "Aujourd'hui, nous n'avons pas d'électricité à la maison."
+    ],
+    [
+     "Το ρεύμα είναι ακριβό τον χειμώνα.",
+     "Electricity is expensive in winter.",
+     "L'électricité est chère en hiver."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "χωριό",
+    "gr": "χωριό",
+    "en": "village",
+    "fr": "village"
+   },
+   {
+    "word": "γειτονιές",
+    "gr": "γειτονιές",
+    "en": "neighbourhoods",
+    "fr": "quartiers"
+   },
+   {
+    "word": "ρεύμα",
+    "gr": "ρεύμα",
+    "en": "electricity",
+    "fr": "électricité"
+   },
+   {
+    "word": "στολίζει",
+    "gr": "στολίζω",
+    "en": "to decorate",
+    "fr": "décorer"
+   },
+   {
+    "word": "ανάβουν",
+    "gr": "ανάβω",
+    "en": "to light, to turn on",
+    "fr": "allumer"
+   },
+   {
+    "word": "περιμένει",
+    "gr": "περιμένω",
+    "en": "to wait",
+    "fr": "attendre"
+   },
+   {
+    "word": "χρειάζονται",
+    "gr": "χρειάζομαι",
+    "en": "to need",
+    "fr": "avoir besoin de"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Πόσο ύψος έχει το δέντρο;",
+    "choices": [
+     "21 μέτρα",
+     "Δύο εκατοστά",
+     "Χίλια μέτρα"
+    ],
+    "quote": "Είναι ένα έλατο με ύψος 21 μέτρα.",
+    "quote_en": "It is a fir tree, 21 metres tall."
+   },
+   {
+    "q": "Πότε είναι η μεγάλη γιορτή;",
+    "choices": [
+     "Την Τρίτη 24 Νοεμβρίου",
+     "Τον Αύγουστο",
+     "Σε δέκα χρόνια"
+    ],
+    "quote": "Η μεγάλη γιορτή είναι την Τρίτη 24 Νοεμβρίου.",
+    "quote_en": "The big celebration is on Tuesday 24 November."
+   },
+   {
+    "q": "Σε πόσες γειτονιές βάζει ο Δήμος στολίδια;",
+    "choices": [
+     "Σε 44 γειτονιές",
+     "Σε μία γειτονιά",
+     "Σε χίλιες γειτονιές"
+    ],
+    "quote": "Ο Δήμος βάζει στολίδια σε 44 γειτονιές.",
+    "quote_en": "The City is putting decorations in 44 neighbourhoods."
+   }
+  ]
  }
 ]
