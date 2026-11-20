@@ -35,6 +35,10 @@
   "fr": "changer",
   "en": "to change"
  },
+ "camminare": {
+  "fr": "marcher",
+  "en": "to walk"
+ },
  "chiedere": {
   "fr": "demander",
   "en": "to ask for"
@@ -110,6 +114,14 @@
  "giocare": {
   "fr": "jouer",
   "en": "to play"
+ },
+ "girare": {
+  "fr": "tourner (un film), tourner",
+  "en": "to film, to turn"
+ },
+ "giudicare": {
+  "fr": "juger",
+  "en": "to judge"
  },
  "guardare": {
   "fr": "regarder",
@@ -250,6 +262,10 @@
  "scegliere": {
   "fr": "choisir",
   "en": "to choose"
+ },
+ "sedersi": {
+  "fr": "s'asseoir",
+  "en": "to sit down"
  },
  "segnare": {
   "fr": "marquer",

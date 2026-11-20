@@ -6171,5 +6171,443 @@
     "quote_en": "Each project receives 175,000 euros."
    }
   ]
+ },
+ {
+  "date": "2026-11-20",
+  "title": "Un asino d'oro a Roma",
+  "title_fr": "Un âne doré à Rome",
+  "title_en": "A golden donkey in Rome",
+  "source": {
+   "name": "La Voce di New York",
+   "url": "https://lavocedinewyork.com/arts/2026/11/17/roma-citta-della-confessione-con-lasino-doro-di-marina-abramovic/"
+  },
+  "paragraphs": [
+   "Marina Abramović è un'**artista** (artist) **famosa** (famous). Lei **porta** (brings) a Roma un'opera nuova. Si chiama «Confession». È sotto l'Arco di Giano, un **arco** (arch) **antico** (ancient) di Roma.",
+   "L'opera è un **asino** (donkey) di **bronzo** (bronze) **dorato** (golden). È grande come un asino **vero** (real). Accanto all'asino c'è una **sedia** (chair) **vuota** (empty). Le **persone** (people) si **siedono** (sit down) sulla sedia. **Guardano** (look) l'asino negli **occhi** (eyes). Poi gli **raccontano** (tell) in **silenzio** (silence) le loro **paure** (fears), i loro **segreti** (secrets) e i loro **ricordi** (memories). Nessuno le **giudica** (judges).",
+   "L'idea non è **nuova** (new). Nel 2010 l'artista è **rimasta** (stayed) in ginocchio davanti a un asino vero. È rimasta lì quasi cinque **ore** (hours). Ha raccontato all'asino i dolori della sua **infanzia** (childhood).",
+   "C'è anche un film. Un **regista** (director) lo ha **girato** (filmed) all'**alba** (dawn). Nel film l'artista **cammina** (walks) per le **strade** (streets) di Roma con un asino vero.",
+   "L'opera è **gratis** (free). È **aperta** (open) ogni **giorno** (day) dalle 17 alle 21, **fino** (until) al 19 maggio 2027. Il 30 novembre Marina Abramović **compie** (turns) 80 anni. Una grande **mostra** (exhibition) con circa 200 sue opere è alla Galleria Nazionale."
+  ],
+  "paragraphs_en": [
+   "Marina Abramović is a famous artist. She is bringing a new work to Rome. It is called \"Confession\". It is under the Arch of Janus, an ancient arch of Rome.",
+   "The work is a donkey in golden bronze. It is as big as a real donkey. Next to the donkey there is an empty chair. People sit on the chair. They look the donkey in the eyes. Then they silently tell it their fears, their secrets and their memories. Nobody judges them.",
+   "The idea is not new. In 2010 the artist knelt in front of a real donkey. She stayed there for almost five hours. She told the donkey about the pain of her childhood.",
+   "There is also a film. A director shot it at dawn. In the film the artist walks through the streets of Rome with a real donkey.",
+   "The work is free. It is open every day from 5 pm to 9 pm, until 19 May 2027. On 30 November Marina Abramović turns 80. A big exhibition with about 200 of her works is at the National Gallery."
+  ],
+  "fr": {
+   "artista": "artiste",
+   "famosa": "célèbre",
+   "porta": "apporte",
+   "arco": "arc",
+   "antico": "antique, ancien",
+   "asino": "âne",
+   "bronzo": "bronze",
+   "dorato": "doré",
+   "vero": "vrai",
+   "sedia": "chaise",
+   "vuota": "vide",
+   "persone": "gens, personnes",
+   "siedono": "s'assoient",
+   "Guardano": "regardent",
+   "occhi": "yeux",
+   "raccontano": "racontent",
+   "silenzio": "silence",
+   "paure": "peurs",
+   "segreti": "secrets",
+   "ricordi": "souvenirs",
+   "giudica": "juge",
+   "nuova": "nouvelle",
+   "rimasta": "restée",
+   "ore": "heures",
+   "infanzia": "enfance",
+   "regista": "réalisateur",
+   "girato": "tourné",
+   "alba": "aube",
+   "cammina": "marche",
+   "strade": "rues",
+   "gratis": "gratuit",
+   "aperta": "ouverte",
+   "giorno": "jour",
+   "fino": "jusqu'à",
+   "compie": "fête (ses ans), atteint",
+   "mostra": "exposition"
+  },
+  "lemma": {
+   "porta": "portare",
+   "siedono": "sedersi",
+   "Guardano": "guardare",
+   "raccontano": "raccontare",
+   "giudica": "giudicare",
+   "girato": "girare",
+   "cammina": "camminare",
+   "compie": "compiere"
+  },
+  "examples": {
+   "porta": [
+    [
+     "Marco porta il pane a casa.",
+     "Marco brings the bread home.",
+     "Marco rapporte le pain à la maison."
+    ],
+    [
+     "Io porto il caffè agli amici.",
+     "I bring coffee to my friends.",
+     "J'apporte le café aux amis."
+    ]
+   ],
+   "asino": [
+    [
+     "L'asino mangia l'erba.",
+     "The donkey is eating grass.",
+     "L'âne mange de l'herbe."
+    ],
+    [
+     "Nel paese c'è un asino.",
+     "There's a donkey in the village.",
+     "Il y a un âne au village."
+    ]
+   ],
+   "vero": [
+    [
+     "Questo è un amico vero.",
+     "This is a real friend.",
+     "C'est un vrai ami."
+    ],
+    [
+     "È vero, il bar è chiuso.",
+     "It's true, the bar is closed.",
+     "C'est vrai, le bar est fermé."
+    ]
+   ],
+   "sedia": [
+    [
+     "La sedia è in cucina.",
+     "The chair is in the kitchen.",
+     "La chaise est dans la cuisine."
+    ],
+    [
+     "Prendi una sedia, per favore.",
+     "Take a chair, please.",
+     "Prends une chaise, s'il te plaît."
+    ]
+   ],
+   "vuota": [
+    [
+     "La bottiglia è vuota.",
+     "The bottle is empty.",
+     "La bouteille est vide."
+    ],
+    [
+     "La strada è vuota di notte.",
+     "The street is empty at night.",
+     "La rue est vide la nuit."
+    ]
+   ],
+   "siedono": [
+    [
+     "I nonni si siedono in giardino.",
+     "The grandparents sit in the garden.",
+     "Les grands-parents s'assoient au jardin."
+    ],
+    [
+     "Io mi siedo vicino alla finestra.",
+     "I sit by the window.",
+     "Je m'assois près de la fenêtre."
+    ]
+   ],
+   "Guardano": [
+    [
+     "Guardano la partita al bar.",
+     "They watch the match at the bar.",
+     "Ils regardent le match au bar."
+    ],
+    [
+     "La sera guardo la televisione.",
+     "In the evening I watch TV.",
+     "Le soir, je regarde la télé."
+    ]
+   ],
+   "occhi": [
+    [
+     "Ho gli occhi stanchi.",
+     "My eyes are tired.",
+     "J'ai les yeux fatigués."
+    ],
+    [
+     "Il bambino chiude gli occhi.",
+     "The child closes his eyes.",
+     "L'enfant ferme les yeux."
+    ]
+   ],
+   "raccontano": [
+    [
+     "I nonni raccontano una storia.",
+     "The grandparents tell a story.",
+     "Les grands-parents racontent une histoire."
+    ],
+    [
+     "Ti racconto la mia giornata.",
+     "I'll tell you about my day.",
+     "Je te raconte ma journée."
+    ]
+   ],
+   "paure": [
+    [
+     "Tutti abbiamo delle paure.",
+     "We all have fears.",
+     "Nous avons tous des peurs."
+    ],
+    [
+     "Le sue paure sono piccole.",
+     "His fears are small.",
+     "Ses peurs sont petites."
+    ]
+   ],
+   "segreti": [
+    [
+     "Gli amici hanno dei segreti.",
+     "Friends have secrets.",
+     "Les amis ont des secrets."
+    ],
+    [
+     "Non ho segreti per te.",
+     "I have no secrets from you.",
+     "Je n'ai pas de secrets pour toi."
+    ]
+   ],
+   "ricordi": [
+    [
+     "Ho bei ricordi di Napoli.",
+     "I have lovely memories of Naples.",
+     "J'ai de beaux souvenirs de Naples."
+    ],
+    [
+     "Le foto sono piene di ricordi.",
+     "Photos are full of memories.",
+     "Les photos sont pleines de souvenirs."
+    ]
+   ],
+   "giudica": [
+    [
+     "Il professore non giudica nessuno.",
+     "The teacher doesn't judge anyone.",
+     "Le professeur ne juge personne."
+    ],
+    [
+     "Io non giudico i miei amici.",
+     "I don't judge my friends.",
+     "Je ne juge pas mes amis."
+    ]
+   ],
+   "ore": [
+    [
+     "Il treno parte tra due ore.",
+     "The train leaves in two hours.",
+     "Le train part dans deux heures."
+    ],
+    [
+     "Lavoro otto ore al giorno.",
+     "I work eight hours a day.",
+     "Je travaille huit heures par jour."
+    ]
+   ],
+   "infanzia": [
+    [
+     "La mia infanzia è stata felice.",
+     "My childhood was happy.",
+     "Mon enfance a été heureuse."
+    ],
+    [
+     "Questa canzone mi ricorda l'infanzia.",
+     "This song reminds me of childhood.",
+     "Cette chanson me rappelle l'enfance."
+    ]
+   ],
+   "regista": [
+    [
+     "Il regista parla con gli attori.",
+     "The director talks with the actors.",
+     "Le réalisateur parle avec les acteurs."
+    ],
+    [
+     "Mia sorella vuole fare la regista.",
+     "My sister wants to be a director.",
+     "Ma sœur veut devenir réalisatrice."
+    ]
+   ],
+   "girato": [
+    [
+     "Ho girato un video col telefono.",
+     "I shot a video with my phone.",
+     "J'ai tourné une vidéo avec mon téléphone."
+    ],
+    [
+     "Domani giro un video per mamma.",
+     "Tomorrow I'm shooting a video for Mum.",
+     "Demain, je tourne une vidéo pour maman."
+    ]
+   ],
+   "alba": [
+    [
+     "All'alba il mare è calmo.",
+     "At dawn the sea is calm.",
+     "À l'aube, la mer est calme."
+    ],
+    [
+     "Mi sveglio prima dell'alba.",
+     "I wake up before dawn.",
+     "Je me réveille avant l'aube."
+    ]
+   ],
+   "cammina": [
+    [
+     "Il cane cammina nel parco.",
+     "The dog walks in the park.",
+     "Le chien marche dans le parc."
+    ],
+    [
+     "Io cammino fino alla stazione.",
+     "I walk to the station.",
+     "Je marche jusqu'à la gare."
+    ]
+   ],
+   "strade": [
+    [
+     "Le strade sono piene di gente.",
+     "The streets are full of people.",
+     "Les rues sont pleines de monde."
+    ],
+    [
+     "Di sera le strade sono tranquille.",
+     "In the evening the streets are quiet.",
+     "Le soir, les rues sont calmes."
+    ]
+   ],
+   "gratis": [
+    [
+     "Il concerto è gratis.",
+     "The concert is free.",
+     "Le concert est gratuit."
+    ],
+    [
+     "Al bar l'acqua è gratis.",
+     "At the bar water is free.",
+     "Au bar, l'eau est gratuite."
+    ]
+   ],
+   "aperta": [
+    [
+     "La farmacia è aperta stasera.",
+     "The pharmacy is open tonight.",
+     "La pharmacie est ouverte ce soir."
+    ],
+    [
+     "La finestra è aperta.",
+     "The window is open.",
+     "La fenêtre est ouverte."
+    ]
+   ],
+   "compie": [
+    [
+     "Mio figlio compie dieci anni.",
+     "My son turns ten.",
+     "Mon fils fête ses dix ans."
+    ],
+    [
+     "Domani compio trent'anni.",
+     "Tomorrow I turn thirty.",
+     "Demain, j'ai trente ans."
+    ]
+   ],
+   "mostra": [
+    [
+     "La mostra apre domenica.",
+     "The exhibition opens on Sunday.",
+     "L'exposition ouvre dimanche."
+    ],
+    [
+     "Andiamo a una mostra insieme?",
+     "Shall we go to an exhibition together?",
+     "On va à une expo ensemble ?"
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "alba",
+    "gr": "alba",
+    "en": "dawn",
+    "fr": "aube"
+   },
+   {
+    "word": "vuota",
+    "gr": "vuota",
+    "en": "empty",
+    "fr": "vide"
+   },
+   {
+    "word": "sedia",
+    "gr": "sedia",
+    "en": "chair",
+    "fr": "chaise"
+   },
+   {
+    "word": "giudica",
+    "gr": "giudicare",
+    "en": "to judge",
+    "fr": "juger"
+   },
+   {
+    "word": "raccontano",
+    "gr": "raccontare",
+    "en": "to tell",
+    "fr": "raconter"
+   },
+   {
+    "word": "compie",
+    "gr": "compiere",
+    "en": "to turn (an age)",
+    "fr": "avoir (un âge), fêter ses ans"
+   },
+   {
+    "word": "siedono",
+    "gr": "sedersi",
+    "en": "to sit down",
+    "fr": "s'asseoir"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Che cosa c'è accanto all'asino?",
+    "choices": [
+     "Una sedia vuota",
+     "Un elefante",
+     "Una piscina"
+    ],
+    "quote": "Accanto all'asino c'è una sedia vuota.",
+    "quote_en": "Next to the donkey there is an empty chair."
+   },
+   {
+    "q": "Fino a quando è aperta l'opera?",
+    "choices": [
+     "Fino al 19 maggio 2027",
+     "Fino all'anno 3000",
+     "Solo per cinque minuti"
+    ],
+    "quote": "È aperta ogni giorno dalle 17 alle 21, fino al 19 maggio 2027.",
+    "quote_en": "It is open every day from 5 pm to 9 pm, until 19 May 2027."
+   },
+   {
+    "q": "Quanti anni compie Marina Abramović il 30 novembre?",
+    "choices": [
+     "80 anni",
+     "3 anni",
+     "500 anni"
+    ],
+    "quote": "Il 30 novembre Marina Abramović compie 80 anni.",
+    "quote_en": "On 30 November Marina Abramović turns 80."
+   }
+  ]
  }
 ]

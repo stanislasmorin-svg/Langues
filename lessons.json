@@ -14140,5 +14140,441 @@
     "quote_en": "The City is putting decorations in 44 neighbourhoods."
    }
   ]
+ },
+ {
+  "date": "2026-11-20",
+  "title": "Δωρεάν βραδιές στο Μέγαρο Μουσικής",
+  "title_fr": "Des soirées gratuites au Megaron",
+  "title_en": "Free evenings at the Megaron concert hall",
+  "source": {
+   "name": "Athens News (rua.gr)",
+   "url": "https://en.rua.gr/2026/11/16/where-to-go-in-athens-for-free-concerts-exhibitions-lectures-and-even-opera-in-winter-2026-2027/"
+  },
+  "paragraphs": [
+   "Το Μέγαρο Μουσικής είναι ένα μεγάλο **κτίριο** (building) για μουσική στην Αθήνα. Συνήθως τα **εισιτήρια** (tickets) **κοστίζουν** (cost) πολλά χρήματα. Αυτόν τον **χειμώνα** (winter) όμως το Μέγαρο έχει και **δωρεάν** (free) **εκδηλώσεις** (events). Έτσι πολλοί **άνθρωποι** (people) **μπορούν** (can) να πάνε.",
+   "Την **Πέμπτη** (Thursday) 26 Νοεμβρίου, στις επτά το **βράδυ** (evening), μια βραδιά είναι για τον Κώστα Τσόκλη. Ο Τσόκλης είναι ένας γνωστός Έλληνας **καλλιτέχνης** (artist). Θα **ακούσουμε** (we will hear) τις **αναμνήσεις** (memories) του. Θα έχει και μουσική από έναν **συνθέτη** (composer), τον Δημήτρη Μαραγκόπουλο. Θα **δούμε** (we will see) και **εικόνες** (pictures).",
+   "Την **Τετάρτη** (Wednesday) 2 Δεκεμβρίου, στις επτά, έρχεται ο **συγγραφέας** (writer) Πέτρος Μάρκαρης. Ο Μάρκαρης **γράφει** (writes) **αστυνομικά** (crime) **βιβλία** (books). Ο ήρωάς του είναι ο **αστυνόμος** (police inspector) Χαρίτος. Ο συγγραφέας θα **μιλήσει** (will talk) για την Αθήνα και για τον Χαρίτο. Η **εγγραφή** (registration) **ανοίγει** (opens) στις 25 Νοεμβρίου.",
+   "Υπάρχει και μια δωρεάν **έκθεση** (exhibition) ως τις 31 Ιανουαρίου. Η Δανάη Στράτου δείχνει έργα για το **νερό** (water), το **αλάτι** (salt) και το **φεγγάρι** (moon). Η έκθεση είναι **κλειστή** (closed) τη **Δευτέρα** (Monday). Για τις βραδιές **χρειάζεστε** (you need) **κράτηση** (booking) στο **ίντερνετ** (internet). Έτσι όλοι μπορούν να **γνωρίσουν** (get to know) την **τέχνη** (art)."
+  ],
+  "paragraphs_en": [
+   "The Megaron is a big building for music in Athens. Tickets usually cost a lot of money. But this winter the Megaron also has free events. So many people can go.",
+   "On Thursday 26 November, at seven in the evening, an evening is dedicated to Kostas Tsoklis. Tsoklis is a well-known Greek artist. We will hear his memories. There will also be music by a composer, Dimitris Marangopoulos. We will see pictures too.",
+   "On Wednesday 2 December, at seven, the writer Petros Markaris is coming. Markaris writes crime novels. His hero is police inspector Charitos. The writer will talk about Athens and about Charitos. Registration opens on 25 November.",
+   "There is also a free exhibition until 31 January. Danae Stratou shows works about water, salt and the moon. The exhibition is closed on Mondays. For the evenings you need to book online. This way everyone can get to know art."
+  ],
+  "fr": {
+   "κτίριο": "bâtiment",
+   "εισιτήρια": "billets",
+   "κοστίζουν": "coûtent",
+   "χειμώνα": "hiver",
+   "δωρεάν": "gratuit, gratuites",
+   "εκδηλώσεις": "événements",
+   "άνθρωποι": "gens",
+   "μπορούν": "peuvent",
+   "Πέμπτη": "jeudi",
+   "βράδυ": "soir",
+   "καλλιτέχνης": "artiste",
+   "ακούσουμε": "nous écouterons",
+   "αναμνήσεις": "souvenirs",
+   "συνθέτη": "compositeur",
+   "δούμε": "nous verrons",
+   "εικόνες": "images",
+   "Τετάρτη": "mercredi",
+   "συγγραφέας": "écrivain",
+   "γράφει": "écrit",
+   "αστυνομικά": "policiers (romans)",
+   "βιβλία": "livres",
+   "αστυνόμος": "commissaire",
+   "μιλήσει": "parlera",
+   "εγγραφή": "inscription",
+   "ανοίγει": "ouvre",
+   "έκθεση": "exposition",
+   "νερό": "eau",
+   "αλάτι": "sel",
+   "φεγγάρι": "lune",
+   "κλειστή": "fermée",
+   "Δευτέρα": "lundi",
+   "χρειάζεστε": "vous avez besoin de",
+   "κράτηση": "réservation",
+   "ίντερνετ": "internet",
+   "γνωρίσουν": "découvrir, connaître",
+   "τέχνη": "art"
+  },
+  "lemma": {
+   "μπορούν": "μπορώ",
+   "ακούσουμε": "ακούω",
+   "δούμε": "βλέπω",
+   "γράφει": "γράφω",
+   "μιλήσει": "μιλάω",
+   "ανοίγει": "ανοίγω",
+   "χρειάζεστε": "χρειάζομαι",
+   "γνωρίσουν": "γνωρίζω"
+  },
+  "examples": {
+   "κτίριο": [
+    [
+     "Το κτίριο έχει έξι ορόφους.",
+     "The building has six floors.",
+     "Le bâtiment a six étages."
+    ],
+    [
+     "Μένω σε ένα παλιό κτίριο.",
+     "I live in an old building.",
+     "J'habite dans un vieux bâtiment."
+    ]
+   ],
+   "εισιτήρια": [
+    [
+     "Τα εισιτήρια είναι στην τσάντα μου.",
+     "The tickets are in my bag.",
+     "Les billets sont dans mon sac."
+    ],
+    [
+     "Αγοράζω δύο εισιτήρια για το σινεμά.",
+     "I'm buying two cinema tickets.",
+     "J'achète deux billets pour le cinéma."
+    ]
+   ],
+   "χειμώνα": [
+    [
+     "Τον χειμώνα πίνω ζεστό τσάι.",
+     "In winter I drink hot tea.",
+     "En hiver, je bois du thé chaud."
+    ],
+    [
+     "Τον χειμώνα βρέχει πολύ.",
+     "It rains a lot in winter.",
+     "Il pleut beaucoup en hiver."
+    ]
+   ],
+   "δωρεάν": [
+    [
+     "Ο καφές είναι δωρεάν σήμερα.",
+     "The coffee is free today.",
+     "Le café est gratuit aujourd'hui."
+    ],
+    [
+     "Το μουσείο έχει δωρεάν είσοδο.",
+     "The museum has free entry.",
+     "Le musée a l'entrée gratuite."
+    ]
+   ],
+   "εκδηλώσεις": [
+    [
+     "Ο δήμος έχει πολλές εκδηλώσεις.",
+     "The city has many events.",
+     "La mairie a beaucoup d'événements."
+    ],
+    [
+     "Οι εκδηλώσεις αρχίζουν το Σάββατο.",
+     "The events start on Saturday.",
+     "Les événements commencent samedi."
+    ]
+   ],
+   "μπορούν": [
+    [
+     "Τα παιδιά μπορούν να παίξουν εδώ.",
+     "The children can play here.",
+     "Les enfants peuvent jouer ici."
+    ],
+    [
+     "Δεν μπορώ να έρθω απόψε.",
+     "I can't come tonight.",
+     "Je ne peux pas venir ce soir."
+    ]
+   ],
+   "βράδυ": [
+    [
+     "Το βράδυ βλέπω τηλεόραση.",
+     "In the evening I watch TV.",
+     "Le soir, je regarde la télé."
+    ],
+    [
+     "Τι κάνεις το βράδυ;",
+     "What are you doing in the evening?",
+     "Qu'est-ce que tu fais le soir ?"
+    ]
+   ],
+   "ακούσουμε": [
+    [
+     "Πάμε να ακούσουμε μουσική;",
+     "Shall we go and listen to music?",
+     "On va écouter de la musique ?"
+    ],
+    [
+     "Στο αυτοκίνητο ακούω ραδιόφωνο.",
+     "In the car I listen to the radio.",
+     "Dans la voiture, j'écoute la radio."
+    ]
+   ],
+   "αναμνήσεις": [
+    [
+     "Έχω ωραίες αναμνήσεις από τη Νάξο.",
+     "I have lovely memories of Naxos.",
+     "J'ai de beaux souvenirs de Naxos."
+    ],
+    [
+     "Οι φωτογραφίες κρατούν αναμνήσεις.",
+     "Photos keep memories.",
+     "Les photos gardent des souvenirs."
+    ]
+   ],
+   "δούμε": [
+    [
+     "Θέλεις να δούμε μια ταινία;",
+     "Do you want to watch a film?",
+     "Tu veux qu'on regarde un film ?"
+    ],
+    [
+     "Από το μπαλκόνι βλέπω τη θάλασσα.",
+     "From the balcony I see the sea.",
+     "Du balcon, je vois la mer."
+    ]
+   ],
+   "εικόνες": [
+    [
+     "Το βιβλίο έχει πολλές εικόνες.",
+     "The book has many pictures.",
+     "Le livre a beaucoup d'images."
+    ],
+    [
+     "Τα παιδιά κοιτάζουν τις εικόνες.",
+     "The children are looking at the pictures.",
+     "Les enfants regardent les images."
+    ]
+   ],
+   "συγγραφέας": [
+    [
+     "Ο συγγραφέας υπογράφει το βιβλίο του.",
+     "The writer is signing his book.",
+     "L'écrivain signe son livre."
+    ],
+    [
+     "Η φίλη μου είναι συγγραφέας.",
+     "My friend is a writer.",
+     "Mon amie est écrivaine."
+    ]
+   ],
+   "γράφει": [
+    [
+     "Η γιαγιά γράφει μια κάρτα.",
+     "Grandma is writing a card.",
+     "Mamie écrit une carte."
+    ],
+    [
+     "Κάθε μέρα γράφω στο τετράδιο.",
+     "Every day I write in my notebook.",
+     "Chaque jour, j'écris dans mon cahier."
+    ]
+   ],
+   "βιβλία": [
+    [
+     "Τα βιβλία είναι στο ράφι.",
+     "The books are on the shelf.",
+     "Les livres sont sur l'étagère."
+    ],
+    [
+     "Διαβάζω βιβλία στο λεωφορείο.",
+     "I read books on the bus.",
+     "Je lis des livres dans le bus."
+    ]
+   ],
+   "μιλήσει": [
+    [
+     "Θέλει να μιλήσει με τον γιατρό.",
+     "She wants to talk to the doctor.",
+     "Elle veut parler au médecin."
+    ],
+    [
+     "Με τους γείτονες μιλάω ελληνικά.",
+     "I speak Greek with the neighbours.",
+     "Je parle grec avec les voisins."
+    ]
+   ],
+   "εγγραφή": [
+    [
+     "Η εγγραφή στο γυμναστήριο είναι εύκολη.",
+     "Signing up at the gym is easy.",
+     "L'inscription à la salle de sport est facile."
+    ],
+    [
+     "Κάνω την εγγραφή στο ίντερνετ.",
+     "I register online.",
+     "Je fais l'inscription sur internet."
+    ]
+   ],
+   "ανοίγει": [
+    [
+     "Ο φούρνος ανοίγει στις επτά.",
+     "The bakery opens at seven.",
+     "La boulangerie ouvre à sept heures."
+    ],
+    [
+     "Το πρωί ανοίγω το παράθυρο.",
+     "I open the window in the morning.",
+     "J'ouvre la fenêtre le matin."
+    ]
+   ],
+   "έκθεση": [
+    [
+     "Η έκθεση έχει ωραίες φωτογραφίες.",
+     "The exhibition has beautiful photos.",
+     "L'exposition a de belles photos."
+    ],
+    [
+     "Πάμε σε μια έκθεση την Κυριακή;",
+     "Shall we go to an exhibition on Sunday?",
+     "On va à une exposition dimanche ?"
+    ]
+   ],
+   "νερό": [
+    [
+     "Θέλω ένα ποτήρι νερό.",
+     "I'd like a glass of water.",
+     "Je voudrais un verre d'eau."
+    ],
+    [
+     "Το νερό είναι κρύο.",
+     "The water is cold.",
+     "L'eau est froide."
+    ]
+   ],
+   "φεγγάρι": [
+    [
+     "Απόψε το φεγγάρι είναι γεμάτο.",
+     "Tonight the moon is full.",
+     "Ce soir, la lune est pleine."
+    ],
+    [
+     "Βλέπεις το φεγγάρι από εδώ;",
+     "Can you see the moon from here?",
+     "Tu vois la lune d'ici ?"
+    ]
+   ],
+   "κλειστή": [
+    [
+     "Η πόρτα είναι κλειστή.",
+     "The door is closed.",
+     "La porte est fermée."
+    ],
+    [
+     "Η τράπεζα είναι κλειστή σήμερα.",
+     "The bank is closed today.",
+     "La banque est fermée aujourd'hui."
+    ]
+   ],
+   "χρειάζεστε": [
+    [
+     "Τι άλλο χρειάζεστε;",
+     "What else do you need?",
+     "De quoi d'autre avez-vous besoin ?"
+    ],
+    [
+     "Τώρα χρειάζομαι ένα ταξί.",
+     "I need a taxi now.",
+     "J'ai besoin d'un taxi maintenant."
+    ]
+   ],
+   "κράτηση": [
+    [
+     "Έχω κράτηση για δύο άτομα.",
+     "I have a booking for two people.",
+     "J'ai une réservation pour deux personnes."
+    ],
+    [
+     "Κάνω κράτηση στο εστιατόριο.",
+     "I'm booking a table at the restaurant.",
+     "Je fais une réservation au restaurant."
+    ]
+   ],
+   "γνωρίσουν": [
+    [
+     "Θέλουν να γνωρίσουν τη γειτονιά.",
+     "They want to get to know the neighbourhood.",
+     "Ils veulent découvrir le quartier."
+    ],
+    [
+     "Εγώ γνωρίζω καλά αυτόν τον δρόμο.",
+     "I know this street well.",
+     "Je connais bien cette rue."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "εγγραφή",
+    "gr": "εγγραφή",
+    "en": "registration",
+    "fr": "inscription"
+   },
+   {
+    "word": "κράτηση",
+    "gr": "κράτηση",
+    "en": "booking, reservation",
+    "fr": "réservation"
+   },
+   {
+    "word": "αναμνήσεις",
+    "gr": "αναμνήσεις",
+    "en": "memories",
+    "fr": "souvenirs"
+   },
+   {
+    "word": "χρειάζεστε",
+    "gr": "χρειάζομαι",
+    "en": "to need",
+    "fr": "avoir besoin de"
+   },
+   {
+    "word": "γνωρίσουν",
+    "gr": "γνωρίζω",
+    "en": "to know, to get to know",
+    "fr": "connaître, découvrir"
+   },
+   {
+    "word": "ανοίγει",
+    "gr": "ανοίγω",
+    "en": "to open",
+    "fr": "ouvrir"
+   },
+   {
+    "word": "μιλήσει",
+    "gr": "μιλάω",
+    "en": "to talk, to speak",
+    "fr": "parler"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Πότε έρχεται ο Πέτρος Μάρκαρης;",
+    "choices": [
+     "Στις 2 Δεκεμβρίου",
+     "Τον Αύγουστο",
+     "Σε πέντε λεπτά"
+    ],
+    "quote": "Την Τετάρτη 2 Δεκεμβρίου, στις επτά, έρχεται ο συγγραφέας Πέτρος Μάρκαρης.",
+    "quote_en": "On Wednesday 2 December, at seven, the writer Petros Markaris is coming."
+   },
+   {
+    "q": "Για τι δείχνει έργα η Δανάη Στράτου;",
+    "choices": [
+     "Για το νερό και το φεγγάρι",
+     "Για τα λεωφορεία",
+     "Για τις πίτσες"
+    ],
+    "quote": "Η Δανάη Στράτου δείχνει έργα για το νερό, το αλάτι και το φεγγάρι.",
+    "quote_en": "Danae Stratou shows works about water, salt and the moon."
+   },
+   {
+    "q": "Ποια μέρα είναι κλειστή η έκθεση;",
+    "choices": [
+     "Τη Δευτέρα",
+     "Κάθε δευτερόλεπτο",
+     "Τα Χριστούγεννα του 3000"
+    ],
+    "quote": "Η έκθεση είναι κλειστή τη Δευτέρα.",
+    "quote_en": "The exhibition is closed on Mondays."
+   }
+  ]
  }
 ]
