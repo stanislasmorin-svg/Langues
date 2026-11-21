@@ -6609,5 +6609,441 @@
     "quote_en": "On 30 November Marina Abramović turns 80."
    }
   ]
+ },
+ {
+  "date": "2026-11-21",
+  "title": "L'Italia di Lonely Planet",
+  "title_fr": "L'Italie de Lonely Planet",
+  "title_en": "Lonely Planet's Italy",
+  "source": {
+   "name": "SiViaggia",
+   "url": "https://siviaggia.it/notizie/destinazioni-italia-2027-elogio-lonely-planet/609731/"
+  },
+  "paragraphs": [
+   "Lonely Planet fa **libri** (books) famosi per chi **viaggia** (travels). Il 13 novembre ha **scelto** (chose) 17 **mete** (destinations) in Italia per il 2027. Ci sono **città** (cities) d'arte e **sentieri** (trails) di **montagna** (mountain). Per un **primo** (first) **viaggio** (trip) in Italia, la guida **consiglia** (recommends) Roma.",
+   "Due mete sono anche nella **lista** (list) mondiale per il 2027. La prima è il Veneto, **oltre** (beyond) Venezia. A Padova si **vedono** (you can see) i **dipinti** (paintings) del **pittore** (painter) Giotto. A Verona c'è l'Arena, un teatro **antico** (ancient). Ci sono le **colline** (hills) del Prosecco, un **vino** (wine) famoso.",
+   "La **seconda** (second) meta sono le **isole** (islands) Eolie, in Sicilia. La **natura** (nature) qui è forte, con i **vulcani** (volcanoes). A Salina si **mangiano** (people eat) i **capperi** (capers) e si beve la Malvasia, un vino **dolce** (sweet). A Stromboli c'è un vulcano **attivo** (active). Quando il vulcano lo permette, si **guardano** (people watch) le sue **luci** (lights) dal **mare** (sea). Succede di **notte** (night), dopo il **tramonto** (sunset).",
+   "La guida **parla** (talks) anche di Firenze, Napoli, le Dolomiti e la Sardegna. **Ogni** (every) meta ha qualcosa di **speciale** (special). E voi, dove **andrete** (will go) l'anno **prossimo** (next)?"
+  ],
+  "paragraphs_en": [
+   "Lonely Planet makes famous books for people who travel. On 13 November it chose 17 destinations in Italy for 2027. There are cities of art and mountain trails. For a first trip to Italy, the guide recommends Rome.",
+   "Two destinations are also on the world list for 2027. The first is the Veneto, beyond Venice. In Padua you can see the paintings of the painter Giotto. In Verona there is the Arena, an ancient theatre. There are the Prosecco hills, a famous wine.",
+   "The second destination is the Aeolian Islands, in Sicily. Here nature is strong, with volcanoes. On Salina people eat capers and drink Malvasia, a sweet wine. On Stromboli there is an active volcano. When the volcano allows it, people watch its lights from the sea. It happens at night, after sunset.",
+   "The guide also talks about Florence, Naples, the Dolomites and Sardinia. Every destination has something special. And you, where will you go next year?"
+  ],
+  "fr": {
+   "libri": "livres",
+   "viaggia": "voyage",
+   "scelto": "choisi",
+   "mete": "destinations",
+   "città": "villes",
+   "sentieri": "sentiers",
+   "montagna": "montagne",
+   "primo": "premier",
+   "viaggio": "voyage",
+   "consiglia": "conseille",
+   "lista": "liste",
+   "oltre": "au-delà de",
+   "vedono": "on voit",
+   "dipinti": "peintures, tableaux",
+   "pittore": "peintre",
+   "antico": "antique, ancien",
+   "colline": "collines",
+   "vino": "vin",
+   "seconda": "deuxième",
+   "isole": "îles",
+   "natura": "nature",
+   "vulcani": "volcans",
+   "mangiano": "on mange",
+   "capperi": "câpres",
+   "dolce": "doux, sucré",
+   "attivo": "actif",
+   "guardano": "on regarde",
+   "luci": "lumières",
+   "mare": "mer",
+   "notte": "nuit",
+   "tramonto": "coucher du soleil",
+   "parla": "parle",
+   "Ogni": "chaque",
+   "speciale": "spécial",
+   "andrete": "vous irez",
+   "prossimo": "prochain"
+  },
+  "lemma": {
+   "viaggia": "viaggiare",
+   "scelto": "scegliere",
+   "consiglia": "consigliare",
+   "vedono": "vedere",
+   "mangiano": "mangiare",
+   "guardano": "guardare",
+   "parla": "parlare",
+   "andrete": "andare"
+  },
+  "examples": {
+   "viaggia": [
+    [
+     "Mia sorella viaggia sempre in treno.",
+     "My sister always travels by train.",
+     "Ma sœur voyage toujours en train."
+    ],
+    [
+     "Io viaggio poco d'inverno.",
+     "I don't travel much in winter.",
+     "Je voyage peu en hiver."
+    ]
+   ],
+   "scelto": [
+    [
+     "Hai scelto il ristorante per stasera?",
+     "Have you chosen the restaurant for tonight?",
+     "Tu as choisi le restaurant pour ce soir ?"
+    ],
+    [
+     "Scelgo sempre il tavolo vicino alla finestra.",
+     "I always choose the table by the window.",
+     "Je choisis toujours la table près de la fenêtre."
+    ]
+   ],
+   "mete": [
+    [
+     "Quali sono le tue mete preferite?",
+     "What are your favourite destinations?",
+     "Quelles sont tes destinations préférées ?"
+    ],
+    [
+     "Le mete al mare costano di più.",
+     "Seaside destinations cost more.",
+     "Les destinations au bord de la mer coûtent plus cher."
+    ]
+   ],
+   "sentieri": [
+    [
+     "I sentieri del parco sono ben segnati.",
+     "The park's trails are well marked.",
+     "Les sentiers du parc sont bien balisés."
+    ],
+    [
+     "Dopo la pioggia i sentieri sono fangosi.",
+     "After the rain the trails are muddy.",
+     "Après la pluie, les sentiers sont boueux."
+    ]
+   ],
+   "montagna": [
+    [
+     "D'estate andiamo in montagna.",
+     "In summer we go to the mountains.",
+     "L'été, nous allons à la montagne."
+    ],
+    [
+     "In montagna fa freddo la sera.",
+     "In the mountains it's cold in the evening.",
+     "À la montagne, il fait froid le soir."
+    ]
+   ],
+   "primo": [
+    [
+     "Questo è il mio primo caffè oggi.",
+     "This is my first coffee today.",
+     "C'est mon premier café aujourd'hui."
+    ],
+    [
+     "Abito al primo piano.",
+     "I live on the first floor.",
+     "J'habite au premier étage."
+    ]
+   ],
+   "viaggio": [
+    [
+     "Buon viaggio e scrivimi presto!",
+     "Have a good trip and write to me soon!",
+     "Bon voyage et écris-moi vite !"
+    ],
+    [
+     "Il viaggio in treno dura tre ore.",
+     "The train journey takes three hours.",
+     "Le trajet en train dure trois heures."
+    ]
+   ],
+   "consiglia": [
+    [
+     "Il cameriere consiglia il pesce del giorno.",
+     "The waiter recommends the fish of the day.",
+     "Le serveur conseille le poisson du jour."
+    ],
+    [
+     "Ti consiglio questa pizzeria.",
+     "I recommend this pizzeria to you.",
+     "Je te conseille cette pizzeria."
+    ]
+   ],
+   "oltre": [
+    [
+     "La farmacia è oltre il ponte.",
+     "The pharmacy is beyond the bridge.",
+     "La pharmacie est après le pont."
+    ],
+    [
+     "Il bar è appena oltre la piazza.",
+     "The bar is just past the square.",
+     "Le bar est juste après la place."
+    ]
+   ],
+   "vedono": [
+    [
+     "Dalla finestra si vedono le montagne.",
+     "You can see the mountains from the window.",
+     "De la fenêtre, on voit les montagnes."
+    ],
+    [
+     "Non vedo bene senza occhiali.",
+     "I can't see well without glasses.",
+     "Je ne vois pas bien sans lunettes."
+    ]
+   ],
+   "dipinti": [
+    [
+     "Al museo ci sono molti dipinti.",
+     "There are many paintings at the museum.",
+     "Il y a beaucoup de tableaux au musée."
+    ],
+    [
+     "I dipinti della nonna sono in salotto.",
+     "Grandma's paintings are in the living room.",
+     "Les tableaux de grand-mère sont dans le salon."
+    ]
+   ],
+   "antico": [
+    [
+     "Abitiamo in un palazzo antico.",
+     "We live in an old building.",
+     "Nous habitons dans un immeuble ancien."
+    ],
+    [
+     "Questo mobile antico era del nonno.",
+     "This antique piece of furniture was grandpa's.",
+     "Ce meuble ancien était à grand-père."
+    ]
+   ],
+   "colline": [
+    [
+     "Le colline sono verdi in primavera.",
+     "The hills are green in spring.",
+     "Les collines sont vertes au printemps."
+    ],
+    [
+     "La casa è tra le colline.",
+     "The house is among the hills.",
+     "La maison est au milieu des collines."
+    ]
+   ],
+   "isole": [
+    [
+     "Le isole sono vicine alla costa.",
+     "The islands are close to the coast.",
+     "Les îles sont proches de la côte."
+    ],
+    [
+     "D'estate visitiamo le isole in barca.",
+     "In summer we visit the islands by boat.",
+     "L'été, nous visitons les îles en bateau."
+    ]
+   ],
+   "mangiano": [
+    [
+     "I bambini mangiano la pizza in cucina.",
+     "The children eat pizza in the kitchen.",
+     "Les enfants mangent de la pizza dans la cuisine."
+    ],
+    [
+     "A pranzo mangio un panino.",
+     "At lunch I eat a sandwich.",
+     "Le midi, je mange un sandwich."
+    ]
+   ],
+   "dolce": [
+    [
+     "Questo caffè è troppo dolce.",
+     "This coffee is too sweet.",
+     "Ce café est trop sucré."
+    ],
+    [
+     "Mi piace il vino dolce.",
+     "I like sweet wine.",
+     "J'aime le vin doux."
+    ]
+   ],
+   "attivo": [
+    [
+     "Mio nonno è ancora molto attivo.",
+     "My grandfather is still very active.",
+     "Mon grand-père est encore très actif."
+    ],
+    [
+     "Il mio numero non è più attivo.",
+     "My number is no longer active.",
+     "Mon numéro n'est plus actif."
+    ]
+   ],
+   "guardano": [
+    [
+     "I ragazzi guardano la partita al bar.",
+     "The boys watch the match at the bar.",
+     "Les garçons regardent le match au bar."
+    ],
+    [
+     "La sera guardo un film.",
+     "In the evening I watch a film.",
+     "Le soir, je regarde un film."
+    ]
+   ],
+   "luci": [
+    [
+     "Spegni le luci, per favore.",
+     "Turn off the lights, please.",
+     "Éteins les lumières, s'il te plaît."
+    ],
+    [
+     "Le luci di Natale sono già accese.",
+     "The Christmas lights are already on.",
+     "Les illuminations de Noël sont déjà allumées."
+    ]
+   ],
+   "mare": [
+    [
+     "Domenica andiamo al mare.",
+     "On Sunday we're going to the seaside.",
+     "Dimanche, nous allons à la mer."
+    ],
+    [
+     "Il mare oggi è calmo.",
+     "The sea is calm today.",
+     "La mer est calme aujourd'hui."
+    ]
+   ],
+   "tramonto": [
+    [
+     "Guardiamo il tramonto dalla terrazza.",
+     "Let's watch the sunset from the terrace.",
+     "Regardons le coucher du soleil depuis la terrasse."
+    ],
+    [
+     "Il tramonto è bellissimo stasera.",
+     "The sunset is beautiful tonight.",
+     "Le coucher du soleil est magnifique ce soir."
+    ]
+   ],
+   "parla": [
+    [
+     "Mio figlio parla al telefono.",
+     "My son is talking on the phone.",
+     "Mon fils parle au téléphone."
+    ],
+    [
+     "Parlo un po' di italiano.",
+     "I speak a little Italian.",
+     "Je parle un peu italien."
+    ]
+   ],
+   "andrete": [
+    [
+     "Dove andrete in vacanza quest'anno?",
+     "Where will you go on holiday this year?",
+     "Où irez-vous en vacances cette année ?"
+    ],
+    [
+     "Ogni sabato vado al mercato.",
+     "Every Saturday I go to the market.",
+     "Chaque samedi, je vais au marché."
+    ]
+   ],
+   "prossimo": [
+    [
+     "Il prossimo treno parte alle otto.",
+     "The next train leaves at eight.",
+     "Le prochain train part à huit heures."
+    ],
+    [
+     "Ci vediamo il mese prossimo.",
+     "See you next month.",
+     "On se voit le mois prochain."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "sentieri",
+    "gr": "sentieri",
+    "en": "trails, paths",
+    "fr": "sentiers"
+   },
+   {
+    "word": "colline",
+    "gr": "colline",
+    "en": "hills",
+    "fr": "collines"
+   },
+   {
+    "word": "tramonto",
+    "gr": "tramonto",
+    "en": "sunset",
+    "fr": "coucher du soleil"
+   },
+   {
+    "word": "scelto",
+    "gr": "scegliere",
+    "en": "to choose",
+    "fr": "choisir"
+   },
+   {
+    "word": "consiglia",
+    "gr": "consigliare",
+    "en": "to recommend, to advise",
+    "fr": "conseiller"
+   },
+   {
+    "word": "guardano",
+    "gr": "guardare",
+    "en": "to watch, to look at",
+    "fr": "regarder"
+   },
+   {
+    "word": "viaggia",
+    "gr": "viaggiare",
+    "en": "to travel",
+    "fr": "voyager"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Quando ha scelto le mete Lonely Planet?",
+    "choices": [
+     "Il 13 novembre",
+     "A Ferragosto",
+     "Nel 1850"
+    ],
+    "quote": "Il 13 novembre ha scelto 17 mete in Italia per il 2027.",
+    "quote_en": "On 13 November it chose 17 destinations in Italy for 2027."
+   },
+   {
+    "q": "Quale città consiglia la guida per un primo viaggio?",
+    "choices": [
+     "Roma",
+     "Il Polo Nord",
+     "La Luna"
+    ],
+    "quote": "Per un primo viaggio in Italia, la guida consiglia Roma.",
+    "quote_en": "For a first trip to Italy, the guide recommends Rome."
+   },
+   {
+    "q": "Che cosa si mangia a Salina?",
+    "choices": [
+     "I capperi",
+     "Le scarpe",
+     "La neve"
+    ],
+    "quote": "A Salina si mangiano i capperi e si beve la Malvasia, un vino dolce.",
+    "quote_en": "On Salina people eat capers and drink Malvasia, a sweet wine."
+   }
+  ]
  }
 ]

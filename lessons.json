@@ -14576,5 +14576,439 @@
     "quote_en": "The exhibition is closed on Mondays."
    }
   ]
+ },
+ {
+  "date": "2026-11-21",
+  "title": "Ένα χριστουγεννιάτικο χωριό στο Πεδίον του Άρεως",
+  "title_fr": "Un village de Noël au Pedion tou Areos",
+  "title_en": "A Christmas village in Pedion tou Areos",
+  "source": {
+   "name": "Libre",
+   "url": "https://www.libre.gr/2026/11/19/pedion-tou-areos-stis-28-noemvriou-anoi/"
+  },
+  "paragraphs": [
+   "Το Πεδίον του Άρεως είναι ένα μεγάλο **πάρκο** (park) στο κέντρο της Αθήνας. Φέτος η **Περιφέρεια** (Region) Αττικής **στήνει** (is setting up) εκεί ένα χριστουγεννιάτικο **χωριό** (village). Το χωριό **ανοίγει** (opens) το **Σάββατο** (Saturday) 28 Νοεμβρίου. Θα μείνει **ανοιχτό** (open) ως τις 7 Ιανουαρίου. Η **είσοδος** (entrance) είναι **δωρεάν** (free) για όλους.",
+   "Στο χωριό **θα δούμε** (we will see) μια μεγάλη **ρόδα** (wheel). Έχει **ύψος** (height) 33 μέτρα! Θα υπάρχουν και ένα καρουζέλ και μια πιο μικρή ρόδα. Στην **πλατεία** (square) Οικονομίδη θα έχει **παγοδρόμιο** (ice rink). Εκεί τα **παιδιά** (children) και οι **μεγάλοι** (grown-ups) μπορούν να **γλιστρήσουν** (slide) στον **πάγο** (ice).",
+   "Υπάρχουν και άλλα **παιχνίδια** (games). Θα έχει **σινεμά** (cinema) 3D, παιχνίδια VR και ένα **τραμπολίνο** (trampoline). Στα **ξύλινα** (wooden) σπιτάκια **θα βρείτε** (you will find) χριστουγεννιάτικα **δώρα** (gifts). Θα έχει και **φαγητό** (food) και **συναυλίες** (concerts).",
+   "Τις **καθημερινές** (weekdays) το χωριό ανοίγει στις τεσσερισήμισι το **απόγευμα** (afternoon). Το **Σαββατοκύριακο** (weekend) ανοίγει στις δέκα το **πρωί** (morning). Κάθε **μέρα** (day) **κλείνει** (closes) στις δέκα το **βράδυ** (evening). Είναι μια ωραία **ιδέα** (idea) για μια **βόλτα** (walk) με την **οικογένεια** (family)."
+  ],
+  "paragraphs_en": [
+   "Pedion tou Areos is a big park in the centre of Athens. This year the Region of Attica is setting up a Christmas village there. The village opens on Saturday 28 November. It will stay open until 7 January. Entrance is free for everyone.",
+   "In the village we will see a big wheel. It is 33 metres high! There will also be a carousel and a smaller wheel. In Oikonomidi Square there will be an ice rink. There, children and grown-ups can slide on the ice.",
+   "There are other games too. There will be a 3D cinema, VR games and a trampoline. In the little wooden houses you will find Christmas gifts. There will also be food and concerts.",
+   "On weekdays the village opens at half past four in the afternoon. At the weekend it opens at ten in the morning. Every day it closes at ten in the evening. It is a nice idea for a walk with the family."
+  ],
+  "fr": {
+   "πάρκο": "parc",
+   "Περιφέρεια": "Région",
+   "στήνει": "installe, monte",
+   "χωριό": "village",
+   "ανοίγει": "ouvre",
+   "Σάββατο": "samedi",
+   "ανοιχτό": "ouvert",
+   "είσοδος": "entrée",
+   "δωρεάν": "gratuit",
+   "θα δούμε": "nous verrons",
+   "ρόδα": "grande roue",
+   "ύψος": "hauteur",
+   "πλατεία": "place",
+   "παγοδρόμιο": "patinoire",
+   "παιδιά": "enfants",
+   "μεγάλοι": "adultes, grands",
+   "γλιστρήσουν": "glisser",
+   "πάγο": "glace",
+   "παιχνίδια": "jeux",
+   "σινεμά": "cinéma",
+   "τραμπολίνο": "trampoline",
+   "ξύλινα": "en bois",
+   "θα βρείτε": "vous trouverez",
+   "δώρα": "cadeaux",
+   "φαγητό": "nourriture",
+   "συναυλίες": "concerts",
+   "καθημερινές": "jours de semaine",
+   "απόγευμα": "après-midi",
+   "Σαββατοκύριακο": "week-end",
+   "πρωί": "matin",
+   "μέρα": "jour",
+   "κλείνει": "ferme",
+   "βράδυ": "soir",
+   "ιδέα": "idée",
+   "βόλτα": "promenade",
+   "οικογένεια": "famille"
+  },
+  "lemma": {
+   "στήνει": "στήνω",
+   "ανοίγει": "ανοίγω",
+   "θα δούμε": "βλέπω",
+   "γλιστρήσουν": "γλιστράω",
+   "θα βρείτε": "βρίσκω",
+   "κλείνει": "κλείνω"
+  },
+  "examples": {
+   "στήνει": [
+    [
+     "Ο μπαμπάς στήνει το δέντρο στο σαλόνι.",
+     "Dad is setting up the tree in the living room.",
+     "Papa installe le sapin dans le salon."
+    ],
+    [
+     "Κάθε καλοκαίρι στήνω μια σκηνή.",
+     "Every summer I put up a tent.",
+     "Chaque été, je monte une tente."
+    ]
+   ],
+   "χωριό": [
+    [
+     "Η γιαγιά μου μένει σε ένα χωριό.",
+     "My grandmother lives in a village.",
+     "Ma grand-mère vit dans un village."
+    ],
+    [
+     "Το χωριό έχει μια μικρή πλατεία.",
+     "The village has a small square.",
+     "Le village a une petite place."
+    ]
+   ],
+   "ανοίγει": [
+    [
+     "Ο φούρνος ανοίγει στις επτά.",
+     "The bakery opens at seven.",
+     "La boulangerie ouvre à sept heures."
+    ],
+    [
+     "Κάθε πρωί ανοίγω το παράθυρο.",
+     "Every morning I open the window.",
+     "Chaque matin, j'ouvre la fenêtre."
+    ]
+   ],
+   "ανοιχτό": [
+    [
+     "Το φαρμακείο είναι ανοιχτό σήμερα;",
+     "Is the pharmacy open today?",
+     "La pharmacie est ouverte aujourd'hui ?"
+    ],
+    [
+     "Το περίπτερο μένει ανοιχτό όλη τη νύχτα.",
+     "The kiosk stays open all night.",
+     "Le kiosque reste ouvert toute la nuit."
+    ]
+   ],
+   "είσοδος": [
+    [
+     "Η είσοδος είναι δίπλα στο καφέ.",
+     "The entrance is next to the café.",
+     "L'entrée est à côté du café."
+    ],
+    [
+     "Η είσοδος του σπιτιού είναι μικρή.",
+     "The entrance of the house is small.",
+     "L'entrée de la maison est petite."
+    ]
+   ],
+   "δωρεάν": [
+    [
+     "Το νερό εδώ είναι δωρεάν.",
+     "The water here is free.",
+     "Ici, l'eau est gratuite."
+    ],
+    [
+     "Έχει δωρεάν ίντερνετ στο καφέ.",
+     "There is free internet at the café.",
+     "Il y a internet gratuit au café."
+    ]
+   ],
+   "θα δούμε": [
+    [
+     "Απόψε θα δούμε μια ταινία.",
+     "Tonight we will watch a film.",
+     "Ce soir, nous regarderons un film."
+    ],
+    [
+     "Από το μπαλκόνι βλέπω τη θάλασσα.",
+     "I see the sea from the balcony.",
+     "Je vois la mer depuis le balcon."
+    ]
+   ],
+   "ρόδα": [
+    [
+     "Η ρόδα του ποδηλάτου είναι σπασμένη.",
+     "The bicycle wheel is broken.",
+     "La roue du vélo est cassée."
+    ],
+    [
+     "Τα παιδιά θέλουν να ανέβουν στη ρόδα.",
+     "The children want to go on the big wheel.",
+     "Les enfants veulent monter dans la grande roue."
+    ]
+   ],
+   "ύψος": [
+    [
+     "Τι ύψος έχει ο αδερφός σου;",
+     "How tall is your brother?",
+     "Combien mesure ton frère ?"
+    ],
+    [
+     "Το δέντρο έχει μεγάλο ύψος.",
+     "The tree is very tall.",
+     "L'arbre est très haut."
+    ]
+   ],
+   "πλατεία": [
+    [
+     "Συναντιόμαστε στην πλατεία στις οκτώ.",
+     "We meet in the square at eight.",
+     "On se retrouve sur la place à huit heures."
+    ],
+    [
+     "Η πλατεία έχει πολλά καφέ.",
+     "The square has lots of cafés.",
+     "La place a beaucoup de cafés."
+    ]
+   ],
+   "παιδιά": [
+    [
+     "Τα παιδιά παίζουν στο πάρκο.",
+     "The children are playing in the park.",
+     "Les enfants jouent au parc."
+    ],
+    [
+     "Τα παιδιά πάνε σχολείο με τα πόδια.",
+     "The children walk to school.",
+     "Les enfants vont à l'école à pied."
+    ]
+   ],
+   "γλιστρήσουν": [
+    [
+     "Τα παιδιά μπορεί να γλιστρήσουν εδώ.",
+     "The children might slip here.",
+     "Les enfants risquent de glisser ici."
+    ],
+    [
+     "Συχνά γλιστράω στο βρεγμένο πεζοδρόμιο.",
+     "I often slip on the wet pavement.",
+     "Je glisse souvent sur le trottoir mouillé."
+    ]
+   ],
+   "πάγο": [
+    [
+     "Βάλε πάγο στο ποτήρι μου.",
+     "Put some ice in my glass.",
+     "Mets des glaçons dans mon verre."
+    ],
+    [
+     "Θέλεις τον καφέ με πάγο;",
+     "Do you want your coffee with ice?",
+     "Tu veux ton café avec des glaçons ?"
+    ]
+   ],
+   "παιχνίδια": [
+    [
+     "Παίζουμε επιτραπέζια παιχνίδια το βράδυ.",
+     "We play board games in the evening.",
+     "Le soir, on joue à des jeux de société."
+    ],
+    [
+     "Τα παιχνίδια στο κινητό μου είναι δωρεάν.",
+     "The games on my phone are free.",
+     "Les jeux sur mon téléphone sont gratuits."
+    ]
+   ],
+   "ξύλινα": [
+    [
+     "Τα ξύλινα παράθυρα είναι πολύ παλιά.",
+     "The wooden windows are very old.",
+     "Les fenêtres en bois sont très vieilles."
+    ],
+    [
+     "Θέλω ξύλινα έπιπλα στο σπίτι.",
+     "I want wooden furniture at home.",
+     "Je veux des meubles en bois à la maison."
+    ]
+   ],
+   "θα βρείτε": [
+    [
+     "Αύριο θα βρείτε το κλειδί στην πόρτα.",
+     "Tomorrow you will find the key in the door.",
+     "Demain, vous trouverez la clé sur la porte."
+    ],
+    [
+     "Δεν βρίσκω τα γυαλιά μου.",
+     "I can't find my glasses.",
+     "Je ne trouve pas mes lunettes."
+    ]
+   ],
+   "δώρα": [
+    [
+     "Τα δώρα είναι κάτω από το δέντρο.",
+     "The gifts are under the tree.",
+     "Les cadeaux sont sous le sapin."
+    ],
+    [
+     "Αγοράζω δώρα για τους φίλους μου.",
+     "I'm buying gifts for my friends.",
+     "J'achète des cadeaux pour mes amis."
+    ]
+   ],
+   "φαγητό": [
+    [
+     "Το φαγητό είναι έτοιμο!",
+     "The food is ready!",
+     "Le repas est prêt !"
+    ],
+    [
+     "Το φαγητό σε αυτή την ταβέρνα είναι νόστιμο.",
+     "The food in this tavern is tasty.",
+     "La nourriture dans cette taverne est délicieuse."
+    ]
+   ],
+   "συναυλίες": [
+    [
+     "Το καλοκαίρι έχει πολλές συναυλίες.",
+     "In summer there are lots of concerts.",
+     "En été, il y a beaucoup de concerts."
+    ],
+    [
+     "Μου αρέσουν οι συναυλίες στο πάρκο.",
+     "I like concerts in the park.",
+     "J'aime les concerts au parc."
+    ]
+   ],
+   "καθημερινές": [
+    [
+     "Τις καθημερινές ξυπνάω στις επτά.",
+     "On weekdays I wake up at seven.",
+     "En semaine, je me lève à sept heures."
+    ],
+    [
+     "Το μαγαζί κλείνει νωρίς τις καθημερινές.",
+     "The shop closes early on weekdays.",
+     "Le magasin ferme tôt en semaine."
+    ]
+   ],
+   "απόγευμα": [
+    [
+     "Το απόγευμα πίνω έναν καφέ.",
+     "In the afternoon I have a coffee.",
+     "L'après-midi, je bois un café."
+    ],
+    [
+     "Τα λέμε αύριο το απόγευμα!",
+     "See you tomorrow afternoon!",
+     "À demain après-midi !"
+    ]
+   ],
+   "κλείνει": [
+    [
+     "Το σούπερ μάρκετ κλείνει στις εννιά.",
+     "The supermarket closes at nine.",
+     "Le supermarché ferme à neuf heures."
+    ],
+    [
+     "Πάντα κλείνω την πόρτα όταν φεύγω.",
+     "I always close the door when I leave.",
+     "Je ferme toujours la porte quand je pars."
+    ]
+   ],
+   "βόλτα": [
+    [
+     "Πάμε μια βόλτα στη θάλασσα;",
+     "Shall we go for a walk by the sea?",
+     "On va se promener au bord de la mer ?"
+    ],
+    [
+     "Η βόλτα με τον σκύλο είναι ωραία.",
+     "The walk with the dog is nice.",
+     "La promenade avec le chien est agréable."
+    ]
+   ],
+   "οικογένεια": [
+    [
+     "Όλη η οικογένεια τρώει μαζί.",
+     "The whole family eats together.",
+     "Toute la famille mange ensemble."
+    ],
+    [
+     "Τρώμε με την οικογένεια την Κυριακή.",
+     "We eat with the family on Sunday.",
+     "Nous mangeons en famille le dimanche."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "ρόδα",
+    "gr": "ρόδα",
+    "en": "wheel, big wheel",
+    "fr": "roue, grande roue"
+   },
+   {
+    "word": "ξύλινα",
+    "gr": "ξύλινα",
+    "en": "wooden",
+    "fr": "en bois"
+   },
+   {
+    "word": "βόλτα",
+    "gr": "βόλτα",
+    "en": "walk, stroll",
+    "fr": "promenade"
+   },
+   {
+    "word": "στήνει",
+    "gr": "στήνω",
+    "en": "to set up, to put up",
+    "fr": "installer, monter"
+   },
+   {
+    "word": "γλιστρήσουν",
+    "gr": "γλιστράω",
+    "en": "to slide, to slip",
+    "fr": "glisser"
+   },
+   {
+    "word": "κλείνει",
+    "gr": "κλείνω",
+    "en": "to close",
+    "fr": "fermer"
+   },
+   {
+    "word": "θα βρείτε",
+    "gr": "βρίσκω",
+    "en": "to find",
+    "fr": "trouver"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Πότε ανοίγει το χωριό;",
+    "choices": [
+     "Στις 28 Νοεμβρίου",
+     "Τον Ιούλιο",
+     "Σε δέκα χρόνια"
+    ],
+    "quote": "Το χωριό ανοίγει το Σάββατο 28 Νοεμβρίου.",
+    "quote_en": "The village opens on Saturday 28 November."
+   },
+   {
+    "q": "Τι ύψος έχει η μεγάλη ρόδα;",
+    "choices": [
+     "33 μέτρα",
+     "Δύο εκατοστά",
+     "Ένα χιλιόμετρο"
+    ],
+    "quote": "Έχει ύψος 33 μέτρα!",
+    "quote_en": "It is 33 metres high!"
+   },
+   {
+    "q": "Πού θα έχει παγοδρόμιο;",
+    "choices": [
+     "Στην πλατεία Οικονομίδη",
+     "Στη θάλασσα",
+     "Σε ένα αεροπλάνο"
+    ],
+    "quote": "Στην πλατεία Οικονομίδη θα έχει παγοδρόμιο.",
+    "quote_en": "In Oikonomidi Square there will be an ice rink."
+   }
+  ]
  }
 ]

@@ -95,6 +95,10 @@
   "fr": "fêter, célébrer",
   "en": "to celebrate"
  },
+ "γλιστράω": {
+  "fr": "glisser",
+  "en": "to slide, to slip"
+ },
  "γνωρίζω": {
   "fr": "connaître",
   "en": "to know, to get to know"
@@ -378,6 +382,10 @@
  "στέκομαι": {
   "fr": "se tenir debout",
   "en": "to stand"
+ },
+ "στήνω": {
+  "fr": "installer, monter",
+  "en": "to set up, to put up"
  },
  "σταματάω": {
   "fr": "arrêter, s'arrêter",

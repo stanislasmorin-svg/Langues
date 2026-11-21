@@ -63,6 +63,10 @@
   "fr": "confirmer",
   "en": "to confirm"
  },
+ "consigliare": {
+  "fr": "conseiller",
+  "en": "to recommend, to advise"
+ },
  "costare": {
   "fr": "coûter",
   "en": "to cost"
@@ -174,6 +178,10 @@
  "pareggiare": {
   "fr": "égaliser, faire match nul",
   "en": "to equalise, to draw"
+ },
+ "parlare": {
+  "fr": "parler",
+  "en": "to speak, to talk"
  },
  "partire": {
   "fr": "partir",
@@ -330,6 +338,10 @@
  "vedere": {
   "fr": "voir",
   "en": "to see"
+ },
+ "viaggiare": {
+  "fr": "voyager",
+  "en": "to travel"
  },
  "vincere": {
   "fr": "gagner",
