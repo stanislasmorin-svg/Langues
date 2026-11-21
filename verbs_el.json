@@ -123,6 +123,10 @@
   "fr": "déclarer, s'inscrire",
   "en": "to declare, to sign up"
  },
+ "διαλέγω": {
+  "fr": "choisir",
+  "en": "to choose"
+ },
  "δοκιμάζω": {
   "fr": "goûter, essayer",
   "en": "to taste, to try"
@@ -166,6 +170,10 @@
  "ζωγραφίζω": {
   "fr": "dessiner, peindre",
   "en": "to draw, to paint"
+ },
+ "θέλω": {
+  "fr": "vouloir",
+  "en": "to want"
  },
  "θυμίζω": {
   "fr": "rappeler",
@@ -478,6 +486,10 @@
  "χτίζω": {
   "fr": "construire",
   "en": "to build"
+ },
+ "ψηφίζω": {
+  "fr": "voter",
+  "en": "to vote"
  },
  "ψωνίζω": {
   "fr": "faire des achats",
