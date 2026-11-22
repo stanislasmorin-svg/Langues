@@ -13,8 +13,8 @@ Price: free. A new lesson is published every morning (Greek and Italian), with a
 - Details and sources: https://masimera.com/method.html
 
 ## Main pages
-- [Greek of the day](https://masimera.com/grec/): all Greek lessons, newest first
+- [Greek of the day](https://masimera.com/gr/): today's Greek lesson, the previous ones and all the others
 - [Italian of the day](https://masimera.com/it/): all Italian lessons, newest first
-- [Greek vocabulary](https://masimera.com/grec/mots.html): every Greek word from the lessons, in English and French, with example sentences and audio
+- [Greek vocabulary](https://masimera.com/gr/mots.html): every Greek word from the lessons, in English and French, with example sentences and audio
 - [Italian vocabulary](https://masimera.com/it/mots.html): every Italian word from the lessons, in English and French, with example sentences and audio
 - [The Masimera method](https://masimera.com/method.html): how many words you need and why 15 minutes a day works
