@@ -1,6 +1,6 @@
 """Build the static site, one sub-site per language (see LANGS).
 Usage (from repo root): python3 tools/build.py
-lessons.json (grec, dossier grec/) / lessons_it.json (italien, dossier it/):
+lessons.json (grec, dossier gr/ ; avant le 23/11 : grec/, qui ne contient plus que des pages de renvoi) / lessons_it.json (italien, dossier it/):
 list of {date, title, title_fr, title_en, source{name,url}, paragraphs[], paragraphs_en[], fr{}, lemma{}, examples?}
 paragraphs_en: English translation of each paragraph (bouton « Traduire le texte en anglais »).
 lemma: {"<mot>": "<infinitif / forme du dictionnaire>"} for verbs only.
@@ -52,14 +52,14 @@ Price: free. A new lesson is published every morning (Greek and Italian), with a
 - Details and sources: {BASE}method.html
 
 ## Main pages
-- [Greek of the day]({BASE}grec/): all Greek lessons, newest first
+- [Greek of the day]({BASE}gr/): today's Greek lesson, the previous ones and all the others
 - [Italian of the day]({BASE}it/): all Italian lessons, newest first
-- [Greek vocabulary]({BASE}grec/mots.html): every Greek word from the lessons, in English and French, with example sentences and audio
+- [Greek vocabulary]({BASE}gr/mots.html): every Greek word from the lessons, in English and French, with example sentences and audio
 - [Italian vocabulary]({BASE}it/mots.html): every Italian word from the lessons, in English and French, with example sentences and audio
 - [The Masimera method]({BASE}method.html): how many words you need and why 15 minutes a day works
 """
 LANGS = {
-    "el": dict(file="lessons.json", out="grec/", title="Greek of the day", eyebrow="Ελληνικά κάθε μέρα", name="Greek", col="Ελληνικά", short="ΕΛ",
+    "el": dict(file="lessons.json", out="gr/", old_out="grec/", title="Greek of the day", eyebrow="Ελληνικά κάθε μέρα", name="Greek", col="Ελληνικά", short="ΕΛ",
                tagline="Every morning, a real news story from Greece in simple Greek, with the hard words translated and audio.",
                verbs="verbs_el.json", place="Greece", voice="el-GR-AthinaNeural", gtts="el", other=("it", "Italian of the day →"), legacy=True),
     "it": dict(file="lessons_it.json", out="it/", title="Italian of the day", eyebrow="Italiano ogni giorno", name="Italian", col="Italiano", short="IT",
@@ -146,7 +146,7 @@ GA = ("<style>#ckb{position:fixed;left:12px;right:12px;bottom:12px;z-index:50;ma
       "<script>(function(){var K='masimera-consent',ID='" + GA_ID + "';"
       "function get(){try{return localStorage.getItem(K)}catch(e){return null}}function set(v){try{localStorage.setItem(K,v)}catch(e){}}"
       "function load(){if(window.__ga)return;window.__ga=1;window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};"
-      "gtag('js',new Date());gtag('config',ID,{content_group:(function(p){return /^\\/grec\\/cours\\//.test(p)?'Greek lesson':/^\\/it\\/cours\\//.test(p)?'Italian lesson':/^\\/grec\\/quiz\\//.test(p)?'Greek quiz':/^\\/it\\/quiz\\//.test(p)?'Italian quiz':/^\\/grec\\/mots/.test(p)?'Greek words':/^\\/it\\/mots/.test(p)?'Italian words':/^\\/grec\\/(index\\.html)?$/.test(p)?'Greek lessons list':/^\\/it\\/(index\\.html)?$/.test(p)?'Italian lessons list':/^\\/method/.test(p)?'Method':/^\\/(index\\.html)?$/.test(p)?'Home':'Other'})(location.pathname)});var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s)}"
+      "gtag('js',new Date());gtag('config',ID,{content_group:(function(p){return /^\\/gr\\/cours\\//.test(p)?'Greek lesson':/^\\/it\\/cours\\//.test(p)?'Italian lesson':/^\\/gr\\/quiz\\//.test(p)?'Greek quiz':/^\\/it\\/quiz\\//.test(p)?'Italian quiz':/^\\/gr\\/mots/.test(p)?'Greek words':/^\\/it\\/mots/.test(p)?'Italian words':/^\\/gr\\/(index\\.html)?$/.test(p)?'Greek lessons list':/^\\/it\\/(index\\.html)?$/.test(p)?'Italian lessons list':/^\\/method/.test(p)?'Method':/^\\/(index\\.html)?$/.test(p)?'Home':'Other'})(location.pathname)});var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s)}"
       "var c=get();if(c==='yes'){load();return}if(c==='no')return;"
       "document.addEventListener('DOMContentLoaded',function(){var b=document.createElement('div');b.id='ckb';b.setAttribute('role','dialog');b.setAttribute('aria-label','Cookies');"
       "b.innerHTML='<p>This site uses Google Analytics cookies.</p><button class=\"n\" type=\"button\">Decline</button><button class=\"y\" type=\"button\">Accept</button>';"
@@ -551,20 +551,60 @@ def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
 </div><script>{JS}</script></body></html>"""
 
 def index_page(lessons, lang, L):
-    items = "".join(f'<li><a href="cours/{s["date"]}.html"><span class="d">{s["date"][8:10]}/{s["date"][5:7]}/{s["date"][:4]}</span><span><span class="t">{html.escape(s["title"])}</span><span class="f">{html.escape(s.get("title_en") or s.get("title_fr",""))}</span></span></a></li>' for s in lessons)
+    """Language home (/gr/, /it/): like the site home, for one language. Today's lesson card,
+    the 3 previous lessons, a button that unfolds all the others (still in the HTML for search engines),
+    how it works, and the sign-up form with this language already chosen."""
+    def li(s):
+        return (f'<li><a href="cours/{s["date"]}.html"><span class="d">{s["date"][8:10]}/{s["date"][5:7]}/{s["date"][:4]}</span>'
+                f'<span><span class="t">{html.escape(s["title"])}</span><span class="f">{html.escape(s.get("title_en") or s.get("title_fr",""))}</span></span></a></li>')
     o = LANGS[L["other"][0]]
-    other = "../" + o["out"]
-    head = f'<a class="play" href="cours/{lessons[0]["date"]}.html">Read today\'s lesson →</a> ' if lessons else ""
+    if lessons:
+        s = lessons[0]
+        quiz = f'<a href="quiz/{s["date"]}.html">Quiz of the day</a>' if s.get("quiz") else ""
+        today = (f'<section><h2>Today\'s lesson</h2><div class="lang"><span class="k">{fr_date(s["date"])}</span>'
+                 f'<span class="t">{html.escape(s["title"])}</span><span class="f">{html.escape(s.get("title_en") or s.get("title_fr", ""))}</span>'
+                 f'<div class="row"><a class="play" href="cours/{s["date"]}.html">Today\'s lesson →</a>{quiz}</div></div></section>')
+    else:
+        today = '<section><h2>Today\'s lesson</h2><p class="note">The first lesson is coming soon.</p></section>'
+    prev, rest = lessons[1:4], lessons[4:]
+    more = (f'<ul class="list" id="more" hidden>{"".join(li(s) for s in rest)}</ul>'
+            f'<p class="row"><button class="chip" id="moreBtn" type="button" aria-expanded="false">See all {len(lessons)} lessons</button></p>'
+            '<script>document.getElementById("moreBtn").onclick=function(){var m=document.getElementById("more"),o=m.hidden;m.hidden=!o;'
+            f'this.setAttribute("aria-expanded",o);this.textContent=o?"Show fewer lessons":"See all {len(lessons)} lessons"}};</script>') if rest else ""
+    previous = f'<section><h2>Previous lessons</h2><ul class="list">{"".join(li(s) for s in prev)}</ul>{more}</section>' if prev else ""
+    opts = "".join(f'<option{" selected" if v == L["name"] else ""}>{v}</option>' for v in ("Greek", "Italian", "Greek and Italian"))
+    head = ""
     return f"""<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{L["title"]} · Learn {L["name"]} with simple news and audio · Masimera</title>{seo(L["out"], L["title"] + " · Masimera", L["tagline"] + " All lessons, free.")}{ld({
     "@type": "CollectionPage", "name": L["title"], "description": L["tagline"] + " All lessons, free.",
     "url": BASE + L["out"], "inLanguage": "en", "about": L["name"] + " language", "isAccessibleForFree": True,
     "publisher": ORG, "mainEntity": {"@type": "ItemList", "numberOfItems": len(lessons), "itemListElement": [
         {"@type": "ListItem", "position": i + 1, "url": BASE + L["out"] + "cours/" + s["date"] + ".html", "name": s["title"]}
-        for i, s in enumerate(lessons[:30])]}})}{FONTS}<style>{CSS}</style></head><body><div class="wrap">
-<header><span class="eyebrow">{L["eyebrow"]}</span><h1>{L["title"]}</h1><p class="sub">{L["tagline"]}</p></header>
-<p class="row">{head}<a href="mots.html">All words (FR · EN · {L["short"]})</a> · <a href="../index.html">Home</a></p>
-<section><h2>All lessons</h2><ul class="list">{items or '<li class="note">The first lesson is coming soon.</li>'}</ul></section>
+        for i, s in enumerate(lessons[:30])]}})}{FONTS}<style>{CSS}{HOME_CSS}</style></head><body><div class="wrap">
+<header><a class="toplink" href="/method.html">The Masimera method</a><span class="eyebrow" lang="{lang}">{L["eyebrow"]}</span><h1>{L["title"]}</h1><p class="sub">{L["tagline"]}</p></header>
+{today}
+{previous}
+<section><h2>How it works</h2><ol class="steps">
+<li><b>1</b><div><strong>Read a real story</strong><span>News from {L["place"]}, rewritten in simple {L["name"]}.</span></div></li>
+<li><b>2</b><div><strong>Listen</strong><span>A natural {L["name"]} voice reads the text. Slow it down if you need to.</span></div></li>
+<li><b>3</b><div><strong>Learn 24 words</strong><span>Each word in English and French, with short example sentences you can hear and read.</span></div></li>
+<li><b>4</b><div><strong>Come back tomorrow</strong><span>A new lesson in your mailbox every morning. All the words you've met stay in <a href="mots.html">All words</a>.</span></div></li>
+</ol></section>
+<section class="join" id="join"><h2 style="margin:0">Get it every morning</h2>
+<p>The lesson arrives in your inbox at 6 am, with one button to open it.</p>
+<form action="{FORM_ACTION}" method="POST">
+<input type="hidden" name="_subject" value="Masimera sign-up">
+<input type="hidden" name="_next" value="https://masimera.com/thanks.html">
+<input type="hidden" name="_template" value="table">
+<input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+<label class="small" for="em">Your email</label>
+<input id="em" type="email" name="email" required placeholder="you@example.com" autocomplete="email">
+<label class="small" for="lg">Language</label>
+<select id="lg" name="language">{opts}</select>
+<button class="play" type="submit">Sign up</button>
+<p class="small">Free. One email a day. Reply "stop" to any email to unsubscribe.</p>
+</form></section>
+<p class="row"><a href="mots.html">All words (FR · EN · {L["short"]})</a> · <a href="../{o["out"]}">{o["title"]}</a></p>
 {FOOTER}
 </div></body></html>"""
 
@@ -736,6 +776,15 @@ def build(lang, L):
     open(os.path.join(outdir, "mots.html"), "w", encoding="utf-8").write(gloss_page(lessons, lang, L))
     print(f"{lang}: built {len(lessons)} lesson(s)")
 
+def moved(target):
+    """Page left at an old address after a folder rename: sends the visitor at once to the new address,
+    keeping ?query (challenge links) and #hash; an instant refresh + canonical, which search engines treat as a permanent move."""
+    t = html.escape(target, quote=True)
+    return (f'<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8">'
+            f'<script>location.replace({json.dumps(target)} + location.search + location.hash)</script>'
+            f'<meta http-equiv="refresh" content="0; url={t}"><link rel="canonical" href="{t}">'
+            f'<title>Moved · Masimera</title></head><body><p><a href="{t}">This page has moved: click here</a></p></body></html>')
+
 def redirect(target):
     t = html.escape(target, quote=True)
     return (f'<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url={t}">'
@@ -793,7 +842,7 @@ def home_page():
     ORG,
     {"@type": "WebSite", "@id": BASE + "#site", "name": "Masimera", "url": BASE, "description": SITE_DESC,
      "inLanguage": "en", "publisher": {"@id": BASE + "#org"}},
-    {"@type": "Course", "name": "Greek of the day", "url": BASE + "grec/", "description": "A free daily Greek lesson: a real local news story from Greece in simple Greek, with audio and the key words translated into English and French.",
+    {"@type": "Course", "name": "Greek of the day", "url": BASE + LANGS["el"]["out"], "description": "A free daily Greek lesson: a real local news story from Greece in simple Greek, with audio and the key words translated into English and French.",
      "inLanguage": "el", "isAccessibleForFree": True, "provider": {"@id": BASE + "#org"},
      "offers": {"@type": "Offer", "price": 0, "priceCurrency": "EUR", "category": "Free"},
      "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "Online", "courseSchedule": {"@type": "Schedule", "repeatFrequency": "P1D"}}},
@@ -809,8 +858,8 @@ def home_page():
 <section><h2>How it works</h2><ol class="steps">
 <li><b>1</b><div><strong>Read a real story</strong><span>Local news, rewritten and simplified according to your level.</span></div></li>
 <li><b>2</b><div><strong>Listen</strong><span>A natural voice reads the text. Slow it down if you need to.</span></div></li>
-<li><b>3</b><div><strong>Learn 20 to 30 words</strong><span>Each word in English and French, with short example sentences you can hear.</span></div></li>
-<li><b>4</b><div><strong>Come back tomorrow</strong><span>A new lesson every morning. All the words you've met stay in your glossary.</span></div></li>
+<li><b>3</b><div><strong>Learn 24 words</strong><span>Each word in English and French, with short example sentences you can hear and read.</span></div></li>
+<li><b>4</b><div><strong>Come back tomorrow</strong><span>A new lesson in your mailbox every morning. All the words you've met stay in your glossary.</span></div></li>
 </ol></section>
 <section class="join" id="join"><h2 style="margin:0">Get it every morning</h2>
 <p>The lesson arrives in your inbox at 6 am, with one button to open it.</p>
@@ -1028,6 +1077,25 @@ def main():
         for s in json.load(open(os.path.join(ROOT, L["file"]), encoding="utf-8")):
             open(os.path.join(ROOT, "cours", s["date"] + ".html"), "w", encoding="utf-8").write(redirect(f'../{L["out"]}cours/{s["date"]}.html'))
         open(os.path.join(ROOT, "mots.html"), "w", encoding="utf-8").write(redirect(f'{L["out"]}mots.html'))
+    # dossier renommé (grec/ → gr/ le 23/11) : chaque ancienne page .html de old_out devient une page de renvoi
+    # vers la même adresse dans out (en gardant ?challenge=… et #…) ; on y ajoute les pages des nouveaux cours.
+    for lang, L in LANGS.items():
+        old = L.get("old_out")
+        if not old: continue
+        olddir = os.path.join(ROOT, old)
+        rels = set()
+        for dp, dn, fn in os.walk(olddir):
+            dn[:] = [d for d in dn if d != "audio"]
+            rels |= {os.path.relpath(os.path.join(dp, f), olddir) for f in fn if f.endswith(".html")}
+        rels |= {"index.html", "mots.html"}
+        for dp, dn, fn in os.walk(os.path.join(ROOT, L["out"])):
+            dn[:] = [d for d in dn if d != "audio"]
+            rels |= {os.path.relpath(os.path.join(dp, f), os.path.join(ROOT, L["out"])) for f in fn if f.endswith(".html")}
+        for rel in sorted(rels):
+            dst = os.path.join(olddir, rel)
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            target = "/" + L["out"] + ("" if rel == "index.html" else rel.replace(os.sep, "/"))
+            open(dst, "w", encoding="utf-8").write(moved(BASE.rstrip("/") + target))
     open(os.path.join(ROOT, ".nojekyll"), "w").close()
     urls = [(BASE, None), (BASE + "method.html", None)]
     for lang, L in LANGS.items():

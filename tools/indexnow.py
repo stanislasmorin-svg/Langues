@@ -10,7 +10,7 @@ import urllib.request
 BASE = "https://masimera.com/"
 KEY = "96fcd6d0bb466ca95c3279efa503f076"   # same as the file /<KEY>.txt at the root of the site
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LANGS = [("lessons.json", "grec/"), ("lessons_it.json", "it/")]
+LANGS = [("lessons.json", "gr/"), ("lessons_it.json", "it/")]
 
 
 def latest_date(path):
