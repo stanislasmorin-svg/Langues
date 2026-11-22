@@ -15011,5 +15011,445 @@
     "quote_en": "It won for a film, Mamma Mia!."
    }
   ]
+ },
+ {
+  "date": "2026-11-22",
+  "title": "Πιο φθηνά ψώνια για τα Χριστούγεννα",
+  "title_fr": "Des courses moins chères pour Noël",
+  "title_en": "Cheaper shopping for Christmas",
+  "source": {
+   "name": "Astra TV (ΕΡΤnews)",
+   "url": "https://www.astratv.gr/spanakis-sto-ertnews-giortes-gia-olous/"
+  },
+  "paragraphs": [
+   "Τα Χριστούγεννα **έρχονται** (are coming). Η **κυβέρνηση** (government) έχει ένα **πρόγραμμα** (programme) για τα **ψώνια** (shopping) των **γιορτών** (holidays). Το λένε «Γιορτές για Όλους». Θα **ξεκινήσει** (will start) στις 18 Δεκεμβρίου. Θα **τελειώσει** (will end) στις 31 Δεκεμβρίου.",
+   "Αυτές τις **μέρες** (days), πάνω από 300 **προϊόντα** (products) θα είναι πιο **φθηνά** (cheap). Οι **τιμές** (prices) **πέφτουν** (fall) μέχρι 25 στα 100. **Φέτος** (this year), στη **λίστα** (list) μπαίνουν και τα **παιχνίδια** (toys) για τα **παιδιά** (children).",
+   "Τι θα γίνει με το **κρέας** (meat); Το **χοιρινό** (pork), το **μοσχάρι** (veal), η **γαλοπούλα** (turkey) και το **αρνί** (lamb) θα είναι 10 με 15 στα 100 πιο φθηνά. Τα **αλλαντικά** (cold cuts) θα είναι 25 στα 100 πιο φθηνά.",
+   "Ο **υφυπουργός** (deputy minister) Βασίλης Σπανάκης **μίλησε** (spoke) στην ΕΡΤ. **Καλεί** (invites) όλα τα **μαγαζιά** (shops) να μπουν στο πρόγραμμα. Λέει ότι το πρόβλημα είναι οι τιμές των **καυσίμων** (fuel). Μόνο φέτος έγιναν 33.000 **έλεγχοι** (checks) στις τιμές. Πολλοί άνθρωποι **στέλνουν** (send) **παράπονα** (complaints) στη γραμμή 1520.",
+   "**Βλέπεις** (do you see) μια τιμή που δεν σου **αρέσει** (like); Μπορείς να **τηλεφωνήσεις** (call) στο 1520. Και εσύ, τι θα **αγοράσεις** (will buy) για το **γιορτινό** (festive) **τραπέζι** (table);"
+  ],
+  "paragraphs_en": [
+   "Christmas is coming. The government has a programme for holiday shopping. It is called “Holidays for All”. It will start on 18 December. It will end on 31 December.",
+   "During these days, more than 300 products will be cheaper. Prices fall by up to 25 percent. This year, toys for children are also on the list.",
+   "What about meat? Pork, veal, turkey and lamb will be 10 to 15 percent cheaper. Cold cuts will be 25 percent cheaper.",
+   "Deputy minister Vasilis Spanakis spoke on ERT. He invites all shops to join the programme. He says the problem is fuel prices. This year alone there were 33,000 price checks. Many people send complaints to the 1520 line.",
+   "Do you see a price you don't like? You can call 1520. And you, what will you buy for the festive table?"
+  ],
+  "fr": {
+   "έρχονται": "arrivent, viennent",
+   "κυβέρνηση": "gouvernement",
+   "πρόγραμμα": "programme",
+   "ψώνια": "courses, achats",
+   "γιορτών": "des fêtes",
+   "ξεκινήσει": "commencera",
+   "τελειώσει": "finira",
+   "μέρες": "jours",
+   "προϊόντα": "produits",
+   "φθηνά": "bon marché, pas chers",
+   "τιμές": "prix",
+   "πέφτουν": "baissent, tombent",
+   "Φέτος": "cette année",
+   "λίστα": "liste",
+   "παιχνίδια": "jouets",
+   "παιδιά": "enfants",
+   "κρέας": "viande",
+   "χοιρινό": "porc",
+   "μοσχάρι": "veau",
+   "γαλοπούλα": "dinde",
+   "αρνί": "agneau",
+   "αλλαντικά": "charcuterie",
+   "υφυπουργός": "vice-ministre",
+   "μίλησε": "a parlé",
+   "Καλεί": "invite, appelle",
+   "μαγαζιά": "magasins",
+   "καυσίμων": "des carburants",
+   "έλεγχοι": "contrôles",
+   "στέλνουν": "envoient",
+   "παράπονα": "plaintes, réclamations",
+   "Βλέπεις": "tu vois",
+   "αρέσει": "plaît",
+   "τηλεφωνήσεις": "téléphoner, appeler",
+   "αγοράσεις": "acheteras",
+   "γιορτινό": "de fête",
+   "τραπέζι": "table"
+  },
+  "lemma": {
+   "έρχονται": "έρχομαι",
+   "ξεκινήσει": "ξεκινάω",
+   "τελειώσει": "τελειώνω",
+   "πέφτουν": "πέφτω",
+   "μίλησε": "μιλάω",
+   "στέλνουν": "στέλνω",
+   "Βλέπεις": "βλέπω",
+   "αρέσει": "αρέσω",
+   "τηλεφωνήσεις": "τηλεφωνώ",
+   "αγοράσεις": "αγοράζω"
+  },
+  "examples": {
+   "έρχονται": [
+    [
+     "Οι φίλοι μου έρχονται απόψε.",
+     "My friends are coming tonight.",
+     "Mes amis viennent ce soir."
+    ],
+    [
+     "Αύριο έρχομαι στο σπίτι σου.",
+     "Tomorrow I'm coming to your house.",
+     "Demain, je viens chez toi."
+    ]
+   ],
+   "κυβέρνηση": [
+    [
+     "Η κυβέρνηση έχει νέο σχέδιο.",
+     "The government has a new plan.",
+     "Le gouvernement a un nouveau plan."
+    ],
+    [
+     "Στο καφέ μιλάμε για την κυβέρνηση.",
+     "At the café we talk about the government.",
+     "Au café, on parle du gouvernement."
+    ]
+   ],
+   "ψώνια": [
+    [
+     "Κάνω τα ψώνια το Σάββατο.",
+     "I do the shopping on Saturday.",
+     "Je fais les courses le samedi."
+    ],
+    [
+     "Τα ψώνια είναι στην κουζίνα.",
+     "The shopping is in the kitchen.",
+     "Les courses sont dans la cuisine."
+    ]
+   ],
+   "ξεκινήσει": [
+    [
+     "Η ταινία θα ξεκινήσει στις οκτώ.",
+     "The film will start at eight.",
+     "Le film va commencer à huit heures."
+    ],
+    [
+     "Κάθε πρωί ξεκινάω με καφέ.",
+     "Every morning I start with coffee.",
+     "Chaque matin, je commence par un café."
+    ]
+   ],
+   "τελειώσει": [
+    [
+     "Το μάθημα θα τελειώσει σε λίγο.",
+     "The lesson will end soon.",
+     "Le cours va bientôt finir."
+    ],
+    [
+     "Συνήθως τελειώνω τη δουλειά στις πέντε.",
+     "I usually finish work at five.",
+     "D'habitude, je finis le travail à cinq heures."
+    ]
+   ],
+   "προϊόντα": [
+    [
+     "Τα προϊόντα είναι στο ράφι.",
+     "The products are on the shelf.",
+     "Les produits sont sur l'étagère."
+    ],
+    [
+     "Στο σούπερ μάρκετ αγοράζω ελληνικά προϊόντα.",
+     "At the supermarket I buy Greek products.",
+     "Au supermarché, j'achète des produits grecs."
+    ]
+   ],
+   "φθηνά": [
+    [
+     "Τα φρούτα είναι φθηνά σήμερα.",
+     "The fruit is cheap today.",
+     "Les fruits sont bon marché aujourd'hui."
+    ],
+    [
+     "Τα παπούτσια ήταν πολύ φθηνά.",
+     "The shoes were very cheap.",
+     "Les chaussures étaient vraiment pas chères."
+    ]
+   ],
+   "τιμές": [
+    [
+     "Οι τιμές ανεβαίνουν πολύ.",
+     "Prices are going up a lot.",
+     "Les prix augmentent beaucoup."
+    ],
+    [
+     "Κοιτάζω τις τιμές στο μενού.",
+     "I look at the prices on the menu.",
+     "Je regarde les prix sur le menu."
+    ]
+   ],
+   "πέφτουν": [
+    [
+     "Τα φύλλα πέφτουν το φθινόπωρο.",
+     "The leaves fall in autumn.",
+     "Les feuilles tombent en automne."
+    ],
+    [
+     "Συχνά πέφτω από το ποδήλατο.",
+     "I often fall off the bike.",
+     "Je tombe souvent du vélo."
+    ]
+   ],
+   "Φέτος": [
+    [
+     "Φέτος πάμε στο χωριό.",
+     "This year we're going to the village.",
+     "Cette année, on va au village."
+    ],
+    [
+     "Φέτος ο χειμώνας είναι ζεστός.",
+     "This year the winter is warm.",
+     "Cette année, l'hiver est doux."
+    ]
+   ],
+   "παιχνίδια": [
+    [
+     "Τα παιχνίδια είναι στο κουτί.",
+     "The toys are in the box.",
+     "Les jouets sont dans la boîte."
+    ],
+    [
+     "Το παιδί θέλει νέα παιχνίδια.",
+     "The child wants new toys.",
+     "L'enfant veut de nouveaux jouets."
+    ]
+   ],
+   "παιδιά": [
+    [
+     "Τα παιδιά παίζουν στο πάρκο.",
+     "The children play in the park.",
+     "Les enfants jouent au parc."
+    ],
+    [
+     "Τα παιδιά πάνε σχολείο με τα πόδια.",
+     "The children walk to school.",
+     "Les enfants vont à l'école à pied."
+    ]
+   ],
+   "κρέας": [
+    [
+     "Δεν τρώω κρέας το βράδυ.",
+     "I don't eat meat in the evening.",
+     "Je ne mange pas de viande le soir."
+    ],
+    [
+     "Το κρέας είναι στο ψυγείο.",
+     "The meat is in the fridge.",
+     "La viande est dans le frigo."
+    ]
+   ],
+   "αρνί": [
+    [
+     "Το Πάσχα τρώμε αρνί.",
+     "At Easter we eat lamb.",
+     "À Pâques, on mange de l'agneau."
+    ],
+    [
+     "Η γιαγιά μαγειρεύει αρνί με πατάτες.",
+     "Grandma cooks lamb with potatoes.",
+     "Mamie cuisine de l'agneau aux pommes de terre."
+    ]
+   ],
+   "μίλησε": [
+    [
+     "Η Μαρία μίλησε με τον γιατρό.",
+     "Maria spoke with the doctor.",
+     "Maria a parlé avec le médecin."
+    ],
+    [
+     "Με τη γειτόνισσα μιλάω ελληνικά.",
+     "I speak Greek with my neighbour.",
+     "Avec ma voisine, je parle grec."
+    ]
+   ],
+   "μαγαζιά": [
+    [
+     "Τα μαγαζιά κλείνουν στις εννιά.",
+     "The shops close at nine.",
+     "Les magasins ferment à neuf heures."
+    ],
+    [
+     "Στον δρόμο μου έχει πολλά μαγαζιά.",
+     "There are many shops on my street.",
+     "Il y a beaucoup de magasins dans ma rue."
+    ]
+   ],
+   "έλεγχοι": [
+    [
+     "Στο αεροδρόμιο γίνονται έλεγχοι.",
+     "There are checks at the airport.",
+     "Il y a des contrôles à l'aéroport."
+    ],
+    [
+     "Οι έλεγχοι στο λεωφορείο είναι συχνοί.",
+     "Checks on the bus are frequent.",
+     "Les contrôles dans le bus sont fréquents."
+    ]
+   ],
+   "στέλνουν": [
+    [
+     "Οι φίλοι μου στέλνουν φωτογραφίες.",
+     "My friends send photos.",
+     "Mes amis envoient des photos."
+    ],
+    [
+     "Κάθε βράδυ στέλνω μήνυμα στη μαμά.",
+     "Every evening I send mum a message.",
+     "Chaque soir, j'envoie un message à maman."
+    ]
+   ],
+   "παράπονα": [
+    [
+     "Ο πελάτης έχει παράπονα.",
+     "The customer has complaints.",
+     "Le client a des réclamations."
+    ],
+    [
+     "Δεν έχω παράπονα από το ξενοδοχείο.",
+     "I have no complaints about the hotel.",
+     "Je n'ai pas à me plaindre de l'hôtel."
+    ]
+   ],
+   "Βλέπεις": [
+    [
+     "Βλέπεις το λεωφορείο στη γωνία;",
+     "Do you see the bus on the corner?",
+     "Tu vois le bus au coin de la rue ?"
+    ],
+    [
+     "Από το μπαλκόνι βλέπω τη θάλασσα.",
+     "From the balcony I see the sea.",
+     "Du balcon, je vois la mer."
+    ]
+   ],
+   "αρέσει": [
+    [
+     "Μου αρέσει ο ελληνικός καφές.",
+     "I like Greek coffee.",
+     "J'aime le café grec."
+    ],
+    [
+     "Νομίζω ότι αρέσω στη γάτα σου.",
+     "I think your cat likes me.",
+     "Je crois que ton chat m'aime bien."
+    ]
+   ],
+   "τηλεφωνήσεις": [
+    [
+     "Μπορείς να τηλεφωνήσεις στον γιατρό;",
+     "Can you call the doctor?",
+     "Tu peux appeler le médecin ?"
+    ],
+    [
+     "Κάθε Κυριακή τηλεφωνώ στη γιαγιά.",
+     "Every Sunday I call grandma.",
+     "Chaque dimanche, j'appelle mamie."
+    ]
+   ],
+   "αγοράσεις": [
+    [
+     "Τι θα αγοράσεις από τον φούρνο;",
+     "What will you buy at the bakery?",
+     "Qu'est-ce que tu vas acheter à la boulangerie ?"
+    ],
+    [
+     "Κάθε πρωί αγοράζω ψωμί.",
+     "Every morning I buy bread.",
+     "Chaque matin, j'achète du pain."
+    ]
+   ],
+   "τραπέζι": [
+    [
+     "Το τραπέζι είναι έτοιμο.",
+     "The table is ready.",
+     "La table est prête."
+    ],
+    [
+     "Βάζω τα πιάτα στο τραπέζι.",
+     "I put the plates on the table.",
+     "Je mets les assiettes sur la table."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "ψώνια",
+    "gr": "ψώνια",
+    "en": "shopping",
+    "fr": "courses, achats"
+   },
+   {
+    "word": "παιχνίδια",
+    "gr": "παιχνίδια",
+    "en": "toys",
+    "fr": "jouets"
+   },
+   {
+    "word": "παράπονα",
+    "gr": "παράπονα",
+    "en": "complaints",
+    "fr": "plaintes, réclamations"
+   },
+   {
+    "word": "ξεκινήσει",
+    "gr": "ξεκινάω",
+    "en": "to start",
+    "fr": "commencer"
+   },
+   {
+    "word": "τελειώσει",
+    "gr": "τελειώνω",
+    "en": "to finish",
+    "fr": "finir"
+   },
+   {
+    "word": "πέφτουν",
+    "gr": "πέφτω",
+    "en": "to fall",
+    "fr": "tomber"
+   },
+   {
+    "word": "στέλνουν",
+    "gr": "στέλνω",
+    "en": "to send",
+    "fr": "envoyer"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Πότε θα ξεκινήσει το πρόγραμμα;",
+    "choices": [
+     "Στις 18 Δεκεμβρίου",
+     "Στις 3 Αυγούστου",
+     "Σε πέντε λεπτά"
+    ],
+    "quote": "Θα ξεκινήσει στις 18 Δεκεμβρίου.",
+    "quote_en": "It will start on 18 December."
+   },
+   {
+    "q": "Τι μπαίνει φέτος στη λίστα;",
+    "choices": [
+     "Τα παιχνίδια",
+     "Τα αεροπλάνα",
+     "Τα σπίτια"
+    ],
+    "quote": "Φέτος, στη λίστα μπαίνουν και τα παιχνίδια για τα παιδιά.",
+    "quote_en": "This year, toys for children are also on the list."
+   },
+   {
+    "q": "Πόσοι έλεγχοι έγιναν φέτος στις τιμές;",
+    "choices": [
+     "33.000",
+     "Τρεις",
+     "Ένα δισεκατομμύριο"
+    ],
+    "quote": "Μόνο φέτος έγιναν 33.000 έλεγχοι στις τιμές.",
+    "quote_en": "This year alone there were 33,000 price checks."
+   }
+  ]
  }
 ]

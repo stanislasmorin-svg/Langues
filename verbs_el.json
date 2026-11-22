@@ -47,6 +47,10 @@
   "fr": "décider",
   "en": "to decide"
  },
+ "αρέσω": {
+  "fr": "plaire",
+  "en": "to please, to be liked"
+ },
  "αρχίζω": {
   "fr": "commencer",
   "en": "to begin"
@@ -391,6 +395,10 @@
   "fr": "se tenir debout",
   "en": "to stand"
  },
+ "στέλνω": {
+  "fr": "envoyer",
+  "en": "to send"
+ },
  "στήνω": {
   "fr": "installer, monter",
   "en": "to set up, to put up"
@@ -426,6 +434,10 @@
  "τελειώνω": {
   "fr": "finir, terminer",
   "en": "to finish, to end"
+ },
+ "τηλεφωνώ": {
+  "fr": "téléphoner, appeler",
+  "en": "to phone, to call"
  },
  "τρέχω": {
   "fr": "courir",

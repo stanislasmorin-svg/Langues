@@ -7045,5 +7045,447 @@
     "quote_en": "On Salina people eat capers and drink Malvasia, a sweet wine."
    }
   ]
+ },
+ {
+  "date": "2026-11-22",
+  "title": "Comprare a rate: nuove regole",
+  "title_fr": "Acheter en plusieurs fois : de nouvelles règles",
+  "title_en": "Buying in instalments: new rules",
+  "source": {
+   "name": "ANSA",
+   "url": "https://www.ansa.it/sito/notizie/economia/2026/11/19/novita-sul-credito-al-consumo-da-domani-stretta-su-buy-now-pay-later_28f5367b-7fca-4d12-8c7f-c5d214435e38.html"
+  },
+  "paragraphs": [
+   "Molte persone **comprano** (buy) online e **pagano** (pay) a **rate** (instalments). Si chiama «compra ora, paga dopo». **Sembra** (it seems) un modo di pagare, ma è un vero **prestito** (loan). Dal 20 novembre ci sono nuove **regole** (rules) in Italia. **Arrivano** (they come) da una **legge** (law) dell'Unione europea.",
+   "Prima di dare i **soldi** (money), la **società** (company) deve **controllare** (check) una cosa. Il **cliente** (customer) può **restituire** (pay back) i soldi? Poi deve **spiegare** (explain) tutto in modo **chiaro** (clear): i **costi** (costs), le rate e cosa **succede** (happens) se paghi in **ritardo** (late).",
+   "C'è anche una **novità** (new thing) importante. Hai **firmato** (signed) un **contratto** (contract), ma **cambi** (you change) idea? Hai 14 **giorni** (days) per dire di no. Non devi **dire** (say) **perché** (why).",
+   "Ci sono regole anche per la **pubblicità** (advertising). La pubblicità non può **nascondere** (hide) quello che devi pagare.",
+   "Antonio Tanza è il presidente di Adusbef, un'**associazione** (association) che aiuta i **consumatori** (consumers). Lui dà alcuni **consigli** (tips). **Leggi** (read) bene il contratto. **Guarda** (look at) il costo **totale** (total). Attenzione alle **piccole** (small) rate: tante rate **insieme** (together) fanno un grande **debito** (debt)."
+  ],
+  "paragraphs_en": [
+   "Many people buy online and pay in instalments. It is called “buy now, pay later”. It seems like a way to pay, but it is a real loan. Since 20 November there are new rules in Italy. They come from a European Union law.",
+   "Before giving the money, the company must check one thing. Can the customer pay the money back? Then it must explain everything clearly: the costs, the instalments and what happens if you pay late.",
+   "There is also an important new thing. You signed a contract, but you change your mind? You have 14 days to say no. You don't have to say why.",
+   "There are rules for advertising too. Advertising cannot hide what you have to pay.",
+   "Antonio Tanza is the president of Adusbef, an association that helps consumers. He gives some tips. Read the contract carefully. Look at the total cost. Watch out for small instalments: many instalments together make a big debt."
+  ],
+  "fr": {
+   "comprano": "achètent",
+   "pagano": "paient",
+   "rate": "mensualités, versements",
+   "Sembra": "ça semble, on dirait",
+   "prestito": "prêt",
+   "regole": "règles",
+   "Arrivano": "arrivent, viennent",
+   "legge": "loi",
+   "soldi": "argent",
+   "società": "société, entreprise",
+   "controllare": "vérifier, contrôler",
+   "cliente": "client",
+   "restituire": "rendre, rembourser",
+   "spiegare": "expliquer",
+   "chiaro": "clair",
+   "costi": "coûts",
+   "succede": "se passe, arrive",
+   "ritardo": "retard",
+   "novità": "nouveauté",
+   "firmato": "signé",
+   "contratto": "contrat",
+   "cambi": "tu changes",
+   "giorni": "jours",
+   "dire": "dire",
+   "perché": "pourquoi",
+   "pubblicità": "publicité",
+   "nascondere": "cacher",
+   "associazione": "association",
+   "consumatori": "consommateurs",
+   "consigli": "conseils",
+   "Leggi": "lis",
+   "Guarda": "regarde",
+   "totale": "total",
+   "piccole": "petites",
+   "insieme": "ensemble",
+   "debito": "dette"
+  },
+  "lemma": {
+   "comprano": "comprare",
+   "pagano": "pagare",
+   "Sembra": "sembrare",
+   "controllare": "controllare",
+   "restituire": "restituire",
+   "spiegare": "spiegare",
+   "succede": "succedere",
+   "firmato": "firmare",
+   "cambi": "cambiare",
+   "nascondere": "nascondere",
+   "Leggi": "leggere",
+   "Guarda": "guardare"
+  },
+  "examples": {
+   "comprano": [
+    [
+     "I miei vicini comprano il pane qui.",
+     "My neighbours buy bread here.",
+     "Mes voisins achètent le pain ici."
+    ],
+    [
+     "Io compro la frutta al mercato.",
+     "I buy fruit at the market.",
+     "J'achète les fruits au marché."
+    ]
+   ],
+   "pagano": [
+    [
+     "Molti pagano con il telefono.",
+     "Many people pay with their phone.",
+     "Beaucoup de gens paient avec leur téléphone."
+    ],
+    [
+     "Io pago il caffè al bar.",
+     "I pay for the coffee at the bar.",
+     "Je paie le café au bar."
+    ]
+   ],
+   "rate": [
+    [
+     "Pago il divano a rate.",
+     "I'm paying for the sofa in instalments.",
+     "Je paie le canapé en plusieurs fois."
+    ],
+    [
+     "Le rate arrivano ogni mese.",
+     "The instalments come every month.",
+     "Les mensualités arrivent chaque mois."
+    ]
+   ],
+   "Sembra": [
+    [
+     "Sembra una bella giornata.",
+     "It looks like a nice day.",
+     "On dirait une belle journée."
+    ],
+    [
+     "Oggi mio figlio sembra stanco.",
+     "Today my son seems tired.",
+     "Aujourd'hui, mon fils a l'air fatigué."
+    ]
+   ],
+   "prestito": [
+    [
+     "Chiedo un prestito alla banca.",
+     "I ask the bank for a loan.",
+     "Je demande un prêt à la banque."
+    ],
+    [
+     "Il prestito per la macchina è finito.",
+     "The car loan is paid off.",
+     "Le prêt pour la voiture est terminé."
+    ]
+   ],
+   "regole": [
+    [
+     "In casa ci sono regole semplici.",
+     "There are simple rules at home.",
+     "À la maison, il y a des règles simples."
+    ],
+    [
+     "Le regole del gioco sono facili.",
+     "The rules of the game are easy.",
+     "Les règles du jeu sont faciles."
+    ]
+   ],
+   "soldi": [
+    [
+     "Non ho soldi nel portafoglio.",
+     "I have no money in my wallet.",
+     "Je n'ai pas d'argent dans mon portefeuille."
+    ],
+    [
+     "Metto i soldi in banca.",
+     "I put the money in the bank.",
+     "Je mets l'argent à la banque."
+    ]
+   ],
+   "controllare": [
+    [
+     "Devo controllare la posta.",
+     "I have to check the mail.",
+     "Je dois vérifier le courrier."
+    ],
+    [
+     "Io controllo il treno sull'app.",
+     "I check the train on the app.",
+     "Je vérifie le train sur l'appli."
+    ]
+   ],
+   "cliente": [
+    [
+     "Il cliente aspetta il caffè.",
+     "The customer is waiting for the coffee.",
+     "Le client attend son café."
+    ],
+    [
+     "Ogni cliente riceve un regalo.",
+     "Every customer gets a gift.",
+     "Chaque client reçoit un cadeau."
+    ]
+   ],
+   "restituire": [
+    [
+     "Devo restituire il libro domani.",
+     "I have to return the book tomorrow.",
+     "Je dois rendre le livre demain."
+    ],
+    [
+     "Io restituisco le chiavi al vicino.",
+     "I give the keys back to the neighbour.",
+     "Je rends les clés au voisin."
+    ]
+   ],
+   "spiegare": [
+    [
+     "Puoi spiegare la strada a Marco?",
+     "Can you explain the way to Marco?",
+     "Tu peux expliquer le chemin à Marco ?"
+    ],
+    [
+     "Io spiego la ricetta a mia figlia.",
+     "I explain the recipe to my daughter.",
+     "J'explique la recette à ma fille."
+    ]
+   ],
+   "succede": [
+    [
+     "Cosa succede in piazza?",
+     "What's happening in the square?",
+     "Qu'est-ce qui se passe sur la place ?"
+    ],
+    [
+     "Questo succede ogni lunedì mattina.",
+     "This happens every Monday morning.",
+     "Ça arrive tous les lundis matin."
+    ]
+   ],
+   "ritardo": [
+    [
+     "Il treno è in ritardo.",
+     "The train is late.",
+     "Le train est en retard."
+    ],
+    [
+     "Scusa, sono arrivato in ritardo.",
+     "Sorry, I arrived late.",
+     "Désolé, je suis arrivé en retard."
+    ]
+   ],
+   "firmato": [
+    [
+     "Ho firmato il contratto d'affitto.",
+     "I signed the rental contract.",
+     "J'ai signé le bail."
+    ],
+    [
+     "Io firmo sempre con la penna blu.",
+     "I always sign with a blue pen.",
+     "Je signe toujours au stylo bleu."
+    ]
+   ],
+   "contratto": [
+    [
+     "Il contratto è sul tavolo.",
+     "The contract is on the table.",
+     "Le contrat est sur la table."
+    ],
+    [
+     "Leggo il contratto del telefono.",
+     "I read the phone contract.",
+     "Je lis le contrat du téléphone."
+    ]
+   ],
+   "cambi": [
+    [
+     "Se cambi idea, chiamami.",
+     "If you change your mind, call me.",
+     "Si tu changes d'avis, appelle-moi."
+    ],
+    [
+     "Io cambio autobus in piazza.",
+     "I change buses in the square.",
+     "Je change de bus sur la place."
+    ]
+   ],
+   "giorni": [
+    [
+     "Ci vediamo tra due giorni.",
+     "See you in two days.",
+     "On se voit dans deux jours."
+    ],
+    [
+     "Lavoro cinque giorni a settimana.",
+     "I work five days a week.",
+     "Je travaille cinq jours par semaine."
+    ]
+   ],
+   "pubblicità": [
+    [
+     "La pubblicità in TV è lunga.",
+     "TV adverts are long.",
+     "La pub à la télé est longue."
+    ],
+    [
+     "Non guardo mai la pubblicità.",
+     "I never watch the adverts.",
+     "Je ne regarde jamais la pub."
+    ]
+   ],
+   "nascondere": [
+    [
+     "Voglio nascondere il regalo in camera.",
+     "I want to hide the present in the bedroom.",
+     "Je veux cacher le cadeau dans la chambre."
+    ],
+    [
+     "Il gatto si nasconde sotto il letto.",
+     "The cat hides under the bed.",
+     "Le chat se cache sous le lit."
+    ]
+   ],
+   "consigli": [
+    [
+     "Mia nonna dà buoni consigli.",
+     "My grandmother gives good advice.",
+     "Ma grand-mère donne de bons conseils."
+    ],
+    [
+     "Grazie mille per i tuoi consigli!",
+     "Thanks a lot for your advice!",
+     "Merci beaucoup pour tes conseils !"
+    ]
+   ],
+   "Leggi": [
+    [
+     "Leggi il giornale ogni mattina?",
+     "Do you read the paper every morning?",
+     "Tu lis le journal tous les matins ?"
+    ],
+    [
+     "Io leggo un libro sul tram.",
+     "I read a book on the tram.",
+     "Je lis un livre dans le tram."
+    ]
+   ],
+   "Guarda": [
+    [
+     "Guarda, piove di nuovo!",
+     "Look, it's raining again!",
+     "Regarde, il pleut encore !"
+    ],
+    [
+     "Io guardo la partita al bar.",
+     "I watch the match at the bar.",
+     "Je regarde le match au bar."
+    ]
+   ],
+   "piccole": [
+    [
+     "Le tazze sono piccole.",
+     "The cups are small.",
+     "Les tasses sont petites."
+    ],
+    [
+     "Compro due bottiglie piccole d'acqua.",
+     "I buy two small bottles of water.",
+     "J'achète deux petites bouteilles d'eau."
+    ]
+   ],
+   "debito": [
+    [
+     "Ho un debito con mio fratello.",
+     "I owe my brother money.",
+     "J'ai une dette envers mon frère."
+    ],
+    [
+     "Il debito è quasi finito.",
+     "The debt is almost paid off.",
+     "La dette est presque remboursée."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "rate",
+    "gr": "rate",
+    "en": "instalments",
+    "fr": "mensualités"
+   },
+   {
+    "word": "prestito",
+    "gr": "prestito",
+    "en": "loan",
+    "fr": "prêt"
+   },
+   {
+    "word": "consigli",
+    "gr": "consigli",
+    "en": "advice, tips",
+    "fr": "conseils"
+   },
+   {
+    "word": "restituire",
+    "gr": "restituire",
+    "en": "to give back",
+    "fr": "rendre"
+   },
+   {
+    "word": "nascondere",
+    "gr": "nascondere",
+    "en": "to hide",
+    "fr": "cacher"
+   },
+   {
+    "word": "firmato",
+    "gr": "firmare",
+    "en": "to sign",
+    "fr": "signer"
+   },
+   {
+    "word": "succede",
+    "gr": "succedere",
+    "en": "to happen",
+    "fr": "se passer, arriver"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Da quando ci sono le nuove regole?",
+    "choices": [
+     "Dal 20 novembre",
+     "Dal 15 agosto",
+     "Da cento anni"
+    ],
+    "quote": "Dal 20 novembre ci sono nuove regole in Italia.",
+    "quote_en": "Since 20 November there are new rules in Italy."
+   },
+   {
+    "q": "Quanti giorni hai per dire di no?",
+    "choices": [
+     "14 giorni",
+     "Due minuti",
+     "Dieci anni"
+    ],
+    "quote": "Hai 14 giorni per dire di no.",
+    "quote_en": "You have 14 days to say no."
+   },
+   {
+    "q": "Chi aiuta l'associazione Adusbef?",
+    "choices": [
+     "I consumatori",
+     "I gatti randagi",
+     "I pesci del mare"
+    ],
+    "quote": "Antonio Tanza è il presidente di Adusbef, un'associazione che aiuta i consumatori.",
+    "quote_en": "Antonio Tanza is the president of Adusbef, an association that helps consumers."
+   }
+  ]
  }
 ]

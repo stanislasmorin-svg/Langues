@@ -67,6 +67,10 @@
   "fr": "conseiller",
   "en": "to recommend, to advise"
  },
+ "controllare": {
+  "fr": "vérifier, contrôler",
+  "en": "to check"
+ },
  "costare": {
   "fr": "coûter",
   "en": "to cost"
@@ -111,6 +115,10 @@
   "fr": "finir",
   "en": "to finish"
  },
+ "firmare": {
+  "fr": "signer",
+  "en": "to sign"
+ },
  "funzionare": {
   "fr": "fonctionner",
   "en": "to work, to run"
@@ -151,6 +159,10 @@
   "fr": "travailler",
   "en": "to work"
  },
+ "leggere": {
+  "fr": "lire",
+  "en": "to read"
+ },
  "mangiare": {
   "fr": "manger",
   "en": "to eat"
@@ -158,6 +170,10 @@
  "nascere": {
   "fr": "naître",
   "en": "to be born"
+ },
+ "nascondere": {
+  "fr": "cacher",
+  "en": "to hide"
  },
  "nuotare": {
   "fr": "nager",
@@ -235,6 +251,10 @@
   "fr": "rester",
   "en": "to stay"
  },
+ "restituire": {
+  "fr": "rendre, rembourser",
+  "en": "to give back, to pay back"
+ },
  "ricevere": {
   "fr": "recevoir",
   "en": "to receive"
@@ -279,6 +299,10 @@
   "fr": "marquer",
   "en": "to score"
  },
+ "sembrare": {
+  "fr": "sembler",
+  "en": "to seem"
+ },
  "sfidare": {
   "fr": "défier, affronter",
   "en": "to challenge"
@@ -298,6 +322,10 @@
  "studiare": {
   "fr": "étudier",
   "en": "to study"
+ },
+ "succedere": {
+  "fr": "arriver, se passer",
+  "en": "to happen"
  },
  "suonare": {
   "fr": "jouer (de la musique)",
