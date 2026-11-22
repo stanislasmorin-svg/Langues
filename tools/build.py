@@ -13,16 +13,27 @@ import json, re, html, os, hashlib
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://masimera.com/"
+try:  # share images (needs Pillow; without it, pages fall back to the small icon)
+    import sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import og
+except Exception as _e:
+    print("og images skipped:", _e)
+    og = None
 
-def seo(path, title, desc, kind="website"):
-    """meta description, canonical and share preview (WhatsApp, Facebook...) for a page at BASE+path."""
+def seo(path, title, desc, kind="website", image="og/home.png"):
+    """meta description, canonical and share preview (WhatsApp, Facebook...) for a page at BASE+path.
+    image: share image (1200x630, made by tools/og.py) relative to the site root; falls back to the icon if missing."""
     e = lambda x: html.escape(x, quote=True)
     url = BASE + path
+    if image and os.path.exists(os.path.join(ROOT, image)):
+        img = (f'<meta property="og:image" content="{BASE}{image}"><meta property="og:image:width" content="1200">'
+               f'<meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">')
+    else:
+        img = f'<meta property="og:image" content="{BASE}icon-512.png"><meta name="twitter:card" content="summary">'
     return (f'<meta name="description" content="{e(desc)}"><link rel="canonical" href="{e(url)}">'
             f'<meta property="og:type" content="{kind}"><meta property="og:site_name" content="Masimera">'
             f'<meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">'
-            f'<meta property="og:url" content="{e(url)}"><meta property="og:image" content="{BASE}icon-512.png">'
-            f'<meta name="twitter:card" content="summary">'
+            f'<meta property="og:url" content="{e(url)}">{img}'
             '<meta name="msvalidate.01" content="D72A41D42D834EEC49F3CDEBE04030BD">')
 
 SITE_DESC = ("Masimera is a free website for learning Greek and Italian by reading the local news. "
@@ -441,7 +452,7 @@ def quiz_page(s, items, lang, L):
     data = json.dumps(items, ensure_ascii=False).replace("</", "<\\/")
     t = html.escape(s["title"])
     return f"""<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{L["name"]} quiz · {t} · Masimera</title><meta name="robots" content="noindex">{seo(L["out"] + "quiz/" + s["date"] + ".html", "Can you beat my score? " + L["name"] + " quiz · Masimera", (f"A 2-minute {L['name']} quiz: {s['title']}. 7 words and 3 questions about today's news." if s.get("questions") else f"A 2-minute {L['name']} quiz on today's news: {s['title']}. 10 words, 4 choices each."))}{FONTS}<style>{CSS}{QUIZ_CSS}{SHARE_CSS}</style></head><body><div class="wrap">
+<title>{L["name"]} quiz · {t} · Masimera</title><meta name="robots" content="noindex">{seo(L["out"] + "quiz/" + s["date"] + ".html", "Can you beat my score? " + L["name"] + " quiz · Masimera", (f"A 2-minute {L['name']} quiz: {s['title']}. 7 words and 3 questions about today's news." if s.get("questions") else f"A 2-minute {L['name']} quiz on today's news: {s['title']}. 10 words, 4 choices each."), image=L["out"] + "og/" + s["date"] + ".png")}{FONTS}<style>{CSS}{QUIZ_CSS}{SHARE_CSS}</style></head><body><div class="wrap">
 <header>{brand_mini()}<br><span class="eyebrow">{L["name"]} quiz · {fr_date(s["date"])}</span><h1>Quiz of the day</h1>
 <p class="sub">{nq_txt(items)} from the lesson: <a href="../cours/{s["date"]}.html">{t}</a></p>{pitch(L)}
 <p class="chal" id="chal" hidden></p></header>
@@ -527,7 +538,7 @@ def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
                  'if(b){b.hidden=false;b.textContent="A friend scored "+c+"/10 on today\'s quiz. Read the lesson, then try to beat them!";}})();</script>\n')
     src_html = f'<p class="note">Source: <a href="{html.escape(src["url"])}" target="_blank" rel="noopener">{html.escape(src["name"])}</a></p>' if src else ""
     return f"""<!doctype html><html lang="en" translate="no" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{html.escape(s["title"])} · Easy {L["name"]} reading with audio · Masimera</title>{seo(L["out"] + "cours/" + s["date"] + ".html", s["title"] + " · Easy " + L["name"] + " with audio", (s.get("title_en") or s.get("title_fr","")) + ". A real news story from " + L["place"] + " in simple " + L["name"] + ", with audio and " + str(len(words)) + " words translated into English and French.", "article")}{ld({
+<title>{html.escape(s["title"])} · Easy {L["name"]} reading with audio · Masimera</title>{seo(L["out"] + "cours/" + s["date"] + ".html", s["title"] + " · Easy " + L["name"] + " with audio", (s.get("title_en") or s.get("title_fr","")) + ". A real news story from " + L["place"] + " in simple " + L["name"] + ", with audio and " + str(len(words)) + " words translated into English and French.", "article", image=L["out"] + "og/" + s["date"] + ".png")}{ld({
     "@type": ["Article", "LearningResource"], "headline": s["title"], "name": s["title"],
     "alternativeHeadline": s.get("title_en") or s.get("title_fr", ""),
     "description": (s.get("title_en") or s.get("title_fr","")) + ". A real news story from " + L["place"] + " in simple " + L["name"] + ", with audio and " + str(len(words)) + " words translated into English and French.",
@@ -575,7 +586,7 @@ def index_page(lessons, lang, L):
     opts = "".join(f'<option{" selected" if v == L["name"] else ""}>{v}</option>' for v in ("Greek", "Italian", "Greek and Italian"))
     head = ""
     return f"""<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{L["title"]} · Learn {L["name"]} with simple news and audio · Masimera</title>{seo(L["out"], L["title"] + " · Masimera", L["tagline"] + " All lessons, free.")}{ld({
+<title>{L["title"]} · Learn {L["name"]} with simple news and audio · Masimera</title>{seo(L["out"], L["title"] + " · Masimera", L["tagline"] + " All lessons, free.", image="og/" + L["out"].strip("/") + ".png")}{ld({
     "@type": "CollectionPage", "name": L["title"], "description": L["tagline"] + " All lessons, free.",
     "url": BASE + L["out"], "inLanguage": "en", "about": L["name"] + " language", "isAccessibleForFree": True,
     "publisher": ORG, "mainEntity": {"@type": "ItemList", "numberOfItems": len(lessons), "itemListElement": [
@@ -745,7 +756,7 @@ document.querySelectorAll('.vocab li.letter').forEach(function(r){r.hidden=!!v;}
              ".lexc .card>.gr{font-family:var(--ui);color:var(--gloss)}.lexc .card>.fr{font-family:var(--text);font-size:17px;font-weight:600;color:var(--fg)}"
              ".lexc .card>.fr2{color:var(--muted)}")
     return f"""<!doctype html><html lang="en" translate="no" data-learn="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{L["name"]} vocabulary list with English and French · Masimera</title>{seo(L["out"] + "mots.html", L["name"] + " vocabulary · Masimera", "All the " + L["name"] + " words from the Masimera daily lessons, translated into English and French, with example sentences and audio.")}{ld({
+<title>{L["name"]} vocabulary list with English and French · Masimera</title>{seo(L["out"] + "mots.html", L["name"] + " vocabulary · Masimera", "All the " + L["name"] + " words from the Masimera daily lessons, translated into English and French, with example sentences and audio.", image="og/" + L["out"].strip("/") + ".png")}{ld({
     "@type": "DefinedTermSet", "name": L["name"] + " vocabulary from the Masimera lessons",
     "description": "All the " + L["name"] + " words from the Masimera daily lessons, translated into English and French, with example sentences and audio.",
     "url": BASE + L["out"] + "mots.html", "inLanguage": [lang, "en", "fr"], "isAccessibleForFree": True, "publisher": ORG})}{FONTS}<style>{CSS}{GLOSS_CSS}{QUIZ_CSS}{SHARE_CSS}{extra}</style></head><body data-lang="{L["name"]}"><div class="wrap">
@@ -765,6 +776,12 @@ def build(lang, L):
     os.makedirs(os.path.join(outdir, "cours"), exist_ok=True)
     os.makedirs(os.path.join(outdir, "quiz"), exist_ok=True)
     all_lemmas = sorted({v for x in lessons for v in x.get("lemma", {}).values()})
+    if og:  # share images: one per lesson (also used by its quiz) + one for /gr/, /it/ and All words
+        for s in lessons:
+            og.lesson_image(s["title"], s.get("title_en") or s.get("title_fr", ""), L["title"] + " · masimera.com",
+                            os.path.join(outdir, "og", s["date"] + ".png"))
+        og.page_image(L["title"], L["eyebrow"], L["tagline"], "masimera.com/" + L["out"].strip("/"),
+                      os.path.join(ROOT, "og", L["out"].strip("/") + ".png"))
     for i, s in enumerate(lessons):
         prev = lessons[i + 1] if i + 1 < len(lessons) else None
         nxt = lessons[i - 1] if i > 0 else None
@@ -1065,6 +1082,10 @@ def thanks_page():
 </div></body></html>"""
 
 def main():
+    if og:
+        og.page_image("Greek & Italian", "Learn with simple local news",
+                      "A short lesson every morning: a real story, audio, 24 key words and a quiz. 15 minutes a day, free.",
+                      "masimera.com", os.path.join(ROOT, "og", "home.png"))
     for lang, L in LANGS.items():
         build(lang, L)
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(home_page())
