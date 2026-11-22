@@ -585,8 +585,8 @@ def index_page(lessons, lang, L):
 {today}
 {previous}
 <section><h2>How it works</h2><ol class="steps">
-<li><b>1</b><div><strong>Read a real story</strong><span>News from {L["place"]}, rewritten in simple {L["name"]}.</span></div></li>
-<li><b>2</b><div><strong>Listen</strong><span>A natural {L["name"]} voice reads the text. Slow it down if you need to.</span></div></li>
+<li><b>1</b><div><strong>Read a real story</strong><span>News from {L["place"]} every day, rewritten in simple {L["name"]}, with the hardest words translated.</span></div></li>
+<li><b>2</b><div><strong>Listen</strong><span>A natural {L["name"]} voice reads the text. Slow it down if you need to. Follow the text as you listen and tap the hardest words to see their translation.</span></div></li>
 <li><b>3</b><div><strong>Learn 24 words</strong><span>Each word in English and French, with short example sentences you can hear and read.</span></div></li>
 <li><b>4</b><div><strong>Come back tomorrow</strong><span>A new lesson in your mailbox every morning. All the words you've met stay in <a href="mots.html">All words</a>.</span></div></li>
 </ol></section>
@@ -856,8 +856,8 @@ def home_page():
 <p class="lead">Every morning, a real news story, rewritten in simple sentences, with audio and the hard words translated into English and French. Slow and steady: a little every day, and you progress.</p>
 <section><h2>Today's lessons</h2><div class="langs">{"".join(cards)}</div></section>
 <section><h2>How it works</h2><ol class="steps">
-<li><b>1</b><div><strong>Read a real story</strong><span>Local news, rewritten and simplified according to your level.</span></div></li>
-<li><b>2</b><div><strong>Listen</strong><span>A natural voice reads the text. Slow it down if you need to.</span></div></li>
+<li><b>1</b><div><strong>Read a real story</strong><span>News from Greece or Italy every day, rewritten in simple Greek or Italian, with the hardest words translated.</span></div></li>
+<li><b>2</b><div><strong>Listen</strong><span>A natural voice reads the text. Slow it down if you need to. Follow the text as you listen and tap the hardest words to see their translation.</span></div></li>
 <li><b>3</b><div><strong>Learn 24 words</strong><span>Each word in English and French, with short example sentences you can hear and read.</span></div></li>
 <li><b>4</b><div><strong>Come back tomorrow</strong><span>A new lesson in your mailbox every morning. All the words you've met stay in your glossary.</span></div></li>
 </ol></section>
