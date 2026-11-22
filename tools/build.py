@@ -146,7 +146,7 @@ GA = ("<style>#ckb{position:fixed;left:12px;right:12px;bottom:12px;z-index:50;ma
       "<script>(function(){var K='masimera-consent',ID='" + GA_ID + "';"
       "function get(){try{return localStorage.getItem(K)}catch(e){return null}}function set(v){try{localStorage.setItem(K,v)}catch(e){}}"
       "function load(){if(window.__ga)return;window.__ga=1;window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};"
-      "gtag('js',new Date());gtag('config',ID,{content_group:(function(p){return /^\/grec\/cours\//.test(p)?'Greek lesson':/^\/it\/cours\//.test(p)?'Italian lesson':/^\/grec\/quiz\//.test(p)?'Greek quiz':/^\/it\/quiz\//.test(p)?'Italian quiz':/^\/grec\/mots/.test(p)?'Greek words':/^\/it\/mots/.test(p)?'Italian words':/^\/grec\/(index\.html)?$/.test(p)?'Greek lessons list':/^\/it\/(index\.html)?$/.test(p)?'Italian lessons list':/^\/method/.test(p)?'Method':/^\/(index\.html)?$/.test(p)?'Home':'Other'})(location.pathname)});var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s)}"
+      "gtag('js',new Date());gtag('config',ID,{content_group:(function(p){return /^\\/grec\\/cours\\//.test(p)?'Greek lesson':/^\\/it\\/cours\\//.test(p)?'Italian lesson':/^\\/grec\\/quiz\\//.test(p)?'Greek quiz':/^\\/it\\/quiz\\//.test(p)?'Italian quiz':/^\\/grec\\/mots/.test(p)?'Greek words':/^\\/it\\/mots/.test(p)?'Italian words':/^\\/grec\\/(index\\.html)?$/.test(p)?'Greek lessons list':/^\\/it\\/(index\\.html)?$/.test(p)?'Italian lessons list':/^\\/method/.test(p)?'Method':/^\\/(index\\.html)?$/.test(p)?'Home':'Other'})(location.pathname)});var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s)}"
       "var c=get();if(c==='yes'){load();return}if(c==='no')return;"
       "document.addEventListener('DOMContentLoaded',function(){var b=document.createElement('div');b.id='ckb';b.setAttribute('role','dialog');b.setAttribute('aria-label','Cookies');"
       "b.innerHTML='<p>This site uses Google Analytics cookies.</p><button class=\"n\" type=\"button\">Decline</button><button class=\"y\" type=\"button\">Accept</button>';"
@@ -918,7 +918,25 @@ METHOD_CSS = """
 .src{font-size:13px;color:var(--muted)}.src li{margin:4px 0}
 """
 
+METHOD_FAQ = [
+    ("How many words do I need to speak Greek or Italian?",
+     "About 1,500 to 2,200 words to get by day to day (level A2), and 2,500 to 3,300 to hold a conversation on everyday topics (B1). With 3,000 word families, you understand about 96% of everyday conversation."),
+    ("Can I learn a language by reading the news?",
+     "Yes, if the text is simple enough. You can guess unknown words only when you understand 95 to 98% of the words around them. That's why Masimera rewrites real local news in short, simple sentences and translates the harder words."),
+    ("How much time does it take each day?",
+     "About 15 minutes: read a short story, listen to it, look at the words of the day, then take a 2-minute quiz. A little every day works better than long sessions now and then."),
+    ("What level is Masimera for?",
+     "Today's lessons are level 5 out of 10, around B1 in reading. If you know a few hundred common words (A2), you can start: the harder words are translated in English and French."),
+    ("Why is there audio with every lesson?",
+     "Knowing a word is not the same as hearing it. In real speech, words run into each other. Each lesson pairs the text with a recording, so you learn to recognize the words by ear too."),
+    ("Is it free? Do I need an account?",
+     "Masimera is free and needs no account. You can read the lessons on the site, or get one by email every morning."),
+]
+
 def method_page():
+    faq_html = "".join(f'<h3 style="margin:18px 0 6px;font-size:18px">{html.escape(q)}</h3><p style="margin:0">{html.escape(a)}</p>' for q, a in METHOD_FAQ)
+    faq_ld = ld({"@type": "FAQPage", "url": BASE + "method.html", "mainEntity": [
+        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in METHOD_FAQ]})
     srcs = [("Brysbaert et al., 2016", "https://pmc.ncbi.nlm.nih.gov/articles/PMC4965448"),
             ("Milton & Alexiou, vocabulary size and CEFR levels", "https://www.enl.auth.gr/gala/14th/Papers/English%20papers/Milton&Alexiou.pdf"),
             ("Nation, 2006", "https://www.wgtn.ac.nz/__data/assets/pdf_file/0018/1626120/2006-How-large-a-vocab.pdf"),
@@ -934,7 +952,7 @@ def method_page():
     "description": "How we understand a language: words, sentence structure and working out the rest. How many words you need, and why 15 minutes of simple news a day works.",
     "url": BASE + "method.html", "inLanguage": "en", "author": {"@id": BASE + "#org"}, "publisher": ORG,
     "about": ["Vocabulary size", "Language learning", "Listening comprehension"],
-    "citation": [{"@type": "CreativeWork", "name": t, "url": u} for t, u in srcs]})}{FONTS}<style>{CSS}{SHARE_CSS}{METHOD_CSS}{CHART_CSS}</style></head><body><div class="wrap">
+    "citation": [{"@type": "CreativeWork", "name": t, "url": u} for t, u in srcs]})}{faq_ld}{FONTS}<style>{CSS}{SHARE_CSS}{METHOD_CSS}{CHART_CSS}</style></head><body><div class="wrap">
 <header>{brand_mini()}<br><span class="eyebrow">The Masimera method</span><h1>How you really learn to understand a language</h1>
 <p class="big">Understanding a language rests on three things: knowing the words, seeing how sentences are built, and working out what you don't know yet. Masimera trains all three, every day, in 15 minutes.</p></header>
 
@@ -959,7 +977,7 @@ def method_page():
 <p>The first few thousand words do most of the work: with 2,000 word families you already know 9 words in 10 of what native speakers say. Beyond 3,000, each new word adds little to everyday understanding.</p>
 <p style="border-left:3px solid var(--accent);padding:4px 0 4px 14px"><b>But knowing a word is not the same as hearing it.</b> In real speech, words run into each other: there are no gaps between them, and the sentence goes by only once. These percentages assume you can tell where each word starts and ends, and follow how the sentence is built. For most learners, that is the real hurdle. That's why every Masimera lesson pairs the text with its audio: first you see the words, then you learn to hear them.</p>
 {_chart_cefr()}
-<p>The levels are close together in words: each step is a few hundred to a thousand new words. A short lesson every day, with 20 to 30 words, covers that ground steadily.</p></section>
+<p>The levels are close together in words: each step is a few hundred to a thousand new words. A short lesson every day, with 24 key words, covers that ground steadily.</p></section>
 
 <section><h2>Three layers, trained every day</h2><div class="cards3">
 <div class="c3"><h3>1. Knowing the words</h3>
@@ -981,6 +999,8 @@ def method_page():
 <section><h2>Little, but every day</h2>
 <p>Spreading learning over time makes it stick far better than cramming. That's why Masimera is one short lesson each morning, built on a real local news story: you remember better what actually interests you, and you want to come back tomorrow.</p>
 <p class="row"><a class="play" href="/">Read today's lesson →</a><a href="/#join">Get it every morning</a></p></section>
+
+<section><h2>Questions and answers</h2>{faq_html}</section>
 
 <section><h2>Sources</h2><ul class="src">{src_html}</ul></section>
 {FOOTER}
