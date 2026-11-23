@@ -15451,5 +15451,442 @@
     "quote_en": "This year alone there were 33,000 price checks."
    }
   ]
+ },
+ {
+  "date": "2026-11-23",
+  "title": "Το σπίτι με τον δράκο ανοίγει ξανά",
+  "title_fr": "La maison au dragon rouvre",
+  "title_en": "The house with the dragon opens again",
+  "source": {
+   "name": "LiFO",
+   "url": "https://www.lifo.gr/culture/design/akadimias-58a-ena-apo-ta-pio-mystiria-ktiria-tis-athinas-anoigei-tis-portes-toy"
+  },
+  "paragraphs": [
+   "Στην **οδό** (street) Ακαδημίας, στο κέντρο της Αθήνας, υπάρχει ένα **παλιό** (old) **κτίριο** (building). Πάνω από την **πόρτα** (door) του έχει έναν **δράκο** (dragon). Για πολλά χρόνια ήταν **κλειστό** (closed). Τώρα **ανοίγει** (opens) **ξανά** (again).",
+   "Το κτίριο ήταν **μέρος** (part) από το **σπίτι** (house) του Τσίλερ. Ο Τσίλερ ήταν ένας μεγάλος **αρχιτέκτονας** (architect). **Έφτιαχνε** (he made) **όμορφα** (beautiful) σπίτια στην Αθήνα. Το 1912 ένας **πλούσιος** (rich) **τραπεζίτης** (banker) **αγόρασε** (bought) το σπίτι. Έκανε εκεί ένα δικό του **μουσείο** (museum) με παλιές **εικόνες** (icons) **αγίων** (of saints). Μέσα έχει **τρούλους** (domes), **σκαλιστό** (carved) **ξύλο** (wood) και **ψηφιδωτά** (mosaics).",
+   "Αργότερα η Όπερα **έβαζε** (used to put) εκεί τα **πράγματά** (things) της. Μια **φωτιά** (fire) **έκαψε** (burned) ένα κομμάτι του σπιτιού. Όμως πολλά ωραία **στολίδια** (decorations) είναι ακόμα εκεί.",
+   "Οι άνθρωποι **λένε** (say) **ιστορίες** (stories) για **μυστικά** (secret) τούνελ κάτω από το σπίτι. Κανείς όμως δεν **βρήκε** (found) αποδείξεις.",
+   "Τώρα ένας συλλέκτης θα ανοίξει το σπίτι για τον κόσμο. Εκεί θα γίνονται **γιορτές** (parties) και θα δείχνουν **ταινίες** (films). Ίσως **αργότερα** (later) θα έχει και **φαγητό** (food)."
+  ],
+  "paragraphs_en": [
+   "On Akadimias street, in the centre of Athens, there is an old building. Above its door it has a dragon. For many years it was closed. Now it opens again.",
+   "The building was part of Ziller's house. Ziller was a great architect. He made beautiful houses in Athens. In 1912 a rich banker bought the house. He made his own museum there with old icons of saints. Inside it has domes, carved wood and mosaics.",
+   "Later the Opera used to put its things there. A fire burned a piece of the house. But many beautiful decorations are still there.",
+   "People tell stories about secret tunnels under the house. But nobody found any proof.",
+   "Now a collector will open the house to the public. There will be parties there and they will show films. Maybe later there will also be food."
+  ],
+  "fr": {
+   "οδό": "rue",
+   "παλιό": "vieux",
+   "κτίριο": "bâtiment",
+   "πόρτα": "porte",
+   "δράκο": "dragon",
+   "κλειστό": "fermé",
+   "ανοίγει": "ouvre",
+   "ξανά": "de nouveau",
+   "μέρος": "partie",
+   "σπίτι": "maison",
+   "αρχιτέκτονας": "architecte",
+   "Έφτιαχνε": "il faisait, il construisait",
+   "όμορφα": "beaux",
+   "πλούσιος": "riche",
+   "τραπεζίτης": "banquier",
+   "αγόρασε": "a acheté",
+   "μουσείο": "musée",
+   "εικόνες": "icônes",
+   "αγίων": "des saints",
+   "τρούλους": "coupoles",
+   "σκαλιστό": "sculpté",
+   "ξύλο": "bois",
+   "ψηφιδωτά": "mosaïques",
+   "έβαζε": "mettait",
+   "πράγματά": "affaires, choses",
+   "φωτιά": "feu, incendie",
+   "έκαψε": "a brûlé",
+   "στολίδια": "décorations",
+   "λένε": "disent",
+   "ιστορίες": "histoires",
+   "μυστικά": "secrets",
+   "βρήκε": "a trouvé",
+   "γιορτές": "fêtes",
+   "ταινίες": "films",
+   "αργότερα": "plus tard",
+   "φαγητό": "nourriture, repas"
+  },
+  "lemma": {
+   "ανοίγει": "ανοίγω",
+   "Έφτιαχνε": "φτιάχνω",
+   "αγόρασε": "αγοράζω",
+   "έβαζε": "βάζω",
+   "έκαψε": "καίω",
+   "λένε": "λέω",
+   "βρήκε": "βρίσκω"
+  },
+  "examples": {
+   "παλιό": [
+    [
+     "Το σπίτι μας είναι παλιό.",
+     "Our house is old.",
+     "Notre maison est vieille."
+    ],
+    [
+     "Έχω ένα παλιό ποδήλατο.",
+     "I have an old bike.",
+     "J'ai un vieux vélo."
+    ]
+   ],
+   "κτίριο": [
+    [
+     "Το κτίριο έχει πέντε ορόφους.",
+     "The building has five floors.",
+     "Le bâtiment a cinq étages."
+    ],
+    [
+     "Μένω σε αυτό το κτίριο.",
+     "I live in this building.",
+     "J'habite dans ce bâtiment."
+    ]
+   ],
+   "πόρτα": [
+    [
+     "Κλείσε την πόρτα, κάνει κρύο.",
+     "Close the door, it's cold.",
+     "Ferme la porte, il fait froid."
+    ],
+    [
+     "Η πόρτα του μετρό ανοίγει.",
+     "The metro door opens.",
+     "La porte du métro s'ouvre."
+    ]
+   ],
+   "κλειστό": [
+    [
+     "Το φαρμακείο είναι κλειστό σήμερα.",
+     "The pharmacy is closed today.",
+     "La pharmacie est fermée aujourd'hui."
+    ],
+    [
+     "Το καφέ είναι κλειστό την Κυριακή.",
+     "The café is closed on Sunday.",
+     "Le café est fermé le dimanche."
+    ]
+   ],
+   "ανοίγει": [
+    [
+     "Ο φούρνος ανοίγει στις επτά.",
+     "The bakery opens at seven.",
+     "La boulangerie ouvre à sept heures."
+    ],
+    [
+     "Το πρωί ανοίγω το παράθυρο.",
+     "In the morning I open the window.",
+     "Le matin, j'ouvre la fenêtre."
+    ]
+   ],
+   "ξανά": [
+    [
+     "Θα έρθω ξανά αύριο.",
+     "I will come again tomorrow.",
+     "Je reviendrai demain."
+    ],
+    [
+     "Πες το ξανά, σε παρακαλώ.",
+     "Say it again, please.",
+     "Redis-le, s'il te plaît."
+    ]
+   ],
+   "Έφτιαχνε": [
+    [
+     "Έφτιαχνε καφέ για όλους.",
+     "He made coffee for everyone.",
+     "Il faisait du café pour tout le monde."
+    ],
+    [
+     "Κάθε βράδυ φτιάχνω σαλάτα.",
+     "Every evening I make a salad.",
+     "Chaque soir, je fais une salade."
+    ]
+   ],
+   "όμορφα": [
+    [
+     "Έχει όμορφα λουλούδια στο μπαλκόνι.",
+     "She has beautiful flowers on the balcony.",
+     "Elle a de belles fleurs sur le balcon."
+    ],
+    [
+     "Τα παπούτσια σου είναι όμορφα.",
+     "Your shoes are beautiful.",
+     "Tes chaussures sont belles."
+    ]
+   ],
+   "πλούσιος": [
+    [
+     "Ο θείος μου είναι πλούσιος.",
+     "My uncle is rich.",
+     "Mon oncle est riche."
+    ],
+    [
+     "Δεν είμαι πλούσιος, αλλά είμαι χαρούμενος.",
+     "I'm not rich, but I'm happy.",
+     "Je ne suis pas riche, mais je suis heureux."
+    ]
+   ],
+   "αγόρασε": [
+    [
+     "Η μαμά αγόρασε ψωμί.",
+     "Mum bought bread.",
+     "Maman a acheté du pain."
+    ],
+    [
+     "Πάντα αγοράζω φρούτα από τη λαϊκή.",
+     "I always buy fruit at the street market.",
+     "J'achète toujours des fruits au marché."
+    ]
+   ],
+   "εικόνες": [
+    [
+     "Η γιαγιά έχει εικόνες στο σπίτι.",
+     "Grandma has icons at home.",
+     "Grand-mère a des icônes à la maison."
+    ],
+    [
+     "Στην εκκλησία βλέπω παλιές εικόνες.",
+     "In the church I see old icons.",
+     "À l'église, je vois de vieilles icônes."
+    ]
+   ],
+   "έβαζε": [
+    [
+     "Ο παππούς έβαζε ζάχαρη στον καφέ.",
+     "Grandpa used to put sugar in his coffee.",
+     "Grand-père mettait du sucre dans son café."
+    ],
+    [
+     "Πάντα βάζω τα κλειδιά στην τσέπη.",
+     "I always put the keys in my pocket.",
+     "Je mets toujours les clés dans ma poche."
+    ]
+   ],
+   "πράγματά": [
+    [
+     "Μάζεψε τα πράγματά σου, φεύγουμε.",
+     "Pick up your things, we're leaving.",
+     "Ramasse tes affaires, on part."
+    ],
+    [
+     "Πού είναι τα πράγματά μου;",
+     "Where are my things?",
+     "Où sont mes affaires ?"
+    ]
+   ],
+   "φωτιά": [
+    [
+     "Η φωτιά στο τζάκι ζεσταίνει.",
+     "The fire in the fireplace is warm.",
+     "Le feu dans la cheminée réchauffe."
+    ],
+    [
+     "Μην παίζεις με τη φωτιά.",
+     "Don't play with fire.",
+     "Ne joue pas avec le feu."
+    ]
+   ],
+   "έκαψε": [
+    [
+     "Ο ήλιος έκαψε τα χέρια μου.",
+     "The sun burned my hands.",
+     "Le soleil m'a brûlé les mains."
+    ],
+    [
+     "Πάντα καίω το ψωμί στην τοστιέρα.",
+     "I always burn the bread in the toaster.",
+     "Je brûle toujours le pain dans le grille-pain."
+    ]
+   ],
+   "στολίδια": [
+    [
+     "Βάζουμε στολίδια στο δέντρο.",
+     "We put decorations on the tree.",
+     "Nous mettons des décorations sur le sapin."
+    ],
+    [
+     "Τα στολίδια είναι στο κουτί.",
+     "The decorations are in the box.",
+     "Les décorations sont dans la boîte."
+    ]
+   ],
+   "λένε": [
+    [
+     "Οι φίλοι μου λένε ένα αστείο.",
+     "My friends tell a joke.",
+     "Mes amis racontent une blague."
+    ],
+    [
+     "Κάθε πρωί λέω καλημέρα στον γείτονα.",
+     "Every morning I say good morning to the neighbour.",
+     "Chaque matin, je dis bonjour au voisin."
+    ]
+   ],
+   "ιστορίες": [
+    [
+     "Ο παππούς λέει ωραίες ιστορίες.",
+     "Grandpa tells nice stories.",
+     "Grand-père raconte de belles histoires."
+    ],
+    [
+     "Μου αρέσουν οι ιστορίες με ζώα.",
+     "I like stories with animals.",
+     "J'aime les histoires d'animaux."
+    ]
+   ],
+   "μυστικά": [
+    [
+     "Έχουμε μυστικά σχέδια για το Σάββατο.",
+     "We have secret plans for Saturday.",
+     "On a des projets secrets pour samedi."
+    ],
+    [
+     "Τα μυστικά κλειδιά είναι κάτω από το χαλί.",
+     "The secret keys are under the rug.",
+     "Les clés secrètes sont sous le tapis."
+    ]
+   ],
+   "βρήκε": [
+    [
+     "Η Μαρία βρήκε τα γυαλιά της.",
+     "Maria found her glasses.",
+     "Maria a trouvé ses lunettes."
+    ],
+    [
+     "Δεν βρίσκω το τηλέφωνό μου.",
+     "I can't find my phone.",
+     "Je ne trouve pas mon téléphone."
+    ]
+   ],
+   "γιορτές": [
+    [
+     "Στις γιορτές τρώμε μελομακάρονα.",
+     "During the holidays we eat melomakarona.",
+     "Pendant les fêtes, on mange des melomakarona."
+    ],
+    [
+     "Οι γιορτές έρχονται σε λίγο.",
+     "The holidays are coming soon.",
+     "Les fêtes arrivent bientôt."
+    ]
+   ],
+   "ταινίες": [
+    [
+     "Βλέπουμε ταινίες το Σάββατο.",
+     "We watch films on Saturday.",
+     "Nous regardons des films le samedi."
+    ],
+    [
+     "Ποιες ταινίες σου αρέσουν;",
+     "Which films do you like?",
+     "Quels films aimes-tu ?"
+    ]
+   ],
+   "αργότερα": [
+    [
+     "Θα σε πάρω τηλέφωνο αργότερα.",
+     "I'll call you later.",
+     "Je t'appellerai plus tard."
+    ],
+    [
+     "Θα φάμε αργότερα, στις εννιά.",
+     "We'll eat later, at nine.",
+     "On mangera plus tard, à neuf heures."
+    ]
+   ],
+   "φαγητό": [
+    [
+     "Το φαγητό είναι έτοιμο.",
+     "The food is ready.",
+     "Le repas est prêt."
+    ],
+    [
+     "Το φαγητό εδώ είναι νόστιμο.",
+     "The food here is tasty.",
+     "La nourriture ici est délicieuse."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "στολίδια",
+    "gr": "στολίδια",
+    "en": "decorations",
+    "fr": "décorations"
+   },
+   {
+    "word": "φωτιά",
+    "gr": "φωτιά",
+    "en": "fire",
+    "fr": "feu, incendie"
+   },
+   {
+    "word": "πλούσιος",
+    "gr": "πλούσιος",
+    "en": "rich",
+    "fr": "riche"
+   },
+   {
+    "word": "Έφτιαχνε",
+    "gr": "φτιάχνω",
+    "en": "to make",
+    "fr": "faire, fabriquer"
+   },
+   {
+    "word": "αγόρασε",
+    "gr": "αγοράζω",
+    "en": "to buy",
+    "fr": "acheter"
+   },
+   {
+    "word": "έβαζε",
+    "gr": "βάζω",
+    "en": "to put",
+    "fr": "mettre"
+   },
+   {
+    "word": "έκαψε",
+    "gr": "καίω",
+    "en": "to burn",
+    "fr": "brûler"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Τι έχει πάνω από την πόρτα το κτίριο;",
+    "choices": [
+     "Έναν δράκο",
+     "Ένα ποδήλατο",
+     "Μια πίτσα"
+    ],
+    "quote": "Πάνω από την πόρτα του έχει έναν δράκο.",
+    "quote_en": "Above its door it has a dragon."
+   },
+   {
+    "q": "Πότε αγόρασε ο τραπεζίτης το σπίτι;",
+    "choices": [
+     "Το 1912",
+     "Πέρσι το καλοκαίρι",
+     "Χθες το βράδυ"
+    ],
+    "quote": "Το 1912 ένας πλούσιος τραπεζίτης αγόρασε το σπίτι.",
+    "quote_en": "In 1912 a rich banker bought the house."
+   },
+   {
+    "q": "Τι θα δείχνουν στο σπίτι;",
+    "choices": [
+     "Ταινίες",
+     "Ψάρια",
+     "Τρένα"
+    ],
+    "quote": "Εκεί θα γίνονται γιορτές και θα δείχνουν ταινίες.",
+    "quote_en": "There will be parties there and they will show films."
+   }
+  ]
  }
 ]

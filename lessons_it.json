@@ -7487,5 +7487,440 @@
     "quote_en": "Antonio Tanza is the president of Adusbef, an association that helps consumers."
    }
   ]
+ },
+ {
+  "date": "2026-11-23",
+  "title": "Il presepe sulle barche",
+  "title_fr": "La crèche sur les bateaux",
+  "title_en": "The nativity scene on the boats",
+  "source": {
+   "name": "The Wom Travel",
+   "url": "https://travel.thewom.it/italia/emilia-romagna/presepe-borgo-porto.html"
+  },
+  "paragraphs": [
+   "A Cesenatico, in Emilia-Romagna, c'è un **presepe** (nativity scene) **speciale** (special). Non è in una **chiesa** (church). È sulle **barche** (boats) di un **vecchio** (old) **porto** (port). Quest'anno il presepe festeggia la quarantesima edizione.",
+   "Il porto è un **canale** (canal) molto **antico** (ancient). Nel 1502 lo ha **studiato** (studied) Leonardo da Vinci. Sul canale ci sono vecchie barche da **pesca** (fishing). Le **statue** (statues) **stanno** (stand) **sopra** (on top of) le barche.",
+   "Nel 1986 c'erano **solo** (only) sette statue. **Oggi** (today) ce ne sono più di cinquanta. Sono **grandi** (big) come le persone **vere** (real). Le **facce** (faces) sono di **legno** (wood) di **pino** (pine). I **vestiti** (clothes) sono **duri** (stiff) per la **cera** (wax) **calda** (hot). Hanno i **colori** (colours) delle vecchie **vele** (sails) dei **pescatori** (fishermen).",
+   "Il presepe si **accende** (lights up) domenica 29 novembre alle 17. Ci sarà anche uno **spettacolo** (show) con i **droni** (drones) nel **cielo** (sky). Il presepe **resta** (stays) fino al 10 gennaio. Si **guarda** (you watch) dalle **rive** (banks) del canale. È gratis e non **serve** (you need) **prenotare** (to book)."
+  ],
+  "paragraphs_en": [
+   "In Cesenatico, in Emilia-Romagna, there is a special nativity scene. It is not in a church. It is on the boats of an old port. This year the nativity scene celebrates its fortieth edition.",
+   "The port is a very old canal. In 1502 Leonardo da Vinci studied it. On the canal there are old fishing boats. The statues stand on top of the boats.",
+   "In 1986 there were only seven statues. Today there are more than fifty. They are as big as real people. The faces are made of pine wood. The clothes are stiff because of hot wax. They have the colours of the fishermen's old sails.",
+   "The nativity scene lights up on Sunday 29 November at 5 pm. There will also be a show with drones in the sky. The nativity scene stays until 10 January. You watch it from the banks of the canal. It is free and you don't need to book."
+  ],
+  "fr": {
+   "presepe": "crèche",
+   "speciale": "spéciale",
+   "chiesa": "église",
+   "barche": "bateaux",
+   "vecchio": "vieux",
+   "porto": "port",
+   "canale": "canal",
+   "antico": "ancien",
+   "studiato": "étudié",
+   "pesca": "pêche",
+   "statue": "statues",
+   "stanno": "se trouvent",
+   "sopra": "sur, au-dessus de",
+   "solo": "seulement",
+   "Oggi": "aujourd'hui",
+   "grandi": "grandes",
+   "vere": "vraies",
+   "facce": "visages",
+   "legno": "bois",
+   "pino": "pin",
+   "vestiti": "vêtements",
+   "duri": "durs, raides",
+   "cera": "cire",
+   "calda": "chaude",
+   "colori": "couleurs",
+   "vele": "voiles",
+   "pescatori": "pêcheurs",
+   "accende": "s'allume",
+   "spettacolo": "spectacle",
+   "droni": "drones",
+   "cielo": "ciel",
+   "resta": "reste",
+   "guarda": "regarde",
+   "rive": "rives, quais",
+   "serve": "il faut",
+   "prenotare": "réserver"
+  },
+  "lemma": {
+   "studiato": "studiare",
+   "stanno": "stare",
+   "accende": "accendere",
+   "resta": "restare",
+   "guarda": "guardare",
+   "serve": "servire",
+   "prenotare": "prenotare"
+  },
+  "examples": {
+   "chiesa": [
+    [
+     "La chiesa è vicino a casa mia.",
+     "The church is near my house.",
+     "L'église est près de chez moi."
+    ],
+    [
+     "Domenica andiamo in chiesa.",
+     "On Sunday we go to church.",
+     "Dimanche, nous allons à l'église."
+    ]
+   ],
+   "barche": [
+    [
+     "Le barche sono nel porto.",
+     "The boats are in the port.",
+     "Les bateaux sont dans le port."
+    ],
+    [
+     "Guardo le barche dal ponte.",
+     "I watch the boats from the bridge.",
+     "Je regarde les bateaux depuis le pont."
+    ]
+   ],
+   "vecchio": [
+    [
+     "Il mio telefono è vecchio.",
+     "My phone is old.",
+     "Mon téléphone est vieux."
+    ],
+    [
+     "Abito in un palazzo vecchio.",
+     "I live in an old building.",
+     "J'habite dans un vieil immeuble."
+    ]
+   ],
+   "studiato": [
+    [
+     "Ieri ho studiato due ore.",
+     "Yesterday I studied for two hours.",
+     "Hier, j'ai étudié deux heures."
+    ],
+    [
+     "La sera io studio in cucina.",
+     "In the evening I study in the kitchen.",
+     "Le soir, j'étudie dans la cuisine."
+    ]
+   ],
+   "pesca": [
+    [
+     "Mio nonno ama la pesca.",
+     "My grandfather loves fishing.",
+     "Mon grand-père adore la pêche."
+    ],
+    [
+     "Domani andiamo a pesca al lago.",
+     "Tomorrow we go fishing at the lake.",
+     "Demain, on va à la pêche au lac."
+    ]
+   ],
+   "stanno": [
+    [
+     "I bambini stanno a casa oggi.",
+     "The children are staying home today.",
+     "Les enfants restent à la maison aujourd'hui."
+    ],
+    [
+     "Io sto bene, grazie.",
+     "I'm fine, thank you.",
+     "Je vais bien, merci."
+    ]
+   ],
+   "sopra": [
+    [
+     "Le chiavi sono sopra il tavolo.",
+     "The keys are on the table.",
+     "Les clés sont sur la table."
+    ],
+    [
+     "Il gatto dorme sopra il divano.",
+     "The cat sleeps on the sofa.",
+     "Le chat dort sur le canapé."
+    ]
+   ],
+   "Oggi": [
+    [
+     "Oggi piove a Milano.",
+     "Today it's raining in Milan.",
+     "Aujourd'hui, il pleut à Milan."
+    ],
+    [
+     "Oggi mangiamo la pizza.",
+     "Today we eat pizza.",
+     "Aujourd'hui, on mange de la pizza."
+    ]
+   ],
+   "grandi": [
+    [
+     "Le finestre sono grandi.",
+     "The windows are big.",
+     "Les fenêtres sont grandes."
+    ],
+    [
+     "Ho due valigie grandi.",
+     "I have two big suitcases.",
+     "J'ai deux grandes valises."
+    ]
+   ],
+   "vere": [
+    [
+     "Queste rose sono vere.",
+     "These roses are real.",
+     "Ces roses sont vraies."
+    ],
+    [
+     "Sono storie vere, non favole.",
+     "They are true stories, not fairy tales.",
+     "Ce sont des histoires vraies, pas des contes."
+    ]
+   ],
+   "facce": [
+    [
+     "I bambini fanno facce buffe.",
+     "The children make funny faces.",
+     "Les enfants font des grimaces."
+    ],
+    [
+     "Vedo tante facce nuove in ufficio.",
+     "I see many new faces at the office.",
+     "Je vois beaucoup de nouveaux visages au bureau."
+    ]
+   ],
+   "legno": [
+    [
+     "Il tavolo è di legno.",
+     "The table is made of wood.",
+     "La table est en bois."
+    ],
+    [
+     "Mi piace il legno in cucina.",
+     "I like wood in the kitchen.",
+     "J'aime le bois dans la cuisine."
+    ]
+   ],
+   "vestiti": [
+    [
+     "I vestiti sono nell'armadio.",
+     "The clothes are in the wardrobe.",
+     "Les vêtements sont dans l'armoire."
+    ],
+    [
+     "Lavo i vestiti il sabato.",
+     "I wash the clothes on Saturday.",
+     "Je lave les vêtements le samedi."
+    ]
+   ],
+   "duri": [
+    [
+     "Questi biscotti sono duri.",
+     "These biscuits are hard.",
+     "Ces biscuits sont durs."
+    ],
+    [
+     "I letti dell'albergo sono duri.",
+     "The hotel beds are hard.",
+     "Les lits de l'hôtel sont durs."
+    ]
+   ],
+   "cera": [
+    [
+     "La candela è di cera.",
+     "The candle is made of wax.",
+     "La bougie est en cire."
+    ],
+    [
+     "C'è cera sul tavolo.",
+     "There is wax on the table.",
+     "Il y a de la cire sur la table."
+    ]
+   ],
+   "calda": [
+    [
+     "La doccia è calda.",
+     "The shower is hot.",
+     "La douche est chaude."
+    ],
+    [
+     "Vorrei una tazza di cioccolata calda.",
+     "I'd like a cup of hot chocolate.",
+     "Je voudrais une tasse de chocolat chaud."
+    ]
+   ],
+   "vele": [
+    [
+     "Le vele sono bianche.",
+     "The sails are white.",
+     "Les voiles sont blanches."
+    ],
+    [
+     "Il vento muove le vele.",
+     "The wind moves the sails.",
+     "Le vent fait bouger les voiles."
+    ]
+   ],
+   "accende": [
+    [
+     "Papà accende la luce.",
+     "Dad turns on the light.",
+     "Papa allume la lumière."
+    ],
+    [
+     "Io accendo il riscaldamento.",
+     "I turn on the heating.",
+     "J'allume le chauffage."
+    ]
+   ],
+   "cielo": [
+    [
+     "Il cielo è azzurro oggi.",
+     "The sky is blue today.",
+     "Le ciel est bleu aujourd'hui."
+    ],
+    [
+     "Di notte il cielo è pieno di stelle.",
+     "At night the sky is full of stars.",
+     "La nuit, le ciel est plein d'étoiles."
+    ]
+   ],
+   "resta": [
+    [
+     "Marco resta a cena da noi.",
+     "Marco is staying for dinner with us.",
+     "Marco reste dîner chez nous."
+    ],
+    [
+     "Io resto a casa stasera.",
+     "I'm staying home tonight.",
+     "Je reste à la maison ce soir."
+    ]
+   ],
+   "guarda": [
+    [
+     "Luca guarda la televisione.",
+     "Luca watches television.",
+     "Luca regarde la télévision."
+    ],
+    [
+     "Io guardo il mare dalla finestra.",
+     "I look at the sea from the window.",
+     "Je regarde la mer par la fenêtre."
+    ]
+   ],
+   "rive": [
+    [
+     "Le rive del fiume sono verdi.",
+     "The river banks are green.",
+     "Les rives du fleuve sont vertes."
+    ],
+    [
+     "Camminiamo sulle rive del lago.",
+     "We walk on the shores of the lake.",
+     "Nous marchons sur les rives du lac."
+    ]
+   ],
+   "serve": [
+    [
+     "Per il bus serve un biglietto.",
+     "For the bus you need a ticket.",
+     "Pour le bus, il faut un billet."
+    ],
+    [
+     "Mi serve una penna.",
+     "I need a pen.",
+     "J'ai besoin d'un stylo."
+    ]
+   ],
+   "prenotare": [
+    [
+     "Devo prenotare un tavolo.",
+     "I have to book a table.",
+     "Je dois réserver une table."
+    ],
+    [
+     "Io prenoto il treno su internet.",
+     "I book the train online.",
+     "Je réserve le train sur Internet."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "vele",
+    "gr": "vele",
+    "en": "sails",
+    "fr": "voiles"
+   },
+   {
+    "word": "cera",
+    "gr": "cera",
+    "en": "wax",
+    "fr": "cire"
+   },
+   {
+    "word": "rive",
+    "gr": "rive",
+    "en": "banks, shores",
+    "fr": "rives, quais"
+   },
+   {
+    "word": "accende",
+    "gr": "accendere",
+    "en": "to light, to turn on",
+    "fr": "allumer"
+   },
+   {
+    "word": "resta",
+    "gr": "restare",
+    "en": "to stay",
+    "fr": "rester"
+   },
+   {
+    "word": "serve",
+    "gr": "servire",
+    "en": "to be needed, to serve",
+    "fr": "servir, falloir"
+   },
+   {
+    "word": "prenotare",
+    "gr": "prenotare",
+    "en": "to book",
+    "fr": "réserver"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Dove si trova il presepe?",
+    "choices": [
+     "Sulle barche",
+     "In un supermercato",
+     "Sulla luna"
+    ],
+    "quote": "È sulle barche di un vecchio porto.",
+    "quote_en": "It is on the boats of an old port."
+   },
+   {
+    "q": "Quante statue c'erano nel 1986?",
+    "choices": [
+     "Sette",
+     "Mille",
+     "Diecimila"
+    ],
+    "quote": "Nel 1986 c'erano solo sette statue.",
+    "quote_en": "In 1986 there were only seven statues."
+   },
+   {
+    "q": "Quando si accende il presepe?",
+    "choices": [
+     "Domenica 29 novembre",
+     "A Ferragosto",
+     "Tra cinque minuti"
+    ],
+    "quote": "Il presepe si accende domenica 29 novembre alle 17.",
+    "quote_en": "The nativity scene lights up on Sunday 29 November at 5 pm."
+   }
+  ]
  }
 ]

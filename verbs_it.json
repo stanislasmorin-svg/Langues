@@ -3,6 +3,10 @@
   "fr": "baisser",
   "en": "to lower"
  },
+ "accendere": {
+  "fr": "allumer",
+  "en": "to light, to turn on"
+ },
  "aggiungere": {
   "fr": "ajouter",
   "en": "to add"
@@ -303,6 +307,10 @@
   "fr": "sembler",
   "en": "to seem"
  },
+ "servire": {
+  "fr": "servir, falloir",
+  "en": "to serve, to be needed"
+ },
  "sfidare": {
   "fr": "défier, affronter",
   "en": "to challenge"
@@ -318,6 +326,10 @@
  "spostarsi": {
   "fr": "se déplacer",
   "en": "to get around"
+ },
+ "stare": {
+  "fr": "être, rester",
+  "en": "to be, to stay"
  },
  "studiare": {
   "fr": "étudier",
