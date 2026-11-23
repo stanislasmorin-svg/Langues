@@ -298,10 +298,11 @@ JS = r"""
 (function(){
   var q = new URLSearchParams(location.search);
   // Bandeau « A friend shared this lesson » : seulement pour les liens partagés / défis.
-  if (q.get('from') === 'friend' || q.has('challenge')) { var t = document.getElementById('friendTop'); if (t) t.hidden = false; }
-  // Lien « I want to receive the daily email » + formulaire du bas : pour tout le monde sauf les abonnés venus de l'e-mail.
+  var fr = (q.get('from') === 'friend' || q.has('challenge'));
+  if (fr) { var t = document.getElementById('friendTop'); if (t) t.hidden = false; }
+  // Lien « I want to receive the daily email » (sauf si le bandeau ami est affiché : redondant) + formulaire du bas : pour tout le monde sauf les abonnés venus de l'e-mail.
   if (q.get('utm_source') === 'newsletter') return;
-  ['dailyLink', 'friendSignup'].forEach(function(id){ var e = document.getElementById(id); if (e) e.hidden = false; });
+  (fr ? ['friendSignup'] : ['dailyLink', 'friendSignup']).forEach(function(id){ var e = document.getElementById(id); if (e) e.hidden = false; });
   var a = document.querySelector('#dailyLink a');
   if (a) a.addEventListener('click', function(ev){ var s = document.getElementById('friendSignup'); if (!s) return; ev.preventDefault(); s.scrollIntoView({behavior: 'smooth'}); });
 })();
@@ -547,7 +548,7 @@ def lesson_page(s, prev, nxt, lang, L, outdir, has_quiz=False):
     "educationalUse": "Language learning", "isAccessibleForFree": True, "image": BASE + "icon-512.png",
     "author": {"@id": BASE + "#org"}, "publisher": ORG,
     **({"isBasedOn": {"@type": "NewsArticle", "url": src["url"], "publisher": {"@type": "Organization", "name": src["name"]}}} if src else {})})}{FONTS}<style>{CSS}{SHARE_CSS}{QUIZ_CSS if has_quiz else ""}</style></head><body><div class="wrap">
-<header><div class="topbar"><span class="eyebrow">{fr_date(s["date"])}</span><button class="sharetop" id="shareBtn" type="button" data-text="A short {L["name"]} lesson from today's news, with audio. Free, 15 minutes a day.">Share this lesson with a friend</button></div><nav class="row topnav">{" · ".join(nav)}</nav><h1>{html.escape(s["title"])}</h1><p class="sub">{html.escape(s.get("title_en") or s.get("title_fr",""))}</p><p class="dailylink" id="dailyLink" hidden><a href="#friendSignup">✉ I want to receive the daily email</a></p>{'<p id="chalTop" hidden style="background:var(--soft);border-radius:12px;padding:12px 14px;font-weight:600;margin:12px 0 0">' + '</p>' if has_quiz else ""}<p class="friend" id="friendTop" hidden><b>A friend shared this lesson with you.</b>Every morning, Masimera sends a short news story in simple {L["name"]}, with audio and the hard words translated. Free. <a href="#friendSignup">Get it every morning ↓</a></p></header>
+<header><div class="topbar"><span class="eyebrow">{fr_date(s["date"])}</span><button class="sharetop" id="shareBtn" type="button" data-text="A short {L["name"]} lesson from today's news, with audio. Free, 15 minutes a day.">Share this lesson with a friend</button></div><nav class="row topnav">{" · ".join(nav)}</nav><h1>{html.escape(s["title"])}</h1><p class="sub">{html.escape(s.get("title_en") or s.get("title_fr",""))}</p><p class="dailylink" id="dailyLink" hidden><a href="#friendSignup">✉ I want to receive the daily email</a></p>{'<p id="chalTop" hidden style="background:var(--soft);border-radius:12px;padding:12px 14px;font-weight:600;margin:12px 0 0">' + '</p>' if has_quiz else ""}<p class="friend" id="friendTop" hidden><b>A friend shared this lesson with you.</b>Every morning, Masimera sends a short news story in simple {L["name"]}, with audio and the hard words translated. Free. <a href="#friendSignup">Get it every morning by email ↓</a></p></header>
 <section class="player">
   {player}
 </section>
