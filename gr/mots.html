@@ -296,10 +296,11 @@ $('wqShare').onclick=function(){var u=PAGE+'?challenge='+score+'#wq',t='I got '+
 (function(){
   var q = new URLSearchParams(location.search);
   // Bandeau « A friend shared this lesson » : seulement pour les liens partagés / défis.
-  if (q.get('from') === 'friend' || q.has('challenge')) { var t = document.getElementById('friendTop'); if (t) t.hidden = false; }
-  // Lien « I want to receive the daily email » + formulaire du bas : pour tout le monde sauf les abonnés venus de l'e-mail.
+  var fr = (q.get('from') === 'friend' || q.has('challenge'));
+  if (fr) { var t = document.getElementById('friendTop'); if (t) t.hidden = false; }
+  // Lien « I want to receive the daily email » (sauf si le bandeau ami est affiché : redondant) + formulaire du bas : pour tout le monde sauf les abonnés venus de l'e-mail.
   if (q.get('utm_source') === 'newsletter') return;
-  ['dailyLink', 'friendSignup'].forEach(function(id){ var e = document.getElementById(id); if (e) e.hidden = false; });
+  (fr ? ['friendSignup'] : ['dailyLink', 'friendSignup']).forEach(function(id){ var e = document.getElementById(id); if (e) e.hidden = false; });
   var a = document.querySelector('#dailyLink a');
   if (a) a.addEventListener('click', function(ev){ var s = document.getElementById('friendSignup'); if (!s) return; ev.preventDefault(); s.scrollIntoView({behavior: 'smooth'}); });
 })();
