@@ -7922,5 +7922,444 @@
     "quote_en": "The nativity scene lights up on Sunday 29 November at 5 pm."
    }
   ]
+ },
+ {
+  "date": "2026-11-24",
+  "title": "Latino o greco?",
+  "title_fr": "Latin ou grec ?",
+  "title_en": "Latin or Greek?",
+  "source": {
+   "name": "Focus",
+   "url": "https://www.focus.it/cultura/storia/qual-era-la-lingua-piu-parlata-nell-impero-romano"
+  },
+  "paragraphs": [
+   "Nell'**Impero** (Empire) romano c'erano due **lingue** (languages) **ufficiali** (official). Una era il latino. L'altra era il greco. Ma quale **parlava** (spoke) di più la **gente** (people)? La **risposta** (answer) è **sorprendente** (surprising).",
+   "I **popoli** (peoples) **conquistati** (conquered) **imparavano** (learned) il latino. Lo **usavano** (used) per **parlare** (to talk) con i **capi** (leaders) romani, i **soldati** (soldiers) e i **coloni** (settlers). Era la lingua del **potere** (power).",
+   "In **Oriente** (the East) la gente parlava greco. Il greco era la lingua della **filosofia** (philosophy) e dei **libri** (books). Ma era **anche** (also) la lingua di tutti i **giorni** (days). Le persone **colte** (educated) **preferivano** (preferred) il greco. Per loro il latino era quasi una lingua da **contadini** (farmers).",
+   "Nel 395 l'Impero si **divise** (split) in due **parti** (parts). Il **confine** (border) **seguiva** (followed) le lingue. A **ovest** (west) c'era il latino. A **est** (east) c'era il greco.",
+   "L'**imperatore** (emperor) Giustiniano **visse** (lived) dal 482 al 565. Lui **scrisse** (wrote) **molte** (many) **leggi** (laws) anche in greco. Così tutti potevano **capire** (understand) le leggi."
+  ],
+  "paragraphs_en": [
+   "In the Roman Empire there were two official languages. One was Latin. The other was Greek. But which one did people speak more? The answer is surprising.",
+   "Conquered peoples learned Latin. They used it to talk with Roman leaders, soldiers and settlers. It was the language of power.",
+   "In the East, people spoke Greek. Greek was the language of philosophy and books. But it was also the everyday language. Educated people preferred Greek. For them, Latin was almost a language for farmers.",
+   "In 395 the Empire split into two parts. The border followed the languages. In the west there was Latin. In the east there was Greek.",
+   "Emperor Justinian lived from 482 to 565. He wrote many laws in Greek too. That way everyone could understand the laws."
+  ],
+  "fr": {
+   "Impero": "Empire",
+   "lingue": "langues",
+   "ufficiali": "officielles",
+   "parlava": "parlait",
+   "gente": "gens",
+   "risposta": "réponse",
+   "sorprendente": "surprenante",
+   "popoli": "peuples",
+   "conquistati": "conquis",
+   "imparavano": "apprenaient",
+   "usavano": "utilisaient",
+   "parlare": "parler",
+   "capi": "chefs",
+   "soldati": "soldats",
+   "coloni": "colons",
+   "potere": "pouvoir",
+   "Oriente": "Orient",
+   "filosofia": "philosophie",
+   "libri": "livres",
+   "anche": "aussi",
+   "giorni": "jours",
+   "colte": "cultivées",
+   "preferivano": "préféraient",
+   "contadini": "paysans",
+   "divise": "se divisa",
+   "parti": "parties",
+   "confine": "frontière",
+   "seguiva": "suivait",
+   "ovest": "ouest",
+   "est": "est",
+   "imperatore": "empereur",
+   "visse": "vécut",
+   "scrisse": "écrivit",
+   "molte": "beaucoup de",
+   "leggi": "lois",
+   "capire": "comprendre"
+  },
+  "lemma": {
+   "imparavano": "imparare",
+   "usavano": "usare",
+   "parlare": "parlare",
+   "preferivano": "preferire",
+   "divise": "dividere",
+   "seguiva": "seguire",
+   "visse": "vivere",
+   "scrisse": "scrivere",
+   "capire": "capire"
+  },
+  "examples": {
+   "lingue": [
+    [
+     "Parlo tre lingue diverse.",
+     "I speak three different languages.",
+     "Je parle trois langues différentes."
+    ],
+    [
+     "A scuola studiamo due lingue.",
+     "At school we study two languages.",
+     "À l'école, nous étudions deux langues."
+    ]
+   ],
+   "gente": [
+    [
+     "C'è tanta gente al bar.",
+     "There are lots of people at the café.",
+     "Il y a beaucoup de monde au café."
+    ],
+    [
+     "La gente aspetta l'autobus.",
+     "People are waiting for the bus.",
+     "Les gens attendent le bus."
+    ]
+   ],
+   "risposta": [
+    [
+     "Aspetto la tua risposta.",
+     "I'm waiting for your answer.",
+     "J'attends ta réponse."
+    ],
+    [
+     "La risposta è sul foglio.",
+     "The answer is on the sheet.",
+     "La réponse est sur la feuille."
+    ]
+   ],
+   "sorprendente": [
+    [
+     "Il prezzo è sorprendente.",
+     "The price is surprising.",
+     "Le prix est surprenant."
+    ],
+    [
+     "È un film sorprendente.",
+     "It's a surprising film.",
+     "C'est un film surprenant."
+    ]
+   ],
+   "imparavano": [
+    [
+     "Da bambini imparavano a nuotare al mare.",
+     "As children they learned to swim at the seaside.",
+     "Enfants, ils apprenaient à nager à la mer."
+    ],
+    [
+     "Io imparo una parola nuova ogni giorno.",
+     "I learn a new word every day.",
+     "J'apprends un nouveau mot chaque jour."
+    ]
+   ],
+   "usavano": [
+    [
+     "I nonni usavano sempre la bicicletta.",
+     "My grandparents always used the bike.",
+     "Mes grands-parents prenaient toujours le vélo."
+    ],
+    [
+     "Io uso il telefono per pagare.",
+     "I use my phone to pay.",
+     "J'utilise mon téléphone pour payer."
+    ]
+   ],
+   "parlare": [
+    [
+     "Voglio parlare con il medico.",
+     "I want to talk to the doctor.",
+     "Je veux parler au médecin."
+    ],
+    [
+     "Io parlo con la vicina ogni mattina.",
+     "I talk with my neighbour every morning.",
+     "Je parle avec ma voisine chaque matin."
+    ]
+   ],
+   "soldati": [
+    [
+     "I soldati marciano in piazza.",
+     "The soldiers march in the square.",
+     "Les soldats défilent sur la place."
+    ],
+    [
+     "I soldati mangiano insieme.",
+     "The soldiers eat together.",
+     "Les soldats mangent ensemble."
+    ]
+   ],
+   "potere": [
+    [
+     "Il potere della musica è grande.",
+     "The power of music is great.",
+     "Le pouvoir de la musique est grand."
+    ],
+    [
+     "Il sindaco ha molto potere in città.",
+     "The mayor has a lot of power in town.",
+     "Le maire a beaucoup de pouvoir en ville."
+    ]
+   ],
+   "libri": [
+    [
+     "Ho molti libri in salotto.",
+     "I have many books in the living room.",
+     "J'ai beaucoup de livres dans le salon."
+    ],
+    [
+     "I libri sono sul tavolo.",
+     "The books are on the table.",
+     "Les livres sont sur la table."
+    ]
+   ],
+   "anche": [
+    [
+     "Vengo anche io al cinema.",
+     "I'm coming to the cinema too.",
+     "Je viens aussi au cinéma."
+    ],
+    [
+     "Prendo anche un cornetto.",
+     "I'll have a croissant too.",
+     "Je prends aussi un croissant."
+    ]
+   ],
+   "giorni": [
+    [
+     "Lavoro cinque giorni a settimana.",
+     "I work five days a week.",
+     "Je travaille cinq jours par semaine."
+    ],
+    [
+     "Tra due giorni parto per Roma.",
+     "In two days I leave for Rome.",
+     "Dans deux jours, je pars pour Rome."
+    ]
+   ],
+   "colte": [
+    [
+     "Le persone colte leggono molto.",
+     "Educated people read a lot.",
+     "Les personnes cultivées lisent beaucoup."
+    ],
+    [
+     "Le mie amiche sono molto colte.",
+     "My friends are very cultured.",
+     "Mes amies sont très cultivées."
+    ]
+   ],
+   "preferivano": [
+    [
+     "Da piccoli preferivano il gelato al cioccolato.",
+     "As kids they preferred chocolate ice cream.",
+     "Petits, ils préféraient la glace au chocolat."
+    ],
+    [
+     "Io preferisco il tè al caffè.",
+     "I prefer tea to coffee.",
+     "Je préfère le thé au café."
+    ]
+   ],
+   "contadini": [
+    [
+     "I contadini vendono frutta al mercato.",
+     "The farmers sell fruit at the market.",
+     "Les paysans vendent des fruits au marché."
+    ],
+    [
+     "I contadini lavorano anche la domenica.",
+     "Farmers work on Sundays too.",
+     "Les paysans travaillent aussi le dimanche."
+    ]
+   ],
+   "divise": [
+    [
+     "La mamma divise la torta in otto pezzi.",
+     "Mum cut the cake into eight pieces.",
+     "Maman partagea le gâteau en huit parts."
+    ],
+    [
+     "Noi dividiamo il conto al ristorante.",
+     "We split the bill at the restaurant.",
+     "Nous partageons l'addition au restaurant."
+    ]
+   ],
+   "parti": [
+    [
+     "Taglio la mela in due parti.",
+     "I cut the apple into two parts.",
+     "Je coupe la pomme en deux parties."
+    ],
+    [
+     "Il film ha due parti.",
+     "The film has two parts.",
+     "Le film a deux parties."
+    ]
+   ],
+   "confine": [
+    [
+     "Il confine è a dieci chilometri.",
+     "The border is ten kilometres away.",
+     "La frontière est à dix kilomètres."
+    ],
+    [
+     "Passiamo il confine in treno.",
+     "We cross the border by train.",
+     "Nous passons la frontière en train."
+    ]
+   ],
+   "seguiva": [
+    [
+     "Il cane seguiva il bambino ovunque.",
+     "The dog followed the child everywhere.",
+     "Le chien suivait l'enfant partout."
+    ],
+    [
+     "Io seguo la strada per la stazione.",
+     "I follow the road to the station.",
+     "Je suis la route vers la gare."
+    ]
+   ],
+   "visse": [
+    [
+     "Mia nonna visse a Napoli.",
+     "My grandmother lived in Naples.",
+     "Ma grand-mère vécut à Naples."
+    ],
+    [
+     "Io vivo vicino alla stazione.",
+     "I live near the station.",
+     "J'habite près de la gare."
+    ]
+   ],
+   "scrisse": [
+    [
+     "Il nonno mi scrisse una lettera.",
+     "Grandpa wrote me a letter.",
+     "Grand-père m'écrivit une lettre."
+    ],
+    [
+     "Io scrivo la lista della spesa.",
+     "I write the shopping list.",
+     "J'écris la liste de courses."
+    ]
+   ],
+   "molte": [
+    [
+     "Ci sono molte persone in piazza.",
+     "There are many people in the square.",
+     "Il y a beaucoup de gens sur la place."
+    ],
+    [
+     "Ho molte cose da fare oggi.",
+     "I have many things to do today.",
+     "J'ai beaucoup de choses à faire aujourd'hui."
+    ]
+   ],
+   "leggi": [
+    [
+     "Le leggi cambiano ogni anno.",
+     "Laws change every year.",
+     "Les lois changent chaque année."
+    ],
+    [
+     "In Italia ci sono molte leggi.",
+     "In Italy there are many laws.",
+     "En Italie, il y a beaucoup de lois."
+    ]
+   ],
+   "capire": [
+    [
+     "Non riesco a capire il menu.",
+     "I can't understand the menu.",
+     "Je n'arrive pas à comprendre le menu."
+    ],
+    [
+     "Io capisco bene l'italiano.",
+     "I understand Italian well.",
+     "Je comprends bien l'italien."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "confine",
+    "gr": "confine",
+    "en": "border",
+    "fr": "frontière"
+   },
+   {
+    "word": "contadini",
+    "gr": "contadini",
+    "en": "farmers",
+    "fr": "paysans"
+   },
+   {
+    "word": "leggi",
+    "gr": "leggi",
+    "en": "laws",
+    "fr": "lois"
+   },
+   {
+    "word": "imparavano",
+    "gr": "imparare",
+    "en": "to learn",
+    "fr": "apprendre"
+   },
+   {
+    "word": "preferivano",
+    "gr": "preferire",
+    "en": "to prefer",
+    "fr": "préférer"
+   },
+   {
+    "word": "divise",
+    "gr": "dividere",
+    "en": "to divide, to split",
+    "fr": "diviser, partager"
+   },
+   {
+    "word": "seguiva",
+    "gr": "seguire",
+    "en": "to follow",
+    "fr": "suivre"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Con chi parlavano in latino i popoli conquistati?",
+    "choices": [
+     "Con i soldati",
+     "Con i delfini",
+     "Con i robot"
+    ],
+    "quote": "Lo usavano per parlare con i capi romani, i soldati e i coloni.",
+    "quote_en": "They used it to talk with Roman leaders, soldiers and settlers."
+   },
+   {
+    "q": "In che anno l'Impero si divise?",
+    "choices": [
+     "Nel 395",
+     "Nel 2025",
+     "Ieri sera"
+    ],
+    "quote": "Nel 395 l'Impero si divise in due parti.",
+    "quote_en": "In 395 the Empire split into two parts."
+   },
+   {
+    "q": "In quale altra lingua Giustiniano scrisse molte leggi?",
+    "choices": [
+     "In greco",
+     "In inglese",
+     "In giapponese"
+    ],
+    "quote": "Lui scrisse molte leggi anche in greco.",
+    "quote_en": "He wrote many laws in Greek too."
+   }
+  ]
  }
 ]

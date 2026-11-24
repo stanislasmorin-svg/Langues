@@ -43,6 +43,10 @@
   "fr": "marcher",
   "en": "to walk"
  },
+ "capire": {
+  "fr": "comprendre",
+  "en": "to understand"
+ },
  "chiedere": {
   "fr": "demander",
   "en": "to ask for"
@@ -95,6 +99,10 @@
   "fr": "devenir",
   "en": "to become"
  },
+ "dividere": {
+  "fr": "diviser, partager",
+  "en": "to divide, to split"
+ },
  "dovere": {
   "fr": "devoir",
   "en": "to have to"
@@ -142,6 +150,10 @@
  "guardare": {
   "fr": "regarder",
   "en": "to look at"
+ },
+ "imparare": {
+  "fr": "apprendre",
+  "en": "to learn"
  },
  "incontrare": {
   "fr": "rencontrer",
@@ -223,6 +235,10 @@
   "fr": "apporter",
   "en": "to bring"
  },
+ "preferire": {
+  "fr": "préférer",
+  "en": "to prefer"
+ },
  "prendere": {
   "fr": "prendre",
   "en": "to take"
@@ -295,6 +311,10 @@
   "fr": "choisir",
   "en": "to choose"
  },
+ "scrivere": {
+  "fr": "écrire",
+  "en": "to write"
+ },
  "sedersi": {
   "fr": "s'asseoir",
   "en": "to sit down"
@@ -302,6 +322,10 @@
  "segnare": {
   "fr": "marquer",
   "en": "to score"
+ },
+ "seguire": {
+  "fr": "suivre",
+  "en": "to follow"
  },
  "sembrare": {
   "fr": "sembler",

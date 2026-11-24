@@ -15888,5 +15888,439 @@
     "quote_en": "There will be parties there and they will show films."
    }
   ]
+ },
+ {
+  "date": "2026-11-24",
+  "title": "Χειμώνας στα Ιωάννινα",
+  "title_fr": "L'hiver à Ioannina",
+  "title_en": "Winter in Ioannina",
+  "source": {
+   "name": "Travel.gr",
+   "url": "https://www.travel.gr/experiences/cheimerino-taxidi-sta-ioannina-oi-kory/"
+  },
+  "paragraphs": [
+   "Τα Ιωάννινα είναι μια **πόλη** (city) στην Ήπειρο. Είναι **χτισμένα** (built) δίπλα σε μια **λίμνη** (lake). Η λίμνη λέγεται Παμβώτιδα. Το **πρωί** (morning) έχει **συχνά** (often) **ομίχλη** (fog). Στην πόλη ζουν πολλοί **φοιτητές** (students).",
+   "Μπορείς να **περπατήσεις** (walk) δίπλα στο **νερό** (water). Θα δεις ένα μεγάλο **κάστρο** (castle) με **ψηλά** (high) **τείχη** (walls). Ο Αλή Πασάς **έχτισε** (built) ξανά τα τείχη. Μέσα στο κάστρο **υπάρχει** (there is) ένα παλιό **τζαμί** (mosque). Σήμερα είναι ένα **μουσείο** (museum).",
+   "Στη λίμνη υπάρχει ένα μικρό **νησί** (island). Πηγαίνεις εκεί με **βάρκα** (boat). Στο νησί υπάρχουν επτά **μοναστήρια** (monasteries). Οι **ταβέρνες** (taverns) **μαγειρεύουν** (cook) **χέλι** (eel) και **βατραχοπόδαρα** (frog legs).",
+   "Ο Αλή Πασάς είναι **θαμμένος** (buried) στο κάστρο. Όμως ο **τάφος** (tomb) έχει **μόνο** (only) το **σώμα** (body) του. Το **κεφάλι** (head) του **στάλθηκε** (was sent) στην Κωνσταντινούπολη.",
+   "Πέντε **χιλιόμετρα** (kilometres) μακριά είναι μια **σπηλιά** (cave). Είναι πολύ **παλιά** (old): πάνω από ενάμισι εκατομμύριο χρόνια. Είκοσι δύο χιλιόμετρα **νότια** (south) είναι η αρχαία Δωδώνη. Το **θέατρο** (theatre) της **χωρούσε** (held) 18.000 **ανθρώπους** (people)."
+  ],
+  "paragraphs_en": [
+   "Ioannina is a city in Epirus. It is built next to a lake. The lake is called Pamvotida. In the morning there is often fog. Many students live in the city.",
+   "You can walk next to the water. You will see a big castle with high walls. Ali Pasha built the walls again. Inside the castle there is an old mosque. Today it is a museum.",
+   "In the lake there is a small island. You go there by boat. On the island there are seven monasteries. The taverns cook eel and frog legs.",
+   "Ali Pasha is buried in the castle. But the tomb only holds his body. His head was sent to Constantinople.",
+   "Five kilometres away there is a cave. It is very old: more than one and a half million years. Twenty-two kilometres south is ancient Dodona. Its theatre held 18,000 people."
+  ],
+  "fr": {
+   "πόλη": "ville",
+   "χτισμένα": "construites",
+   "λίμνη": "lac",
+   "πρωί": "matin",
+   "συχνά": "souvent",
+   "ομίχλη": "brouillard",
+   "φοιτητές": "étudiants",
+   "περπατήσεις": "marcher (tu)",
+   "νερό": "eau",
+   "κάστρο": "château, forteresse",
+   "ψηλά": "hauts",
+   "τείχη": "remparts",
+   "έχτισε": "a construit",
+   "υπάρχει": "il y a",
+   "τζαμί": "mosquée",
+   "μουσείο": "musée",
+   "νησί": "île",
+   "βάρκα": "barque",
+   "μοναστήρια": "monastères",
+   "ταβέρνες": "tavernes",
+   "μαγειρεύουν": "cuisinent",
+   "χέλι": "anguille",
+   "βατραχοπόδαρα": "cuisses de grenouille",
+   "θαμμένος": "enterré",
+   "τάφος": "tombe",
+   "μόνο": "seulement",
+   "σώμα": "corps",
+   "κεφάλι": "tête",
+   "στάλθηκε": "a été envoyée",
+   "χιλιόμετρα": "kilomètres",
+   "σπηλιά": "grotte",
+   "παλιά": "vieille, ancienne",
+   "νότια": "au sud",
+   "θέατρο": "théâtre",
+   "χωρούσε": "pouvait contenir",
+   "ανθρώπους": "personnes, gens"
+  },
+  "lemma": {
+   "περπατήσεις": "περπατάω",
+   "έχτισε": "χτίζω",
+   "μαγειρεύουν": "μαγειρεύω",
+   "χωρούσε": "χωράω"
+  },
+  "examples": {
+   "πόλη": [
+    [
+     "Η πόλη είναι γεμάτη φώτα.",
+     "The city is full of lights.",
+     "La ville est pleine de lumières."
+    ],
+    [
+     "Μένω σε μια μεγάλη πόλη.",
+     "I live in a big city.",
+     "J'habite dans une grande ville."
+    ]
+   ],
+   "λίμνη": [
+    [
+     "Η λίμνη είναι πολύ ήσυχη.",
+     "The lake is very calm.",
+     "Le lac est très calme."
+    ],
+    [
+     "Κάνουμε βόλτα γύρω από τη λίμνη.",
+     "We go for a walk around the lake.",
+     "Nous nous promenons autour du lac."
+    ]
+   ],
+   "πρωί": [
+    [
+     "Το πρωί πίνω καφέ.",
+     "In the morning I drink coffee.",
+     "Le matin, je bois un café."
+    ],
+    [
+     "Ξυπνάω νωρίς το πρωί.",
+     "I wake up early in the morning.",
+     "Je me réveille tôt le matin."
+    ]
+   ],
+   "συχνά": [
+    [
+     "Πηγαίνω συχνά στο σούπερ μάρκετ.",
+     "I often go to the supermarket.",
+     "Je vais souvent au supermarché."
+    ],
+    [
+     "Βρέχει συχνά τον Νοέμβριο.",
+     "It often rains in November.",
+     "Il pleut souvent en novembre."
+    ]
+   ],
+   "ομίχλη": [
+    [
+     "Σήμερα έχει πολλή ομίχλη.",
+     "There is a lot of fog today.",
+     "Il y a beaucoup de brouillard aujourd'hui."
+    ],
+    [
+     "Δεν βλέπω τίποτα με την ομίχλη.",
+     "I can't see anything in the fog.",
+     "Je ne vois rien avec ce brouillard."
+    ]
+   ],
+   "φοιτητές": [
+    [
+     "Οι φοιτητές τρώνε στην καφετέρια.",
+     "The students eat in the cafeteria.",
+     "Les étudiants mangent à la cafétéria."
+    ],
+    [
+     "Στο λεωφορείο είναι πολλοί φοιτητές.",
+     "There are many students on the bus.",
+     "Il y a beaucoup d'étudiants dans le bus."
+    ]
+   ],
+   "περπατήσεις": [
+    [
+     "Θέλεις να περπατήσεις μαζί μου;",
+     "Do you want to walk with me?",
+     "Tu veux marcher avec moi ?"
+    ],
+    [
+     "Κάθε μέρα περπατάω στο πάρκο.",
+     "Every day I walk in the park.",
+     "Chaque jour, je marche dans le parc."
+    ]
+   ],
+   "νερό": [
+    [
+     "Το νερό είναι κρύο.",
+     "The water is cold.",
+     "L'eau est froide."
+    ],
+    [
+     "Θέλω ένα ποτήρι νερό, παρακαλώ.",
+     "I'd like a glass of water, please.",
+     "Je voudrais un verre d'eau, s'il vous plaît."
+    ]
+   ],
+   "κάστρο": [
+    [
+     "Το κάστρο είναι πάνω στον λόφο.",
+     "The castle is on the hill.",
+     "Le château est sur la colline."
+    ],
+    [
+     "Τα παιδιά φτιάχνουν ένα κάστρο στην άμμο.",
+     "The children are making a sandcastle.",
+     "Les enfants font un château de sable."
+    ]
+   ],
+   "ψηλά": [
+    [
+     "Τα ψηλά κτίρια είναι στο κέντρο.",
+     "The tall buildings are in the centre.",
+     "Les grands immeubles sont dans le centre."
+    ],
+    [
+     "Η κουζίνα έχει ψηλά ντουλάπια.",
+     "The kitchen has high cupboards.",
+     "La cuisine a des placards hauts."
+    ]
+   ],
+   "έχτισε": [
+    [
+     "Ο παππούς μου έχτισε αυτό το σπίτι.",
+     "My grandfather built this house.",
+     "Mon grand-père a construit cette maison."
+    ],
+    [
+     "Τώρα χτίζω έναν μικρό τοίχο στον κήπο.",
+     "Now I am building a small wall in the garden.",
+     "En ce moment, je construis un petit mur dans le jardin."
+    ]
+   ],
+   "νησί": [
+    [
+     "Το νησί έχει ωραίες παραλίες.",
+     "The island has nice beaches.",
+     "L'île a de belles plages."
+    ],
+    [
+     "Το καλοκαίρι πάμε σε ένα νησί.",
+     "In summer we go to an island.",
+     "L'été, nous allons sur une île."
+    ]
+   ],
+   "βάρκα": [
+    [
+     "Πάμε στην παραλία με βάρκα.",
+     "We go to the beach by boat.",
+     "Nous allons à la plage en barque."
+    ],
+    [
+     "Η βάρκα είναι μικρή και μπλε.",
+     "The boat is small and blue.",
+     "La barque est petite et bleue."
+    ]
+   ],
+   "ταβέρνες": [
+    [
+     "Οι ταβέρνες είναι γεμάτες το Σάββατο.",
+     "The taverns are full on Saturday.",
+     "Les tavernes sont pleines le samedi."
+    ],
+    [
+     "Στη γειτονιά μας έχει δύο ταβέρνες.",
+     "There are two taverns in our neighbourhood.",
+     "Il y a deux tavernes dans notre quartier."
+    ]
+   ],
+   "μαγειρεύουν": [
+    [
+     "Οι γονείς μου μαγειρεύουν την Κυριακή.",
+     "My parents cook on Sunday.",
+     "Mes parents cuisinent le dimanche."
+    ],
+    [
+     "Απόψε μαγειρεύω μακαρόνια.",
+     "Tonight I'm cooking pasta.",
+     "Ce soir, je cuisine des pâtes."
+    ]
+   ],
+   "μόνο": [
+    [
+     "Έχω μόνο πέντε ευρώ.",
+     "I only have five euros.",
+     "Je n'ai que cinq euros."
+    ],
+    [
+     "Πίνω μόνο έναν καφέ τη μέρα.",
+     "I drink only one coffee a day.",
+     "Je ne bois qu'un café par jour."
+    ]
+   ],
+   "σώμα": [
+    [
+     "Το σώμα μου είναι κουρασμένο.",
+     "My body is tired.",
+     "Mon corps est fatigué."
+    ],
+    [
+     "Ο χορός κάνει καλό στο σώμα.",
+     "Dancing is good for the body.",
+     "La danse fait du bien au corps."
+    ]
+   ],
+   "κεφάλι": [
+    [
+     "Με πονάει το κεφάλι μου.",
+     "My head hurts.",
+     "J'ai mal à la tête."
+    ],
+    [
+     "Βάλε ένα καπέλο στο κεφάλι.",
+     "Put a hat on your head.",
+     "Mets un chapeau sur la tête."
+    ]
+   ],
+   "χιλιόμετρα": [
+    [
+     "Η δουλειά μου είναι δέκα χιλιόμετρα μακριά.",
+     "My work is ten kilometres away.",
+     "Mon travail est à dix kilomètres."
+    ],
+    [
+     "Περπατάμε πέντε χιλιόμετρα κάθε μέρα.",
+     "We walk five kilometres every day.",
+     "Nous marchons cinq kilomètres par jour."
+    ]
+   ],
+   "σπηλιά": [
+    [
+     "Η σπηλιά είναι σκοτεινή και κρύα.",
+     "The cave is dark and cold.",
+     "La grotte est sombre et froide."
+    ],
+    [
+     "Τα παιδιά βρήκαν μια σπηλιά στην παραλία.",
+     "The children found a cave on the beach.",
+     "Les enfants ont trouvé une grotte sur la plage."
+    ]
+   ],
+   "παλιά": [
+    [
+     "Η γιαγιά μου έχει μια παλιά καρέκλα.",
+     "My grandmother has an old chair.",
+     "Ma grand-mère a une vieille chaise."
+    ],
+    [
+     "Αυτή η πόρτα είναι πολύ παλιά.",
+     "This door is very old.",
+     "Cette porte est très vieille."
+    ]
+   ],
+   "νότια": [
+    [
+     "Το σπίτι μας βλέπει νότια.",
+     "Our house faces south.",
+     "Notre maison est orientée au sud."
+    ],
+    [
+     "Τα νησιά είναι νότια της Αθήνας.",
+     "The islands are south of Athens.",
+     "Les îles sont au sud d'Athènes."
+    ]
+   ],
+   "χωρούσε": [
+    [
+     "Το παλιό μας αυτοκίνητο χωρούσε πέντε άτομα.",
+     "Our old car held five people.",
+     "Notre vieille voiture pouvait accueillir cinq personnes."
+    ],
+    [
+     "Δεν χωράω στο ασανσέρ με τη βαλίτσα.",
+     "I don't fit in the lift with the suitcase.",
+     "Je ne rentre pas dans l'ascenseur avec la valise."
+    ]
+   ],
+   "ανθρώπους": [
+    [
+     "Στο μετρό βλέπω πολλούς ανθρώπους.",
+     "On the metro I see a lot of people.",
+     "Dans le métro, je vois beaucoup de gens."
+    ],
+    [
+     "Μου αρέσει να γνωρίζω νέους ανθρώπους.",
+     "I like meeting new people.",
+     "J'aime rencontrer de nouvelles personnes."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "ομίχλη",
+    "gr": "ομίχλη",
+    "en": "fog",
+    "fr": "brouillard"
+   },
+   {
+    "word": "βάρκα",
+    "gr": "βάρκα",
+    "en": "boat",
+    "fr": "barque"
+   },
+   {
+    "word": "κεφάλι",
+    "gr": "κεφάλι",
+    "en": "head",
+    "fr": "tête"
+   },
+   {
+    "word": "περπατήσεις",
+    "gr": "περπατάω",
+    "en": "to walk",
+    "fr": "marcher"
+   },
+   {
+    "word": "έχτισε",
+    "gr": "χτίζω",
+    "en": "to build",
+    "fr": "construire"
+   },
+   {
+    "word": "μαγειρεύουν",
+    "gr": "μαγειρεύω",
+    "en": "to cook",
+    "fr": "cuisiner"
+   },
+   {
+    "word": "χωρούσε",
+    "gr": "χωράω",
+    "en": "to fit, to hold",
+    "fr": "tenir, contenir"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Τι έχει συχνά το πρωί;",
+    "choices": [
+     "Ομίχλη",
+     "Πιγκουίνους",
+     "Πυροτεχνήματα"
+    ],
+    "quote": "Το πρωί έχει συχνά ομίχλη.",
+    "quote_en": "In the morning there is often fog."
+   },
+   {
+    "q": "Πόσα μοναστήρια υπάρχουν στο νησί;",
+    "choices": [
+     "Επτά",
+     "Τρεις χιλιάδες",
+     "Ένα εκατομμύριο"
+    ],
+    "quote": "Στο νησί υπάρχουν επτά μοναστήρια.",
+    "quote_en": "On the island there are seven monasteries."
+   },
+   {
+    "q": "Πόσους ανθρώπους χωρούσε το θέατρο της Δωδώνης;",
+    "choices": [
+     "18.000",
+     "Δύο",
+     "Δέκα εκατομμύρια"
+    ],
+    "quote": "Το θέατρο της χωρούσε 18.000 ανθρώπους.",
+    "quote_en": "Its theatre held 18,000 people."
+   }
+  ]
  }
 ]
