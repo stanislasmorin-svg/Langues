@@ -15,6 +15,10 @@
   "fr": "écouter, entendre",
   "en": "to listen, to hear"
  },
+ "ακυρώνω": {
+  "fr": "annuler",
+  "en": "to cancel"
+ },
  "αλλάζω": {
   "fr": "changer",
   "en": "to change"
@@ -42,6 +46,10 @@
  "ανοίγω": {
   "fr": "ouvrir",
   "en": "to open"
+ },
+ "απεργώ": {
+  "fr": "faire grève",
+  "en": "to go on strike"
  },
  "αποφασίζω": {
   "fr": "décider",

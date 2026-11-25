@@ -16322,5 +16322,440 @@
     "quote_en": "Its theatre held 18,000 people."
    }
   ]
+ },
+ {
+  "date": "2026-11-25",
+  "title": "Απεργία σήμερα στην Ελλάδα",
+  "title_fr": "Grève aujourd'hui en Grèce",
+  "title_en": "Strike today in Greece",
+  "source": {
+   "name": "Naftemporiki",
+   "url": "https://www.naftemporiki.gr/society/2193768/apergia-simera-25-noemvrioy-pos-tha-kinithoyn-metro-leoforeia-kai-alla-mesa-metaforas-ti-ischyei-gia-ploia-ptiseis-nosokomeia-dimosies-ypiresies/"
+  },
+  "paragraphs": [
+   "Σήμερα, 25 Νοεμβρίου, πολλοί **εργαζόμενοι** (workers) **απεργούν** (are on strike) σε όλη την Ελλάδα. Η απεργία **κρατάει** (lasts) 24 **ώρες** (hours). Την **οργανώνει** (organizes) η ΑΔΕΔΥ. Η ΑΔΕΔΥ είναι η **ένωση** (union) των **ανθρώπων** (people) που δουλεύουν για το **κράτος** (state). Αυτοί οι άνθρωποι **ζητούν** (ask for) πιο **μεγάλους** (bigger) **μισθούς** (salaries). Επίσης **θέλουν** (want) περισσότερους **μόνιμους** (permanent) **υπαλλήλους** (employees).",
+   "Πώς θα **πάτε** (go) στη **δουλειά** (work); Το μετρό και το τραμ θα **κινούνται** (run) μόνο από τις 9 το **πρωί** (morning) ως τις 6 το **απόγευμα** (afternoon). Τα **λεωφορεία** (buses) και τα τρόλεϊ θα δουλεύουν **κανονικά** (normally). Τα **πλοία** (ships) θα **μείνουν** (stay) στο **λιμάνι** (port). Κάποιες εταιρείες **ακυρώνουν** (cancel) **πτήσεις** (flights) μέσα στην Ελλάδα. Οι πτήσεις για το **εξωτερικό** (abroad) θα **φύγουν** (leave) κανονικά.",
+   "Τα **νοσοκομεία** (hospitals) θα έχουν λίγο **προσωπικό** (staff), μόνο για τα **επείγοντα** (emergencies). Οι δημόσιες **υπηρεσίες** (services) θα είναι πιο **αργές** (slow). Αλλά το gov.gr στο ίντερνετ δουλεύει. Πολλοί άνθρωποι θα **περπατήσουν** (walk) στους **δρόμους** (streets) της Αθήνας και της Θεσσαλονίκης. Κάποιοι δρόμοι στο κέντρο θα είναι **κλειστοί** (closed)."
+  ],
+  "paragraphs_en": [
+   "Today, 25 November, many workers are on strike all over Greece. The strike lasts 24 hours. ADEDY organizes it. ADEDY is the union of the people who work for the state. These people are asking for bigger salaries. They also want more permanent employees.",
+   "How will you get to work? The metro and the tram will run only from 9 in the morning to 6 in the afternoon. Buses and trolleys will run normally. Ships will stay in port. Some companies are cancelling flights inside Greece. Flights abroad will leave normally.",
+   "Hospitals will have few staff, only for emergencies. Public services will be slower. But gov.gr works on the internet. Many people will walk in the streets of Athens and Thessaloniki. Some streets in the centre will be closed."
+  ],
+  "fr": {
+   "εργαζόμενοι": "travailleurs",
+   "απεργούν": "font grève",
+   "κρατάει": "dure",
+   "ώρες": "heures",
+   "οργανώνει": "organise",
+   "ένωση": "syndicat, union",
+   "ανθρώπων": "personnes",
+   "κράτος": "État",
+   "ζητούν": "demandent",
+   "μεγάλους": "grands, plus gros",
+   "μισθούς": "salaires",
+   "θέλουν": "veulent",
+   "μόνιμους": "permanents",
+   "υπαλλήλους": "employés",
+   "πάτε": "allez",
+   "δουλειά": "travail",
+   "κινούνται": "circulent",
+   "πρωί": "matin",
+   "απόγευμα": "après-midi",
+   "λεωφορεία": "bus",
+   "κανονικά": "normalement",
+   "πλοία": "bateaux",
+   "μείνουν": "resteront",
+   "λιμάνι": "port",
+   "ακυρώνουν": "annulent",
+   "πτήσεις": "vols",
+   "εξωτερικό": "étranger",
+   "φύγουν": "partiront",
+   "νοσοκομεία": "hôpitaux",
+   "προσωπικό": "personnel",
+   "επείγοντα": "urgences",
+   "υπηρεσίες": "services",
+   "αργές": "lentes",
+   "περπατήσουν": "marcheront",
+   "δρόμους": "rues",
+   "κλειστοί": "fermés"
+  },
+  "lemma": {
+   "απεργούν": "απεργώ",
+   "κρατάει": "κρατάω",
+   "ζητούν": "ζητάω",
+   "θέλουν": "θέλω",
+   "κινούνται": "κινούμαι",
+   "μείνουν": "μένω",
+   "ακυρώνουν": "ακυρώνω",
+   "φύγουν": "φεύγω",
+   "περπατήσουν": "περπατάω"
+  },
+  "examples": {
+   "εργαζόμενοι": [
+    [
+     "Οι εργαζόμενοι πίνουν καφέ.",
+     "The workers are drinking coffee.",
+     "Les travailleurs boivent un café."
+    ],
+    [
+     "Οι εργαζόμενοι φεύγουν στις πέντε.",
+     "The workers leave at five.",
+     "Les travailleurs partent à cinq heures."
+    ]
+   ],
+   "απεργούν": [
+    [
+     "Σήμερα οι οδηγοί απεργούν.",
+     "Today the drivers are on strike.",
+     "Aujourd'hui les chauffeurs font grève."
+    ],
+    [
+     "Αύριο δεν απεργώ, δουλεύω.",
+     "Tomorrow I'm not striking, I'm working.",
+     "Demain je ne fais pas grève, je travaille."
+    ]
+   ],
+   "κρατάει": [
+    [
+     "Η ταινία κρατάει δύο ώρες.",
+     "The film lasts two hours.",
+     "Le film dure deux heures."
+    ],
+    [
+     "Εγώ κρατάω την τσάντα σου.",
+     "I'm holding your bag.",
+     "Je tiens ton sac."
+    ]
+   ],
+   "ζητούν": [
+    [
+     "Τα παιδιά ζητούν παγωτό.",
+     "The children are asking for ice cream.",
+     "Les enfants demandent une glace."
+    ],
+    [
+     "Στο καφέ ζητάω νερό.",
+     "I ask for water at the café.",
+     "Je demande de l'eau au café."
+    ]
+   ],
+   "μεγάλους": [
+    [
+     "Θέλω δύο μεγάλους καφέδες.",
+     "I want two large coffees.",
+     "Je veux deux grands cafés."
+    ],
+    [
+     "Η Αθήνα έχει μεγάλους δρόμους.",
+     "Athens has big streets.",
+     "Athènes a de grandes rues."
+    ]
+   ],
+   "μισθούς": [
+    [
+     "Πληρώνουν τους μισθούς κάθε μήνα.",
+     "They pay the salaries every month.",
+     "Ils paient les salaires chaque mois."
+    ],
+    [
+     "Θέλουμε καλύτερους μισθούς.",
+     "We want better salaries.",
+     "Nous voulons de meilleurs salaires."
+    ]
+   ],
+   "θέλουν": [
+    [
+     "Οι φίλοι μου θέλουν πίτσα.",
+     "My friends want pizza.",
+     "Mes amis veulent une pizza."
+    ],
+    [
+     "Το πρωί θέλω έναν καφέ.",
+     "In the morning I want a coffee.",
+     "Le matin, je veux un café."
+    ]
+   ],
+   "δουλειά": [
+    [
+     "Πάω στη δουλειά με λεωφορείο.",
+     "I go to work by bus.",
+     "Je vais au travail en bus."
+    ],
+    [
+     "Η δουλειά μου είναι κοντά.",
+     "My work is close by.",
+     "Mon travail est tout près."
+    ]
+   ],
+   "κινούνται": [
+    [
+     "Τα τρένα κινούνται αργά σήμερα.",
+     "The trains are moving slowly today.",
+     "Les trains roulent lentement aujourd'hui."
+    ],
+    [
+     "Στην πόλη κινούμαι με ποδήλατο.",
+     "In the city I get around by bike.",
+     "En ville, je me déplace à vélo."
+    ]
+   ],
+   "πρωί": [
+    [
+     "Το πρωί πίνω καφέ.",
+     "In the morning I drink coffee.",
+     "Le matin, je bois un café."
+    ],
+    [
+     "Ξυπνάω νωρίς το πρωί.",
+     "I wake up early in the morning.",
+     "Je me réveille tôt le matin."
+    ]
+   ],
+   "απόγευμα": [
+    [
+     "Το απόγευμα πίνω τσάι.",
+     "In the afternoon I drink tea.",
+     "L'après-midi, je bois du thé."
+    ],
+    [
+     "Έλα σπίτι το απόγευμα.",
+     "Come home in the afternoon.",
+     "Viens à la maison l'après-midi."
+    ]
+   ],
+   "λεωφορεία": [
+    [
+     "Τα λεωφορεία είναι γεμάτα.",
+     "The buses are full.",
+     "Les bus sont pleins."
+    ],
+    [
+     "Τα λεωφορεία αργούν πολύ.",
+     "The buses are very late.",
+     "Les bus ont beaucoup de retard."
+    ]
+   ],
+   "κανονικά": [
+    [
+     "Το μαγαζί ανοίγει κανονικά.",
+     "The shop opens as usual.",
+     "Le magasin ouvre normalement."
+    ],
+    [
+     "Αύριο δουλεύουμε κανονικά.",
+     "Tomorrow we work as usual.",
+     "Demain, nous travaillons normalement."
+    ]
+   ],
+   "πλοία": [
+    [
+     "Τα πλοία φεύγουν από τον Πειραιά.",
+     "The ships leave from Piraeus.",
+     "Les bateaux partent du Pirée."
+    ],
+    [
+     "Βλέπω τα πλοία από το μπαλκόνι.",
+     "I see the ships from the balcony.",
+     "Je vois les bateaux depuis le balcon."
+    ]
+   ],
+   "μείνουν": [
+    [
+     "Τα παιδιά θα μείνουν σπίτι.",
+     "The children will stay home.",
+     "Les enfants resteront à la maison."
+    ],
+    [
+     "Εγώ μένω στο Παγκράτι.",
+     "I live in Pangrati.",
+     "J'habite à Pangrati."
+    ]
+   ],
+   "λιμάνι": [
+    [
+     "Το λιμάνι είναι κοντά.",
+     "The port is nearby.",
+     "Le port est tout près."
+    ],
+    [
+     "Τρώμε ψάρι στο λιμάνι.",
+     "We eat fish at the port.",
+     "Nous mangeons du poisson au port."
+    ]
+   ],
+   "ακυρώνουν": [
+    [
+     "Πάντα ακυρώνουν το ραντεβού.",
+     "They always cancel the appointment.",
+     "Ils annulent toujours le rendez-vous."
+    ],
+    [
+     "Σήμερα ακυρώνω το γυμναστήριο.",
+     "Today I'm skipping the gym.",
+     "Aujourd'hui, j'annule la salle de sport."
+    ]
+   ],
+   "πτήσεις": [
+    [
+     "Οι πτήσεις για Κρήτη είναι γεμάτες.",
+     "The flights to Crete are full.",
+     "Les vols pour la Crète sont pleins."
+    ],
+    [
+     "Ψάχνω φθηνές πτήσεις για Ρώμη.",
+     "I'm looking for cheap flights to Rome.",
+     "Je cherche des vols pas chers pour Rome."
+    ]
+   ],
+   "φύγουν": [
+    [
+     "Πότε θα φύγουν οι φίλοι σου;",
+     "When will your friends leave?",
+     "Quand est-ce que tes amis vont partir ?"
+    ],
+    [
+     "Στις οχτώ φεύγω από το σπίτι.",
+     "I leave home at eight.",
+     "Je pars de la maison à huit heures."
+    ]
+   ],
+   "νοσοκομεία": [
+    [
+     "Τα νοσοκομεία είναι ανοιχτά.",
+     "The hospitals are open.",
+     "Les hôpitaux sont ouverts."
+    ],
+    [
+     "Τα νοσοκομεία έχουν πολλή δουλειά.",
+     "The hospitals are very busy.",
+     "Les hôpitaux ont beaucoup de travail."
+    ]
+   ],
+   "αργές": [
+    [
+     "Οι σελίδες είναι πολύ αργές.",
+     "The pages are very slow.",
+     "Les pages sont très lentes."
+    ],
+    [
+     "Αυτές οι ουρές είναι αργές.",
+     "These queues are slow.",
+     "Ces files d'attente sont lentes."
+    ]
+   ],
+   "περπατήσουν": [
+    [
+     "Τα παιδιά θα περπατήσουν στο πάρκο.",
+     "The children will walk in the park.",
+     "Les enfants vont marcher dans le parc."
+    ],
+    [
+     "Κάθε βράδυ περπατάω με τον σκύλο.",
+     "Every evening I walk with the dog.",
+     "Chaque soir, je marche avec le chien."
+    ]
+   ],
+   "δρόμους": [
+    [
+     "Δεν ξέρω τους δρόμους εδώ.",
+     "I don't know the streets here.",
+     "Je ne connais pas les rues ici."
+    ],
+    [
+     "Καθαρίζουν τους δρόμους το πρωί.",
+     "They clean the streets in the morning.",
+     "Ils nettoient les rues le matin."
+    ]
+   ],
+   "κλειστοί": [
+    [
+     "Οι φούρνοι είναι κλειστοί την Κυριακή.",
+     "The bakeries are closed on Sunday.",
+     "Les boulangeries sont fermées le dimanche."
+    ],
+    [
+     "Οι δρόμοι είναι κλειστοί σήμερα.",
+     "The roads are closed today.",
+     "Les routes sont fermées aujourd'hui."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "λιμάνι",
+    "gr": "λιμάνι",
+    "en": "port",
+    "fr": "port"
+   },
+   {
+    "word": "μισθούς",
+    "gr": "μισθούς",
+    "en": "salaries",
+    "fr": "salaires"
+   },
+   {
+    "word": "κλειστοί",
+    "gr": "κλειστοί",
+    "en": "closed",
+    "fr": "fermés"
+   },
+   {
+    "word": "κρατάει",
+    "gr": "κρατάω",
+    "en": "to last, to hold",
+    "fr": "durer, tenir"
+   },
+   {
+    "word": "ακυρώνουν",
+    "gr": "ακυρώνω",
+    "en": "to cancel",
+    "fr": "annuler"
+   },
+   {
+    "word": "φύγουν",
+    "gr": "φεύγω",
+    "en": "to leave",
+    "fr": "partir"
+   },
+   {
+    "word": "μείνουν",
+    "gr": "μένω",
+    "en": "to stay",
+    "fr": "rester"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Πόσες ώρες κρατάει η απεργία;",
+    "choices": [
+     "24 ώρες",
+     "Δύο λεπτά",
+     "Έναν χρόνο"
+    ],
+    "quote": "Η απεργία κρατάει 24 ώρες.",
+    "quote_en": "The strike lasts 24 hours."
+   },
+   {
+    "q": "Πού θα μείνουν τα πλοία;",
+    "choices": [
+     "Στο λιμάνι",
+     "Στο βουνό",
+     "Στο σούπερ μάρκετ"
+    ],
+    "quote": "Τα πλοία θα μείνουν στο λιμάνι.",
+    "quote_en": "Ships will stay in port."
+   },
+   {
+    "q": "Ως τι ώρα κινείται το μετρό σήμερα;",
+    "choices": [
+     "Ως τις 6 το απόγευμα",
+     "Ως τα Χριστούγεννα",
+     "Ως το 2050"
+    ],
+    "quote": "Το μετρό και το τραμ θα κινούνται μόνο από τις 9 το πρωί ως τις 6 το απόγευμα.",
+    "quote_en": "The metro and the tram will run only from 9 in the morning to 6 in the afternoon."
+   }
+  ]
  }
 ]

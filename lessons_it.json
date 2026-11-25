@@ -8361,5 +8361,439 @@
     "quote_en": "He wrote many laws in Greek too."
    }
   ]
+ },
+ {
+  "date": "2026-11-25",
+  "title": "Il fiume di fuoco di Agnone",
+  "title_fr": "Le fleuve de feu d'Agnone",
+  "title_en": "The river of fire of Agnone",
+  "source": {
+   "name": "The Wom Travel",
+   "url": "https://travel.thewom.it/italia/molise/ndocciata-agnone.html"
+  },
+  "paragraphs": [
+   "Agnone è un piccolo **paese** (village) in Molise. È in **montagna** (mountains), a circa 800 metri. A Natale c'è una **festa** (celebration) molto antica: la 'Ndocciata. Le persone **portano** (carry) grandi **torce** (torches) di **legno** (wood) per le **strade** (streets) del paese.",
+   "Ogni torcia è fatta di **abete** (fir) bianco. Ha la **forma** (shape) di un **ventaglio** (fan). Alcune torce hanno fino a venti **fiamme** (flames)! Gli uomini le portano sulle **spalle** (shoulders). Indossano **mantelli** (cloaks) scuri. Serve molta **forza** (strength). Il paese ha cinque **quartieri** (districts). Alla **fine** (end), tutte le torce **diventano** (become) un grande **falò** (bonfire): il Falò della **Fratellanza** (Brotherhood).",
+   "Una volta i **contadini** (farmers) e i **pastori** (shepherds) **usavano** (used) le torce nella **notte** (night) di Natale. Le strade erano **buie** (dark). Le torce **illuminavano** (lit up) la strada verso il paese. Nel 1996 le torce sono **andate** (went) a Roma, in piazza San Pietro.",
+   "Quest'anno la grande 'Ndocciata è il 12 **dicembre** (December), alle 18. L'**ingresso** (entry) è **gratis** (free). Fa **freddo** (cold). Servono **guanti** (gloves) e **cappello** (hat). Si può **assaggiare** (taste) il caciocavallo, un **formaggio** (cheese) del Molise. È meglio **arrivare** (arrive) qualche ora **prima** (early)."
+  ],
+  "paragraphs_en": [
+   "Agnone is a small village in Molise. It is in the mountains, at about 800 metres. At Christmas there is a very old celebration: the 'Ndocciata. People carry big wooden torches through the streets of the village.",
+   "Each torch is made of white fir. It is shaped like a fan. Some torches have up to twenty flames! The men carry them on their shoulders. They wear dark cloaks. It takes a lot of strength. The village has five districts. At the end, all the torches become one big bonfire: the Bonfire of Brotherhood.",
+   "Long ago, farmers and shepherds used torches on Christmas night. The roads were dark. The torches lit up the way to the village. In 1996 the torches went to Rome, to St Peter's Square.",
+   "This year the big 'Ndocciata is on 12 December, at 6 pm. Entry is free. It is cold. You need gloves and a hat. You can taste caciocavallo, a cheese from Molise. It is best to arrive a few hours early."
+  ],
+  "fr": {
+   "paese": "village",
+   "montagna": "montagne",
+   "festa": "fête",
+   "portano": "portent",
+   "torce": "torches",
+   "legno": "bois",
+   "strade": "rues",
+   "abete": "sapin",
+   "forma": "forme",
+   "ventaglio": "éventail",
+   "fiamme": "flammes",
+   "spalle": "épaules",
+   "mantelli": "capes",
+   "forza": "force",
+   "quartieri": "quartiers",
+   "fine": "fin",
+   "diventano": "deviennent",
+   "falò": "feu de joie",
+   "Fratellanza": "Fraternité",
+   "contadini": "paysans",
+   "pastori": "bergers",
+   "usavano": "utilisaient",
+   "notte": "nuit",
+   "buie": "sombres",
+   "illuminavano": "éclairaient",
+   "andate": "allées",
+   "dicembre": "décembre",
+   "ingresso": "entrée",
+   "gratis": "gratuit",
+   "freddo": "froid",
+   "guanti": "gants",
+   "cappello": "chapeau",
+   "assaggiare": "goûter",
+   "formaggio": "fromage",
+   "arrivare": "arriver",
+   "prima": "en avance, avant"
+  },
+  "lemma": {
+   "portano": "portare",
+   "diventano": "diventare",
+   "illuminavano": "illuminare",
+   "andate": "andare",
+   "assaggiare": "assaggiare",
+   "arrivare": "arrivare"
+  },
+  "examples": {
+   "paese": [
+    [
+     "Il mio paese è piccolo.",
+     "My village is small.",
+     "Mon village est petit."
+    ],
+    [
+     "Questo paese ha un bel bar.",
+     "This village has a nice café.",
+     "Ce village a un joli café."
+    ]
+   ],
+   "montagna": [
+    [
+     "Domenica vado in montagna.",
+     "On Sunday I'm going to the mountains.",
+     "Dimanche, je vais à la montagne."
+    ],
+    [
+     "La casa è in montagna.",
+     "The house is in the mountains.",
+     "La maison est à la montagne."
+    ]
+   ],
+   "festa": [
+    [
+     "Stasera c'è una festa.",
+     "There's a party tonight.",
+     "Ce soir, il y a une fête."
+    ],
+    [
+     "La festa finisce a mezzanotte.",
+     "The party ends at midnight.",
+     "La fête finit à minuit."
+    ]
+   ],
+   "portano": [
+    [
+     "I bambini portano lo zaino.",
+     "The children carry their backpacks.",
+     "Les enfants portent leur sac à dos."
+    ],
+    [
+     "Io porto il pane a casa.",
+     "I bring the bread home.",
+     "J'apporte le pain à la maison."
+    ]
+   ],
+   "legno": [
+    [
+     "Il tavolo è di legno.",
+     "The table is made of wood.",
+     "La table est en bois."
+    ],
+    [
+     "Compro una sedia di legno.",
+     "I'm buying a wooden chair.",
+     "J'achète une chaise en bois."
+    ]
+   ],
+   "strade": [
+    [
+     "Le strade sono bagnate.",
+     "The streets are wet.",
+     "Les rues sont mouillées."
+    ],
+    [
+     "Di notte le strade sono vuote.",
+     "At night the streets are empty.",
+     "La nuit, les rues sont vides."
+    ]
+   ],
+   "forma": [
+    [
+     "La torta ha la forma di un cuore.",
+     "The cake is shaped like a heart.",
+     "Le gâteau a la forme d'un cœur."
+    ],
+    [
+     "Mi piace la forma del vaso.",
+     "I like the shape of the vase.",
+     "J'aime la forme du vase."
+    ]
+   ],
+   "fiamme": [
+    [
+     "Le fiamme del camino sono alte.",
+     "The flames in the fireplace are high.",
+     "Les flammes de la cheminée sont hautes."
+    ],
+    [
+     "Abbassa le fiamme del gas.",
+     "Turn down the gas flames.",
+     "Baisse les flammes du gaz."
+    ]
+   ],
+   "spalle": [
+    [
+     "Mi fanno male le spalle.",
+     "My shoulders hurt.",
+     "J'ai mal aux épaules."
+    ],
+    [
+     "Porta lo zaino sulle spalle.",
+     "He carries the backpack on his shoulders.",
+     "Il porte le sac sur les épaules."
+    ]
+   ],
+   "forza": [
+    [
+     "Non ho la forza di cucinare.",
+     "I don't have the strength to cook.",
+     "Je n'ai pas la force de cuisiner."
+    ],
+    [
+     "Serve forza per aprire il barattolo.",
+     "It takes strength to open the jar.",
+     "Il faut de la force pour ouvrir le bocal."
+    ]
+   ],
+   "fine": [
+    [
+     "Alla fine del film piango.",
+     "At the end of the film I cry.",
+     "À la fin du film, je pleure."
+    ],
+    [
+     "La fermata è alla fine della strada.",
+     "The stop is at the end of the street.",
+     "L'arrêt est au bout de la rue."
+    ]
+   ],
+   "diventano": [
+    [
+     "Le foglie diventano gialle.",
+     "The leaves turn yellow.",
+     "Les feuilles deviennent jaunes."
+    ],
+    [
+     "Con il caffè divento più gentile.",
+     "With coffee I become nicer.",
+     "Avec un café, je deviens plus gentil."
+    ]
+   ],
+   "contadini": [
+    [
+     "I contadini vendono le uova al mercato.",
+     "Farmers sell eggs at the market.",
+     "Les paysans vendent des œufs au marché."
+    ],
+    [
+     "I contadini lavorano anche la domenica.",
+     "Farmers work on Sundays too.",
+     "Les paysans travaillent aussi le dimanche."
+    ]
+   ],
+   "notte": [
+    [
+     "Di notte la città è tranquilla.",
+     "At night the city is quiet.",
+     "La nuit, la ville est calme."
+    ],
+    [
+     "Buona notte, a domani!",
+     "Good night, see you tomorrow!",
+     "Bonne nuit, à demain !"
+    ]
+   ],
+   "buie": [
+    [
+     "Le scale sono buie.",
+     "The stairs are dark.",
+     "L'escalier est sombre."
+    ],
+    [
+     "In inverno le sere sono buie.",
+     "In winter the evenings are dark.",
+     "En hiver, les soirées sont sombres."
+    ]
+   ],
+   "illuminavano": [
+    [
+     "Le candele illuminavano la cucina.",
+     "The candles lit up the kitchen.",
+     "Les bougies éclairaient la cuisine."
+    ],
+    [
+     "La lampada illumina il tavolo.",
+     "The lamp lights up the table.",
+     "La lampe éclaire la table."
+    ]
+   ],
+   "andate": [
+    [
+     "Le ragazze sono andate al mercato.",
+     "The girls went to the market.",
+     "Les filles sont allées au marché."
+    ],
+    [
+     "Oggi vado al lavoro a piedi.",
+     "Today I'm walking to work.",
+     "Aujourd'hui, je vais au travail à pied."
+    ]
+   ],
+   "ingresso": [
+    [
+     "L'ingresso del museo è a destra.",
+     "The museum entrance is on the right.",
+     "L'entrée du musée est à droite."
+    ],
+    [
+     "Paghiamo l'ingresso alla cassa.",
+     "We pay the entry fee at the till.",
+     "Nous payons l'entrée à la caisse."
+    ]
+   ],
+   "gratis": [
+    [
+     "Oggi il caffè è gratis.",
+     "Today the coffee is free.",
+     "Aujourd'hui, le café est gratuit."
+    ],
+    [
+     "Qui il wifi è gratis.",
+     "The wifi is free here.",
+     "Ici, le wifi est gratuit."
+    ]
+   ],
+   "freddo": [
+    [
+     "Oggi fa freddo.",
+     "It's cold today.",
+     "Il fait froid aujourd'hui."
+    ],
+    [
+     "Il caffè è già freddo.",
+     "The coffee is already cold.",
+     "Le café est déjà froid."
+    ]
+   ],
+   "guanti": [
+    [
+     "Ho dimenticato i guanti.",
+     "I forgot my gloves.",
+     "J'ai oublié mes gants."
+    ],
+    [
+     "Questi guanti sono caldi.",
+     "These gloves are warm.",
+     "Ces gants sont chauds."
+    ]
+   ],
+   "assaggiare": [
+    [
+     "Vuoi assaggiare la torta?",
+     "Do you want to taste the cake?",
+     "Tu veux goûter le gâteau ?"
+    ],
+    [
+     "Assaggio sempre il sugo.",
+     "I always taste the sauce.",
+     "Je goûte toujours la sauce."
+    ]
+   ],
+   "formaggio": [
+    [
+     "Metto il formaggio sulla pasta.",
+     "I put cheese on the pasta.",
+     "Je mets du fromage sur les pâtes."
+    ],
+    [
+     "Questo formaggio è buonissimo.",
+     "This cheese is delicious.",
+     "Ce fromage est délicieux."
+    ]
+   ],
+   "arrivare": [
+    [
+     "Devo arrivare alle nove.",
+     "I have to arrive at nine.",
+     "Je dois arriver à neuf heures."
+    ],
+    [
+     "Arrivo a casa alle sette.",
+     "I get home at seven.",
+     "J'arrive à la maison à sept heures."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "legno",
+    "gr": "legno",
+    "en": "wood",
+    "fr": "bois"
+   },
+   {
+    "word": "spalle",
+    "gr": "spalle",
+    "en": "shoulders",
+    "fr": "épaules"
+   },
+   {
+    "word": "guanti",
+    "gr": "guanti",
+    "en": "gloves",
+    "fr": "gants"
+   },
+   {
+    "word": "diventano",
+    "gr": "diventare",
+    "en": "to become",
+    "fr": "devenir"
+   },
+   {
+    "word": "illuminavano",
+    "gr": "illuminare",
+    "en": "to light up",
+    "fr": "éclairer"
+   },
+   {
+    "word": "assaggiare",
+    "gr": "assaggiare",
+    "en": "to taste",
+    "fr": "goûter"
+   },
+   {
+    "word": "portano",
+    "gr": "portare",
+    "en": "to carry",
+    "fr": "porter"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Quante fiamme hanno alcune torce?",
+    "choices": [
+     "Fino a venti",
+     "Centomila",
+     "Mille e una"
+    ],
+    "quote": "Alcune torce hanno fino a venti fiamme!",
+    "quote_en": "Some torches have up to twenty flames!"
+   },
+   {
+    "q": "Dove sono andate le torce nel 1996?",
+    "choices": [
+     "A Roma",
+     "Sulla Luna",
+     "In fondo al mare"
+    ],
+    "quote": "Nel 1996 le torce sono andate a Roma, in piazza San Pietro.",
+    "quote_en": "In 1996 the torches went to Rome, to St Peter's Square."
+   },
+   {
+    "q": "Quando è la grande 'Ndocciata quest'anno?",
+    "choices": [
+     "Il 12 dicembre",
+     "A Ferragosto",
+     "Il primo aprile"
+    ],
+    "quote": "Quest'anno la grande 'Ndocciata è il 12 dicembre, alle 18.",
+    "quote_en": "This year the big 'Ndocciata is on 12 December, at 6 pm."
+   }
+  ]
  }
 ]

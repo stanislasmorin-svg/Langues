@@ -31,6 +31,10 @@
   "fr": "arriver",
   "en": "to arrive"
  },
+ "assaggiare": {
+  "fr": "goûter",
+  "en": "to taste"
+ },
  "ballare": {
   "fr": "danser",
   "en": "to dance"
@@ -150,6 +154,10 @@
  "guardare": {
   "fr": "regarder",
   "en": "to look at"
+ },
+ "illuminare": {
+  "fr": "éclairer",
+  "en": "to light up"
  },
  "imparare": {
   "fr": "apprendre",
