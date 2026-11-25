@@ -407,7 +407,7 @@ function end(){$('q').hidden=true;$('end').hidden=false;$('sc').textContent=scor
  $('share').textContent='Send this quiz to a friend';
  $('rev').hidden=!miss.length;$('miss').innerHTML=miss.map(function(m){return '<li><b>'+esc(m.gr)+'</b><span>'+esc(m.en)+(m.fr?' · '+esc(m.fr):'')+'</span></li>'}).join('')}
 $('again').onclick=function(){i=0;score=0;miss=[];var W=sh(D.filter(function(x){return x.kind!=='q'}));D=D.map(function(x){return x.kind==='q'?x:W.shift()});$('end').hidden=true;$('q').hidden=false;$('pts').textContent='0 points';show()};
-$('share').onclick=function(){var t='I got '+score+'/'+N+' on today\'s '+LANG+' lesson on Masimera. Read it and try to beat me!',u=location.href.split('?')[0].split('#')[0].replace('/quiz/','/cours/')+'?challenge='+score;
+$('share').onclick=function(){var t='I got '+score+'/'+N+' on today\'s '+LANG+' lesson on Masimera. Read it and try to beat me!',u=location.href.split('?')[0].split('#')[0].replace('/quiz/','/defi/')+'?challenge='+score;
  msShare($('share'),t,u)};
 function msShare(b,t,u){var mob=/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent)||(navigator.maxTouchPoints>1&&/Mac/.test(navigator.platform));
  if(navigator.share&&mob){navigator.share({text:t,url:u}).catch(function(){});return}
@@ -793,6 +793,21 @@ document.querySelectorAll('.vocab li.letter').forEach(function(r){r.hidden=!!v;}
 {FOOTER}
 </div><script>{js}</script><script>var SPK={json.dumps(SPEAKER)};{WORDS_QUIZ_JS}</script><script>{JS}</script></body></html>"""
 
+def challenge_page(s, L):
+    """Lien envoyé par « Send this quiz to a friend » : seulement un aperçu de partage « A friend challenges your Greek! »,
+    puis renvoi immédiat vers le cours en gardant ?challenge=N."""
+    d = s["date"]
+    lesson = "../cours/" + d + ".html"
+    title = "A friend challenges your " + L["name"] + "!"
+    desc = "Read today's lesson (" + (s.get("title_en") or s.get("title_fr", "")) + "), take the 2-minute quiz and try to beat their score."
+    return f"""<!doctype html><html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><meta name="google" content="notranslate">
+<title>{html.escape(title)} · Masimera</title>{seo(L["out"] + "defi/" + d + ".html", title, desc, "website", image=L["out"] + "og/defi-" + d + ".png")}
+<script>location.replace('{lesson}' + location.search + location.hash);</script>
+<noscript><meta http-equiv="refresh" content="0; url={lesson}"></noscript>
+</head><body style="font-family:'Times New Roman',serif;padding:24px"><p><a href="{lesson}">{html.escape(s["title"])}</a></p></body></html>"""
+
+
 def build(lang, L):
     path = os.path.join(ROOT, L["file"])
     lessons = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else []
@@ -800,11 +815,15 @@ def build(lang, L):
     outdir = os.path.join(ROOT, L["out"])
     os.makedirs(os.path.join(outdir, "cours"), exist_ok=True)
     os.makedirs(os.path.join(outdir, "quiz"), exist_ok=True)
+    os.makedirs(os.path.join(outdir, "defi"), exist_ok=True)
     all_lemmas = sorted({v for x in lessons for v in x.get("lemma", {}).values()})
     if og:  # share images: one per lesson (also used by its quiz) + one for /gr/, /it/ and All words
         for s in lessons:
             og.lesson_image(s["title"], s.get("title_en") or s.get("title_fr", ""), L["title"] + " · masimera.com",
                             os.path.join(outdir, "og", s["date"] + ".png"))
+            if s.get("examples"):  # image du défi envoyé à un ami (page defi/DATE.html)
+                og.challenge_image("A friend challenges your " + L["name"] + "!", s["title"], s.get("title_en") or s.get("title_fr", ""),
+                                   "Can you beat their score? · masimera.com", os.path.join(outdir, "og", "defi-" + s["date"] + ".png"))
         og.page_image(L["title"], L["eyebrow"], L["tagline"], "masimera.com/" + L["out"].strip("/"),
                       os.path.join(ROOT, "og", L["out"].strip("/") + ".png"))
     for i, s in enumerate(lessons):
@@ -813,6 +832,7 @@ def build(lang, L):
         items = quiz_items(s, lang, outdir, all_lemmas)
         if items:
             open(os.path.join(outdir, "quiz", s["date"] + ".html"), "w", encoding="utf-8").write(quiz_page(s, items, lang, L))
+            open(os.path.join(outdir, "defi", s["date"] + ".html"), "w", encoding="utf-8").write(challenge_page(s, L))
         open(os.path.join(outdir, "cours", s["date"] + ".html"), "w", encoding="utf-8").write(lesson_page(s, prev, nxt, lang, L, outdir, bool(items)))
     open(os.path.join(outdir, "index.html"), "w", encoding="utf-8").write(index_page(lessons, lang, L))
     open(os.path.join(outdir, "mots.html"), "w", encoding="utf-8").write(gloss_page(lessons, lang, L))

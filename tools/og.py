@@ -91,6 +91,24 @@ def lesson_image(title, subtitle, footer, out):
     save(im, out)
 
 
+def challenge_image(banner, title, subtitle, footer, out):
+    """Quiz challenge sent to a friend: a big blue banner (« A friend challenges your Greek! »), then the lesson title."""
+    im, d = frame(footer)
+    fb, bl = fit(d, banner, FB, W - 220, 1, 64, 40)
+    bw = d.textlength(bl[0], font=fb)
+    d.rounded_rectangle([80, 190, 80 + bw + 60, 190 + fb.size + 44], radius=24, fill=BLUE)
+    d.text((110, 190 + 18), bl[0], font=fb, fill="white")
+    y = 190 + fb.size + 44 + 40
+    f, lines = fit(d, title, FB, W - 180, 2, 52, 36)
+    for ln in lines:
+        d.text((80, y), ln, font=f, fill=INK)
+        y += int(f.size * 1.22)
+    if subtitle:
+        fs, sub = fit(d, subtitle, FR, W - 180, 1, 32, 26)
+        d.text((80, y + 6), sub[0], font=fs, fill=MUTED)
+    save(im, out)
+
+
 def page_image(big, native, tagline, footer, out):
     """Fixed pages (home, /gr/, /it/): small line in blue, big title, short description."""
     im, d = frame(footer)
