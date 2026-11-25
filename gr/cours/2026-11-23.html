@@ -234,16 +234,12 @@ h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
     text.hidden = on; en.hidden = !on;
   });
 })();
-// Partage : menu natif sur téléphone ; sur ordinateur, lien copié + boutons WhatsApp / Email / Copy link.
+// Partage : menu natif sur téléphone ; sur ordinateur, le message et le lien sont copiés (« Link copied ✓ »).
 function msShare(b,t,u){var mob=/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent)||(navigator.maxTouchPoints>1&&/Mac/.test(navigator.platform));
  if(navigator.share&&mob){navigator.share({text:t,url:u}).catch(function(){});return}
  var msg=t+' '+u,lab=b.dataset.lab||b.textContent;b.dataset.lab=lab;
- if(navigator.clipboard)navigator.clipboard.writeText(msg).then(function(){b.textContent='Link copied ✓';setTimeout(function(){b.textContent=lab},2500)},function(){});
- var p=document.getElementById('msShare');
- if(!p){p=document.createElement('div');p.id='msShare';p.style.cssText='display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:10px 0 0;font-size:15px;width:100%';(b.closest('.shareRow')||b).insertAdjacentElement('afterend',p)}
- var e=encodeURIComponent,s='padding:6px 14px;border:1px solid #1a56b4;border-radius:999px;color:#1a56b4;background:#fff;text-decoration:none';
- p.innerHTML='<a target="_blank" rel="noopener" style="'+s+'" href="https://wa.me/?text='+e(msg)+'">WhatsApp</a><a style="'+s+'" href="mailto:?subject='+e('Masimera')+'&body='+e(msg)+'">Email</a><a href="#" id="msCopy" style="'+s+'">Copy link</a>';
- document.getElementById('msCopy').onclick=function(ev){ev.preventDefault();if(navigator.clipboard)navigator.clipboard.writeText(msg);this.textContent='Copied ✓'}}
+ var ok=function(){b.textContent='Link copied ✓';setTimeout(function(){b.textContent=lab},2500)};
+ if(navigator.clipboard)navigator.clipboard.writeText(msg).then(ok,function(){prompt('Copy this link:',u)});else prompt('Copy this link:',u)}
 (function(){
   var b = document.getElementById('shareBtn'); if (!b) return;
   b.addEventListener('click', function(){
