@@ -16757,5 +16757,443 @@
     "quote_en": "The metro and the tram will run only from 9 in the morning to 6 in the afternoon."
    }
   ]
+ },
+ {
+  "date": "2026-11-26",
+  "title": "Φθηνό λάδι, ακριβή δουλειά",
+  "title_fr": "Huile bon marché, travail cher",
+  "title_en": "Cheap oil, expensive work",
+  "source": {
+   "name": "Τα Νέα",
+   "url": "https://www.tanea.gr/2026/11/25/economy/elaiolado-ergates-me-90-eyro-ladi-me-3-20-giati-oi-agrotes-kindyneyoun-na-afisoun-ti-sodeia-sta-dentra/"
+  },
+  "paragraphs": [
+   "Τον **Νοέμβριο** (November) οι **αγρότες** (farmers) **μαζεύουν** (pick) τις **ελιές** (olives) από τα **δέντρα** (trees). Με τις ελιές **φτιάχνουν** (make) το **λάδι** (oil). **Φέτος** (this year) όμως οι αγρότες είναι **λυπημένοι** (sad). Το λάδι **πουλιέται** (is sold) πολύ **φθηνά** (cheaply).",
+   "Στη Λακωνία, στη Μεσσηνία και στην Κρήτη, ο αγρότης **παίρνει** (gets) 3,20 με 3,60 ευρώ για ένα **κιλό** (kilo) λάδι. **Πέρσι** (last year) η **τιμή** (price) ήταν **διπλή** (double). Στην Κρήτη όμως ένα κιλό λάδι **κοστίζει** (costs) στον αγρότη πάνω από 4,70 ευρώ. Έτσι ο αγρότης **χάνει** (loses) **χρήματα** (money).",
+   "Οι **εργάτες** (workers) στα **χωράφια** (fields) **ζητούν** (ask for) 60 έως 90 ευρώ τη **μέρα** (day). Τρεις εργάτες για πέντε μέρες κοστίζουν 1.050 ευρώ. Αυτά τα **λεφτά** (money) είναι η τιμή για 330 κιλά λάδι. Ο αγρότης **πληρώνει** (pays) επίσης **λίπασμα** (fertiliser), **πετρέλαιο** (diesel) και **ρεύμα** (electricity).",
+   "Οι αγρότες δεν **μπορούν** (can) να **περιμένουν** (wait). Αν περιμένουν, το λάδι δεν θα είναι τόσο καλό. Γι' αυτό **μερικοί** (some) αγρότες **ίσως** (maybe) **αφήσουν** (leave) τις ελιές στα δέντρα. Μόνο το πρώτο, πολύ καλό λάδι πουλιέται **ακριβά** (at a high price). Μια **ομάδα** (group) αγροτών στη Λακωνία **πούλησε** (sold) τέτοιο λάδι στα 5,95 ευρώ το κιλό."
+  ],
+  "paragraphs_en": [
+   "In November, farmers pick the olives from the trees. With the olives they make oil. But this year the farmers are sad. The oil is selling very cheaply.",
+   "In Laconia, Messinia and Crete, a farmer gets 3.20 to 3.60 euros for a kilo of oil. Last year the price was double. But in Crete a kilo of oil costs the farmer more than 4.70 euros. So the farmer loses money.",
+   "Workers in the fields ask for 60 to 90 euros a day. Three workers for five days cost 1,050 euros. That money is the price of 330 kilos of oil. The farmer also pays for fertiliser, diesel and electricity.",
+   "The farmers cannot wait. If they wait, the oil will not be as good. So some farmers may leave the olives on the trees. Only the first, very good oil sells at a high price. A group of farmers in Laconia sold this kind of oil at 5.95 euros a kilo."
+  ],
+  "fr": {
+   "Νοέμβριο": "novembre",
+   "αγρότες": "agriculteurs",
+   "μαζεύουν": "ramassent",
+   "ελιές": "olives",
+   "δέντρα": "arbres",
+   "φτιάχνουν": "fabriquent",
+   "λάδι": "huile",
+   "Φέτος": "cette année",
+   "λυπημένοι": "tristes",
+   "πουλιέται": "se vend",
+   "φθηνά": "bon marché",
+   "παίρνει": "reçoit",
+   "κιλό": "kilo",
+   "Πέρσι": "l'an dernier",
+   "τιμή": "prix",
+   "διπλή": "double",
+   "κοστίζει": "coûte",
+   "χάνει": "perd",
+   "χρήματα": "argent",
+   "εργάτες": "ouvriers",
+   "χωράφια": "champs",
+   "ζητούν": "demandent",
+   "μέρα": "jour",
+   "λεφτά": "argent (sous)",
+   "πληρώνει": "paie",
+   "λίπασμα": "engrais",
+   "πετρέλαιο": "gazole",
+   "ρεύμα": "électricité",
+   "μπορούν": "peuvent",
+   "περιμένουν": "attendre",
+   "μερικοί": "certains",
+   "ίσως": "peut-être",
+   "αφήσουν": "laisser",
+   "ακριβά": "cher",
+   "ομάδα": "groupe",
+   "πούλησε": "a vendu"
+  },
+  "lemma": {
+   "μαζεύουν": "μαζεύω",
+   "φτιάχνουν": "φτιάχνω",
+   "πουλιέται": "πουλιέμαι",
+   "παίρνει": "παίρνω",
+   "κοστίζει": "κοστίζω",
+   "χάνει": "χάνω",
+   "ζητούν": "ζητώ",
+   "πληρώνει": "πληρώνω",
+   "περιμένουν": "περιμένω",
+   "αφήσουν": "αφήνω"
+  },
+  "examples": {
+   "αγρότες": [
+    [
+     "Οι αγρότες ξυπνούν πολύ νωρίς.",
+     "Farmers wake up very early.",
+     "Les agriculteurs se lèvent très tôt."
+    ],
+    [
+     "Στο χωριό μένουν πολλοί αγρότες.",
+     "Many farmers live in the village.",
+     "Beaucoup d'agriculteurs vivent au village."
+    ]
+   ],
+   "μαζεύουν": [
+    [
+     "Τα παιδιά μαζεύουν τα παιχνίδια τους.",
+     "The children tidy up their toys.",
+     "Les enfants rangent leurs jouets."
+    ],
+    [
+     "Κάθε βράδυ μαζεύω την κουζίνα.",
+     "Every evening I tidy the kitchen.",
+     "Chaque soir, je range la cuisine."
+    ]
+   ],
+   "ελιές": [
+    [
+     "Θέλεις ελιές με τη σαλάτα;",
+     "Do you want olives with the salad?",
+     "Tu veux des olives avec la salade ?"
+    ],
+    [
+     "Οι ελιές είναι στο ψυγείο.",
+     "The olives are in the fridge.",
+     "Les olives sont dans le frigo."
+    ]
+   ],
+   "δέντρα": [
+    [
+     "Ο δρόμος μας έχει πολλά δέντρα.",
+     "Our street has many trees.",
+     "Notre rue a beaucoup d'arbres."
+    ],
+    [
+     "Τα δέντρα στο πάρκο είναι ψηλά.",
+     "The trees in the park are tall.",
+     "Les arbres du parc sont hauts."
+    ]
+   ],
+   "φτιάχνουν": [
+    [
+     "Οι γονείς μου φτιάχνουν κέικ.",
+     "My parents are making a cake.",
+     "Mes parents font un gâteau."
+    ],
+    [
+     "Το πρωί φτιάχνω καφέ.",
+     "In the morning I make coffee.",
+     "Le matin, je fais du café."
+    ]
+   ],
+   "λάδι": [
+    [
+     "Βάλε λίγο λάδι στη σαλάτα.",
+     "Put a little oil on the salad.",
+     "Mets un peu d'huile dans la salade."
+    ],
+    [
+     "Το λάδι τελείωσε, πάρε ένα μπουκάλι.",
+     "The oil is finished, get a bottle.",
+     "Il n'y a plus d'huile, prends une bouteille."
+    ]
+   ],
+   "Φέτος": [
+    [
+     "Φέτος πάμε διακοπές στην Κρήτη.",
+     "This year we're going on holiday to Crete.",
+     "Cette année, on part en vacances en Crète."
+    ],
+    [
+     "Φέτος ο χειμώνας είναι κρύος.",
+     "This year the winter is cold.",
+     "Cette année, l'hiver est froid."
+    ]
+   ],
+   "λυπημένοι": [
+    [
+     "Οι φίλοι μου είναι λυπημένοι σήμερα.",
+     "My friends are sad today.",
+     "Mes amis sont tristes aujourd'hui."
+    ],
+    [
+     "Γιατί είστε λυπημένοι;",
+     "Why are you sad?",
+     "Pourquoi êtes-vous tristes ?"
+    ]
+   ],
+   "πουλιέται": [
+    [
+     "Το σπίτι πουλιέται φθηνά.",
+     "The house is being sold cheaply.",
+     "La maison se vend pas cher."
+    ],
+    [
+     "Δεν πουλιέμαι για λίγα λεφτά.",
+     "I can't be bought for a little money.",
+     "Je ne me vends pas pour quelques sous."
+    ]
+   ],
+   "φθηνά": [
+    [
+     "Εδώ τρώμε καλά και φθηνά.",
+     "Here we eat well and cheaply.",
+     "Ici, on mange bien et pas cher."
+    ],
+    [
+     "Στη λαϊκή ψωνίζω φθηνά.",
+     "At the street market I shop cheaply.",
+     "Au marché, je fais mes courses pas cher."
+    ]
+   ],
+   "παίρνει": [
+    [
+     "Η Μαρία παίρνει το λεωφορείο.",
+     "Maria takes the bus.",
+     "Maria prend le bus."
+    ],
+    [
+     "Κάθε μέρα παίρνω το μετρό.",
+     "Every day I take the metro.",
+     "Chaque jour, je prends le métro."
+    ]
+   ],
+   "τιμή": [
+    [
+     "Ποια είναι η τιμή του εισιτηρίου;",
+     "What is the price of the ticket?",
+     "Quel est le prix du billet ?"
+    ],
+    [
+     "Η τιμή του καφέ ανέβηκε.",
+     "The price of coffee went up.",
+     "Le prix du café a augmenté."
+    ]
+   ],
+   "κοστίζει": [
+    [
+     "Πόσο κοστίζει αυτό το μπουφάν;",
+     "How much does this jacket cost?",
+     "Combien coûte cette veste ?"
+    ],
+    [
+     "Πόσο κοστίζω στους γονείς μου;",
+     "How much do I cost my parents?",
+     "Combien je coûte à mes parents ?"
+    ]
+   ],
+   "χάνει": [
+    [
+     "Ο Νίκος χάνει πάντα τα κλειδιά του.",
+     "Nikos always loses his keys.",
+     "Nikos perd toujours ses clés."
+    ],
+    [
+     "Συχνά χάνω το κινητό μου.",
+     "I often lose my phone.",
+     "Je perds souvent mon portable."
+    ]
+   ],
+   "χρήματα": [
+    [
+     "Δεν έχω χρήματα μαζί μου.",
+     "I don't have any money on me.",
+     "Je n'ai pas d'argent sur moi."
+    ],
+    [
+     "Τα χρήματα είναι στο πορτοφόλι.",
+     "The money is in the wallet.",
+     "L'argent est dans le portefeuille."
+    ]
+   ],
+   "εργάτες": [
+    [
+     "Οι εργάτες φτιάχνουν τον δρόμο.",
+     "The workers are fixing the road.",
+     "Les ouvriers réparent la route."
+    ],
+    [
+     "Οι εργάτες τρώνε στις δύο.",
+     "The workers eat at two.",
+     "Les ouvriers mangent à deux heures."
+    ]
+   ],
+   "χωράφια": [
+    [
+     "Γύρω από το χωριό έχει χωράφια.",
+     "There are fields around the village.",
+     "Il y a des champs autour du village."
+    ],
+    [
+     "Τα χωράφια είναι πράσινα τον Μάρτιο.",
+     "The fields are green in March.",
+     "Les champs sont verts en mars."
+    ]
+   ],
+   "ζητούν": [
+    [
+     "Οι πελάτες ζητούν τον λογαριασμό.",
+     "The customers ask for the bill.",
+     "Les clients demandent l'addition."
+    ],
+    [
+     "Πάντα ζητώ νερό στο εστιατόριο.",
+     "I always ask for water at the restaurant.",
+     "Je demande toujours de l'eau au restaurant."
+    ]
+   ],
+   "πληρώνει": [
+    [
+     "Ποιος πληρώνει τον καφέ σήμερα;",
+     "Who is paying for the coffee today?",
+     "Qui paie le café aujourd'hui ?"
+    ],
+    [
+     "Συνήθως πληρώνω με κάρτα.",
+     "I usually pay by card.",
+     "D'habitude, je paie par carte."
+    ]
+   ],
+   "περιμένουν": [
+    [
+     "Οι φίλοι μας περιμένουν στο καφέ.",
+     "Our friends are waiting at the café.",
+     "Nos amis attendent au café."
+    ],
+    [
+     "Κάθε πρωί περιμένω το λεωφορείο εδώ.",
+     "Every morning I wait for the bus here.",
+     "Chaque matin, j'attends le bus ici."
+    ]
+   ],
+   "αφήσουν": [
+    [
+     "Μπορούν να αφήσουν τις τσάντες εδώ.",
+     "They can leave their bags here.",
+     "Ils peuvent laisser leurs sacs ici."
+    ],
+    [
+     "Πάντα αφήνω τα κλειδιά στο τραπέζι.",
+     "I always leave the keys on the table.",
+     "Je laisse toujours les clés sur la table."
+    ]
+   ],
+   "ακριβά": [
+    [
+     "Σε αυτό το μαγαζί πουλάνε ακριβά.",
+     "This shop sells at high prices.",
+     "Ce magasin vend cher."
+    ],
+    [
+     "Πληρώσαμε ακριβά το φαγητό.",
+     "We paid a lot for the food.",
+     "Nous avons payé le repas cher."
+    ]
+   ],
+   "μερικοί": [
+    [
+     "Στο καφέ κάθονται μερικοί φοιτητές.",
+     "A few students are sitting in the café.",
+     "Quelques étudiants sont assis au café."
+    ],
+    [
+     "Απόψε έρχονται μερικοί φίλοι.",
+     "A few friends are coming tonight.",
+     "Quelques amis viennent ce soir."
+    ]
+   ],
+   "ίσως": [
+    [
+     "Αύριο ίσως βρέξει.",
+     "It may rain tomorrow.",
+     "Il va peut-être pleuvoir demain."
+    ],
+    [
+     "Θα έρθω ίσως λίγο αργότερα.",
+     "I'll maybe come a little later.",
+     "Je viendrai peut-être un peu plus tard."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "μαζεύουν",
+    "gr": "μαζεύω",
+    "en": "to pick, to gather",
+    "fr": "ramasser"
+   },
+   {
+    "word": "ζητούν",
+    "gr": "ζητώ",
+    "en": "to ask for",
+    "fr": "demander"
+   },
+   {
+    "word": "περιμένουν",
+    "gr": "περιμένω",
+    "en": "to wait",
+    "fr": "attendre"
+   },
+   {
+    "word": "αφήσουν",
+    "gr": "αφήνω",
+    "en": "to leave",
+    "fr": "laisser"
+   },
+   {
+    "word": "χωράφια",
+    "gr": "χωράφια",
+    "en": "fields",
+    "fr": "champs"
+   },
+   {
+    "word": "λυπημένοι",
+    "gr": "λυπημένοι",
+    "en": "sad",
+    "fr": "tristes"
+   },
+   {
+    "word": "φθηνά",
+    "gr": "φθηνά",
+    "en": "cheaply",
+    "fr": "bon marché"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Πόσα ευρώ ζητούν οι εργάτες τη μέρα;",
+    "choices": [
+     "60 έως 90 ευρώ",
+     "2 ευρώ",
+     "5.000 ευρώ"
+    ],
+    "quote": "Οι εργάτες στα χωράφια ζητούν 60 έως 90 ευρώ τη μέρα.",
+    "quote_en": "Workers in the fields ask for 60 to 90 euros a day."
+   },
+   {
+    "q": "Πόσο κοστίζει στον αγρότη ένα κιλό λάδι στην Κρήτη;",
+    "choices": [
+     "Πάνω από 4,70 ευρώ",
+     "Δέκα λεπτά",
+     "Χίλια ευρώ"
+    ],
+    "quote": "Στην Κρήτη όμως ένα κιλό λάδι κοστίζει στον αγρότη πάνω από 4,70 ευρώ.",
+    "quote_en": "But in Crete a kilo of oil costs the farmer more than 4.70 euros."
+   },
+   {
+    "q": "Πού ίσως αφήσουν μερικοί αγρότες τις ελιές;",
+    "choices": [
+     "Στα δέντρα",
+     "Στο μετρό",
+     "Στη θάλασσα"
+    ],
+    "quote": "Γι' αυτό μερικοί αγρότες ίσως αφήσουν τις ελιές στα δέντρα.",
+    "quote_en": "So some farmers may leave the olives on the trees."
+   }
+  ]
  }
 ]

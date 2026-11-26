@@ -63,6 +63,10 @@
   "fr": "commencer",
   "en": "to begin"
  },
+ "αφήνω": {
+  "fr": "laisser",
+  "en": "to leave"
+ },
  "βάζω": {
   "fr": "mettre",
   "en": "to put"
@@ -171,6 +175,10 @@
   "fr": "demander",
   "en": "to ask for"
  },
+ "ζητώ": {
+  "fr": "demander",
+  "en": "to ask for"
+ },
  "ζυγίζω": {
   "fr": "peser",
   "en": "to weigh"
@@ -258,6 +266,10 @@
  "μαζεύομαι": {
   "fr": "se réunir",
   "en": "to gather"
+ },
+ "μαζεύω": {
+  "fr": "ramasser, cueillir",
+  "en": "to pick, to gather"
  },
  "μαθαίνω": {
   "fr": "apprendre",
@@ -498,6 +510,10 @@
  "φωτίζω": {
   "fr": "éclairer",
   "en": "to light up"
+ },
+ "χάνω": {
+  "fr": "perdre",
+  "en": "to lose"
  },
  "χρειάζομαι": {
   "fr": "avoir besoin de",

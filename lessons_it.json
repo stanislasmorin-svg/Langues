@@ -8795,5 +8795,439 @@
     "quote_en": "This year the big 'Ndocciata is on 12 December, at 6 pm."
    }
   ]
+ },
+ {
+  "date": "2026-11-26",
+  "title": "Panettone alla carbonara?",
+  "title_fr": "Du panettone à la carbonara ?",
+  "title_en": "Carbonara panettone?",
+  "source": {
+   "name": "ANSA",
+   "url": "https://www.ansa.it/canale_terraegusto/notizie/in_breve/2026/11/25/il-natale-sfida-i-puristi-dal-panettone-alla-carbonara-al-cioccolato-con-i-capperi_4148f372-f76c-46c6-bb2b-4b7bd2a31ed7.html"
+  },
+  "paragraphs": [
+   "Il **Natale** (Christmas) **arriva** (is coming) e porta tante **sorprese** (surprises) a **tavola** (table). Quest'anno ci sono **dolci** (sweets) molto **strani** (strange). Il panettone non ha solo **uvetta** (raisins) e **canditi** (candied fruit).",
+   "Nei **negozi** (shops) **troveremo** (we will find) il panettone alla carbonara. Ci sarà anche il panettone al **burro** (butter) di **arachidi** (peanuts). Un altro panettone ha il **gusto** (taste) della cheesecake ai frutti rossi. C'è anche una tavoletta di **cioccolato** (chocolate) **bianco** (white) con **limone** (lemon) e **capperi** (capers). Lo **racconta** (tells) la Coldiretti, un grande gruppo di **contadini** (farmers).",
+   "Secondo la Coldiretti, all'**estero** (abroad) molte **ricette** (recipes) italiane **cambiano** (change). In Belgio la carbonara ha la **panna** (cream) al posto del pecorino. In altri paesi ha il bacon al posto del **guanciale** (cured pork cheek). Nel pesto ci sono le **noci** (walnuts) o le **mandorle** (almonds) e non i **pinoli** (pine nuts).",
+   "Anche la **cotoletta** (cutlet) alla milanese **viaggia** (travels). Fuori dall'Italia **spesso** (often) è di **pollo** (chicken) o di **maiale** (pork). La vera cotoletta è di **vitello** (veal), con uova, **pangrattato** (breadcrumbs) e burro. Il Natale **sfida** (challenges) i puristi, cioè chi **ama** (loves) solo le ricette di una volta."
+  ],
+  "paragraphs_en": [
+   "Christmas is coming and it brings lots of surprises to the table. This year there are some very strange sweets. Panettone doesn't just have raisins and candied fruit.",
+   "In the shops we will find carbonara panettone. There will also be peanut butter panettone. Another panettone tastes like red-fruit cheesecake. There is also a bar of white chocolate with lemon and capers. Coldiretti, a big farmers' group, says so.",
+   "According to Coldiretti, many Italian recipes change abroad. In Belgium, carbonara has cream instead of pecorino. In other countries it has bacon instead of guanciale. In pesto there are walnuts or almonds and no pine nuts.",
+   "The Milanese cutlet travels too. Outside Italy it is often made of chicken or pork. The real cutlet is veal, with eggs, breadcrumbs and butter. Christmas challenges the purists, that is, people who love only the old recipes."
+  ],
+  "fr": {
+   "Natale": "Noël",
+   "arriva": "arrive",
+   "sorprese": "surprises",
+   "tavola": "table",
+   "dolci": "desserts, gâteaux",
+   "strani": "bizarres",
+   "uvetta": "raisins secs",
+   "canditi": "fruits confits",
+   "negozi": "magasins",
+   "troveremo": "nous trouverons",
+   "burro": "beurre",
+   "arachidi": "cacahuètes",
+   "gusto": "goût",
+   "cioccolato": "chocolat",
+   "bianco": "blanc",
+   "limone": "citron",
+   "capperi": "câpres",
+   "racconta": "raconte",
+   "contadini": "agriculteurs",
+   "estero": "étranger",
+   "ricette": "recettes",
+   "cambiano": "changent",
+   "panna": "crème",
+   "guanciale": "joue de porc séchée",
+   "noci": "noix",
+   "mandorle": "amandes",
+   "pinoli": "pignons de pin",
+   "cotoletta": "escalope panée",
+   "viaggia": "voyage",
+   "spesso": "souvent",
+   "pollo": "poulet",
+   "maiale": "porc",
+   "vitello": "veau",
+   "pangrattato": "chapelure",
+   "sfida": "défie",
+   "ama": "aime"
+  },
+  "lemma": {
+   "arriva": "arrivare",
+   "troveremo": "trovare",
+   "racconta": "raccontare",
+   "cambiano": "cambiare",
+   "sfida": "sfidare",
+   "ama": "amare"
+  },
+  "examples": {
+   "arriva": [
+    [
+     "Il treno arriva alle otto.",
+     "The train arrives at eight.",
+     "Le train arrive à huit heures."
+    ],
+    [
+     "Io arrivo sempre in ritardo.",
+     "I always arrive late.",
+     "J'arrive toujours en retard."
+    ]
+   ],
+   "sorprese": [
+    [
+     "La festa è piena di sorprese.",
+     "The party is full of surprises.",
+     "La fête est pleine de surprises."
+    ],
+    [
+     "Non mi piacciono le sorprese.",
+     "I don't like surprises.",
+     "Je n'aime pas les surprises."
+    ]
+   ],
+   "tavola": [
+    [
+     "La cena è in tavola!",
+     "Dinner is on the table!",
+     "Le dîner est servi !"
+    ],
+    [
+     "Metti il pane in tavola.",
+     "Put the bread on the table.",
+     "Mets le pain sur la table."
+    ]
+   ],
+   "dolci": [
+    [
+     "I bambini mangiano troppi dolci.",
+     "The children eat too many sweets.",
+     "Les enfants mangent trop de sucreries."
+    ],
+    [
+     "In questo bar i dolci sono buoni.",
+     "The pastries in this café are good.",
+     "Dans ce café, les gâteaux sont bons."
+    ]
+   ],
+   "strani": [
+    [
+     "I vicini fanno rumori strani.",
+     "The neighbours make strange noises.",
+     "Les voisins font des bruits bizarres."
+    ],
+    [
+     "Oggi i tuoi amici sono strani.",
+     "Your friends are strange today.",
+     "Tes amis sont bizarres aujourd'hui."
+    ]
+   ],
+   "negozi": [
+    [
+     "La domenica i negozi sono chiusi.",
+     "On Sundays the shops are closed.",
+     "Le dimanche, les magasins sont fermés."
+    ],
+    [
+     "In centro ci sono molti negozi.",
+     "There are many shops in the centre.",
+     "Il y a beaucoup de magasins en ville."
+    ]
+   ],
+   "troveremo": [
+    [
+     "Domani troveremo un tavolo libero.",
+     "Tomorrow we'll find a free table.",
+     "Demain, nous trouverons une table libre."
+    ],
+    [
+     "Io non trovo le chiavi di casa.",
+     "I can't find my house keys.",
+     "Je ne trouve pas les clés de la maison."
+    ]
+   ],
+   "burro": [
+    [
+     "Vorrei pane e burro.",
+     "I'd like bread and butter.",
+     "Je voudrais du pain et du beurre."
+    ],
+    [
+     "Il burro è nel frigorifero.",
+     "The butter is in the fridge.",
+     "Le beurre est dans le frigo."
+    ]
+   ],
+   "gusto": [
+    [
+     "Questo gelato ha un gusto strano.",
+     "This ice cream has a strange taste.",
+     "Cette glace a un goût bizarre."
+    ],
+    [
+     "Che gusto vuoi, fragola o limone?",
+     "Which flavour do you want, strawberry or lemon?",
+     "Quel parfum veux-tu, fraise ou citron ?"
+    ]
+   ],
+   "cioccolato": [
+    [
+     "Mi piace il cioccolato fondente.",
+     "I like dark chocolate.",
+     "J'aime le chocolat noir."
+    ],
+    [
+     "Compro il cioccolato al supermercato.",
+     "I buy chocolate at the supermarket.",
+     "J'achète le chocolat au supermarché."
+    ]
+   ],
+   "bianco": [
+    [
+     "Vorrei un bicchiere di vino bianco.",
+     "I'd like a glass of white wine.",
+     "Je voudrais un verre de vin blanc."
+    ],
+    [
+     "Il mio gatto è tutto bianco.",
+     "My cat is all white.",
+     "Mon chat est tout blanc."
+    ]
+   ],
+   "limone": [
+    [
+     "Un tè al limone, per favore.",
+     "A lemon tea, please.",
+     "Un thé au citron, s'il vous plaît."
+    ],
+    [
+     "Metto il limone sul pesce.",
+     "I put lemon on the fish.",
+     "Je mets du citron sur le poisson."
+    ]
+   ],
+   "racconta": [
+    [
+     "La nonna racconta una storia.",
+     "Grandma tells a story.",
+     "Mamie raconte une histoire."
+    ],
+    [
+     "Io ti racconto tutto domani.",
+     "I'll tell you everything tomorrow.",
+     "Je te raconte tout demain."
+    ]
+   ],
+   "contadini": [
+    [
+     "I contadini vendono frutta al mercato.",
+     "The farmers sell fruit at the market.",
+     "Les agriculteurs vendent des fruits au marché."
+    ],
+    [
+     "I contadini lavorano anche la domenica.",
+     "Farmers work on Sundays too.",
+     "Les agriculteurs travaillent aussi le dimanche."
+    ]
+   ],
+   "estero": [
+    [
+     "Mio fratello lavora all'estero.",
+     "My brother works abroad.",
+     "Mon frère travaille à l'étranger."
+    ],
+    [
+     "Quest'estate andiamo all'estero.",
+     "This summer we're going abroad.",
+     "Cet été, on part à l'étranger."
+    ]
+   ],
+   "ricette": [
+    [
+     "Mia madre ha tante ricette.",
+     "My mother has lots of recipes.",
+     "Ma mère a plein de recettes."
+    ],
+    [
+     "Cerco ricette facili su Internet.",
+     "I look for easy recipes online.",
+     "Je cherche des recettes faciles sur Internet."
+    ]
+   ],
+   "cambiano": [
+    [
+     "Domani cambiano gli orari del treno.",
+     "The train times change tomorrow.",
+     "Demain, les horaires du train changent."
+    ],
+    [
+     "Ogni anno io cambio telefono.",
+     "Every year I change my phone.",
+     "Chaque année, je change de téléphone."
+    ]
+   ],
+   "panna": [
+    [
+     "Un caffè con la panna, grazie.",
+     "A coffee with cream, thanks.",
+     "Un café avec de la crème, merci."
+    ],
+    [
+     "La panna è nel frigo.",
+     "The cream is in the fridge.",
+     "La crème est dans le frigo."
+    ]
+   ],
+   "noci": [
+    [
+     "Le noci fanno bene.",
+     "Walnuts are good for you.",
+     "Les noix sont bonnes pour la santé."
+    ],
+    [
+     "Compro le noci al mercato.",
+     "I buy walnuts at the market.",
+     "J'achète les noix au marché."
+    ]
+   ],
+   "spesso": [
+    [
+     "Vado spesso al cinema.",
+     "I often go to the cinema.",
+     "Je vais souvent au cinéma."
+    ],
+    [
+     "A novembre piove spesso.",
+     "It often rains in November.",
+     "En novembre, il pleut souvent."
+    ]
+   ],
+   "pollo": [
+    [
+     "Stasera mangiamo pollo e patate.",
+     "Tonight we're eating chicken and potatoes.",
+     "Ce soir, on mange du poulet et des pommes de terre."
+    ],
+    [
+     "Il pollo è pronto.",
+     "The chicken is ready.",
+     "Le poulet est prêt."
+    ]
+   ],
+   "maiale": [
+    [
+     "Non mangio carne di maiale.",
+     "I don't eat pork.",
+     "Je ne mange pas de porc."
+    ],
+    [
+     "Il maiale qui costa poco.",
+     "Pork is cheap here.",
+     "Ici, le porc ne coûte pas cher."
+    ]
+   ],
+   "sfida": [
+    [
+     "Mio figlio sfida il papà a scacchi.",
+     "My son challenges his dad at chess.",
+     "Mon fils défie son papa aux échecs."
+    ],
+    [
+     "Stasera ti sfido a carte.",
+     "Tonight I challenge you at cards.",
+     "Ce soir, je te défie aux cartes."
+    ]
+   ],
+   "ama": [
+    [
+     "Lucia ama il mare.",
+     "Lucia loves the sea.",
+     "Lucia aime la mer."
+    ],
+    [
+     "Io amo il caffè la mattina.",
+     "I love coffee in the morning.",
+     "J'aime le café le matin."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "troveremo",
+    "gr": "trovare",
+    "en": "to find",
+    "fr": "trouver"
+   },
+   {
+    "word": "racconta",
+    "gr": "raccontare",
+    "en": "to tell",
+    "fr": "raconter"
+   },
+   {
+    "word": "cambiano",
+    "gr": "cambiare",
+    "en": "to change",
+    "fr": "changer"
+   },
+   {
+    "word": "sfida",
+    "gr": "sfidare",
+    "en": "to challenge",
+    "fr": "défier"
+   },
+   {
+    "word": "sorprese",
+    "gr": "sorprese",
+    "en": "surprises",
+    "fr": "surprises"
+   },
+   {
+    "word": "negozi",
+    "gr": "negozi",
+    "en": "shops",
+    "fr": "magasins"
+   },
+   {
+    "word": "noci",
+    "gr": "noci",
+    "en": "walnuts",
+    "fr": "noix"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Che cosa c'è nel cioccolato bianco?",
+    "choices": [
+     "Limone e capperi",
+     "Pesce e patate",
+     "Ketchup e senape"
+    ],
+    "quote": "C'è anche una tavoletta di cioccolato bianco con limone e capperi.",
+    "quote_en": "There is also a bar of white chocolate with lemon and capers."
+   },
+   {
+    "q": "Che cosa ha la carbonara in Belgio?",
+    "choices": [
+     "La panna",
+     "Il ghiaccio",
+     "La marmellata"
+    ],
+    "quote": "In Belgio la carbonara ha la panna al posto del pecorino.",
+    "quote_en": "In Belgium, carbonara has cream instead of pecorino."
+   },
+   {
+    "q": "Che cosa c'è nel pesto all'estero?",
+    "choices": [
+     "Noci o mandorle",
+     "Zucchero filato",
+     "Sassi di fiume"
+    ],
+    "quote": "Nel pesto ci sono le noci o le mandorle e non i pinoli.",
+    "quote_en": "In pesto there are walnuts or almonds and no pine nuts."
+   }
+  ]
  }
 ]
