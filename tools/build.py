@@ -400,7 +400,6 @@ $('next').onclick=function(){AU.pause();i++;if(i<N)show();else end()};
 function end(){$('q').hidden=true;$('end').hidden=false;$('sc').textContent=score+' / '+N;
  $('msg').textContent=score==N?'Perfect! '+BRAVO:score>=N*0.7?'Very good! See you tomorrow.':score>=N*0.4?'Not bad. Read the lesson again and retry.':'Keep going: a little every day goes a long way.';
  if(CH!==null)$('msg').textContent=score>CH?'You beat your friend ('+CH+'/'+N+')!':score==CH?'Tie with your friend ('+CH+'/'+N+')!':'Your friend wins this time ('+CH+'/'+N+'). Try again!';
- $('share').textContent='Send this quiz to a friend';
  $('rev').hidden=!miss.length;$('miss').innerHTML=miss.map(function(m){return '<li><b>'+esc(m.gr)+'</b><span>'+esc(m.en)+(m.fr?' · '+esc(m.fr):'')+'</span></li>'}).join('')}
 $('again').onclick=function(){i=0;score=0;miss=[];var W=sh(D.filter(function(x){return x.kind!=='q'}));D=D.map(function(x){return x.kind==='q'?x:W.shift()});$('end').hidden=true;$('q').hidden=false;$('pts').textContent='0 points';show()};
 $('share').onclick=function(){var t='I got '+score+'/'+N+' on today\'s '+LANG+' lesson on Masimera. Read it and try to beat me!',u=location.href.split('?')[0].split('#')[0].replace('/quiz/','/defi/')+'?challenge='+score;
@@ -475,8 +474,8 @@ def quiz_page(s, items, lang, L):
 </div>
 <div id="end" class="center" hidden>
 <h2>Your score</h2><div class="score" id="sc"></div><p class="sub" id="msg"></p>
-<p class="sub" style="margin:14px 0 4px">Think someone can do better?<br>They just need the link, no account needed.</p>
-<div class="row"><button class="play" id="share" type="button">Share my score</button><button class="chip" id="again" type="button">Try again</button></div>
+<p style="margin:14px 0 4px;color:var(--fg)">Think someone needs a challenge?<br>Just send them the link, no account needed!</p>
+<div class="row"><button class="play" id="share" type="button">Send the challenge</button><button class="chip" id="again" type="button">Try again</button></div>
 <section id="rev" style="text-align:left;margin-top:12px" hidden><h2>Words to review</h2><ul class="miss" id="miss"></ul></section>
 {signup_box(L)}
 <p class="row"><a href="../cours/{s["date"]}.html">← Back to the lesson</a> · <a href="../mots.html">All words</a></p>
