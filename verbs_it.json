@@ -43,6 +43,10 @@
   "fr": "danser",
   "en": "to dance"
  },
+ "bloccare": {
+  "fr": "bloquer",
+  "en": "to block"
+ },
  "cambiare": {
   "fr": "changer",
   "en": "to change"
@@ -322,6 +326,10 @@
  "scegliere": {
   "fr": "choisir",
   "en": "to choose"
+ },
+ "scoprire": {
+  "fr": "découvrir",
+  "en": "to discover"
  },
  "scrivere": {
   "fr": "écrire",

@@ -131,6 +131,10 @@
   "fr": "revenir",
   "en": "to come back"
  },
+ "δίνω": {
+  "fr": "donner",
+  "en": "to give"
+ },
  "δείχνω": {
   "fr": "montrer",
   "en": "to show"
@@ -150,6 +154,10 @@
  "δουλεύω": {
   "fr": "travailler",
   "en": "to work"
+ },
+ "ελέγχω": {
+  "fr": "contrôler, vérifier",
+  "en": "to check"
  },
  "εμπιστεύομαι": {
   "fr": "faire confiance",
@@ -230,6 +238,10 @@
  "κλείνω": {
   "fr": "fermer",
   "en": "to close"
+ },
+ "κοιμάμαι": {
+  "fr": "dormir",
+  "en": "to sleep"
  },
  "κοιτάζω": {
   "fr": "regarder",
@@ -370,6 +382,10 @@
  "πηγαίνω": {
   "fr": "aller, emmener",
   "en": "to go, to take"
+ },
+ "πιάνω": {
+  "fr": "attraper",
+  "en": "to catch"
  },
  "πληρώνω": {
   "fr": "payer",

@@ -9229,5 +9229,445 @@
     "quote_en": "In pesto there are walnuts or almonds and no pine nuts."
    }
   ]
+ },
+ {
+  "date": "2026-11-27",
+  "title": "Diplomi comprati, senza scuola",
+  "title_fr": "Des diplômes achetés, sans école",
+  "title_en": "Bought diplomas, no school",
+  "source": {
+   "name": "Open",
+   "url": "https://www.open.online/2026/11/24/napoli-diplomi-falsi-scuole-paritarie-sequestro-7-milioni/"
+  },
+  "paragraphs": [
+   "Di solito gli **studenti** (students) **vanno** (go) a **scuola** (school) per molti anni. Alla **fine** (end) **ricevono** (receive) il diploma. Ma **vicino** (near) a Napoli era **tutto** (everything) più **facile** (easy). **Bastava** (it was enough) **pagare** (to pay).",
+   "La Guardia di Finanza è una polizia che **controlla** (checks) i **soldi** (money). Ha **scoperto** (discovered) sei scuole **private** (private) tra Torre Annunziata e il Vesuvio. Lì molti studenti non **andavano** (went) mai a **lezione** (class). Però alla fine **avevano** (had) il diploma.",
+   "Tra il 2022 e il 2025 circa 5.900 **persone** (people) hanno avuto il diploma così. **Arrivavano** (they came) da tutta Italia. Le **indagini** (investigations) sono **iniziate** (started) in una scuola di Boscoreale. Lì i **numeri** (numbers) degli studenti erano **strani** (strange).",
+   "Ogni **volta** (time) che una scuola **perdeva** (lost) il **permesso** (permission) dello Stato, il **gruppo** (group) **apriva** (opened) una **nuova** (new) **azienda** (company). Così la scuola **riceveva** (received) di nuovo il permesso.",
+   "Ora i **magistrati** (magistrates) hanno **bloccato** (frozen) quasi 7 **milioni** (million) di euro. Ci sono 32 persone **indagate** (under investigation). Tra le cose bloccate c'è anche una **macchina** (car) da 168.000 euro!"
+  ],
+  "paragraphs_en": [
+   "Students usually go to school for many years. At the end they receive their diploma. But near Naples everything was easier. You only had to pay.",
+   "The Guardia di Finanza is a police force that checks money. It discovered six private schools between Torre Annunziata and Vesuvius. There, many students never went to class. But in the end they had the diploma.",
+   "Between 2022 and 2025, about 5,900 people got their diploma this way. They came from all over Italy. The investigations started at a school in Boscoreale. There, the student numbers were strange.",
+   "Every time a school lost its permission from the State, the group opened a new company. That way the school received the permission again.",
+   "Now the magistrates have frozen almost 7 million euros. 32 people are under investigation. Among the frozen things there is also a car worth 168,000 euros!"
+  ],
+  "fr": {
+   "studenti": "étudiants, élèves",
+   "vanno": "vont",
+   "scuola": "école",
+   "fine": "fin",
+   "ricevono": "reçoivent",
+   "vicino": "près",
+   "facile": "facile",
+   "Bastava": "il suffisait",
+   "pagare": "payer",
+   "controlla": "contrôle",
+   "soldi": "argent",
+   "scoperto": "découvert",
+   "private": "privées",
+   "andavano": "allaient",
+   "lezione": "cours",
+   "avevano": "avaient",
+   "persone": "personnes",
+   "Arrivavano": "ils venaient",
+   "indagini": "enquêtes",
+   "iniziate": "commencées",
+   "numeri": "chiffres, nombres",
+   "strani": "étranges",
+   "volta": "fois",
+   "perdeva": "perdait",
+   "permesso": "autorisation",
+   "gruppo": "groupe",
+   "apriva": "ouvrait",
+   "azienda": "entreprise",
+   "riceveva": "recevait",
+   "magistrati": "magistrats",
+   "bloccato": "bloqué",
+   "milioni": "millions",
+   "indagate": "mises en examen",
+   "macchina": "voiture",
+   "tutto": "tout",
+   "nuova": "nouvelle"
+  },
+  "lemma": {
+   "vanno": "andare",
+   "ricevono": "ricevere",
+   "pagare": "pagare",
+   "controlla": "controllare",
+   "scoperto": "scoprire",
+   "Arrivavano": "arrivare",
+   "perdeva": "perdere",
+   "apriva": "aprire",
+   "bloccato": "bloccare",
+   "iniziate": "iniziare"
+  },
+  "examples": {
+   "studenti": [
+    [
+     "Gli studenti mangiano alla mensa.",
+     "The students eat in the canteen.",
+     "Les étudiants mangent à la cantine."
+    ],
+    [
+     "Il bar è pieno di studenti.",
+     "The café is full of students.",
+     "Le café est plein d'étudiants."
+    ]
+   ],
+   "vanno": [
+    [
+     "I bambini vanno al parco.",
+     "The children go to the park.",
+     "Les enfants vont au parc."
+    ],
+    [
+     "Io vado al lavoro in autobus.",
+     "I go to work by bus.",
+     "Je vais au travail en bus."
+    ]
+   ],
+   "scuola": [
+    [
+     "La scuola è vicino a casa.",
+     "The school is near home.",
+     "L'école est près de la maison."
+    ],
+    [
+     "Mio figlio ama la sua scuola.",
+     "My son loves his school.",
+     "Mon fils adore son école."
+    ]
+   ],
+   "fine": [
+    [
+     "Alla fine del film piango sempre.",
+     "At the end of the film I always cry.",
+     "À la fin du film, je pleure toujours."
+    ],
+    [
+     "La fermata è alla fine della strada.",
+     "The stop is at the end of the street.",
+     "L'arrêt est au bout de la rue."
+    ]
+   ],
+   "ricevono": [
+    [
+     "I miei amici ricevono molte lettere.",
+     "My friends receive a lot of letters.",
+     "Mes amis reçoivent beaucoup de lettres."
+    ],
+    [
+     "Io ricevo un messaggio da mamma.",
+     "I receive a message from mum.",
+     "Je reçois un message de maman."
+    ]
+   ],
+   "vicino": [
+    [
+     "Abito vicino alla stazione.",
+     "I live near the station.",
+     "J'habite près de la gare."
+    ],
+    [
+     "C'è un bar qui vicino?",
+     "Is there a café near here?",
+     "Il y a un café près d'ici ?"
+    ]
+   ],
+   "facile": [
+    [
+     "Questa ricetta è molto facile.",
+     "This recipe is very easy.",
+     "Cette recette est très facile."
+    ],
+    [
+     "Non è facile trovare parcheggio.",
+     "It isn't easy to find parking.",
+     "Ce n'est pas facile de trouver une place."
+    ]
+   ],
+   "pagare": [
+    [
+     "Posso pagare con la carta?",
+     "Can I pay by card?",
+     "Je peux payer par carte ?"
+    ],
+    [
+     "Oggi io pago il caffè.",
+     "Today I'm paying for the coffee.",
+     "Aujourd'hui, je paie le café."
+    ]
+   ],
+   "controlla": [
+    [
+     "Il controllore controlla i biglietti.",
+     "The inspector checks the tickets.",
+     "Le contrôleur vérifie les billets."
+    ],
+    [
+     "Io controllo sempre la porta.",
+     "I always check the door.",
+     "Je vérifie toujours la porte."
+    ]
+   ],
+   "soldi": [
+    [
+     "Non ho soldi per il taxi.",
+     "I don't have money for the taxi.",
+     "Je n'ai pas d'argent pour le taxi."
+    ],
+    [
+     "I soldi sono nel portafoglio.",
+     "The money is in the wallet.",
+     "L'argent est dans le portefeuille."
+    ]
+   ],
+   "scoperto": [
+    [
+     "Ho scoperto un nuovo ristorante.",
+     "I discovered a new restaurant.",
+     "J'ai découvert un nouveau restaurant."
+    ],
+    [
+     "Ogni giorno scopro una via nuova.",
+     "Every day I discover a new street.",
+     "Chaque jour, je découvre une nouvelle rue."
+    ]
+   ],
+   "lezione": [
+    [
+     "La lezione comincia alle nove.",
+     "The class starts at nine.",
+     "Le cours commence à neuf heures."
+    ],
+    [
+     "Oggi non c'è lezione.",
+     "There is no class today.",
+     "Aujourd'hui, il n'y a pas cours."
+    ]
+   ],
+   "persone": [
+    [
+     "Al mercato ci sono tante persone.",
+     "There are many people at the market.",
+     "Il y a beaucoup de monde au marché."
+    ],
+    [
+     "Il tavolo è per quattro persone.",
+     "The table is for four people.",
+     "La table est pour quatre personnes."
+    ]
+   ],
+   "Arrivavano": [
+    [
+     "Arrivavano sempre tardi alla festa.",
+     "They always arrived late at the party.",
+     "Ils arrivaient toujours en retard à la fête."
+    ],
+    [
+     "Io arrivo a casa alle sei.",
+     "I get home at six.",
+     "J'arrive à la maison à six heures."
+    ]
+   ],
+   "iniziate": [
+    [
+     "Le vacanze sono iniziate ieri.",
+     "The holidays started yesterday.",
+     "Les vacances ont commencé hier."
+    ],
+    [
+     "Io inizio il lavoro alle otto.",
+     "I start work at eight.",
+     "Je commence le travail à huit heures."
+    ]
+   ],
+   "strani": [
+    [
+     "Questi rumori sono strani.",
+     "These noises are strange.",
+     "Ces bruits sont étranges."
+    ],
+    [
+     "Ho dei vicini un po' strani.",
+     "I have some slightly strange neighbours.",
+     "J'ai des voisins un peu bizarres."
+    ]
+   ],
+   "volta": [
+    [
+     "Ogni volta perdo l'autobus.",
+     "Every time I miss the bus.",
+     "Chaque fois, je rate le bus."
+    ],
+    [
+     "È la mia prima volta a Roma.",
+     "It's my first time in Rome.",
+     "C'est ma première fois à Rome."
+    ]
+   ],
+   "perdeva": [
+    [
+     "Il nonno perdeva sempre gli occhiali.",
+     "Grandpa always lost his glasses.",
+     "Papi perdait toujours ses lunettes."
+    ],
+    [
+     "Io perdo spesso le chiavi.",
+     "I often lose my keys.",
+     "Je perds souvent mes clés."
+    ]
+   ],
+   "permesso": [
+    [
+     "Chiedo il permesso a mia madre.",
+     "I ask my mother for permission.",
+     "Je demande la permission à ma mère."
+    ],
+    [
+     "Serve un permesso per parcheggiare qui.",
+     "You need a permit to park here.",
+     "Il faut une autorisation pour se garer ici."
+    ]
+   ],
+   "apriva": [
+    [
+     "Il negozio apriva alle dieci.",
+     "The shop opened at ten.",
+     "Le magasin ouvrait à dix heures."
+    ],
+    [
+     "Io apro la finestra la mattina.",
+     "I open the window in the morning.",
+     "J'ouvre la fenêtre le matin."
+    ]
+   ],
+   "azienda": [
+    [
+     "Mio padre lavora in un'azienda.",
+     "My father works in a company.",
+     "Mon père travaille dans une entreprise."
+    ],
+    [
+     "L'azienda chiude ad agosto.",
+     "The company closes in August.",
+     "L'entreprise ferme en août."
+    ]
+   ],
+   "bloccato": [
+    [
+     "La neve ha bloccato la strada.",
+     "The snow blocked the road.",
+     "La neige a bloqué la route."
+    ],
+    [
+     "Io blocco la porta con una sedia.",
+     "I block the door with a chair.",
+     "Je bloque la porte avec une chaise."
+    ]
+   ],
+   "milioni": [
+    [
+     "Roma ha quasi tre milioni di abitanti.",
+     "Rome has almost three million inhabitants.",
+     "Rome a presque trois millions d'habitants."
+    ],
+    [
+     "Ci sono milioni di stelle.",
+     "There are millions of stars.",
+     "Il y a des millions d'étoiles."
+    ]
+   ],
+   "macchina": [
+    [
+     "La macchina è dal meccanico.",
+     "The car is at the mechanic's.",
+     "La voiture est chez le garagiste."
+    ],
+    [
+     "Prendo la macchina per andare al mare.",
+     "I take the car to go to the sea.",
+     "Je prends la voiture pour aller à la mer."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "ricevono",
+    "gr": "ricevere",
+    "en": "to receive",
+    "fr": "recevoir"
+   },
+   {
+    "word": "scoperto",
+    "gr": "scoprire",
+    "en": "to discover",
+    "fr": "découvrir"
+   },
+   {
+    "word": "perdeva",
+    "gr": "perdere",
+    "en": "to lose",
+    "fr": "perdre"
+   },
+   {
+    "word": "bloccato",
+    "gr": "bloccare",
+    "en": "to block, to freeze",
+    "fr": "bloquer"
+   },
+   {
+    "word": "soldi",
+    "gr": "soldi",
+    "en": "money",
+    "fr": "argent"
+   },
+   {
+    "word": "azienda",
+    "gr": "azienda",
+    "en": "company",
+    "fr": "entreprise"
+   },
+   {
+    "word": "strani",
+    "gr": "strani",
+    "en": "strange",
+    "fr": "étranges"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Quante scuole private ha scoperto la Guardia di Finanza?",
+    "choices": [
+     "Sei",
+     "Mille",
+     "Mezza"
+    ],
+    "quote": "Ha scoperto sei scuole private tra Torre Annunziata e il Vesuvio.",
+    "quote_en": "It discovered six private schools between Torre Annunziata and Vesuvius."
+   },
+   {
+    "q": "Dove sono iniziate le indagini?",
+    "choices": [
+     "In una scuola di Boscoreale",
+     "Su una nave da crociera",
+     "In una pizzeria di Tokyo"
+    ],
+    "quote": "Le indagini sono iniziate in una scuola di Boscoreale.",
+    "quote_en": "The investigations started at a school in Boscoreale."
+   },
+   {
+    "q": "Quanto costa la macchina bloccata?",
+    "choices": [
+     "168.000 euro",
+     "Due euro",
+     "Un caffè"
+    ],
+    "quote": "Tra le cose bloccate c'è anche una macchina da 168.000 euro!",
+    "quote_en": "Among the frozen things there is also a car worth 168,000 euros!"
+   }
+  ]
  }
 ]

@@ -17195,5 +17195,445 @@
     "quote_en": "So some farmers may leave the olives on the trees."
    }
   ]
+ },
+ {
+  "date": "2026-11-27",
+  "title": "Ψεύτικες αποδείξεις από ξενοδοχεία",
+  "title_fr": "De faux reçus d'hôtel",
+  "title_en": "Fake hotel receipts",
+  "source": {
+   "name": "Τα Νέα",
+   "url": "https://www.tanea.gr/2026/11/24/greece/maimou-dianyktereyseis-me-lefta-tou-dimosiou-1-291-enstoloi-sto-mikroskopio-gia-apati-12-6-ekat-eyro/"
+  },
+  "paragraphs": [
+   "Οι **αστυνομικοί** (police officers) **ταξιδεύουν** (travel) **συχνά** (often) για τη **δουλειά** (work). Τότε **μένουν** (stay) σε ένα **ξενοδοχείο** (hotel). Το **κράτος** (state) **πληρώνει** (pays) το **δωμάτιο** (room). Ο αστυνομικός **δίνει** (gives) μια **απόδειξη** (receipt) από το ξενοδοχείο. Μετά **παίρνει** (gets) τα **λεφτά** (money) **πίσω** (back).",
+   "Τώρα η αστυνομία **βρήκε** (found) μια **ομάδα** (group) στην Αθήνα, στη Μυτιλήνη και στα Ιωάννινα. Η ομάδα **πουλούσε** (sold) **ψεύτικες** (fake) αποδείξεις. Ένα **παράδειγμα** (example): ένας αστυνομικός πηγαίνει στη Θεσσαλονίκη. Δεν **κοιμάται** (sleeps) σε ξενοδοχείο. Όμως **αγοράζει** (buys) μια ψεύτικη απόδειξη. Η ομάδα **κρατάει** (keeps) ένα **κομμάτι** (part) από τα λεφτά. Τα άλλα λεφτά είναι για τον αστυνομικό.",
+   "Το κράτος **έχασε** (lost) πάνω από 12,6 **εκατομμύρια** (million) ευρώ. Η αστυνομία **ελέγχει** (is checking) τώρα 1.291 **ανθρώπους** (people) με **στολή** (uniform).",
+   "Η αστυνομία **έπιασε** (caught) 17 ανθρώπους. **Ανάμεσά** (among) τους είναι ένας αστυνομικός και μια **γυναίκα** (woman) **στρατιώτης** (soldier). Τέσσερις αστυνομικοί και ένας **αξιωματικός** (officer) του Ναυτικού **μάζευαν** (were collecting) ψεύτικες αποδείξεις με το **όνομά** (name) τους. Η αστυνομία τους έπιασε εκείνη τη **στιγμή** (moment)."
+  ],
+  "paragraphs_en": [
+   "Police officers often travel for work. Then they stay in a hotel. The state pays for the room. The officer gives a receipt from the hotel. Then he gets the money back.",
+   "Now the police have found a group in Athens, Mytilene and Ioannina. The group sold fake receipts. An example: an officer goes to Thessaloniki. He does not sleep in a hotel. But he buys a fake receipt. The group keeps part of the money. The rest of the money is for the officer.",
+   "The state lost more than 12.6 million euros. The police are now checking 1,291 people in uniform.",
+   "The police caught 17 people. Among them are a police officer and a woman soldier. Four police officers and a navy officer were collecting fake receipts in their names. The police caught them at that very moment."
+  ],
+  "fr": {
+   "αστυνομικοί": "policiers",
+   "ταξιδεύουν": "voyagent",
+   "συχνά": "souvent",
+   "δουλειά": "travail",
+   "μένουν": "restent, logent",
+   "ξενοδοχείο": "hôtel",
+   "κράτος": "État",
+   "πληρώνει": "paie",
+   "δωμάτιο": "chambre",
+   "δίνει": "donne",
+   "απόδειξη": "reçu",
+   "παίρνει": "reçoit, récupère",
+   "λεφτά": "argent",
+   "πίσω": "en retour",
+   "βρήκε": "a trouvé",
+   "ομάδα": "groupe",
+   "πουλούσε": "vendait",
+   "ψεύτικες": "fausses",
+   "παράδειγμα": "exemple",
+   "κοιμάται": "dort",
+   "αγοράζει": "achète",
+   "κρατάει": "garde",
+   "κομμάτι": "partie",
+   "έχασε": "a perdu",
+   "εκατομμύρια": "millions",
+   "ελέγχει": "contrôle",
+   "ανθρώπους": "personnes",
+   "στολή": "uniforme",
+   "έπιασε": "a attrapé",
+   "Ανάμεσά": "parmi",
+   "γυναίκα": "femme",
+   "στρατιώτης": "soldat",
+   "αξιωματικός": "officier",
+   "μάζευαν": "ramassaient",
+   "όνομά": "nom",
+   "στιγμή": "moment"
+  },
+  "lemma": {
+   "ταξιδεύουν": "ταξιδεύω",
+   "μένουν": "μένω",
+   "πληρώνει": "πληρώνω",
+   "δίνει": "δίνω",
+   "παίρνει": "παίρνω",
+   "βρήκε": "βρίσκω",
+   "κοιμάται": "κοιμάμαι",
+   "αγοράζει": "αγοράζω",
+   "κρατάει": "κρατάω",
+   "έχασε": "χάνω",
+   "ελέγχει": "ελέγχω",
+   "έπιασε": "πιάνω"
+  },
+  "examples": {
+   "ταξιδεύουν": [
+    [
+     "Οι φίλοι μου ταξιδεύουν με το πλοίο.",
+     "My friends travel by boat.",
+     "Mes amis voyagent en bateau."
+    ],
+    [
+     "Κάθε καλοκαίρι ταξιδεύω στα νησιά.",
+     "Every summer I travel to the islands.",
+     "Chaque été, je voyage dans les îles."
+    ]
+   ],
+   "συχνά": [
+    [
+     "Πίνω συχνά καφέ με φίλους.",
+     "I often drink coffee with friends.",
+     "Je bois souvent un café avec des amis."
+    ],
+    [
+     "Βρέχει συχνά τον χειμώνα.",
+     "It often rains in winter.",
+     "Il pleut souvent en hiver."
+    ]
+   ],
+   "δουλειά": [
+    [
+     "Πηγαίνω στη δουλειά με το μετρό.",
+     "I go to work by metro.",
+     "Je vais au travail en métro."
+    ],
+    [
+     "Η δουλειά τελειώνει στις πέντε.",
+     "Work ends at five.",
+     "Le travail finit à cinq heures."
+    ]
+   ],
+   "μένουν": [
+    [
+     "Οι γονείς μου μένουν στην Πάτρα.",
+     "My parents live in Patras.",
+     "Mes parents habitent à Patras."
+    ],
+    [
+     "Εγώ μένω κοντά στο κέντρο.",
+     "I live near the centre.",
+     "Moi, j'habite près du centre."
+    ]
+   ],
+   "ξενοδοχείο": [
+    [
+     "Το ξενοδοχείο είναι δίπλα στη θάλασσα.",
+     "The hotel is next to the sea.",
+     "L'hôtel est à côté de la mer."
+    ],
+    [
+     "Κλείσαμε ένα μικρό ξενοδοχείο.",
+     "We booked a small hotel.",
+     "Nous avons réservé un petit hôtel."
+    ]
+   ],
+   "πληρώνει": [
+    [
+     "Ο Νίκος πληρώνει τον καφέ σήμερα.",
+     "Nikos is paying for the coffee today.",
+     "Nikos paie le café aujourd'hui."
+    ],
+    [
+     "Στο σούπερ μάρκετ πληρώνω με κάρτα.",
+     "At the supermarket I pay by card.",
+     "Au supermarché, je paie par carte."
+    ]
+   ],
+   "δωμάτιο": [
+    [
+     "Το δωμάτιο έχει μεγάλο παράθυρο.",
+     "The room has a big window.",
+     "La chambre a une grande fenêtre."
+    ],
+    [
+     "Καθαρίζω το δωμάτιο κάθε Σάββατο.",
+     "I clean the room every Saturday.",
+     "Je nettoie la chambre chaque samedi."
+    ]
+   ],
+   "δίνει": [
+    [
+     "Η μαμά δίνει γλυκά στα παιδιά.",
+     "Mum gives sweets to the children.",
+     "Maman donne des bonbons aux enfants."
+    ],
+    [
+     "Σου δίνω το κλειδί μου.",
+     "I'm giving you my key.",
+     "Je te donne ma clé."
+    ]
+   ],
+   "απόδειξη": [
+    [
+     "Θέλετε απόδειξη, κυρία;",
+     "Would you like a receipt, madam?",
+     "Vous voulez un reçu, madame ?"
+    ],
+    [
+     "Κράτα την απόδειξη από το μαγαζί.",
+     "Keep the receipt from the shop.",
+     "Garde le reçu du magasin."
+    ]
+   ],
+   "παίρνει": [
+    [
+     "Ο Κώστας παίρνει το λεωφορείο.",
+     "Kostas takes the bus.",
+     "Kostas prend le bus."
+    ],
+    [
+     "Το πρωί παίρνω ψωμί από τον φούρνο.",
+     "In the morning I get bread from the bakery.",
+     "Le matin, je prends du pain à la boulangerie."
+    ]
+   ],
+   "λεφτά": [
+    [
+     "Δεν έχω λεφτά πάνω μου.",
+     "I don't have money on me.",
+     "Je n'ai pas d'argent sur moi."
+    ],
+    [
+     "Τα λεφτά είναι στο πορτοφόλι.",
+     "The money is in the wallet.",
+     "L'argent est dans le portefeuille."
+    ]
+   ],
+   "πίσω": [
+    [
+     "Έλα πίσω νωρίς, σε παρακαλώ.",
+     "Come back early, please.",
+     "Reviens tôt, s'il te plaît."
+    ],
+    [
+     "Η τσάντα είναι πίσω από την πόρτα.",
+     "The bag is behind the door.",
+     "Le sac est derrière la porte."
+    ]
+   ],
+   "βρήκε": [
+    [
+     "Η Μαρία βρήκε τα γυαλιά της.",
+     "Maria found her glasses.",
+     "Maria a trouvé ses lunettes."
+    ],
+    [
+     "Πάντα βρίσκω θέση στο λεωφορείο.",
+     "I always find a seat on the bus.",
+     "Je trouve toujours une place dans le bus."
+    ]
+   ],
+   "ομάδα": [
+    [
+     "Η ομάδα μας παίζει απόψε.",
+     "Our team plays tonight.",
+     "Notre équipe joue ce soir."
+    ],
+    [
+     "Είμαστε μια μικρή ομάδα φίλων.",
+     "We are a small group of friends.",
+     "Nous sommes un petit groupe d'amis."
+    ]
+   ],
+   "ψεύτικες": [
+    [
+     "Αυτές οι φωτογραφίες είναι ψεύτικες.",
+     "These photos are fake.",
+     "Ces photos sont fausses."
+    ],
+    [
+     "Στο ίντερνετ υπάρχουν ψεύτικες ειδήσεις.",
+     "There is fake news on the internet.",
+     "Il y a de fausses nouvelles sur Internet."
+    ]
+   ],
+   "κοιμάται": [
+    [
+     "Το μωρό κοιμάται ακόμα.",
+     "The baby is still sleeping.",
+     "Le bébé dort encore."
+    ],
+    [
+     "Το βράδυ κοιμάμαι νωρίς.",
+     "In the evening I go to sleep early.",
+     "Le soir, je dors tôt."
+    ]
+   ],
+   "αγοράζει": [
+    [
+     "Η γιαγιά αγοράζει φρούτα στη λαϊκή.",
+     "Grandma buys fruit at the street market.",
+     "Mamie achète des fruits au marché."
+    ],
+    [
+     "Κάθε πρωί αγοράζω εφημερίδα.",
+     "Every morning I buy a newspaper.",
+     "Chaque matin, j'achète un journal."
+    ]
+   ],
+   "κρατάει": [
+    [
+     "Ο μπαμπάς κρατάει την ομπρέλα.",
+     "Dad is holding the umbrella.",
+     "Papa tient le parapluie."
+    ],
+    [
+     "Πάντα κρατάω τα κλειδιά στην τσέπη.",
+     "I always keep the keys in my pocket.",
+     "Je garde toujours les clés dans ma poche."
+    ]
+   ],
+   "έχασε": [
+    [
+     "Ο Γιώργος έχασε το τηλέφωνό του.",
+     "Giorgos lost his phone.",
+     "Giorgos a perdu son téléphone."
+    ],
+    [
+     "Συχνά χάνω τα κλειδιά μου.",
+     "I often lose my keys.",
+     "Je perds souvent mes clés."
+    ]
+   ],
+   "ελέγχει": [
+    [
+     "Ο οδηγός ελέγχει τα εισιτήρια.",
+     "The driver checks the tickets.",
+     "Le chauffeur contrôle les billets."
+    ],
+    [
+     "Το πρωί ελέγχω τα μηνύματα στο κινητό.",
+     "In the morning I check the messages on my phone.",
+     "Le matin, je vérifie les messages sur mon portable."
+    ]
+   ],
+   "έπιασε": [
+    [
+     "Ο σκύλος έπιασε την μπάλα.",
+     "The dog caught the ball.",
+     "Le chien a attrapé la balle."
+    ],
+    [
+     "Κάθε μέρα πιάνω το λεωφορείο στις οκτώ.",
+     "Every day I catch the bus at eight.",
+     "Chaque jour, je prends le bus à huit heures."
+    ]
+   ],
+   "γυναίκα": [
+    [
+     "Η γυναίκα μου μαγειρεύει πολύ ωραία.",
+     "My wife cooks very well.",
+     "Ma femme cuisine très bien."
+    ],
+    [
+     "Μια γυναίκα περιμένει στη στάση.",
+     "A woman is waiting at the stop.",
+     "Une femme attend à l'arrêt."
+    ]
+   ],
+   "όνομά": [
+    [
+     "Το όνομά μου είναι Ελένη.",
+     "My name is Eleni.",
+     "Je m'appelle Eleni."
+    ],
+    [
+     "Γράψε το όνομά σου εδώ.",
+     "Write your name here.",
+     "Écris ton nom ici."
+    ]
+   ],
+   "στιγμή": [
+    [
+     "Περίμενε μια στιγμή, παρακαλώ.",
+     "Wait a moment, please.",
+     "Attends un instant, s'il te plaît."
+    ],
+    [
+     "Αυτή τη στιγμή είμαι στο σπίτι.",
+     "At this moment I am at home.",
+     "En ce moment, je suis à la maison."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "κοιμάται",
+    "gr": "κοιμάμαι",
+    "en": "to sleep",
+    "fr": "dormir"
+   },
+   {
+    "word": "κρατάει",
+    "gr": "κρατάω",
+    "en": "to keep, to hold",
+    "fr": "garder, tenir"
+   },
+   {
+    "word": "ελέγχει",
+    "gr": "ελέγχω",
+    "en": "to check",
+    "fr": "contrôler, vérifier"
+   },
+   {
+    "word": "έπιασε",
+    "gr": "πιάνω",
+    "en": "to catch",
+    "fr": "attraper"
+   },
+   {
+    "word": "ψεύτικες",
+    "gr": "ψεύτικες",
+    "en": "fake",
+    "fr": "fausses"
+   },
+   {
+    "word": "απόδειξη",
+    "gr": "απόδειξη",
+    "en": "receipt",
+    "fr": "reçu"
+   },
+   {
+    "word": "στιγμή",
+    "gr": "στιγμή",
+    "en": "moment",
+    "fr": "moment, instant"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Τι πουλούσε η ομάδα;",
+    "choices": [
+     "Ψεύτικες αποδείξεις",
+     "Ζεστά κουλούρια",
+     "Παλιά ποδήλατα"
+    ],
+    "quote": "Η ομάδα πουλούσε ψεύτικες αποδείξεις.",
+    "quote_en": "The group sold fake receipts."
+   },
+   {
+    "q": "Πόσα λεφτά έχασε το κράτος;",
+    "choices": [
+     "Πάνω από 12,6 εκατομμύρια ευρώ",
+     "Πέντε λεπτά",
+     "Δύο ευρώ"
+    ],
+    "quote": "Το κράτος έχασε πάνω από 12,6 εκατομμύρια ευρώ.",
+    "quote_en": "The state lost more than 12.6 million euros."
+   },
+   {
+    "q": "Πόσους ανθρώπους έπιασε η αστυνομία;",
+    "choices": [
+     "17 ανθρώπους",
+     "Ένα εκατομμύριο",
+     "Όλη την Ευρώπη"
+    ],
+    "quote": "Η αστυνομία έπιασε 17 ανθρώπους.",
+    "quote_en": "The police caught 17 people."
+   }
+  ]
  }
 ]
