@@ -99,6 +99,10 @@
   "fr": "construire",
   "en": "to build"
  },
+ "dare": {
+  "fr": "donner",
+  "en": "to give"
+ },
  "decidere": {
   "fr": "décider",
   "en": "to decide"
@@ -311,6 +315,10 @@
   "fr": "reprendre",
   "en": "to resume"
  },
+ "rischiare": {
+  "fr": "risquer",
+  "en": "to risk"
+ },
  "risparmiare": {
   "fr": "économiser",
   "en": "to save"
@@ -359,6 +367,10 @@
   "fr": "défier, affronter",
   "en": "to challenge"
  },
+ "significare": {
+  "fr": "signifier",
+  "en": "to mean"
+ },
  "spendere": {
   "fr": "dépenser",
   "en": "to spend"
@@ -366,6 +378,10 @@
  "spiegare": {
   "fr": "expliquer",
   "en": "to explain"
+ },
+ "spostare": {
+  "fr": "déplacer",
+  "en": "to move"
  },
  "spostarsi": {
   "fr": "se déplacer",
@@ -386,6 +402,10 @@
  "suonare": {
   "fr": "jouer (de la musique)",
   "en": "to play (music)"
+ },
+ "tagliare": {
+  "fr": "couper",
+  "en": "to cut"
  },
  "tenere": {
   "fr": "tenir",

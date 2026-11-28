@@ -17635,5 +17635,445 @@
     "quote_en": "The police caught 17 people."
    }
   ]
+ },
+ {
+  "date": "2026-11-28",
+  "title": "Φεύγουν από την πόλη",
+  "title_fr": "Ils quittent la ville",
+  "title_en": "Leaving the city",
+  "source": {
+   "name": "Τα Νέα",
+   "url": "https://www.tanea.gr/print/2026/11/27/greece/pano-apo-4-600-aitiseis-gia-metegkatastasi/"
+  },
+  "paragraphs": [
+   "Πολλοί άνθρωποι στην Ελλάδα **θέλουν** (want) να **φύγουν** (leave) από τη μεγάλη **πόλη** (city). Το **κράτος** (state) τους **βοηθάει** (helps). Κάθε **οικογένεια** (family) που **μετακομίζει** (moves) σε μια **μικρή** (small) **περιοχή** (area) **παίρνει** (gets) 10.000 ευρώ. Το κράτος **δίνει** (gives) τα **λεφτά** (money) σε δύο **φορές** (times): 5.000 και 5.000 ευρώ.",
+   "Η οικογένεια πρέπει να **ζει** (live) εκεί **μόνιμα** (permanently). Δεν **χρειάζεται** (is needed) **πια** (anymore) **δουλειά** (job) στη **νέα** (new) περιοχή.",
+   "Σε 44 **μέρες** (days), 4.681 οικογένειες **έκαναν** (made) **αίτηση** (application). Οι πιο πολλές αιτήσεις είναι για τις Σέρρες: 738. **Ακολουθούν** (come next) το Κιλκίς, ο Έβρος και τα Ιωάννινα. Σε 11 περιοχές, οι αιτήσεις είναι **τουλάχιστον** (at least) τέσσερις φορές **περισσότερες** (more) από τις **θέσεις** (places).",
+   "Η **υπουργός** (minister) Δόμνα Μιχαηλίδου **λέει** (says) ότι τα λεφτά μόνα τους δεν **φτάνουν** (are enough). Οι άνθρωποι χρειάζονται και **σπίτι** (house), δουλειά, **γιατρούς** (doctors) και **σχολεία** (schools).",
+   "Μετά, το **πρόγραμμα** (programme) **μπορεί** (may) να **πάει** (go) και σε μικρά **νησιά** (islands) του Αιγαίου. Για παράδειγμα, στο Καστελλόριζο, στην Κάσο και στη Σύμη."
+  ],
+  "paragraphs_en": [
+   "Many people in Greece want to leave the big city. The state is helping them. Every family that moves to a small area gets 10,000 euros. The state gives the money in two parts: 5,000 and 5,000 euros.",
+   "The family must live there permanently. A job in the new area is no longer needed.",
+   "In 44 days, 4,681 families applied. Most applications are for Serres: 738. Kilkis, Evros and Ioannina come next. In 11 areas, applications are at least four times more than the places.",
+   "The minister, Domna Michailidou, says that money alone is not enough. People also need a house, a job, doctors and schools.",
+   "Later, the programme may also go to small islands in the Aegean. For example, to Kastellorizo, Kasos and Symi."
+  ],
+  "fr": {
+   "θέλουν": "veulent",
+   "φύγουν": "partir",
+   "πόλη": "ville",
+   "κράτος": "État",
+   "βοηθάει": "aide",
+   "οικογένεια": "famille",
+   "μετακομίζει": "déménage",
+   "μικρή": "petite",
+   "περιοχή": "région",
+   "παίρνει": "reçoit",
+   "δίνει": "donne",
+   "λεφτά": "argent",
+   "φορές": "fois",
+   "ζει": "vivre",
+   "μόνιμα": "de façon permanente",
+   "χρειάζεται": "il faut, est nécessaire",
+   "πια": "plus (ne… plus)",
+   "δουλειά": "travail",
+   "νέα": "nouvelle",
+   "μέρες": "jours",
+   "έκαναν": "ont fait",
+   "αίτηση": "demande",
+   "Ακολουθούν": "suivent",
+   "τουλάχιστον": "au moins",
+   "περισσότερες": "plus nombreuses",
+   "θέσεις": "places",
+   "υπουργός": "ministre",
+   "λέει": "dit",
+   "φτάνουν": "suffisent",
+   "σπίτι": "maison",
+   "γιατρούς": "médecins",
+   "σχολεία": "écoles",
+   "πρόγραμμα": "programme",
+   "μπορεί": "peut",
+   "πάει": "aller",
+   "νησιά": "îles"
+  },
+  "lemma": {
+   "θέλουν": "θέλω",
+   "φύγουν": "φεύγω",
+   "βοηθάει": "βοηθάω",
+   "μετακομίζει": "μετακομίζω",
+   "παίρνει": "παίρνω",
+   "δίνει": "δίνω",
+   "ζει": "ζω",
+   "χρειάζεται": "χρειάζομαι",
+   "λέει": "λέω",
+   "φτάνουν": "φτάνω"
+  },
+  "examples": {
+   "θέλουν": [
+    [
+     "Τα παιδιά θέλουν παγωτό.",
+     "The kids want ice cream.",
+     "Les enfants veulent une glace."
+    ],
+    [
+     "Τώρα θέλω έναν καφέ, παρακαλώ.",
+     "Now I want a coffee, please.",
+     "Là, je veux un café, s'il vous plaît."
+    ]
+   ],
+   "φύγουν": [
+    [
+     "Οι φίλοι θα φύγουν στις οκτώ.",
+     "Our friends will leave at eight.",
+     "Les amis partiront à huit heures."
+    ],
+    [
+     "Κάθε πρωί φεύγω νωρίς από το σπίτι.",
+     "Every morning I leave home early.",
+     "Chaque matin, je pars tôt de la maison."
+    ]
+   ],
+   "πόλη": [
+    [
+     "Η πόλη έχει πολλή κίνηση.",
+     "The city has a lot of traffic.",
+     "La ville a beaucoup de circulation."
+    ],
+    [
+     "Μου αρέσει η πόλη τη νύχτα.",
+     "I like the city at night.",
+     "J'aime la ville la nuit."
+    ]
+   ],
+   "βοηθάει": [
+    [
+     "Ο γείτονας βοηθάει τη γιαγιά.",
+     "The neighbour helps grandma.",
+     "Le voisin aide la grand-mère."
+    ],
+    [
+     "Συχνά βοηθάω τη μαμά στην κουζίνα.",
+     "I often help mum in the kitchen.",
+     "J'aide souvent maman dans la cuisine."
+    ]
+   ],
+   "οικογένεια": [
+    [
+     "Η οικογένεια τρώει μαζί την Κυριακή.",
+     "The family eats together on Sunday.",
+     "La famille mange ensemble le dimanche."
+    ],
+    [
+     "Η οικογένεια πάει διακοπές τον Αύγουστο.",
+     "The family goes on holiday in August.",
+     "La famille part en vacances en août."
+    ]
+   ],
+   "μετακομίζει": [
+    [
+     "Η φίλη μου μετακομίζει στη Θεσσαλονίκη.",
+     "My friend is moving to Thessaloniki.",
+     "Mon amie déménage à Thessalonique."
+    ],
+    [
+     "Αύριο μετακομίζω σε νέο σπίτι.",
+     "Tomorrow I move to a new house.",
+     "Demain, je déménage dans une nouvelle maison."
+    ]
+   ],
+   "περιοχή": [
+    [
+     "Η περιοχή έχει ωραία καφέ.",
+     "The area has nice cafés.",
+     "Le quartier a de jolis cafés."
+    ],
+    [
+     "Αυτή η περιοχή είναι ήσυχη.",
+     "This area is quiet.",
+     "Ce quartier est calme."
+    ]
+   ],
+   "παίρνει": [
+    [
+     "Ο Νίκος παίρνει το μετρό κάθε μέρα.",
+     "Nikos takes the metro every day.",
+     "Nikos prend le métro tous les jours."
+    ],
+    [
+     "Κάθε πρωί παίρνω ψωμί από τον φούρνο.",
+     "Every morning I get bread from the bakery.",
+     "Chaque matin, je prends du pain à la boulangerie."
+    ]
+   ],
+   "δίνει": [
+    [
+     "Ο σερβιτόρος δίνει τον λογαριασμό.",
+     "The waiter gives the bill.",
+     "Le serveur donne l'addition."
+    ],
+    [
+     "Σου δίνω το κλειδί του σπιτιού.",
+     "I give you the house key.",
+     "Je te donne la clé de la maison."
+    ]
+   ],
+   "λεφτά": [
+    [
+     "Δεν έχω λεφτά πάνω μου.",
+     "I have no money on me.",
+     "Je n'ai pas d'argent sur moi."
+    ],
+    [
+     "Τα λεφτά είναι στο τραπέζι.",
+     "The money is on the table.",
+     "L'argent est sur la table."
+    ]
+   ],
+   "ζει": [
+    [
+     "Η γιαγιά ζει σε ένα χωριό.",
+     "Grandma lives in a village.",
+     "La grand-mère vit dans un village."
+    ],
+    [
+     "Εγώ ζω στην Αθήνα με την οικογένεια.",
+     "I live in Athens with the family.",
+     "Je vis à Athènes avec la famille."
+    ]
+   ],
+   "μόνιμα": [
+    [
+     "Ο Γιάννης μένει μόνιμα στο νησί.",
+     "Giannis lives on the island permanently.",
+     "Giannis vit sur l'île à l'année."
+    ],
+    [
+     "Το μαγαζί κλείνει μόνιμα.",
+     "The shop is closing for good.",
+     "Le magasin ferme définitivement."
+    ]
+   ],
+   "χρειάζεται": [
+    [
+     "Το φαγητό χρειάζεται λίγο αλάτι.",
+     "The food needs a little salt.",
+     "Le plat a besoin d'un peu de sel."
+    ],
+    [
+     "Τώρα χρειάζομαι ένα ταξί.",
+     "I need a taxi now.",
+     "J'ai besoin d'un taxi maintenant."
+    ]
+   ],
+   "πια": [
+    [
+     "Δεν καπνίζω πια.",
+     "I don't smoke anymore.",
+     "Je ne fume plus."
+    ],
+    [
+     "Η Μαρία δεν μένει πια εδώ.",
+     "Maria doesn't live here anymore.",
+     "Maria n'habite plus ici."
+    ]
+   ],
+   "δουλειά": [
+    [
+     "Πάω στη δουλειά με λεωφορείο.",
+     "I go to work by bus.",
+     "Je vais au travail en bus."
+    ],
+    [
+     "Η δουλειά τελειώνει στις πέντε.",
+     "Work ends at five.",
+     "Le travail finit à cinq heures."
+    ]
+   ],
+   "μέρες": [
+    [
+     "Οι μέρες είναι κρύες τώρα.",
+     "The days are cold now.",
+     "Les journées sont froides maintenant."
+    ],
+    [
+     "Μένω στο νησί τρεις μέρες.",
+     "I'm staying on the island three days.",
+     "Je reste trois jours sur l'île."
+    ]
+   ],
+   "αίτηση": [
+    [
+     "Κάνω μια αίτηση για δουλειά.",
+     "I'm applying for a job.",
+     "Je fais une demande d'emploi."
+    ],
+    [
+     "Η αίτηση γίνεται στο ίντερνετ.",
+     "The application is done online.",
+     "La demande se fait sur Internet."
+    ]
+   ],
+   "θέσεις": [
+    [
+     "Δεν υπάρχουν θέσεις στο λεωφορείο.",
+     "There are no seats on the bus.",
+     "Il n'y a pas de places dans le bus."
+    ],
+    [
+     "Το θέατρο έχει πολλές θέσεις.",
+     "The theatre has many seats.",
+     "Le théâtre a beaucoup de places."
+    ]
+   ],
+   "λέει": [
+    [
+     "Ο φίλος μου λέει καλημέρα.",
+     "My friend says good morning.",
+     "Mon ami dit bonjour."
+    ],
+    [
+     "Πάντα λέω την αλήθεια στη μαμά.",
+     "I always tell mum the truth.",
+     "Je dis toujours la vérité à maman."
+    ]
+   ],
+   "φτάνουν": [
+    [
+     "Οι καρέκλες δεν φτάνουν για όλους.",
+     "There aren't enough chairs for everyone.",
+     "Les chaises ne suffisent pas pour tout le monde."
+    ],
+    [
+     "Κάθε μέρα φτάνω στη δουλειά στις εννιά.",
+     "Every day I get to work at nine.",
+     "Chaque jour, j'arrive au travail à neuf heures."
+    ]
+   ],
+   "σπίτι": [
+    [
+     "Το σπίτι μας είναι κοντά στη θάλασσα.",
+     "Our house is near the sea.",
+     "Notre maison est près de la mer."
+    ],
+    [
+     "Γυρίζω στο σπίτι το βράδυ.",
+     "I go back home in the evening.",
+     "Je rentre à la maison le soir."
+    ]
+   ],
+   "σχολεία": [
+    [
+     "Τα σχολεία κλείνουν τα Χριστούγεννα.",
+     "Schools close at Christmas.",
+     "Les écoles ferment à Noël."
+    ],
+    [
+     "Τα σχολεία είναι κοντά στο πάρκο.",
+     "The schools are near the park.",
+     "Les écoles sont près du parc."
+    ]
+   ],
+   "νησιά": [
+    [
+     "Το καλοκαίρι πάμε στα νησιά.",
+     "In summer we go to the islands.",
+     "L'été, on va dans les îles."
+    ],
+    [
+     "Τα νησιά είναι ήσυχα τον χειμώνα.",
+     "The islands are quiet in winter.",
+     "Les îles sont calmes en hiver."
+    ]
+   ],
+   "τουλάχιστον": [
+    [
+     "Περιμένω τουλάχιστον δέκα λεπτά.",
+     "I've been waiting at least ten minutes.",
+     "J'attends depuis au moins dix minutes."
+    ],
+    [
+     "Πίνω τουλάχιστον δύο ποτήρια νερό.",
+     "I drink at least two glasses of water.",
+     "Je bois au moins deux verres d'eau."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "μετακομίζει",
+    "gr": "μετακομίζω",
+    "en": "to move (house)",
+    "fr": "déménager"
+   },
+   {
+    "word": "χρειάζεται",
+    "gr": "χρειάζομαι",
+    "en": "to need",
+    "fr": "avoir besoin de"
+   },
+   {
+    "word": "φτάνουν",
+    "gr": "φτάνω",
+    "en": "to arrive, to be enough",
+    "fr": "arriver, suffire"
+   },
+   {
+    "word": "βοηθάει",
+    "gr": "βοηθάω",
+    "en": "to help",
+    "fr": "aider"
+   },
+   {
+    "word": "αίτηση",
+    "gr": "αίτηση",
+    "en": "application",
+    "fr": "demande"
+   },
+   {
+    "word": "θέσεις",
+    "gr": "θέσεις",
+    "en": "places, seats",
+    "fr": "places"
+   },
+   {
+    "word": "περιοχή",
+    "gr": "περιοχή",
+    "en": "area",
+    "fr": "région, quartier"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Πόσα λεφτά παίρνει κάθε οικογένεια;",
+    "choices": [
+     "10.000 ευρώ",
+     "Δύο κουλούρια",
+     "Ένα ευρώ"
+    ],
+    "quote": "Κάθε οικογένεια που μετακομίζει σε μια μικρή περιοχή παίρνει 10.000 ευρώ.",
+    "quote_en": "Every family that moves to a small area gets 10,000 euros."
+   },
+   {
+    "q": "Σε πόσες μέρες έκαναν αίτηση 4.681 οικογένειες;",
+    "choices": [
+     "Σε 44 μέρες",
+     "Σε ένα λεπτό",
+     "Σε 300 χρόνια"
+    ],
+    "quote": "Σε 44 μέρες, 4.681 οικογένειες έκαναν αίτηση.",
+    "quote_en": "In 44 days, 4,681 families applied."
+   },
+   {
+    "q": "Για ποια περιοχή είναι οι πιο πολλές αιτήσεις;",
+    "choices": [
+     "Για τις Σέρρες",
+     "Για τη Σελήνη",
+     "Για τον Βόρειο Πόλο"
+    ],
+    "quote": "Οι πιο πολλές αιτήσεις είναι για τις Σέρρες: 738.",
+    "quote_en": "Most applications are for Serres: 738."
+   }
+  ]
  }
 ]

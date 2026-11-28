@@ -9669,5 +9669,447 @@
     "quote_en": "Among the frozen things there is also a car worth 168,000 euros!"
    }
   ]
+ },
+ {
+  "date": "2026-11-28",
+  "title": "Un bosco tagliato per il Prosecco",
+  "title_fr": "Un bois coupé pour le prosecco",
+  "title_en": "A wood cut down for Prosecco",
+  "source": {
+   "name": "Open",
+   "url": "https://www.open.online/2026/11/25/vittorio-veneto-prosecco-collina-unesco-abusi-varaschin/"
+  },
+  "paragraphs": [
+   "Vicino a Treviso ci sono le **colline** (hills) del Prosecco. Qui si fa un **vino** (wine) **famoso** (famous). Dal 2019 queste colline sono **patrimonio** (heritage) dell'Unesco. Questo **significa** (means) che sono un **tesoro** (treasure) per tutto il **mondo** (world).",
+   "Un **imprenditore** (businessman), Ugo Varaschin, ha molta **terra** (land) a Vittorio Veneto. L'ha **comprata** (bought) più di 30 **anni** (years) fa. Lui **voleva** (wanted) **nuove** (new) **vigne** (vineyards). Così ha **tagliato** (cut) un **bosco** (wood) di 13.000 metri quadrati. Ha anche **spostato** (moved) **tanta** (a lot of) terra. Poi ha **costruito** (built) **strade** (roads) e un **muro** (wall).",
+   "Nel 2022 i carabinieri forestali hanno **scoperto** (discovered) i **lavori** (works). Il **Comune** (town council) ha dato una **multa** (fine) di 20.000 euro.",
+   "L'imprenditore **dice** (says): «Sono lavori per l'**agricoltura** (farming)». Ma i **giudici** (judges) **danno** (give) **ragione** (right) al Comune. L'ultima decisione è del 19 novembre.",
+   "Ora il Comune può **prendere** (take) i **terreni** (plots) dei lavori, **gratis** (for free). Così l'imprenditore **rischia** (risks) di **perdere** (lose) una **parte** (part) della sua terra."
+  ],
+  "paragraphs_en": [
+   "Near Treviso there are the Prosecco hills. A famous wine is made here. Since 2019 these hills have been a UNESCO heritage site. This means they are a treasure for the whole world.",
+   "A businessman, Ugo Varaschin, owns a lot of land in Vittorio Veneto. He bought it more than 30 years ago. He wanted new vineyards. So he cut down a wood of 13,000 square metres. He also moved a lot of earth. Then he built roads and a wall.",
+   "In 2022 the forest police discovered the works. The town council gave him a fine of 20,000 euros.",
+   "The businessman says: \"They are works for farming.\" But the judges side with the town council. The last decision is from 19 November.",
+   "Now the town council can take the plots of the works, for free. So the businessman risks losing part of his land."
+  ],
+  "fr": {
+   "colline": "collines",
+   "vino": "vin",
+   "famoso": "célèbre",
+   "patrimonio": "patrimoine",
+   "significa": "signifie",
+   "tesoro": "trésor",
+   "mondo": "monde",
+   "imprenditore": "entrepreneur",
+   "terra": "terre",
+   "comprata": "achetée",
+   "anni": "ans",
+   "voleva": "voulait",
+   "nuove": "nouvelles",
+   "vigne": "vignes",
+   "tagliato": "coupé",
+   "bosco": "bois, forêt",
+   "spostato": "déplacé",
+   "tanta": "beaucoup de",
+   "costruito": "construit",
+   "strade": "routes",
+   "muro": "mur",
+   "scoperto": "découvert",
+   "lavori": "travaux",
+   "Comune": "mairie, commune",
+   "multa": "amende",
+   "dice": "dit",
+   "agricoltura": "agriculture",
+   "giudici": "juges",
+   "danno": "donnent",
+   "ragione": "raison",
+   "prendere": "prendre",
+   "terreni": "terrains",
+   "gratis": "gratuitement",
+   "rischia": "risque",
+   "perdere": "perdre",
+   "parte": "partie"
+  },
+  "lemma": {
+   "significa": "significare",
+   "comprata": "comprare",
+   "voleva": "volere",
+   "tagliato": "tagliare",
+   "spostato": "spostare",
+   "costruito": "costruire",
+   "scoperto": "scoprire",
+   "dice": "dire",
+   "danno": "dare",
+   "prendere": "prendere",
+   "rischia": "rischiare",
+   "perdere": "perdere"
+  },
+  "examples": {
+   "colline": [
+    [
+     "Le colline sono verdi in primavera.",
+     "The hills are green in spring.",
+     "Les collines sont vertes au printemps."
+    ],
+    [
+     "Domenica camminiamo sulle colline.",
+     "On Sunday we walk in the hills.",
+     "Dimanche, on marche sur les collines."
+    ]
+   ],
+   "vino": [
+    [
+     "Un bicchiere di vino rosso, grazie.",
+     "A glass of red wine, please.",
+     "Un verre de vin rouge, merci."
+    ],
+    [
+     "Il vino della casa è buono.",
+     "The house wine is good.",
+     "Le vin de la maison est bon."
+    ]
+   ],
+   "significa": [
+    [
+     "Cosa significa questa parola?",
+     "What does this word mean?",
+     "Que signifie ce mot ?"
+    ],
+    [
+     "Il rosso significa stop.",
+     "Red means stop.",
+     "Le rouge signifie stop."
+    ]
+   ],
+   "mondo": [
+    [
+     "Il mondo è piccolo!",
+     "It's a small world!",
+     "Le monde est petit !"
+    ],
+    [
+     "Voglio vedere tutto il mondo.",
+     "I want to see the whole world.",
+     "Je veux voir le monde entier."
+    ]
+   ],
+   "terra": [
+    [
+     "La terra del giardino è bagnata.",
+     "The garden soil is wet.",
+     "La terre du jardin est mouillée."
+    ],
+    [
+     "Mio nonno lavora la terra.",
+     "My grandfather works the land.",
+     "Mon grand-père travaille la terre."
+    ]
+   ],
+   "comprata": [
+    [
+     "Questa borsa? L'ho comprata al mercato.",
+     "This bag? I bought it at the market.",
+     "Ce sac ? Je l'ai acheté au marché."
+    ],
+    [
+     "Ogni mattina compro il pane.",
+     "Every morning I buy bread.",
+     "Chaque matin, j'achète du pain."
+    ]
+   ],
+   "voleva": [
+    [
+     "Mia figlia voleva un gelato.",
+     "My daughter wanted an ice cream.",
+     "Ma fille voulait une glace."
+    ],
+    [
+     "Adesso voglio un caffè, per favore.",
+     "Now I want a coffee, please.",
+     "Là, je veux un café, s'il te plaît."
+    ]
+   ],
+   "tagliato": [
+    [
+     "Ho tagliato il pane per tutti.",
+     "I cut the bread for everyone.",
+     "J'ai coupé le pain pour tout le monde."
+    ],
+    [
+     "Io taglio la torta per gli amici.",
+     "I cut the cake for my friends.",
+     "Je coupe le gâteau pour les amis."
+    ]
+   ],
+   "bosco": [
+    [
+     "La domenica andiamo nel bosco.",
+     "On Sundays we go to the woods.",
+     "Le dimanche, on va dans les bois."
+    ],
+    [
+     "Il bosco è pieno di funghi.",
+     "The wood is full of mushrooms.",
+     "Le bois est plein de champignons."
+    ]
+   ],
+   "spostato": [
+    [
+     "Ho spostato la macchina stamattina.",
+     "I moved the car this morning.",
+     "J'ai déplacé la voiture ce matin."
+    ],
+    [
+     "Io sposto il tavolo vicino alla finestra.",
+     "I move the table near the window.",
+     "Je déplace la table près de la fenêtre."
+    ]
+   ],
+   "costruito": [
+    [
+     "Mio nonno ha costruito questa casa.",
+     "My grandfather built this house.",
+     "Mon grand-père a construit cette maison."
+    ],
+    [
+     "Al mare costruisco castelli di sabbia.",
+     "At the beach I build sandcastles.",
+     "À la plage, je construis des châteaux de sable."
+    ]
+   ],
+   "strade": [
+    [
+     "Le strade sono piene di traffico.",
+     "The roads are full of traffic.",
+     "Les rues sont pleines de circulation."
+    ],
+    [
+     "Di notte le strade sono tranquille.",
+     "At night the streets are quiet.",
+     "La nuit, les rues sont calmes."
+    ]
+   ],
+   "muro": [
+    [
+     "Il quadro è sul muro.",
+     "The picture is on the wall.",
+     "Le tableau est sur le mur."
+    ],
+    [
+     "Il gatto dorme sul muro.",
+     "The cat sleeps on the wall.",
+     "Le chat dort sur le mur."
+    ]
+   ],
+   "scoperto": [
+    [
+     "Ho scoperto un bar nuovo in centro.",
+     "I discovered a new bar downtown.",
+     "J'ai découvert un nouveau bar en ville."
+    ],
+    [
+     "A Roma scopro sempre posti nuovi.",
+     "In Rome I always discover new places.",
+     "À Rome, je découvre toujours de nouveaux endroits."
+    ]
+   ],
+   "lavori": [
+    [
+     "Ci sono lavori in via Roma.",
+     "There are roadworks on Via Roma.",
+     "Il y a des travaux rue de Rome."
+    ],
+    [
+     "I lavori in casa durano un mese.",
+     "The work on the house lasts a month.",
+     "Les travaux à la maison durent un mois."
+    ]
+   ],
+   "multa": [
+    [
+     "Ho preso una multa per il parcheggio.",
+     "I got a parking fine.",
+     "J'ai eu une amende pour stationnement."
+    ],
+    [
+     "La multa costa cinquanta euro.",
+     "The fine costs fifty euros.",
+     "L'amende coûte cinquante euros."
+    ]
+   ],
+   "dice": [
+    [
+     "Il barista dice buongiorno a tutti.",
+     "The barman says good morning to everyone.",
+     "Le barman dit bonjour à tout le monde."
+    ],
+    [
+     "Io dico grazie al cameriere.",
+     "I say thank you to the waiter.",
+     "Je dis merci au serveur."
+    ]
+   ],
+   "danno": [
+    [
+     "I vicini danno una festa sabato.",
+     "The neighbours are throwing a party on Saturday.",
+     "Les voisins font une fête samedi."
+    ],
+    [
+     "Ti do il mio numero di telefono.",
+     "I'll give you my phone number.",
+     "Je te donne mon numéro de téléphone."
+    ]
+   ],
+   "ragione": [
+    [
+     "Hai ragione, è tardi.",
+     "You're right, it's late.",
+     "Tu as raison, il est tard."
+    ],
+    [
+     "Mia madre ha sempre ragione.",
+     "My mother is always right.",
+     "Ma mère a toujours raison."
+    ]
+   ],
+   "prendere": [
+    [
+     "Devo prendere l'autobus alle otto.",
+     "I have to take the bus at eight.",
+     "Je dois prendre le bus à huit heures."
+    ],
+    [
+     "Al bar prendo un cappuccino.",
+     "At the café I have a cappuccino.",
+     "Au bar, je prends un cappuccino."
+    ]
+   ],
+   "gratis": [
+    [
+     "Il museo è gratis la domenica.",
+     "The museum is free on Sundays.",
+     "Le musée est gratuit le dimanche."
+    ],
+    [
+     "Al bar l'acqua è gratis.",
+     "At the café water is free.",
+     "Au bar, l'eau est gratuite."
+    ]
+   ],
+   "rischia": [
+    [
+     "Chi parcheggia qui rischia una multa.",
+     "Whoever parks here risks a fine.",
+     "Qui se gare ici risque une amende."
+    ],
+    [
+     "Senza ombrello rischio di bagnarmi.",
+     "Without an umbrella I risk getting wet.",
+     "Sans parapluie, je risque d'être mouillé."
+    ]
+   ],
+   "perdere": [
+    [
+     "Non voglio perdere il treno.",
+     "I don't want to miss the train.",
+     "Je ne veux pas rater le train."
+    ],
+    [
+     "Io perdo sempre le chiavi di casa.",
+     "I always lose my house keys.",
+     "Je perds toujours les clés de la maison."
+    ]
+   ],
+   "parte": [
+    [
+     "Una parte della torta è per te.",
+     "Part of the cake is for you.",
+     "Une partie du gâteau est pour toi."
+    ],
+    [
+     "Questa parte della città è bella.",
+     "This part of the city is nice.",
+     "Cette partie de la ville est belle."
+    ]
+   ]
+  },
+  "quiz": [
+   {
+    "word": "tagliato",
+    "gr": "tagliare",
+    "en": "to cut",
+    "fr": "couper"
+   },
+   {
+    "word": "spostato",
+    "gr": "spostare",
+    "en": "to move",
+    "fr": "déplacer"
+   },
+   {
+    "word": "scoperto",
+    "gr": "scoprire",
+    "en": "to discover",
+    "fr": "découvrir"
+   },
+   {
+    "word": "rischia",
+    "gr": "rischiare",
+    "en": "to risk",
+    "fr": "risquer"
+   },
+   {
+    "word": "bosco",
+    "gr": "bosco",
+    "en": "wood, forest",
+    "fr": "bois, forêt"
+   },
+   {
+    "word": "multa",
+    "gr": "multa",
+    "en": "fine",
+    "fr": "amende"
+   },
+   {
+    "word": "ragione",
+    "gr": "ragione",
+    "en": "reason, right",
+    "fr": "raison"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Quanto è grande il bosco tagliato?",
+    "choices": [
+     "13.000 metri quadrati",
+     "Due centimetri",
+     "Come la Luna"
+    ],
+    "quote": "Così ha tagliato un bosco di 13.000 metri quadrati.",
+    "quote_en": "So he cut down a wood of 13,000 square metres."
+   },
+   {
+    "q": "Quanto è la multa del Comune?",
+    "choices": [
+     "20.000 euro",
+     "Un caffè",
+     "Due centesimi"
+    ],
+    "quote": "Il Comune ha dato una multa di 20.000 euro.",
+    "quote_en": "The town council gave him a fine of 20,000 euros."
+   },
+   {
+    "q": "Quando i carabinieri hanno scoperto i lavori?",
+    "choices": [
+     "Nel 2022",
+     "Nel Medioevo",
+     "Domani sera"
+    ],
+    "quote": "Nel 2022 i carabinieri forestali hanno scoperto i lavori.",
+    "quote_en": "In 2022 the forest police discovered the works."
+   }
+  ]
  }
 ]
